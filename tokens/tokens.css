@@ -1,0 +1,29 @@
+/* Arena UI — generated from tokens.json */
+:root, [data-theme="dark"] {
+  --bg-900: #0e1116;
+  --surface-800: #171c24;
+  --surface-700: #222a35;
+  --line: #3a4658;
+  --ink: #eef2f7;
+  --ink-muted: #9aa6b8;
+  --gold: #f2b632;
+  --cyan: #3ec7e0;
+  --red: #ef5b60;
+  --green: #46c97a;
+  --violet: #b48cf2;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-pill: 999px;
+  --font-sans: Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+.display { font-family: var(--font-sans); font-size: 40px; line-height: 44px; font-weight: 800; letter-spacing: -0.5px; }
+.title { font-family: var(--font-sans); font-size: 24px; line-height: 30px; font-weight: 700; }
+.heading { font-family: var(--font-sans); font-size: 18px; line-height: 24px; font-weight: 600; }
+.body { font-family: var(--font-sans); font-size: 15px; line-height: 22px; font-weight: 400; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.4px; }
+.stat { font-family: var(--font-mono); font-size: 20px; line-height: 24px; font-weight: 700; }
