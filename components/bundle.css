@@ -1,0 +1,45 @@
+/* Arena UI 组件样式：只引用 tokens.css 中的变量 */
+.au-btn{font-family:var(--font-sans);font-weight:700;font-size:15px;line-height:22px;border:2px solid transparent;border-radius:var(--radius-sm);padding:var(--space-2) var(--space-4);cursor:pointer;letter-spacing:.3px}
+.au-btn-sm{font-size:12px;line-height:16px;padding:var(--space-1) var(--space-2)}
+.au-btn-primary{background:var(--gold);color:var(--bg-900)}
+.au-btn-primary:hover{filter:brightness(1.08)}
+.au-btn-secondary{background:var(--surface-700);color:var(--ink);border-color:var(--ink-muted)}
+.au-btn-secondary:hover{border-color:var(--ink)}
+.au-btn-danger{background:transparent;color:var(--red);border-color:var(--red)}
+.au-btn-danger:hover{background:var(--surface-700)}
+.au-btn:focus-visible,.au-slot:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.au-btn:disabled{background:var(--surface-700);color:var(--ink-muted);border-color:var(--line);cursor:not-allowed;filter:none}
+
+.au-stat{font-family:var(--font-sans);display:grid;gap:var(--space-1);min-width:160px}
+.au-stat-head{display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-2)}
+.au-stat-label{font-size:12px;line-height:16px;font-weight:500;letter-spacing:.4px;color:var(--ink-muted)}
+.au-stat-num{font-family:var(--font-mono);font-size:12px;line-height:16px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.au-stat-track{height:10px;background:var(--bg-900);border:1px solid var(--line);border-radius:var(--radius-pill);overflow:hidden}
+.au-stat-fill{height:100%;border-radius:var(--radius-pill);transition:width .25s ease-out}
+.au-stat-hp .au-stat-fill{background:var(--red)}
+.au-stat-mp .au-stat-fill{background:var(--cyan)}
+.au-stat-xp .au-stat-fill{background:var(--gold)}
+.au-stat.is-low .au-stat-num{color:var(--red)}
+
+.au-slot{position:relative;width:56px;height:56px;padding:0;display:inline-flex;align-items:center;justify-content:center;background:var(--surface-800);border:2px solid var(--ink-muted);border-radius:var(--radius-sm);color:var(--ink);cursor:pointer;font-family:var(--font-sans)}
+.au-slot-icon{display:flex;align-items:center;justify-content:center;width:36px;height:36px;font-size:22px;font-weight:700}
+.au-slot-icon img{max-width:100%;max-height:100%}
+.au-slot-rare{border-color:var(--cyan)}
+.au-slot-epic{border-color:var(--violet)}
+.au-slot-legendary{border-color:var(--gold)}
+.au-slot.is-empty{border:1px dashed var(--line);background:var(--bg-900);cursor:default}
+.au-slot.is-selected{background:var(--surface-700);box-shadow:0 0 0 2px var(--bg-900),0 0 0 4px var(--cyan)}
+.au-slot-count{position:absolute;right:2px;bottom:1px;font-family:var(--font-mono);font-size:12px;line-height:16px;font-weight:700;color:var(--ink);text-shadow:0 1px 0 var(--bg-900),0 0 2px var(--bg-900)}
+
+.au-badge{display:inline-flex;align-items:center;font-family:var(--font-sans);font-size:12px;line-height:16px;font-weight:600;letter-spacing:.4px;padding:2px var(--space-2);border-radius:var(--radius-pill);border:1px solid currentColor;background:var(--bg-900)}
+.au-badge-neutral{color:var(--ink-muted)}
+.au-badge-gold{color:var(--gold)}
+.au-badge-cyan{color:var(--cyan)}
+.au-badge-red{color:var(--red)}
+.au-badge-green{color:var(--green)}
+
+.au-panel{font-family:var(--font-sans);background:var(--surface-800);border:1px solid var(--line);border-radius:var(--radius-sm);color:var(--ink);max-width:420px}
+.au-panel-head{display:flex;justify-content:space-between;align-items:center;gap:var(--space-2);padding:var(--space-2) var(--space-4);border-bottom:1px solid var(--line)}
+.au-panel-title{margin:0;font-size:18px;line-height:24px;font-weight:600}
+.au-panel-body{padding:var(--space-4);font-size:15px;line-height:22px}
+.au-panel-foot{display:flex;justify-content:flex-end;gap:var(--space-2);padding:var(--space-2) var(--space-4) var(--space-4)}
