@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arena UI 素材库</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="../components/bundle.css">
+<style>
+  body{margin:0;background:var(--bg-900);color:var(--ink);font-family:var(--font-sans);padding:var(--space-6) 16px}
+  main{max-width:960px;margin:0 auto;display:grid;gap:var(--space-6)}
+  h1{margin:0}.muted{color:var(--ink-muted);margin:4px 0 0}
+  h2{margin:0 0 var(--space-2)}
+  .row{display:flex;gap:var(--space-2);flex-wrap:wrap;align-items:center}
+  .col{display:grid;gap:12px;max-width:300px}
+  .sw{width:120px;border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;background:var(--surface-800)}
+  .sw i{display:block;height:48px}.sw span{display:block;padding:6px 8px;font-size:12px;font-family:var(--font-mono)}
+</style>
+</head>
+<body>
+<main>
+  <header><h1 class="display">Arena UI</h1><p class="muted">深色优先的游戏界面设计系统：金色行动、青色选中、红色伤害。</p></header>
+  <section><h2 class="heading">颜色</h2><div id="colors" class="row"></div></section>
+  <section><h2 class="heading">Button</h2><div id="buttons" class="row"></div></section>
+  <section><h2 class="heading">StatBar</h2><div id="bars" class="col"></div></section>
+  <section><h2 class="heading">ItemSlot</h2><div id="slots" class="row"></div></section>
+  <section><h2 class="heading">Badge</h2><div id="badges" class="row"></div></section>
+  <section><h2 class="heading">Panel</h2><div id="panel"></div></section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="../components/bundle.js"></script>
+<script>
+  // 色板：直接读取 CSS 变量
+  var names = ['bg-900','surface-800','surface-700','line','ink','ink-muted','gold','cyan','red','green','violet'];
+  var cs = getComputedStyle(document.documentElement);
+  document.getElementById('colors').innerHTML = names.map(function (n) {
+    return '<div class="sw"><i style="background:var(--' + n + ')"></i><span>' + n + '<br>' + cs.getPropertyValue('--' + n).trim() + '</span></div>';
+  }).join('');
+
+  var A = window.ArenaUI, h = React.createElement, F = React.Fragment;
+  function mount(id, el) { ReactDOM.createRoot(document.getElementById(id)).render(el); }
+  mount('buttons', h(F, null, h(A.Button, null, '出战'), h(A.Button, { variant: 'secondary' }, '编队'),
+    h(A.Button, { variant: 'danger' }, '分解'), h(A.Button, { variant: 'secondary', size: 'sm' }, '详情'), h(A.Button, { disabled: true }, '体力不足')));
+  mount('bars', h(F, null, h(A.StatBar, { kind: 'hp', label: 'HP', value: 3420, max: 4800 }),
+    h(A.StatBar, { kind: 'hp', label: 'HP（危险）', value: 860, max: 4800 }),
+    h(A.StatBar, { kind: 'mp', label: 'MP', value: 120, max: 200 }),
+    h(A.StatBar, { kind: 'xp', label: 'Lv.27 经验', value: 6400, max: 10000 })));
+  mount('slots', h(F, null, h(A.ItemSlot, { rarity: 'common', icon: '药', count: 12, label: '小型药水 ×12' }),
+    h(A.ItemSlot, { rarity: 'rare', icon: '盾', label: '精铁盾（稀有）' }),
+    h(A.ItemSlot, { rarity: 'epic', icon: '戒', label: '虚空指环（史诗）', selected: true }),
+    h(A.ItemSlot, { rarity: 'legendary', icon: '剑', label: '王者之刃（传说）' }), h(A.ItemSlot, { label: '空格子' })));
+  mount('badges', h(F, null, h(A.Badge, null, '普通'), h(A.Badge, { tone: 'gold' }, '新'), h(A.Badge, { tone: 'cyan' }, '已装备'),
+    h(A.Badge, { tone: 'red' }, '冷却中'), h(A.Badge, { tone: 'green' }, '+15% 暴击')));
+  mount('panel', h(A.Panel, { title: '烈焰斩', extra: h(A.Badge, { tone: 'red' }, '冷却 3 回合'),
+    actions: h(F, null, h(A.Button, { variant: 'secondary', size: 'sm' }, '取消'), h(A.Button, { size: 'sm' }, '升级')) },
+    h('p', { style: { margin: '0 0 8px', color: 'var(--ink-muted)' } }, '对单个目标造成 120% 攻击力的物理伤害，并附加 2 回合灼烧。'),
+    h(A.StatBar, { kind: 'mp', label: '消耗 MP', value: 40, max: 200 })));
+</script>
+</body>
+</html>
