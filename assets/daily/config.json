@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Shanghai",
+  "dailyTime": "09:00",
+  "dailyCount": 4,
+  "benchmarkCount": 2,
+  "libraryCount": 2,
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "indexPath": "assets/daily/index.json",
+  "outputDirectoryTemplate": "assets/daily/YYYY/MM/DD/<run-id>/",
+  "groupDirectories": {
+    "benchmark": "benchmark",
+    "library": "library"
+  },
+  "runIdFormat": "YYYYMMDD-HHmmss",
+  "timeFormat": "HH:mm:ss",
+  "benchmarkPolicy": {
+    "freezePrompt": true,
+    "freezeRequestedSize": true,
+    "freezeTransparentBackground": true,
+    "compareKey": [
+      "benchmarkId",
+      "promptSha256"
+    ],
+    "changeRequiresNewBenchmarkId": true
+  },
+  "benchmarks": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "referencePath": "assets/generated/ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "referencePath": "assets/generated/equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false
+    }
+  ],
+  "rotation": {
+    "basis": "Asia/Shanghai YYYY-MM-DD at run start; parse that calendar date with Date.UTC",
+    "algorithm": "utc-epoch-day-modulo",
+    "epoch": "1970-01-01T00:00:00Z",
+    "formula": "floor(Date.UTC(shanghaiYear, shanghaiMonth - 1, shanghaiDay) / 86400000) % 7",
+    "themeCount": 7,
+    "order": [
+      "arsenal",
+      "abilities",
+      "rewards",
+      "environments",
+      "portraits",
+      "feedback",
+      "navigation"
+    ]
+  },
+  "themes": [
+    {
+      "id": "arsenal",
+      "label": "武器与防具",
+      "assets": [
+        {
+          "id": "weapons-atlas",
+          "label": "武器扩展图集",
+          "filename": "weapons-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Row one left to right: iron spear, gold-trimmed crossbow, silver curved dagger, dark steel mace. Row two: cyan crystal staff, silver halberd, charcoal shortbow, gold-hilted rapier.",
+          "promptSha256": "44300a29bdaaa9a23efbcb9d14619680f19e9a3ed1e9886ba11580ca2cb0a953",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        },
+        {
+          "id": "armor-atlas",
+          "label": "防具扩展图集",
+          "filename": "armor-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Row one left to right: steel breastplate, charcoal leather bracers, dark ranger boots, silver pauldrons. Row two: reinforced round shield, plain hornless helmet, dark traveling cloak, gold-buckled utility belt.",
+          "promptSha256": "7ac83a21e1d55c1b24d642a22ea92abdfdb6b96260bef7dca9561fa0c2c9c56a",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        }
+      ]
+    },
+    {
+      "id": "abilities",
+      "label": "战斗与支援技能",
+      "assets": [
+        {
+          "id": "attack-skills",
+          "label": "攻击技能图集",
+          "filename": "attack-skills.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight ability icons. Row one: red crescent blade slash, cyan ice spear, cyan lightning strike, silver arrow volley. Row two: red impact sparks on stone, cyan arcane bolt, crossed steel daggers in smoke, gold downward sword rays.",
+          "promptSha256": "71ddfcc85bc876d1cac2f8418c83cf72ef2d48d3ec60386e130c0cea35c7a0c8",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        },
+        {
+          "id": "support-skills",
+          "label": "支援技能图集",
+          "filename": "support-skills.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight support ability icons. Row one: green healing leaf spark, steel shield with gold defensive light, cyan protective dome, silver winged boot. Row two: green restorative potion, gold rally banner without symbols, silver chain links separating, cyan crystalline energy orb.",
+          "promptSha256": "f948a7e6cb526e358a00d20c1496feff6bfb61b3ebc5777f84996b67327ac066",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        }
+      ]
+    },
+    {
+      "id": "rewards",
+      "label": "货币与奖励",
+      "assets": [
+        {
+          "id": "currencies",
+          "label": "货币材料图集",
+          "filename": "currencies.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Row one: gold coin stack without symbols, cyan gemstone pouch, steel-blue ore cluster, gold ingot. Row two: silver arena medal without lettering, dark experience tome with gold clasp, amber stamina flask, plain gold token.",
+          "promptSha256": "1e2b50d81be6263676a015f75fc33f161cb328e1d1b3164a512204f9bc74cf70",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        },
+        {
+          "id": "loot-chests",
+          "label": "宝箱与礼物图集",
+          "filename": "loot-chests.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Row one: worn wooden chest, reinforced steel coffer, cyan-accented rare chest, violet-gemmed epic chest. Row two: gold-banded legendary chest, dark leather supply satchel, small gold-sealed gift box, ancient stone reliquary. All closed, distinct readable silhouettes, no escaping effects.",
+          "promptSha256": "91ba2f60601aab90fe9d5e7861c57add7c821ed3ddd1ebe2f97ef02d930cf06b",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        }
+      ]
+    },
+    {
+      "id": "environments",
+      "label": "战役场景",
+      "assets": [
+        {
+          "id": "desert-arena",
+          "label": "荒漠竞技场",
+          "filename": "desert-arena.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a full-bleed landscape 1536x1024 environment. Keep the left half quiet, dark and low contrast for live HTML text; place the primary focal architecture in the right third. Restrained atmosphere, convincing material detail and cinematic depth. A deserted circular obsidian arena half buried in wind-carved dunes at dusk, broken dark stone arches and a restrained cyan crystal beacon to the right, tiny distant warm gold braziers, no people.",
+          "promptSha256": "6909796f6fcdf6e05928d7d38653fe0cc9c44255d6c4f9945ef16ac9e14d3e40",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        },
+        {
+          "id": "forest-arena",
+          "label": "幽林竞技场",
+          "filename": "forest-arena.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a full-bleed landscape 1536x1024 environment. Keep the left half quiet, dark and low contrast for live HTML text; place the primary focal architecture in the right third. Restrained atmosphere, convincing material detail and cinematic depth. A deserted ancient dark stone arena reclaimed by old forest, moss and fine cool mist, a monumental broken arch and small cyan portal to the right, subtle distant gold lanterns, no people.",
+          "promptSha256": "6a36c337c7045d8a4085cf472c502dc4f3407aaaf6d3bd51fdfc4108670e6c3f",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        }
+      ]
+    },
+    {
+      "id": "portraits",
+      "label": "角色头像",
+      "assets": [
+        {
+          "id": "warden-portrait",
+          "label": "重甲守望者头像",
+          "filename": "warden-portrait.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 head-and-shoulders portrait with a centered readable silhouette, comfortable headroom and a quiet #171c24 background, suitable for cropping to an avatar. A dignified armored warden wearing a sculpted brushed silver hornless helmet and charcoal heavy armor, subtle gold clasp, slight three-quarter turn, restrained cool cyan rim light.",
+          "promptSha256": "f28e1d615e6bc8100404d2e43bb61f3c8d8e7a8b7ad6682e551a86cac1661dfe",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        },
+        {
+          "id": "alchemist-portrait",
+          "label": "炼金师头像",
+          "filename": "alchemist-portrait.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 head-and-shoulders portrait with a centered readable silhouette, comfortable headroom and a quiet #171c24 background, suitable for cropping to an avatar. An enigmatic adult alchemist in a charcoal hood and worn dark leather collar, neutral silver goggles pushed above the brow, one small amber glass vial at the chest, thoughtful expression, no bright decorative magic.",
+          "promptSha256": "4d720a4d7969e57a12a9bf28acbbcabc813556a2db5d345142d28756e1ac36b8",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "label": "空状态与结算插画",
+      "assets": [
+        {
+          "id": "empty-reliquary",
+          "label": "空宝匣插画",
+          "filename": "empty-reliquary.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 isolated illustration on genuine transparent alpha, with the complete object inside the center 70 percent of the canvas, clean edges, no ground plane, no checkerboard and no solid backdrop. One small open and visibly empty dark steel reliquary with brushed silver hinges and a tiny warm gold clasp, sculptural three-quarter view, quiet modest appearance, no coins or treasure.",
+          "promptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "promptRole": "template"
+        },
+        {
+          "id": "victory-trophy",
+          "label": "胜利奖杯插画",
+          "filename": "victory-trophy.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 isolated illustration on genuine transparent alpha, with the complete object inside the center 70 percent of the canvas, clean edges, no ground plane, no checkerboard and no solid backdrop. One elegant restrained gold and dark steel arena trophy with a simple circular opening and two angular handles, a narrow charcoal ribbon, no engraved letters, clear celebratory silhouette without confetti or scenery.",
+          "promptSha256": "bde92c56f90eaeb702c3a0142ad9b341670e95237a81fb43dc54e22d6ca82580",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "promptRole": "template"
+        }
+      ]
+    },
+    {
+      "id": "navigation",
+      "label": "玩法与导航插画",
+      "assets": [
+        {
+          "id": "mode-atlas",
+          "label": "玩法入口图集",
+          "filename": "mode-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight sculptural game mode objects. Row one: crossed swords, circular stone arena gate, dark fortress tower, silver compass. Row two: gold trophy, dark campaign map without writing, linked steel shields, cyan portal fragment.",
+          "promptSha256": "fb648550e2b2cfa3b304c7f62652e2234fecd5e82a3942f662dadb094301587a",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        },
+        {
+          "id": "utility-atlas",
+          "label": "功能入口图集",
+          "filename": "utility-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight sculptural utility objects. Row one: charcoal leather backpack, silver gear wheel, blank gold-sealed envelope, dark leather ledger without writing. Row two: steel hammer and anvil, small silver hourglass, plain gold medal, folded parchment map without markings.",
+          "promptSha256": "b6148d144d6fb182353b60fbaf40fbac66e8e2ae2621938e0f91057c78b79827",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptRole": "template"
+        }
+      ]
+    }
+  ],
+  "retryPolicy": {
+    "idempotencyKey": "Asia/Shanghai date + scheduled kind",
+    "skipCompleteDailyRun": true,
+    "resumePartialDailyRun": true,
+    "preserveSuccessfulAssets": true,
+    "initialSessionCountsAsScheduledRun": false,
+    "resumeWithinDailyToolCallBudget": true,
+    "countOnlySuccessfullyDecodedAssets": true
+  },
+  "publicationPolicy": {
+    "commitAndPushAfterSuccessfulReview": true,
+    "repository": "git@github.com:dravenlove/arena-ui.git",
+    "allowPaidApiFallback": false,
+    "allowAlternateModelFallback": false,
+    "reportFailureWithoutFabrication": true
+  },
+  "automation": {
+    "id": "arena-ui",
+    "status": "ACTIVE",
+    "firstScheduledRunCompleted": false,
+    "enabledTime": "09:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "generationPolicy": {
+    "maxToolCallsPerLocalDate": 4,
+    "generateEachSlotOnce": true,
+    "doNotResampleForPreference": true,
+    "attemptLedgerRequired": true,
+    "successTarget": 4,
+    "preserveVisualDefectsAsObservations": true,
+    "technicalFailureDoesNotCountAsSuccess": true
+  },
+  "libraryPromptPolicy": {
+    "role": "template",
+    "allowUncoveredSubjectVariation": true,
+    "recordActualPromptBeforeGeneration": true,
+    "hashActualPromptUtf8": true,
+    "preserveArenaVisualLanguage": true
+  }
+}

@@ -53,6 +53,17 @@ try {
     }
     console.log(`${name}: ${path.join(output, `${name}.png`)}`);
     await page.close();
+    const history = await browser.newPage({ viewport, deviceScaleFactor: 1, reducedMotion: 'reduce' });
+    await history.goto(new URL('history.html', url).href, { waitUntil: 'networkidle' });
+    await history.getByTestId('archive-asset').first().waitFor();
+    await history.evaluate(async () => {
+      document.querySelectorAll('img').forEach(image => { image.loading = 'eager'; });
+      await Promise.all(Array.from(document.images, image => image.decode().catch(() => {})));
+      await document.fonts.ready;
+    });
+    await history.screenshot({ path: path.join(output, `${name}-history.png`), animations: 'disabled' });
+    await history.screenshot({ path: path.join(output, `${name}-history-full.png`), fullPage: true, animations: 'disabled' });
+    await history.close();
   }
 } finally {
   if (browser) await browser.close();

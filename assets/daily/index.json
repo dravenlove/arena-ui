@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Shanghai",
+  "runs": [
+    {
+      "id": "20261024-initial-session",
+      "date": "2026-10-24",
+      "time": null,
+      "manifest": "assets/daily/2026/10/24/initial-session/manifest.json",
+      "kind": "initial-session",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "campaign",
+          "label": "黑曜竞技场",
+          "group": "library",
+          "path": "assets/generated/campaign-wide.png",
+          "promptSha256": "f951327451d2b00b602dc3f87a2490ab41d9d9abaf34dc3745be3746bdbec992",
+          "prompt": "Use case: stylized-concept. Asset type: wide campaign background image for Arena UI game component library. Generate a premium painterly cinematic dark fantasy environment, 1536x1024 landscape. A deserted monumental circular obsidian arena, weathered stone and fine atmospheric mist. A luminous restrained cyan portal set into tall ancient architecture occupies the right third, one tiny lone ranger standing on the approach. Dark charcoal #0e1116 and blue-black #171c24 stone, desaturated warm gold light #f2b632 from distant braziers, cyan #3ec7e0 portal. Left half is low contrast dark negative space for live HTML text. Beautiful authored video game key art, convincing materials, cinematic depth and sharp details near portal, quiet rather than oversaturated. No text, UI, frames, logos, watermark. Landscape full bleed.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "size": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "0e1bd38fe7862ccfe1bbc8986b4408fb33d8f96ce111b0298e7aacf37b66ab62",
+          "bytes": 2441890
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "group": "benchmark",
+          "path": "assets/generated/equipment-atlas.png",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "size": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "4451dd5145add644835cc58d8eff6206f02c6ebf054d7f226d838a612f4f14a2",
+          "bytes": 2175972,
+          "benchmarkId": "equipment-atlas-v1"
+        },
+        {
+          "id": "sentinel",
+          "label": "银面游侠头像",
+          "group": "library",
+          "path": "assets/generated/sentinel-portrait.png",
+          "promptSha256": "c5ff265d2e128e2e9ebcdc395c905e1354652d6bcefc05ca9ae7df93f3a990d0",
+          "prompt": "Use case: stylized-concept. Asset type: square avatar portrait for a premium dark fantasy game UI library Arena UI. Generate a 1024x1024 square close-up head and shoulders of an enigmatic ranger wearing a sculpted silver mask covering the face, hood and dark charcoal cloak. Confident dignified pose, facing slightly three-quarter, readable centered silhouette for cropping to a small circle. Finely brushed silver with subtle worn gold inlays, one restrained cyan blue eye lens. Dark blue-gray #171c24 background with a little mist. Painterly realistic AAA game portrait, dramatic soft rim light, sophisticated muted color grading, no bright red or violet decorative accents. No text, UI, frame, logo or watermark.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "size": [
+            1254,
+            1254
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "9c43a3a97d1dc903c703ad2da335ae7bd4e60b0773d0b94e6c4b56feb3206896",
+          "bytes": 2672703
+        },
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "group": "benchmark",
+          "path": "assets/generated/ui-kit-board.png",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "size": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "439bb2c8a32723276458e1eb52b4a2ffd4e12b5946db69f85b3a440fbea76d1e",
+          "bytes": 1693552,
+          "benchmarkId": "ui-kit-board-v1"
+        },
+        {
+          "id": "skills",
+          "label": "战斗技能图集",
+          "group": "library",
+          "path": "assets/generated/skills-atlas.png",
+          "promptSha256": "63860ad4e7e8a123320b71e73559fd1a8becd38b626643f8fccf0550273d3553",
+          "prompt": "Use case: stylized-concept. Asset type: eight ability icons for Arena UI, a premium dark fantasy game interface. Generate a landscape 1536x1024 atlas with EXACTLY 4 equal columns and 2 equal rows, with no gutters and no visible grid. Each of the eight cells is 384x512. The background is flat opaque charcoal #171c24 throughout. Each complete icon must be centered in its cell with at least 18 percent safe margin so it can be displayed separately. Row one left to right: a silver blade tracing a fiery red-orange crescent slash; a sharp crystalline ice lance with icy cyan shards; a branching electric cyan lightning bolt striking stone; fresh green leaves surrounding one warm golden healing spark. Row two left to right: a heavy reinforced silver shield with a subtle gold defensive aura; a swirling ring of cyan arcane energy; two silver daggers crossing in a smoky dark stealth silhouette; a radiant gold longsword pointed downward with controlled gold rays. Cohesive painterly high-end game inventory art, sculptural three-quarter view, detailed metal, sharp readable silhouettes, consistent scale and top-left lighting, restrained glow entirely inside each cell. Palette charcoal, silver, gold #f2b632, cyan #3ec7e0, red for damage and green for healing. No violet decoration. NO labels, lettering, numbers, card borders, frames, UI, logos or watermark. Do not crop icons or allow effects to spill into neighboring cells.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "size": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "15cedd492f4d79a800218a3d974b4931720957d0cac169a817175dcd67aada43",
+          "bytes": 2588610
+        },
+        {
+          "id": "rewards",
+          "label": "奖励图集",
+          "group": "library",
+          "path": "assets/generated/rewards-atlas.png",
+          "promptSha256": "60ba25c97bc260456a48427ef588b78abef2bb5bab0bc162c23f27e4b2fbe25d",
+          "prompt": "Use case: stylized-concept. Asset type: reward and currency icon atlas for Arena UI dark fantasy game library. Generate a 1536x1024 landscape image divided into EXACTLY 4 columns and 2 rows of equally sized cells, no gutters or drawn grid. Each cell is 384x512. Flat opaque uniform background #171c24. Each complete object is centered with generous 20 percent padding in its cell, with consistent scale and visual weight. Row one left to right: a small stack of warm gold coins without readable symbols; a dark leather pouch spilling a few cyan gemstones; a thick dark leather experience book with silver page edges and a small gold clasp; a clear amber stamina elixir bottle with gold stopper. Row two left to right: an elaborate closed legendary reward chest of dark iron with rich gold bands and a restrained warm light leaking through its seam; a gold arena medal with a neutral simple geometric star engraving; a dark folded parchment admission pass with a round gold seal but no writing; a cluster of neutral steel-blue upgrade ore with tiny gold flecks. Premium painterly three-dimensional game inventory assets, highly detailed hand-crafted textures, crisp silhouettes readable at small sizes, soft top-left studio lighting. Charcoal #171c24, silver #9aa6b8, gold #f2b632 and cyan #3ec7e0. No red or purple glow. NO labels, lettering, numbers, frames, borders, UI, logos or watermark. Keep every object and all its effects strictly inside its own equal grid cell.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "size": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "57e73a64f7e38563c600a3d8e5389237fdbf0372537517f1c10b7f4689772f5c",
+          "bytes": 2387957
+        },
+        {
+          "id": "frost",
+          "label": "冰霜竞技场",
+          "group": "library",
+          "path": "assets/generated/frost-arena.png",
+          "promptSha256": "90ab74f500a73d7c5ebdeffdad47e1c37fc091ffcb1292e3155969a987a40da2",
+          "prompt": "Use case: stylized-concept. Asset type: alternate campaign background for Arena UI, a premium dark fantasy game interface. Generate a 1536x1024 landscape of a deserted ancient arena citadel in a frozen mountain pass at blue hour. An immense weathered circular fighting platform of obsidian and dark steel is partially covered with frost. The right third contains tall broken gothic stone arches and a luminous icy cyan crystal monolith, distant snow-capped mountains and fine blowing snow add cinematic depth. Left half is quiet dark blue-gray negative space suitable for live HTML text. Painterly high-end fantasy game environment art with finely observed chipped stone, ice, and cold mist. Restrained charcoal #0e1116 and #171c24 shadows, slate silver #9aa6b8 ice highlights, pale cyan #3ec7e0 atmosphere. Very small warm gold #f2b632 lanterns as contrast. Cold, solemn, cinematic and uncluttered, consistent with a serious dark metal game interface. No people, text, UI, frames, logos, watermark or saturated purple. Full bleed landscape.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "size": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "model": "unreported",
+          "sha256": "13c4feb18dbb220d9f78fe9a3ad86372488e9a90a99dfc1777fb4b739ef1443f",
+          "bytes": 2615677
+        },
+        {
+          "id": "empty",
+          "label": "透明空背包",
+          "group": "library",
+          "path": "assets/generated/empty-inventory.png",
+          "promptSha256": "e3aedd64cea31df0043e3cbbd80e151c9bb96d642af880a11caf9dc89884352f",
+          "prompt": "Use case: stylized-concept. Asset type: transparent-background empty-inventory illustration for Arena UI dark fantasy game interface. Generate a 1024x1024 square isolated cutout on a truly transparent alpha background. One modest worn charcoal leather adventurer backpack, sitting upright in a three-quarter view with its mouth open and visibly empty, an unbuckled warm brass clasp and a rolled empty fabric flap. A small plain round silver tag hangs from one strap. Include only a few tiny pale dust motes close to the bag, no ground plane and no cast shadow beyond the object. Refined painterly sculptural game inventory art, detailed dark leather stitching and brushed metal, soft top-left lighting and subtle cool cyan rim highlights so the silhouette reads on dark UI surfaces. Friendly quiet empty-state mood, much less ornate than a legendary loot object. The entire backpack and every strap must fit within the center 70 percent of the square, with clean readable silhouette and generous transparent padding. Colors charcoal #171c24, neutral silver #9aa6b8, tiny warm gold #f2b632, restrained cyan #3ec7e0. Do not include checkerboard texture, solid background, borders, pedestals, characters, weapons, coins, writing, letters, punctuation, logos or watermark. Deliver genuine transparency, not an illustration of transparency.",
+          "promptVersion": "v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "size": [
+            1254,
+            1254
+          ],
+          "transparentBackground": true,
+          "model": "unreported",
+          "sha256": "746616ab49efe52d012a6f11cdaf0c08d29618617f40134d9664eff8c5f959e6",
+          "bytes": 1466971
+        }
+      ]
+    }
+  ]
+}

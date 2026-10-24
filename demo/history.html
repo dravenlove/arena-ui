@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1116">
+  <meta name="description" content="按日期查看 Arena UI 每日生成素材，使用固定题目对照长期输出变化。">
+  <title>每日生成档案 · Arena UI</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../tokens/tokens.css">
+  <link rel="stylesheet" href="./history.css">
+  <script src="./history.js" defer></script>
+</head>
+<body>
+  <a class="history-skip" href="#main">跳到主要内容</a>
+  <header class="history-topbar">
+    <a class="history-brand" href="./index.html">ARENA <b>UI</b><span>DAILY ARCHIVE</span></a>
+    <nav aria-label="档案导航"><a href="./index.html">← 返回组件库</a><a href="https://github.com/dravenlove/arena-ui" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="history-intro" aria-labelledby="history-title">
+      <p class="history-eyebrow">A NEW FRAME, EVERY DAY</p>
+      <h1 id="history-title">每日生成档案<span>让时间，记录每一次输出。</span></h1>
+      <p class="history-description">每天留下新的素材，也留下相同题目的再次作答。按日期翻阅，用固定提示词观察长期变化。</p>
+      <div class="history-meta"><span>Asia/Shanghai · 上海时间</span><span id="archive-summary">正在读取归档…</span></div>
+    </section>
+
+    <section class="archive-section" aria-labelledby="archive-title">
+      <div class="history-section-heading"><div><h2 id="archive-title">按日翻阅 <span>THE DAILY COLLECTION</span></h2><p>原图、提示词与生成记录，一起留存。</p></div><span class="history-live">持续积累</span></div>
+      <div class="archive-toolbar">
+        <label class="history-field" for="archive-date"><span>选择日期</span><select id="archive-date" aria-label="选择日期" disabled><option value="">加载中…</option></select></label>
+        <div class="archive-filters" role="group" aria-label="素材分组">
+          <button type="button" data-group="all" aria-pressed="true">全部</button>
+          <button type="button" data-group="benchmark" aria-pressed="false">固定对照</button>
+          <button type="button" data-group="library" aria-pressed="false">素材扩展</button>
+        </div>
+      </div>
+      <div id="history-status" class="history-status" role="status" aria-live="polite">正在加载每日档案…</div>
+      <button id="reload-history" class="history-retry" type="button" hidden>重新加载</button>
+      <div id="archive-results" class="archive-results"></div>
+    </section>
+
+    <section class="comparison-section" aria-labelledby="comparison-title">
+      <div class="history-section-heading"><div><h2 id="comparison-title">把同一道题，放在时间两端 <span>FIXED PROMPT COMPARISON</span></h2><p>先确认题目与提示词相同，再观察画面差异。</p></div></div>
+      <div class="comparison-toolbar">
+        <label class="history-field" for="comparison-left"><span>左侧日期</span><select id="comparison-left" aria-label="左侧日期" disabled><option value="">加载中…</option></select></label>
+        <label class="history-field" for="comparison-right"><span>右侧日期</span><select id="comparison-right" aria-label="右侧日期" disabled><option value="">加载中…</option></select></label>
+        <label class="history-field benchmark-field" for="comparison-benchmark"><span>固定题目</span><select id="comparison-benchmark" aria-label="固定题目" disabled><option value="">加载中…</option></select></label>
+      </div>
+      <p id="comparison-state" class="comparison-status" role="status" aria-live="polite" data-state="waiting">生成记录加载后，即可查看固定题目。</p>
+      <div id="comparison-results" class="comparison-results"></div>
+      <aside class="comparison-notes" aria-label="如何理解对照结果"><span>观察提醒</span><p>相同提示词也会产生随机差异，一次生成不足以判断质量趋势。运行时未返回模型版本，不能据此证实模型升级；请结合更多日期与相同条件一起观察。</p></aside>
+    </section>
+    <footer class="history-footer"><span>ARENA UI <small>每一次生成，都有来处。</small></span><a href="./index.html">回到组件实验场 ↗</a></footer>
+  </main>
+  <noscript>请启用 JavaScript 读取每日档案。原始归档索引位于 assets/daily/index.json。</noscript>
+</body>
+</html>
