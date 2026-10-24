@@ -1,0 +1,22 @@
+{
+  "name": "arena-ui",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Arena UI 游戏界面组件库与离线交互预览",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "capture": "node scripts/capture.mjs",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:install": "playwright install chromium"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

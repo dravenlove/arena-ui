@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "status": "generated",
+  "requestedFamily": "image2.5",
+  "requestedModel": "ChatGPT built-in image generation",
+  "generationMode": "built-in-imagegen",
+  "reportedModel": "unreported",
+  "promptFile": "assets/prompts.json",
+  "modelDocumentation": "https://developers.openai.com/api/docs/guides/tools-image-generation",
+  "generatedAt": "2026-10-24",
+  "verifiedModel": null,
+  "assets": [
+    {
+      "id": "campaign",
+      "path": "assets/generated/campaign-wide.png",
+      "status": "generated",
+      "purpose": "战役卡片背景，左侧留出文字空间",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "0e1bd38fe7862ccfe1bbc8986b4408fb33d8f96ce111b0298e7aacf37b66ab62",
+      "bytes": 2441890
+    },
+    {
+      "id": "equipment",
+      "path": "assets/generated/equipment-atlas.png",
+      "status": "generated",
+      "purpose": "四列两行道具图集，依次为剑、盾、戒指、药水、斧、头盔、卷轴、水晶",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "4451dd5145add644835cc58d8eff6206f02c6ebf054d7f226d838a612f4f14a2",
+      "bytes": 2175972
+    },
+    {
+      "id": "sentinel",
+      "path": "assets/generated/sentinel-portrait.png",
+      "status": "generated",
+      "purpose": "玩家头像",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "9c43a3a97d1dc903c703ad2da335ae7bd4e60b0773d0b94e6c4b56feb3206896",
+      "bytes": 2672703
+    },
+    {
+      "id": "reference",
+      "path": "assets/generated/ui-kit-board.png",
+      "status": "generated",
+      "purpose": "组件视觉参考图，不替代可交互组件代码",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "439bb2c8a32723276458e1eb52b4a2ffd4e12b5946db69f85b3a440fbea76d1e",
+      "bytes": 1693552
+    }
+  ],
+  "dateTimezone": "Asia/Shanghai"
+}

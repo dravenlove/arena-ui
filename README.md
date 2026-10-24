@@ -2,7 +2,22 @@
 
 深色优先的游戏界面设计系统 (dark-first game UI)：金色代表行动与奖励，青色代表选中与能量，红色只代表伤害与危险。
 
-> 这是一套**起步版**：没有对应的代码仓库，所以 token 和组件都是手工设定的，暂无字体文件、Logo 和图标。等有了前端/客户端仓库，可以再从代码同步。
+**v2.0** 包含 9 个 React 组件、完整的离线交互演示、4 张 ChatGPT 生成原图及其提示词。保留起步版组件接口，沿用既有颜色和间距规范。
+
+![Arena UI 交互组件预览](docs/preview.png)
+
+## 本地预览
+
+需要 Node.js 20 或更新版本：
+
+```sh
+npm ci
+npm run dev
+```
+
+打开 [http://127.0.0.1:4173/demo/](http://127.0.0.1:4173/demo/)。浏览器运行所需的 React、图片和样式均已随仓库保存，预览不依赖 CDN、外部字体或远程图片；也可以用任意静态服务器打开仓库。
+
+演示支持组件分类与搜索、8 件道具筛选和选中、HP 增减、设置开关、弹窗确认，以及用法和颜色复制。演示操作只改变页面状态，不连接游戏服务。
 
 ## 原则 (Principles)
 
@@ -49,12 +64,31 @@ React 组件，全局命名空间 `window.ArenaUI`，样式在 `components/bundl
 | `ItemSlot` | 56px 道具格，边框色 = 稀有度（common / rare / epic / legendary） |
 | `Badge` | 短状态标签 |
 | `Panel` | 标题 + 内容 + 底部操作区的容器 |
+| `Tabs` | 受控标签切换，方向键 / Home / End 导航，跳过禁用项 |
+| `Toggle` | 受控设置开关，支持鼠标与键盘 |
+| `Avatar` | 角色图片，图片加载失败时回退到名字首字 |
+| `Dialog` | 原生模态弹窗，支持 Escape、背景关闭、焦点循环与恢复 |
+
+`Button` 另支持 `icon` 和 `loading`。`Panel` 不限制最大宽度，可以透传 `id`、`aria-*` 等 section 属性。详细属性和示例见每个组件目录的 README。
 
 稀有度色阶：common `ink-muted` → rare `cyan` → epic `violet` → legendary `gold`。
 
 ## 图标 (Iconography)
 
-暂无图标与 Logo。名字用 `title` 样式的纯文字展示，不要临时画标志。
+品牌使用纯文字名称。预览中的线性功能图标为代码绘制的 SVG；游戏道具和头像使用生成图片，不把它们混作功能图标。
+
+## 视觉素材
+
+素材通过用户澄清的 **ChatGPT 内置图像生成功能**制作，不需要本地 API 密钥。工具没有返回底层模型版本，因此不把它标记为已核实的 Image 2.5。
+
+| 素材 | 文件 |
+| --- | --- |
+| 黑曜石之门场景 | [campaign-wide.png](assets/generated/campaign-wide.png) |
+| 8 件装备图集（4 列 × 2 行） | [equipment-atlas.png](assets/generated/equipment-atlas.png) |
+| 暗影游侠头像 | [sentinel-portrait.png](assets/generated/sentinel-portrait.png) |
+| 组件视觉参考板 | [ui-kit-board.png](assets/generated/ui-kit-board.png) |
+
+原始提示词见 [assets/prompts.json](assets/prompts.json)，实际尺寸与文件校验见 [assets/manifest.json](assets/manifest.json)，复用说明见 [docs/ASSETS.md](docs/ASSETS.md)。参考板是视觉探索，交互、颜色语义和组件属性以代码与 token 为准。
 
 ## 文案 (Voice)
 
@@ -70,6 +104,15 @@ components/bundle.css   组件样式（类名前缀 au-）
 components/index.d.ts   组件类型定义（文档用）
 components/<组件>/README.md  每个组件的使用规范
 demo/index.html         所有颜色和组件的演示页
+demo/app.js             交互演示（无编译步骤）
+demo/demo.css           响应式展示页样式
+demo/vendor/            React 18.3.1 本地脚本及其 MIT 授权
+assets/generated/      四张生成原图
+assets/prompts.json     实际使用的完整提示词
+assets/manifest.json    素材来源、尺寸、校验值
+docs/ASSETS.md          图集排列与复用说明
+scripts/                本地预览服务与依赖复制工具
+tests/                  Playwright 浏览器验证
 ```
 
 ## 使用方法 (Usage)
@@ -77,9 +120,10 @@ demo/index.html         所有颜色和组件的演示页
 ```html
 <link rel="stylesheet" href="tokens/tokens.css">
 <link rel="stylesheet" href="components/bundle.css">
-<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="demo/vendor/react.production.min.js"></script>
+<script src="demo/vendor/react-dom.production.min.js"></script>
 <script src="components/bundle.js"></script>
+<div id="app"></div>
 <script>
   // 渲染一个主按钮
   const { Button } = window.ArenaUI;
@@ -90,3 +134,14 @@ demo/index.html         所有颜色和组件的演示页
 只想用颜色和字体时，引入 `tokens/tokens.css` 后直接写 `var(--gold)`、`class="stat"` 即可。
 
 演示页：开启 GitHub Pages（Settings → Pages → 从 main 分支根目录部署）后访问 `/demo/`。
+
+## 验证
+
+```sh
+npm run test:install
+npm test
+```
+
+测试覆盖离线资源加载、手机布局、道具筛选、组件搜索、弹窗焦点与键盘交互。Windows 若已安装 Chrome 或 Edge，测试配置会自动使用本地浏览器，可省略浏览器安装步骤。`npm run vendor` 可从锁定依赖重新复制 React 脚本和授权文件。
+
+这是浏览器全局组件包，通过 `window.ArenaUI` 消费；尚未发布 npm 包或提供 ESM 构建。字体继续使用系统回退，不包含商业字体文件。

@@ -1,0 +1,27 @@
+{
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "transparentBackground": false,
+  "assets": [
+    {
+      "out": "campaign-wide.png",
+      "requestedSize": "1536x1024",
+      "prompt": "Use case: stylized-concept. Asset type: wide campaign background image for Arena UI game component library. Generate a premium painterly cinematic dark fantasy environment, 1536x1024 landscape. A deserted monumental circular obsidian arena, weathered stone and fine atmospheric mist. A luminous restrained cyan portal set into tall ancient architecture occupies the right third, one tiny lone ranger standing on the approach. Dark charcoal #0e1116 and blue-black #171c24 stone, desaturated warm gold light #f2b632 from distant braziers, cyan #3ec7e0 portal. Left half is low contrast dark negative space for live HTML text. Beautiful authored video game key art, convincing materials, cinematic depth and sharp details near portal, quiet rather than oversaturated. No text, UI, frames, logos, watermark. Landscape full bleed."
+    },
+    {
+      "out": "equipment-atlas.png",
+      "requestedSize": "1536x1024",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells."
+    },
+    {
+      "out": "sentinel-portrait.png",
+      "requestedSize": "1024x1024",
+      "prompt": "Use case: stylized-concept. Asset type: square avatar portrait for a premium dark fantasy game UI library Arena UI. Generate a 1024x1024 square close-up head and shoulders of an enigmatic ranger wearing a sculpted silver mask covering the face, hood and dark charcoal cloak. Confident dignified pose, facing slightly three-quarter, readable centered silhouette for cropping to a small circle. Finely brushed silver with subtle worn gold inlays, one restrained cyan blue eye lens. Dark blue-gray #171c24 background with a little mist. Painterly realistic AAA game portrait, dramatic soft rim light, sophisticated muted color grading, no bright red or violet decorative accents. No text, UI, frame, logo or watermark."
+    },
+    {
+      "out": "ui-kit-board.png",
+      "requestedSize": "1536x1024",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained."
+    }
+  ]
+}
