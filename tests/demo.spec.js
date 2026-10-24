@@ -69,28 +69,28 @@ test('弹窗支持 Escape 和焦点恢复，确认出战有状态反馈', async 
 test('组件搜索展示匹配项，并可从空态重置', async ({ page }) => {
   await page.goto('/demo/');
   const search = page.getByRole('searchbox', { name: '搜索组件' });
-  await expect(page.locator('.specimen')).toHaveCount(6);
+  await expect(page.locator('#library .specimen')).toHaveCount(6);
   await search.fill('Dialog');
-  await expect(page.locator('.specimen')).toHaveCount(1);
-  await expect(page.locator('.specimen').getByRole('heading', { name: '状态与反馈' })).toBeVisible();
+  await expect(page.locator('#library .specimen')).toHaveCount(1);
+  await expect(page.locator('#library .specimen').getByRole('heading', { name: '状态与反馈' })).toBeVisible();
   await search.fill('没有此组件-unknown');
-  await expect(page.locator('.specimen')).toHaveCount(0);
+  await expect(page.locator('#library .specimen')).toHaveCount(0);
   await expect(page.getByText('没有找到匹配的组件。')).toBeVisible();
   await page.getByRole('button', { name: '重置筛选' }).click();
   await expect(search).toHaveValue('');
-  await expect(page.locator('.specimen')).toHaveCount(6);
+  await expect(page.locator('#library .specimen')).toHaveCount(6);
 });
 
 test('组件分类只展示对应组件', async ({ page }) => {
   await page.goto('/demo/');
   const categories = page.getByRole('tablist', { name: '组件分类' });
   await categories.getByRole('tab', { name: '基础组件', exact: true }).click();
-  await expect(page.locator('.specimen')).toHaveCount(2);
+  await expect(page.locator('#library .specimen')).toHaveCount(2);
   await expect(page.locator('#buttons')).toBeVisible();
   await expect(page.locator('#controls')).toBeVisible();
   await categories.getByRole('tab', { name: '战斗组件', exact: true }).click();
-  await expect(page.locator('.specimen')).toHaveCount(3);
+  await expect(page.locator('#library .specimen')).toHaveCount(3);
   await expect(page.locator('#inventory')).toBeVisible();
   await categories.getByRole('tab', { name: '全部组件', exact: true }).click();
-  await expect(page.locator('.specimen')).toHaveCount(6);
+  await expect(page.locator('#library .specimen')).toHaveCount(6);
 });

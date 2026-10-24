@@ -43,6 +43,14 @@ try {
     });
     await page.screenshot({ path: path.join(output, `${name}.png`), animations: 'disabled' });
     await page.screenshot({ path: path.join(output, `${name}-full.png`), fullPage: true, animations: 'disabled' });
+    const expansion = page.locator('#expansion');
+    if (await expansion.count()) {
+      // 元素特写隐藏吸附导航，避免滚动到元素时顶部内容被覆盖。
+      const sectionCapture = { animations: 'disabled', style: '.sidebar { visibility: hidden !important; }' };
+      await expansion.screenshot({ ...sectionCapture, path: path.join(output, `${name}-expansion.png`) });
+      await expansion.getByRole('tab', { name: '奖励道具', exact: true }).click();
+      await expansion.screenshot({ ...sectionCapture, path: path.join(output, `${name}-expansion-rewards.png`) });
+    }
     console.log(`${name}: ${path.join(output, `${name}.png`)}`);
     await page.close();
   }

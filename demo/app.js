@@ -35,6 +35,74 @@
   function ItemArt(p) {
     return h('span', { className: 'item-art', 'aria-hidden': true, style: { backgroundPosition: ((p.index % 4) * 100 / 3) + '% ' + (p.index < 4 ? '0%' : '100%') } });
   }
+  var expansionSets = {
+    skill: {
+      file: 'skills-atlas.png', name: '技能',
+      items: [
+        ['烈焰斩', '火焰凝成刀锋，适用于近战爆发与灼烧类技能。'],
+        ['寒冰枪', '冰晶汇成锐利长枪，适用于冰霜伤害与减速技能。'],
+        ['雷霆击', '闪电贯穿目标，适用于瞬发攻击与范围打击。'],
+        ['生命绽放', '生命能量向外绽开，适用于治疗与持续恢复。'],
+        ['钢铁壁垒', '坚固护盾挡下冲击，适用于防御姿态与护甲增益。'],
+        ['奥术漩涡', '奥术能量交汇旋转，适用于聚怪与范围法术。'],
+        ['暗影突袭', '锋芒自暗影中显现，适用于潜行与突进技能。'],
+        ['日曜裁决', '日光凝聚为审判之力，适用于终结技与神圣伤害。']
+      ]
+    },
+    reward: {
+      file: 'rewards-atlas.png', name: '奖励',
+      items: [
+        ['金币', '通用交易货币，用于商店购买、装备升级与奖励结算。'],
+        ['宝石袋', '收纳闪耀宝石的奖励袋，适用于礼包与稀有货币。'],
+        ['经验书', '记录冒险经验的书册，适用于角色培养与等级奖励。'],
+        ['体力药剂', '补充冒险所需的体力，适用于补给和每日任务。'],
+        ['传说宝箱', '等待开启的珍贵宝箱，适用于关卡首通与赛季奖励。'],
+        ['竞技勋章', '竞技场中的荣誉凭证，适用于排名与段位奖励。'],
+        ['通行证', '开启后续征途的凭证，适用于赛季通行证与活动入场。'],
+        ['强化矿石', '蕴含能量的原矿，适用于装备强化与材料背包。']
+      ]
+    }
+  };
+  // 扩展素材独立管理选择状态，不干扰组件实验场的分类和筛选。
+  function ExpansionPack() {
+    var typeState = React.useState('skill'), type = typeState[0], setType = typeState[1];
+    var selectionState = React.useState(0), selectedIndex = selectionState[0], setSelectedIndex = selectionState[1];
+    var set = expansionSets[type], selectedItem = set.items[selectedIndex];
+    function changeType(next) { setType(next); setSelectedIndex(0); }
+    return h('section', { id: 'expansion', className: 'expansion-section', 'aria-labelledby': 'expansion-title' },
+      h('div', { className: 'section-heading' }, h('div', null,
+        h('h2', { id: 'expansion-title' }, '战斗之外，更多可能', h('span', null, 'EXPANSION PACK')),
+        h('p', null, '从技能释放到战利品入袋，让每段旅程都有自己的画面。')),
+        h('span', { className: 'expansion-label' }, '新增素材')),
+      h('div', { className: 'expansion-grid' },
+        h('article', { className: 'expansion-atlas-card' },
+          h('header', { className: 'expansion-card-head' }, h('div', null, h('h3', null, '下一次出手，下一份收获。'), h('p', null, '两组图集，十六种故事。')), h('span', null, '16 ICONS')),
+          h(A.Tabs, { label: '扩展素材分类', value: type, onChange: changeType,
+            items: [{ id: 'skill', label: '技能图标', panelId: 'expansion-atlas-panel' }, { id: 'reward', label: '奖励道具', panelId: 'expansion-atlas-panel' }] }),
+          h('div', { id: 'expansion-atlas-panel', role: 'tabpanel', 'aria-label': type === 'skill' ? '技能图标' : '奖励道具', className: 'expansion-atlas-panel' },
+            h('div', { className: 'expansion-icons' }, set.items.map(function (item, index) {
+              return h('button', { key: type + '-' + index, type: 'button', className: 'expansion-icon-button' + (index === selectedIndex ? ' is-selected' : ''),
+                'aria-label': '选择' + set.name + '：' + item[0], 'aria-pressed': index === selectedIndex, 'data-testid': 'expansion-icon',
+                onClick: function () { setSelectedIndex(index); } },
+                h('span', { className: 'expansion-art expansion-art-' + type, 'aria-hidden': true,
+                  style: { backgroundPosition: ((index % 4) * 100 / 3) + '% ' + (index < 4 ? '0%' : '100%') } }),
+                h('span', { className: 'expansion-icon-name' }, item[0]));
+            })),
+            h('div', { className: 'expansion-detail', 'data-testid': 'expansion-detail', 'aria-live': 'polite', 'aria-atomic': true },
+              h('div', null, h('span', { className: 'expansion-detail-kicker' }, type === 'skill' ? 'SKILL SELECTED' : 'REWARD SELECTED'), h('strong', null, selectedItem[0])),
+              h('p', null, selectedItem[1])))),
+        h('div', { className: 'expansion-side' },
+          h('a', { className: 'expansion-scene', href: asset + 'frost-arena.png', target: '_blank', rel: 'noreferrer', 'aria-label': '查看冰霜竞技场原图' },
+            h('img', { src: asset + 'frost-arena.png', alt: '冰雪环绕的竞技场场景', loading: 'lazy' }),
+            h('div', { className: 'expansion-scene-copy' }, h('span', null, 'SCENE 02 / FROST ARENA'), h('h3', null, '踏入冰霜，唤醒战意。'), h('p', null, '为下一场对决，切换一片天地。')), h(Icon, { name: 'external', size: 15 })),
+          h('article', { className: 'expansion-empty' },
+            h('img', { src: asset + 'empty-inventory.png', alt: '用于背包空状态的透明背景插画', loading: 'lazy' }),
+            h('div', null, h('span', { className: 'expansion-detail-kicker' }, 'EMPTY STATE'), h('h3', null, '背包还空着。'), h('p', null, '新的战利品，在下一场冒险里。'), h('span', { className: 'expansion-empty-note' }, '透明背景 · 随处融入'))))),
+      h('div', { className: 'expansion-downloads', 'aria-label': '下载扩展素材' },
+        [['skills-atlas.png', '技能图集'], ['rewards-atlas.png', '奖励图集'], ['frost-arena.png', '冰霜竞技场'], ['empty-inventory.png', '空背包插画']].map(function (file) {
+          return h('a', { key: file[0], href: asset + file[0], download: file[0] }, h(Icon, { name: 'download', size: 14 }), file[1], h('span', null, 'PNG'));
+        })));
+  }
   // Card 定义在组件外，避免父状态变化导致整个卡片卸载和焦点丢失。
   function Card(p) {
     return h('article', { className: 'specimen ' + (p.className || ''), id: p.id },
@@ -113,6 +181,7 @@
             h('div', { className: 'component-grid' }, cards.length ? cards : h('div', { className: 'empty-results' }, '没有找到匹配的组件。', h('button', { className: 'text-button', onClick: function () { setQuery(''); setCategory('all'); } }, '重置筛选')))),
           h('section', { id: 'foundations', className: 'foundations' }, h('div', { className: 'section-heading' }, h('div', null, h('h2', null, '用同一种设计语言', h('span', null, 'FOUNDATIONS')), h('p', null, '颜色有意义，细节有秩序。'))), h('div', { className: 'foundation-grid' }, h('div', { className: 'palette' }, [['gold', '行动 / 奖励', '#F2B632'], ['cyan', '选中 / 能量', '#3EC7E0'], ['red', '生命 / 危险', '#EF5B60'], ['green', '治疗 / 增益', '#46C97A'], ['violet', '史诗品质', '#B48CF2']].map(function (color) { return h('button', { key: color[0], className: 'color-token', 'aria-label': '复制颜色 ' + color[0], onClick: function () { copy(color[2]); } }, h('i', { style: { background: 'var(--' + color[0] + ')' } }), h('strong', null, color[1]), h('small', null, color[2])); })), h('div', { className: 'type-specimen' }, h('span', { className: 'eyebrow' }, 'TYPE & SPACE'), h('div', null, 'Aa', h('span', null, '胜利')), h('p', null, '清晰文字 · 稳定数字 · 4px 间距网格'), h('code', null, '1,280  /  +24.5%')))),
           h('section', { id: 'assets', className: 'asset-section' }, h('div', { className: 'section-heading' }, h('div', null, h('h2', null, '从视觉灵感，到真实界面', h('span', null, 'VISUAL ASSETS')), h('p', null, 'ChatGPT 生成的成套素材，与组件一起交付。')), h('a', { className: 'doc-link', href: 'https://github.com/dravenlove/arena-ui/blob/main/docs/ASSETS.md', target: '_blank', rel: 'noreferrer' }, '素材说明', h(Icon, { name: 'arrow', size: 16 }))), h('div', { className: 'asset-grid' }, h('a', { className: 'board-preview', href: asset + 'ui-kit-board.png', target: '_blank', rel: 'noreferrer' }, h('img', { src: asset + 'ui-kit-board.png', alt: 'Arena UI 深色金属风组件视觉参考板：按钮、角色、背包与弹窗', loading: 'lazy' }), h('div', null, h('span', null, '组件视觉参考'), h(Icon, { name: 'external', size: 16 }))), h('div', { className: 'asset-downloads' }, h('h3', null, '为你的世界准备就绪。'), h('p', null, '战役场景、装备图集、角色头像。保留原图与完整提示词，方便继续扩展。'), [['equipment-atlas.png', '8 件装备 · 道具图集'], ['campaign-wide.png', '黑曜石之门 · 场景'], ['sentinel-portrait.png', '暗影游侠 · 头像']].map(function (file) { return h('a', { key: file[0], href: asset + file[0], download: file[0] }, file[1], h(Icon, { name: 'download', size: 16 })); })))),
+          h(ExpansionPack),
           h('footer', { className: 'page-footer' }, h('span', null, 'ARENA UI', h('small', null, '构建界面，创造世界。')), h('span', null, '深色优先 · React 18 · v2.0.0')))),
       h(A.Dialog, { open: dialog, onClose: function () { setDialog(false); }, title: '准备好进入竞技场？', actions: h(React.Fragment, null, h(A.Button, { variant: 'secondary', onClick: function () { setDialog(false); } }, '再准备一下'), h(A.Button, { icon: h(Icon, { name: 'sword' }), onClick: function () { setDialog(false); notify('队伍已就绪，出战成功'); } }, '确认出战')) }, h('img', { className: 'dialog-scene', src: asset + 'campaign-wide.png', alt: '通向竞技场的青色传送门' }), h('p', null, '黑曜石之门已经开启。带上你的装备，与暗影游侠一起开启新的征途。'), h('div', { className: 'battle-summary' }, h(A.Badge, { tone: 'gold' }, '推荐等级 25'), h('span', null, '消耗体力 ', h('strong', null, '10')))),
       h('div', { className: 'toast ' + (toast ? 'is-visible' : ''), role: 'status', 'aria-live': 'polite', 'data-testid': 'toast' }, toast && h(Icon, { name: 'check', size: 16 }), toast));

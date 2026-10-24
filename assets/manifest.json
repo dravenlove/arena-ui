@@ -24,7 +24,8 @@
         1024
       ],
       "sha256": "0e1bd38fe7862ccfe1bbc8986b4408fb33d8f96ce111b0298e7aacf37b66ab62",
-      "bytes": 2441890
+      "bytes": 2441890,
+      "transparentBackground": false
     },
     {
       "id": "equipment",
@@ -40,7 +41,22 @@
         1024
       ],
       "sha256": "4451dd5145add644835cc58d8eff6206f02c6ebf054d7f226d838a612f4f14a2",
-      "bytes": 2175972
+      "bytes": 2175972,
+      "transparentBackground": false,
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "order": [
+          "誓约之刃",
+          "守望者之盾",
+          "虚空指环",
+          "生命药水",
+          "破阵战斧",
+          "钢铁战盔",
+          "经验卷轴",
+          "能量水晶"
+        ]
+      }
     },
     {
       "id": "sentinel",
@@ -56,7 +72,8 @@
         1254
       ],
       "sha256": "9c43a3a97d1dc903c703ad2da335ae7bd4e60b0773d0b94e6c4b56feb3206896",
-      "bytes": 2672703
+      "bytes": 2672703,
+      "transparentBackground": false
     },
     {
       "id": "reference",
@@ -72,7 +89,108 @@
         1024
       ],
       "sha256": "439bb2c8a32723276458e1eb52b4a2ffd4e12b5946db69f85b3a440fbea76d1e",
-      "bytes": 1693552
+      "bytes": 1693552,
+      "transparentBackground": false
+    },
+    {
+      "id": "skills",
+      "path": "assets/generated/skills-atlas.png",
+      "purpose": "四列两行技能图集",
+      "status": "generated",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "15cedd492f4d79a800218a3d974b4931720957d0cac169a817175dcd67aada43",
+      "bytes": 2588610,
+      "transparentBackground": false,
+      "generatedOn": "2026-10-24",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "order": [
+          "烈焰斩",
+          "寒冰枪",
+          "雷霆击",
+          "生命绽放",
+          "钢铁壁垒",
+          "奥术漩涡",
+          "暗影突袭",
+          "日曜裁决"
+        ]
+      }
+    },
+    {
+      "id": "rewards",
+      "path": "assets/generated/rewards-atlas.png",
+      "purpose": "四列两行奖励图集",
+      "status": "generated",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "57e73a64f7e38563c600a3d8e5389237fdbf0372537517f1c10b7f4689772f5c",
+      "bytes": 2387957,
+      "transparentBackground": false,
+      "generatedOn": "2026-10-24",
+      "grid": {
+        "columns": 4,
+        "rows": 2,
+        "order": [
+          "金币",
+          "宝石袋",
+          "经验书",
+          "体力药剂",
+          "传说宝箱",
+          "竞技勋章",
+          "通行证",
+          "强化矿石"
+        ]
+      }
+    },
+    {
+      "id": "frost",
+      "path": "assets/generated/frost-arena.png",
+      "purpose": "冰霜竞技场背景",
+      "status": "generated",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "13c4feb18dbb220d9f78fe9a3ad86372488e9a90a99dfc1777fb4b739ef1443f",
+      "bytes": 2615677,
+      "transparentBackground": false,
+      "generatedOn": "2026-10-24"
+    },
+    {
+      "id": "empty",
+      "path": "assets/generated/empty-inventory.png",
+      "purpose": "透明空背包插画",
+      "status": "generated",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "746616ab49efe52d012a6f11cdaf0c08d29618617f40134d9664eff8c5f959e6",
+      "bytes": 1466971,
+      "transparentBackground": true,
+      "generatedOn": "2026-10-24"
     }
   ],
   "dateTimezone": "Asia/Shanghai"

@@ -2,7 +2,7 @@
 
 深色优先的游戏界面设计系统 (dark-first game UI)：金色代表行动与奖励，青色代表选中与能量，红色只代表伤害与危险。
 
-**v2.0** 包含 9 个 React 组件、完整的离线交互演示、4 张 ChatGPT 生成原图及其提示词。保留起步版组件接口，沿用既有颜色和间距规范。
+**v2.0** 包含 9 个 React 组件、完整的离线交互演示、8 张 ChatGPT 生成原图及其提示词。三套图集共提供 24 个装备、技能与奖励图标。保留起步版组件接口，沿用既有颜色和间距规范。
 
 ![Arena UI 交互组件预览](docs/preview.png)
 
@@ -87,6 +87,12 @@ React 组件，全局命名空间 `window.ArenaUI`，样式在 `components/bundl
 | 8 件装备图集（4 列 × 2 行） | [equipment-atlas.png](assets/generated/equipment-atlas.png) |
 | 暗影游侠头像 | [sentinel-portrait.png](assets/generated/sentinel-portrait.png) |
 | 组件视觉参考板 | [ui-kit-board.png](assets/generated/ui-kit-board.png) |
+| 8 个战斗技能图标（4 列 × 2 行） | [skills-atlas.png](assets/generated/skills-atlas.png) |
+| 8 个奖励与货币图标（4 列 × 2 行） | [rewards-atlas.png](assets/generated/rewards-atlas.png) |
+| 冰霜竞技场场景 | [frost-arena.png](assets/generated/frost-arena.png) |
+| 透明空背包插画 | [empty-inventory.png](assets/generated/empty-inventory.png) |
+
+![技能、奖励与场景素材预览](docs/expansion-preview.png)
 
 原始提示词见 [assets/prompts.json](assets/prompts.json)，实际尺寸与文件校验见 [assets/manifest.json](assets/manifest.json)，复用说明见 [docs/ASSETS.md](docs/ASSETS.md)。参考板是视觉探索，交互、颜色语义和组件属性以代码与 token 为准。
 
@@ -107,7 +113,7 @@ demo/index.html         所有颜色和组件的演示页
 demo/app.js             交互演示（无编译步骤）
 demo/demo.css           响应式展示页样式
 demo/vendor/            React 18.3.1 本地脚本及其 MIT 授权
-assets/generated/      四张生成原图
+assets/generated/      八张生成原图（含三套图集和透明插画）
 assets/prompts.json     实际使用的完整提示词
 assets/manifest.json    素材来源、尺寸、校验值
 docs/ASSETS.md          图集排列与复用说明
