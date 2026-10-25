@@ -1,0 +1,360 @@
+{
+  "id": "20261025-090655",
+  "date": "2026-10-25",
+  "time": "09:06:55",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/25/20261025-090655/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/25/20261025-090655/benchmark/ui-kit-board.png",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "benchmarkId": "ui-kit-board-v1",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "c4ee400271ead27026a402042fafaba1ec19186388eebe1a71552af11450b28f",
+      "bytes": 1701840,
+      "recordedAt": "2026-10-25T09:11:20+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-25T09:08:25+08:00",
+        "resultObservedAt": "2026-10-25T09:11:20+08:00"
+      },
+      "sourceFile": "exec-39135b44-113d-4b47-9c3b-a7bf2d2e0ae5.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-25T09:14:26+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/25/20261025-090655/benchmark/equipment-atlas.png",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "benchmarkId": "equipment-atlas-v1",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "5e362edfd4298122fe9db2d276435f7fec0129d8192280619e185e5ae73e34a2",
+      "bytes": 2100231,
+      "recordedAt": "2026-10-25T09:11:20+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-25T09:08:25+08:00",
+        "resultObservedAt": "2026-10-25T09:11:20+08:00"
+      },
+      "sourceFile": "exec-4763edb2-5ff6-4131-a783-41886f849426.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-25T09:14:26+08:00"
+      }
+    },
+    {
+      "id": "desert-arena",
+      "label": "荒漠竞技场",
+      "group": "library",
+      "path": "assets/daily/2026/10/25/20261025-090655/library/desert-arena.png",
+      "promptSha256": "6909796f6fcdf6e05928d7d38653fe0cc9c44255d6c4f9945ef16ac9e14d3e40",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a full-bleed landscape 1536x1024 environment. Keep the left half quiet, dark and low contrast for live HTML text; place the primary focal architecture in the right third. Restrained atmosphere, convincing material detail and cinematic depth. A deserted circular obsidian arena half buried in wind-carved dunes at dusk, broken dark stone arches and a restrained cyan crystal beacon to the right, tiny distant warm gold braziers, no people.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "38d2ab5ada4a2bd57cb643b911bd0248c3609e11552f41753c218b2d17733da3",
+      "bytes": 2317296,
+      "recordedAt": "2026-10-25T09:11:20+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-25T09:08:25+08:00",
+        "resultObservedAt": "2026-10-25T09:11:20+08:00"
+      },
+      "sourceFile": "exec-4ccd911f-2b51-4da5-b85b-f6b4a2ca2187.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-25T09:14:26+08:00"
+      }
+    },
+    {
+      "id": "forest-arena",
+      "label": "幽林竞技场",
+      "group": "library",
+      "path": "assets/daily/2026/10/25/20261025-090655/library/forest-arena.png",
+      "promptSha256": "6a36c337c7045d8a4085cf472c502dc4f3407aaaf6d3bd51fdfc4108670e6c3f",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a full-bleed landscape 1536x1024 environment. Keep the left half quiet, dark and low contrast for live HTML text; place the primary focal architecture in the right third. Restrained atmosphere, convincing material detail and cinematic depth. A deserted ancient dark stone arena reclaimed by old forest, moss and fine cool mist, a monumental broken arch and small cyan portal to the right, subtle distant gold lanterns, no people.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "d7e1294ad3e9621cc7764e194eec43dbbdf8a8722feaf165a736b8ff5c753a80",
+      "bytes": 2662408,
+      "recordedAt": "2026-10-25T09:11:20+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-25T09:08:25+08:00",
+        "resultObservedAt": "2026-10-25T09:11:20+08:00"
+      },
+      "sourceFile": "exec-90e8c8db-f60a-4945-9b3e-80f4d78598f0.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-25T09:14:26+08:00"
+      }
+    }
+  ],
+  "themeId": "environments",
+  "startedAt": "2026-10-25T09:06:55+08:00",
+  "completedAt": "2026-10-25T09:14:26+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-10-25T09:08:25+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-10-25T09:11:20+08:00",
+      "outputPath": "assets/daily/2026/10/25/20261025-090655/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-39135b44-113d-4b47-9c3b-a7bf2d2e0ae5.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-25T09:14:26+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-10-25T09:08:25+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-10-25T09:11:20+08:00",
+      "outputPath": "assets/daily/2026/10/25/20261025-090655/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-4763edb2-5ff6-4131-a783-41886f849426.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-25T09:14:26+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "desert-arena",
+      "group": "library",
+      "startedAt": "2026-10-25T09:08:25+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "6909796f6fcdf6e05928d7d38653fe0cc9c44255d6c4f9945ef16ac9e14d3e40",
+      "resultObservedAt": "2026-10-25T09:11:20+08:00",
+      "outputPath": "assets/daily/2026/10/25/20261025-090655/library/desert-arena.png",
+      "sourceFile": "exec-4ccd911f-2b51-4da5-b85b-f6b4a2ca2187.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-25T09:14:26+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "forest-arena",
+      "group": "library",
+      "startedAt": "2026-10-25T09:08:25+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "6a36c337c7045d8a4085cf472c502dc4f3407aaaf6d3bd51fdfc4108670e6c3f",
+      "resultObservedAt": "2026-10-25T09:11:20+08:00",
+      "outputPath": "assets/daily/2026/10/25/20261025-090655/library/forest-arena.png",
+      "sourceFile": "exec-90e8c8db-f60a-4945-9b3e-80f4d78598f0.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-25T09:14:26+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/25/20261025-090655/benchmark/ui-kit-board.png",
+      "benchmarkId": "ui-kit-board-v1"
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/25/20261025-090655/benchmark/equipment-atlas.png",
+      "benchmarkId": "equipment-atlas-v1"
+    },
+    {
+      "id": "desert-arena",
+      "label": "荒漠竞技场",
+      "filename": "desert-arena.png",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a full-bleed landscape 1536x1024 environment. Keep the left half quiet, dark and low contrast for live HTML text; place the primary focal architecture in the right third. Restrained atmosphere, convincing material detail and cinematic depth. A deserted circular obsidian arena half buried in wind-carved dunes at dusk, broken dark stone arches and a restrained cyan crystal beacon to the right, tiny distant warm gold braziers, no people.",
+      "promptSha256": "6909796f6fcdf6e05928d7d38653fe0cc9c44255d6c4f9945ef16ac9e14d3e40",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "library",
+      "path": "assets/daily/2026/10/25/20261025-090655/library/desert-arena.png"
+    },
+    {
+      "id": "forest-arena",
+      "label": "幽林竞技场",
+      "filename": "forest-arena.png",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a full-bleed landscape 1536x1024 environment. Keep the left half quiet, dark and low contrast for live HTML text; place the primary focal architecture in the right third. Restrained atmosphere, convincing material detail and cinematic depth. A deserted ancient dark stone arena reclaimed by old forest, moss and fine cool mist, a monumental broken arch and small cyan portal to the right, subtle distant gold lanterns, no people.",
+      "promptSha256": "6a36c337c7045d8a4085cf472c502dc4f3407aaaf6d3bd51fdfc4108670e6c3f",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "library",
+      "path": "assets/daily/2026/10/25/20261025-090655/library/forest-arena.png"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "fixed-prompt-comparison",
+      "comparedToRunId": "20261024-initial-session",
+      "comparedToPath": "assets/generated/ui-kit-board.png",
+      "samePromptSha256": true,
+      "observations": [
+        "布局重新排列：背包移至右上、标签页移至顶部，增加通知、滑块、评分和步进器区域。",
+        "角色从面具骑士变为露面的灰发战士；弹窗从带场景插画变为文字为主。",
+        "ARENA UI、READY TO BATTLE? 及三个行动按钮文字清晰；新增小字较细，缩小后可读性需另行检查。",
+        "选中标签依旧使用金色，未遵循提示词要求的青色选中语义；保留这一偏差。"
+      ]
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "fixed-prompt-comparison",
+      "comparedToRunId": "20261024-initial-session",
+      "comparedToPath": "assets/generated/equipment-atlas.png",
+      "samePromptSha256": true,
+      "observations": [
+        "八件物品与四列两行顺序保持一致，未见缺件或跨格重叠。",
+        "盾牌金属分区、药瓶包边、戒指镶爪均发生造型变化；头盔转向更明显，卷轴呈更陡的斜向。",
+        "青色水晶更高更亮，头盔与盾牌银色高光更集中，物品视觉重量仍不完全一致。",
+        "两次均未充分满足每格约20%的安全留白；本次剑尖、盾顶及头盔下缘较靠近格边。"
+      ]
+    },
+    {
+      "assetId": "desert-arena",
+      "type": "library-review",
+      "observations": [
+        "新增沙丘与夕阳中的干燥竞技场，区别于已有冰霜和黑曜场景。",
+        "主要建筑与青色晶体在右侧，左侧较暗可叠字，但仍有遗迹和雾气细节，小字建议另叠深色遮罩。",
+        "右侧暖橙天空和火盆偏亮，不宜直接叠加正文。"
+      ]
+    },
+    {
+      "assetId": "forest-arena",
+      "type": "library-review",
+      "observations": [
+        "新增针叶林、苔藓、瀑布和湿地面，场景主题与荒漠区分明确。",
+        "破碎巨拱门与小型青色传送门位于右侧，左侧保留暗部空间。",
+        "天空和地面反光较亮，实际叠字时需避开高亮区或用深色遮罩。"
+      ]
+    }
+  ],
+  "notes": [
+    "首次定时批次于2026-10-25完成，4次调用获得4张可解码原图；所有原始输出均保留，未挑选重抽。",
+    "两个固定题目与2026-10-24的原文提示词哈希一致，历史页可展示两份不同日期的原图。",
+    "工具未报告底层模型版本或随机种子，记录为unreported/null。",
+    "上述差异仅为可见观察，包含主观判断及随机性影响，不构成模型训练、升级或能力提升的证据。",
+    "未修改页面代码；只进行了图片/数据校验及历史页只读检查，未运行含初始单日假设的完整测试套件。"
+  ],
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "attemptBudgetRespected": true,
+    "historyPageVerified": true,
+    "crossDateSamePromptVerified": true,
+    "reviewedAt": "2026-10-25T09:14:26+08:00"
+  }
+}

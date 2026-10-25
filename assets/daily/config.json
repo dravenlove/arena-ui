@@ -330,9 +330,11 @@
   "automation": {
     "id": "arena-ui",
     "status": "ACTIVE",
-    "firstScheduledRunCompleted": false,
+    "firstScheduledRunCompleted": true,
     "enabledTime": "09:00",
-    "timezone": "Asia/Shanghai"
+    "timezone": "Asia/Shanghai",
+    "firstCompletedDate": "2026-10-25",
+    "firstCompletedRunId": "20261025-090655"
   },
   "generationPolicy": {
     "maxToolCallsPerLocalDate": 4,
