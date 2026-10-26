@@ -2045,6 +2045,243 @@
         }
       },
       "completedAt": "2026-10-26T16:58:22+08:00"
+    },
+    {
+      "id": "20261026-203035-sprite",
+      "date": "2026-10-26",
+      "time": "20:30:35",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/26/20261026-203035-sprite/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "sunward-idle-sheet",
+          "label": "逐日剑士·待机动作图集",
+          "group": "library",
+          "promptVersion": "sprite-idle-v1",
+          "requestedSize": [
+            1024,
+            768
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: identity-preserve and stylized-concept. Asset type: production-oriented transparent sprite sheet for one 8-frame idle breathing animation. The attached image is the SINGLE character identity and equipment reference, not a background reference. Transform this one adult Sunward Swordsman into eight consecutive animation frames of the SAME character. Preserve his short dark hair, face, brushed silver segmented armor, dark cloth, leather belt, gold crossguard, right-hand longsword pointing down on the viewer's left, and left hand at his belt. Remove any background or wide halo completely; output genuine transparent alpha.\nLayout is mandatory: one 1024x768 PNG, EXACTLY FOUR columns by TWO rows of equal 256x384 cells, no gaps, no visible grid, no borders and no text. There are exactly EIGHT full-body figures, exactly one per cell. Reading order is left to right, then top row to bottom row. Use identical camera, lighting, proportions, armor design and framing in all cells. Within each cell keep the character's pelvis centered at x=140, the soles anchored to y=342, the top of the head approximately y=40, and the entire sword and both boots safely within x=24..232 and y=32..350. Match scale and foot placement precisely across all frames. Leave clear alpha margin around every figure and every weapon; nothing crosses cell boundaries.\nAction: one subtle continuous 1-second idle breath, no step and no turn. Frame 1 exhaled resting state. Frame 2 begins inhaling. Frame 3 chest expands very slightly. Frame 4 approaches full inhalation. Frame 5 inhalation peak. Frame 6 slowly exhales. Frame 7 chest and shoulders return downward. Frame 8 almost back to frame 1, followed by a smooth loop to frame 1. Pelvis, both feet and ground contact points stay completely locked. Chest and shoulder motion is only about 3 local pixels, head about 1 local pixel. The grip, right hand and sword move together as one connected system with at most 1-2 pixels of motion; sword shape, length and angle remain constant. No independent swaying sword. Left hand remains at belt. No pose changes, mirrored frames, different heroes, extra hands or weapons.\nStyle: the same premium dark fantasy painted 3D character as the reference, simplified consistently only in tiny scratches so the animation remains readable. Clean silhouette, stable facial features, consistent gold/silver/charcoal materials. Eight visibly sequential phases of ONE restrained breathing cycle, not eight unrelated portraits and not eight identical copies. No scenery, floor, shadow outside the cutout, particles, glow, lettering, numbers, logos or watermarks.",
+          "referencePath": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+          "path": "assets/daily/2026/10/26/20261026-203035-sprite/library/sunward-idle-sheet.png",
+          "promptSha256": "dfabb10f4c06cbbda9c205d64a1c30c00dd816be0ae068a514b1c43701cf52f4",
+          "size": [
+            1448,
+            1086
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1782879,
+          "sha256": "83f403a03a7ee2aeda2aef45bcd0eb1d7a984295aa8a6eee44c6b74f05720d09",
+          "recordedAt": "2026-10-26T21:44:07+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-26T20:30:36+08:00",
+            "resultObservedAt": "2026-10-26T21:44:07+08:00"
+          },
+          "sourceFile": "exec-10f9ab76-9890-47e0-bc6f-59c40f99ecb0.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.5879806273719769,
+            "alphaBounds": [
+              0,
+              1,
+              1426,
+              1086
+            ],
+            "reviewedAt": "2026-10-26T21:58:02+08:00",
+            "gridVerified": true,
+            "frameHashes": [
+              "f8dec34f50c72695d5ddee83ee49a101decf9f439b64ed1e960af362360792e5",
+              "240e1c79c3a1ee052c82ec0c1734657ede33372e33b7bd9170ab23b3c2c72970",
+              "2a7ebf43a5551017d0e527b5085f67f28d4dfe9ae067283076e1f7282d231bf0",
+              "b2245f6dbeaa9944652b439e9cf15617082c7d1d753d7fd52da640f8e3c4b8ad",
+              "fde338dde65aeae999cfdde30eec25a906bb53e6fa5120bc929efdfdf4b75ea5",
+              "50402b7677427f69e107406c99500e151cc1df402e5deacf8bad23dbdc766749",
+              "3608df66945b0d7a0def9e0f094eb359285ceecd73af488cc10ab15c66988715",
+              "0cef730b126bb01bc29ca0cf9a108fbce3b00f58c43b4daa34536f734c2c8f48"
+            ],
+            "frameAlpha128Bounds": [
+              [
+                25,
+                13,
+                322,
+                543
+              ],
+              [
+                18,
+                13,
+                316,
+                543
+              ],
+              [
+                10,
+                13,
+                309,
+                543
+              ],
+              [
+                4,
+                13,
+                303,
+                543
+              ],
+              [
+                25,
+                10,
+                322,
+                534
+              ],
+              [
+                19,
+                10,
+                318,
+                534
+              ],
+              [
+                11,
+                9,
+                310,
+                534
+              ],
+              [
+                4,
+                10,
+                306,
+                534
+              ]
+            ],
+            "uniqueDecodedFrames": 8,
+            "referenceHashVerified": true,
+            "originalBytesVerified": true,
+            "safeMarginRequirementMet": false
+          },
+          "referenceImages": [
+            {
+              "path": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+              "sha256": "c2b03a51ca7fc1a2ae75a81e62b59ca0c870717816c93ac71a4c155581876e65",
+              "role": "character-identity-and-equipment"
+            }
+          ],
+          "animationConfig": "assets/sprites/sunward-idle/animation.json",
+          "usage": {
+            "intendedSurface": "8帧待机循环、角色选择与编队预览",
+            "type": "sprite-sheet",
+            "frameCount": 8,
+            "columns": 4,
+            "rows": 2,
+            "sourceFrameSize": [
+              362,
+              543
+            ],
+            "integrationStatus": "browser-preview-only"
+          }
+        }
+      ],
+      "themeId": "sprite-animation",
+      "startedAt": "2026-10-26T20:30:35+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 1,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "sunward-idle-sheet",
+          "group": "library",
+          "startedAt": "2026-10-26T20:30:36+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "dfabb10f4c06cbbda9c205d64a1c30c00dd816be0ae068a514b1c43701cf52f4",
+          "resultObservedAt": "2026-10-26T21:44:07+08:00",
+          "outputPath": "assets/daily/2026/10/26/20261026-203035-sprite/library/sunward-idle-sheet.png",
+          "sourceFile": "exec-10f9ab76-9890-47e0-bc6f-59c40f99ecb0.png",
+          "decodeVerified": true
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "sunward-idle-sheet",
+          "label": "逐日剑士·待机动作图集",
+          "group": "library",
+          "filename": "sunward-idle-sheet.png",
+          "promptVersion": "sprite-idle-v1",
+          "requestedSize": [
+            1024,
+            768
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: identity-preserve and stylized-concept. Asset type: production-oriented transparent sprite sheet for one 8-frame idle breathing animation. The attached image is the SINGLE character identity and equipment reference, not a background reference. Transform this one adult Sunward Swordsman into eight consecutive animation frames of the SAME character. Preserve his short dark hair, face, brushed silver segmented armor, dark cloth, leather belt, gold crossguard, right-hand longsword pointing down on the viewer's left, and left hand at his belt. Remove any background or wide halo completely; output genuine transparent alpha.\nLayout is mandatory: one 1024x768 PNG, EXACTLY FOUR columns by TWO rows of equal 256x384 cells, no gaps, no visible grid, no borders and no text. There are exactly EIGHT full-body figures, exactly one per cell. Reading order is left to right, then top row to bottom row. Use identical camera, lighting, proportions, armor design and framing in all cells. Within each cell keep the character's pelvis centered at x=140, the soles anchored to y=342, the top of the head approximately y=40, and the entire sword and both boots safely within x=24..232 and y=32..350. Match scale and foot placement precisely across all frames. Leave clear alpha margin around every figure and every weapon; nothing crosses cell boundaries.\nAction: one subtle continuous 1-second idle breath, no step and no turn. Frame 1 exhaled resting state. Frame 2 begins inhaling. Frame 3 chest expands very slightly. Frame 4 approaches full inhalation. Frame 5 inhalation peak. Frame 6 slowly exhales. Frame 7 chest and shoulders return downward. Frame 8 almost back to frame 1, followed by a smooth loop to frame 1. Pelvis, both feet and ground contact points stay completely locked. Chest and shoulder motion is only about 3 local pixels, head about 1 local pixel. The grip, right hand and sword move together as one connected system with at most 1-2 pixels of motion; sword shape, length and angle remain constant. No independent swaying sword. Left hand remains at belt. No pose changes, mirrored frames, different heroes, extra hands or weapons.\nStyle: the same premium dark fantasy painted 3D character as the reference, simplified consistently only in tiny scratches so the animation remains readable. Clean silhouette, stable facial features, consistent gold/silver/charcoal materials. Eight visibly sequential phases of ONE restrained breathing cycle, not eight unrelated portraits and not eight identical copies. No scenery, floor, shadow outside the cutout, particles, glow, lettering, numbers, logos or watermarks.",
+          "referencePath": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+          "use": "8帧待机循环、角色选择与编队预览",
+          "path": "assets/daily/2026/10/26/20261026-203035-sprite/library/sunward-idle-sheet.png",
+          "promptSha256": "dfabb10f4c06cbbda9c205d64a1c30c00dd816be0ae068a514b1c43701cf52f4",
+          "referenceImages": [
+            {
+              "path": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+              "sha256": "c2b03a51ca7fc1a2ae75a81e62b59ca0c870717816c93ac71a4c155581876e65",
+              "role": "character-identity-and-equipment"
+            }
+          ]
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "sunward-idle-sheet",
+          "type": "sprite-animation-review",
+          "observations": [
+            "四列两行共八格，均为同一剑士；人物、长剑和双脚主要轮廓可见，没有文字或额外角色。",
+            "八帧实际像素不同；原始鞋底横向偏移最大21像素，下排鞋底比上排高9像素。预览只用显示位置偏移固定脚底，源图未改。",
+            "固定鞋底后，下排头顶仍低约6像素；装备纹理、高光和局部姿态变化造成闪烁，未严格形成均匀呼吸相位，循环连接仍有跳变。",
+            "真实alpha深浅底预览未出现工具展示中的大片白蓝色剑边背景；原始透明通道和所有像素完整保留。",
+            "实际1448x1086，与请求1024x768不同，按实际362x543网格切帧；显示留白通过402x583画布实现，不重新生成或缩放人物。",
+            "人物比例与脚底安全留白不完全满足提示要求，本次交付为可播放样片，尚未在微信小程序实机验证。"
+          ]
+        }
+      ],
+      "notes": [
+        "用户明确请求先生成一套sprite看效果；以既有逐日剑士为参考生成一张8帧待机图集，并制作可播放预览。",
+        "本日已有4次定时调用与10次手动追加调用；本次按用户新的sprite请求追加，自动化与冻结基准保持不变。",
+        "模型与随机种子未由工具返回时如实记录为unreported/null。",
+        "只有一次内置工具调用，使用既有逐日剑士原图为唯一参考。新建本地动作播放器与通用JSON，未使用付费API、未用静态图缩放或补帧冒充生成动作。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "你能帮我先生成一套吗，我想看下效果",
+        "plannedAdditionalCalls": 1,
+        "scheduledCallsAlreadyToday": 4,
+        "manualCallsAlreadyToday": 10
+      },
+      "completedAt": "2026-10-26T21:58:02+08:00",
+      "validation": {
+        "successfulDecodedAssets": 1,
+        "decodedAnimationFrames": 8,
+        "attempts": 1,
+        "historyPageVerified": true,
+        "historyDateAssetCount": 15,
+        "previewPage": "demo/sprites.html",
+        "browserTests": {
+          "command": "npx playwright test tests/sprites.spec.js",
+          "passed": 5,
+          "failed": 0
+        },
+        "mobile390Overflow": false,
+        "lightAndDarkAlphaPreviewVerified": true,
+        "originalFilesPreserved": true,
+        "referenceHashVerified": true,
+        "reviewedAt": "2026-10-26T21:58:02+08:00"
+      }
     }
   ]
 }

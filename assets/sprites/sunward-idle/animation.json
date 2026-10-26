@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "sunward-idle-v1",
+  "label": "逐日剑士 · 待机动作",
+  "description": "8 帧待机动作实验。播放观察细微变化，也可以暂停检查每一帧。",
+  "image": "assets/daily/2026/10/26/20261026-203035-sprite/library/sunward-idle-sheet.png",
+  "referenceImage": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+  "sourceManifest": "assets/daily/2026/10/26/20261026-203035-sprite/manifest.json",
+  "fps": 8,
+  "loop": true,
+  "frameSize": [402, 583],
+  "sourceFrameSize": [362, 543],
+  "sourceSize": [1448, 1086],
+  "requestedSourceSize": [1024, 768],
+  "drawOffset": [20, 20],
+  "alignmentDefault": true,
+  "alignmentMethod": "Translation only: align the visible lower boot sole center at alpha >= 128 to frame 1; preserve original pixels, scale and poses.",
+  "frames": [
+    {"x": 0, "y": 0, "w": 362, "h": 543, "dx": 0, "dy": 0},
+    {"x": 362, "y": 0, "w": 362, "h": 543, "dx": 7, "dy": 0},
+    {"x": 724, "y": 0, "w": 362, "h": 543, "dx": 15, "dy": 0},
+    {"x": 1086, "y": 0, "w": 362, "h": 543, "dx": 21, "dy": 0},
+    {"x": 0, "y": 543, "w": 362, "h": 543, "dx": 0, "dy": 9},
+    {"x": 362, "y": 543, "w": 362, "h": 543, "dx": 6, "dy": 9},
+    {"x": 724, "y": 543, "w": 362, "h": 543, "dx": 14, "dy": 9},
+    {"x": 1086, "y": 543, "w": 362, "h": 543, "dx": 20, "dy": 9}
+  ],
+  "review": [
+    "八格均为同一剑士，实际图集 1448 × 1086；每格 362 × 543，原图完整保留。",
+    "原始各帧存在横向漂移和上下排脚底差异。固定脚底仅移动每帧的显示位置，不重绘人物、不补帧；可关闭比较原始效果。",
+    "这一版仍有装备细节与高光变化，下排人物在脚底对齐后略矮，循环衔接有细小跳变；呼吸节奏并不完全平顺，属于可播放的效果样本。",
+    "尚未接入微信小程序或制作走路、攻击动作；当前预览使用真实生成的八帧，没有用整体缩放伪造呼吸。"
+  ]
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1116">
+  <meta name="description" content="播放、暂停和逐帧查看 Arena UI 角色待机动画。">
+  <title>人物动作预览 · Arena UI</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../tokens/tokens.css">
+  <link rel="stylesheet" href="./sprites.css">
+  <script src="./sprites.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到动画预览</a>
+  <header class="topbar">
+    <a class="brand" href="./index.html">ARENA <b>UI</b><span>CHARACTER MOTION</span></a>
+    <nav aria-label="预览导航"><a href="./history.html">时间档案</a><a href="./index.html">组件库 ↗</a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">从一张立绘，到一个动作</p>
+      <h1 id="page-title">人物动作预览</h1>
+      <p id="description">观察呼吸、轮廓与武器，看看连续播放时的实际效果。</p>
+    </section>
+    <p id="load-status" class="load-status" role="status">正在读取动作素材…</p>
+    <button id="retry" type="button" class="button" hidden>重新加载</button>
+    <div id="player" class="player" data-ready="false">
+      <section class="viewer" aria-label="人物动画">
+        <div class="viewer-topline">
+          <div class="segmented" role="group" aria-label="查看方式">
+            <button type="button" data-view="animation" aria-pressed="true" disabled>动画</button>
+            <button type="button" data-view="sheet" aria-pressed="false" disabled>整张图集</button>
+          </div>
+          <span id="play-state" class="play-state">等待素材</span>
+        </div>
+        <div id="stage" class="stage" data-background="dark">
+          <canvas id="sprite-canvas" width="256" height="384" role="img" aria-label="角色待机动作预览">浏览器需要支持 Canvas 才能播放动画。</canvas>
+          <img id="sprite-sheet" class="sprite-sheet" alt="按播放顺序排列的完整动作图集" hidden>
+        </div>
+        <div class="viewer-bottomline"><span id="frame-count">— / —</span><span id="loop-summary">逐帧检查人物与装备</span></div>
+      </section>
+      <aside class="controls" aria-labelledby="controls-title">
+        <div class="control-heading"><span class="eyebrow">MOTION STUDY</span><h2 id="controls-title">让动作慢下来</h2><p>先播放一遍，再停在任何一帧看细节。</p></div>
+        <div class="transport">
+          <button id="previous" class="button" type="button" aria-label="上一帧" disabled>←</button>
+          <button id="toggle-play" class="button primary" type="button" disabled>播放</button>
+          <button id="next" class="button" type="button" aria-label="下一帧" disabled>→</button>
+        </div>
+        <label class="slider-label" for="frame-slider"><span>当前帧</span><output id="frame-output" for="frame-slider">—</output></label>
+        <input id="frame-slider" type="range" min="0" max="7" value="0" step="1" aria-label="当前帧" disabled>
+        <div id="frame-buttons" class="frame-buttons" role="group" aria-label="选择动作帧"></div>
+        <div class="control-section">
+          <label class="alignment-choice"><input id="align-feet" type="checkbox" checked disabled><span>固定脚底<small>关闭可比较原始位置变化</small></span></label>
+          <label class="field" for="play-speed"><span>播放速度</span><select id="play-speed" disabled><option value="4">慢速 · 4 帧／秒</option><option value="8" selected>原速 · 8 帧／秒</option><option value="12">快速 · 12 帧／秒</option></select></label>
+          <fieldset class="background-choice"><legend>查看背景</legend><div class="segmented" role="group" aria-label="查看背景"><button type="button" data-background="dark" aria-pressed="true" disabled>深色</button><button type="button" data-background="light" aria-pressed="false" disabled>浅色</button><button type="button" data-background="checker" aria-pressed="false" disabled>棋盘</button></div></fieldset>
+        </div>
+        <p id="motion-note" class="motion-note" hidden>已遵循系统的减少动态效果设置，点击播放可查看动画。</p>
+        <div class="downloads" aria-label="下载素材"><a id="download-png" class="download" hidden>下载图集 PNG ↓</a><a id="download-json" class="download" hidden>下载动作配置 ↓</a><a id="reference-link" class="reference" target="_blank" rel="noreferrer" hidden>查看原始人物 ↗</a></div>
+      </aside>
+    </div>
+    <section id="review-section" class="review-section" aria-labelledby="review-title" hidden><div><p class="eyebrow">看见的变化，也一起留下</p><h2 id="review-title">这一版的观察</h2></div><ul id="review-list"></ul></section>
+    <footer><span>ARENA UI · 人物动作实验</span><a href="./history.html">查看素材与生成记录 ↗</a></footer>
+  </main>
+  <noscript>请启用 JavaScript 播放和逐帧查看人物动作。</noscript>
+</body>
+</html>
