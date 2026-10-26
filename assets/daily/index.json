@@ -1569,6 +1569,482 @@
           "observation": "六种轮廓可辨；碎盾深色细节较暗，金属细纹缩小时弱化。"
         }
       }
+    },
+    {
+      "id": "20261026-164915-characters",
+      "date": "2026-10-26",
+      "time": "16:49:15",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/26/20261026-164915-characters/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "sunward-swordsman",
+          "label": "逐日剑士",
+          "group": "library",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult male human swordsman with short dark hair, a calm determined visible face and an athletic build. Lightweight articulated brushed silver breastplate and compact shoulder armor over charcoal cloth, dark leather belt and fitted armored boots. One silver longsword with a restrained gold crossguard held in his right hand pointing diagonally down beside his right boot, the entire blade clear of the legs and frame. Left hand rests naturally on his belt. No cape, no helmet, no shield. The sword is a normal practical length, not oversized. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+          "promptSha256": "f5cbd5125373fd14d5ce871178abcf6fe5b4a82f0df8f5d0c04bad2e8782efd0",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1818209,
+          "sha256": "c2b03a51ca7fc1a2ae75a81e62b59ca0c870717816c93ac71a4c155581876e65",
+          "recordedAt": "2026-10-26T16:53:25+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-26T16:49:16+08:00",
+            "resultObservedAt": "2026-10-26T16:53:25+08:00"
+          },
+          "sourceFile": "exec-e3c69073-2ca4-4faf-9961-eefcca210a6c.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.7381381988525391,
+            "alphaBounds": [
+              39,
+              23,
+              996,
+              1517
+            ],
+            "reviewedAt": "2026-10-26T16:56:46+08:00",
+            "alphaBoundsAt16": [
+              88,
+              60,
+              804,
+              1423
+            ],
+            "lowAlphaPixelCount": 28215,
+            "safeMarginRequirementMet": false
+          },
+          "usage": {
+            "intendedSurface": "近战输出职业、角色选择、养成详情",
+            "keepAspectRatio": true,
+            "textBakedIn": false,
+            "integrationStatus": "asset-only",
+            "animationFrames": false
+          }
+        },
+        {
+          "id": "frostfeather-ranger",
+          "label": "霜羽游侠",
+          "group": "library",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult female human ranger with dark braided hair pulled back, alert visible face, lean athletic build. Practical fully covering charcoal leather armor, fitted trousers and leather boots, a short slate-gray shoulder cape ending above the waist, modest silver buckles. Hold one slim recurved longbow vertically down at her left side with her left hand, with visible single taut bowstring and coherent limbs; right hand relaxed at the belt. A compact quiver on the back with a few pale silver-gray fletchings. No arrow drawn, no magical arrows, no long flowing cape, no exposed midriff. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/frostfeather-ranger.png",
+          "promptSha256": "fae87a30b5b87a36603d7ac2702f535627b6b067e12d3b524bc37cf916a80e2a",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1722030,
+          "sha256": "162f8598d279e097e820c5449c3718f3a586b508309a378649e47c3e971da393",
+          "recordedAt": "2026-10-26T16:53:25+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-26T16:49:16+08:00",
+            "resultObservedAt": "2026-10-26T16:53:25+08:00"
+          },
+          "sourceFile": "exec-ac7f84a7-3cee-4c18-b0cf-c7cced6d2a0a.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.7591101328531901,
+            "alphaBounds": [
+              24,
+              49,
+              1004,
+              1512
+            ],
+            "reviewedAt": "2026-10-26T16:56:46+08:00",
+            "alphaBoundsAt16": [
+              277,
+              71,
+              850,
+              1459
+            ],
+            "lowAlphaPixelCount": 29246,
+            "safeMarginRequirementMet": false
+          },
+          "usage": {
+            "intendedSurface": "远程输出职业、编队、角色详情",
+            "keepAspectRatio": true,
+            "textBakedIn": false,
+            "integrationStatus": "asset-only",
+            "animationFrames": false
+          }
+        },
+        {
+          "id": "starlight-mage",
+          "label": "星辉法师",
+          "group": "library",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult female human mage with medium warm skin, dark silver-streaked hair neatly tied back, composed visible face. A fully covering charcoal layered long robe with tailored shoulder structure and simple silver fasteners, narrow waist belt, sturdy visible boots and a short high collar without a hood. Hold one straight dark staff in her right hand beside the body, topped with one small contained cyan energy crystal; the full staff from tip to foot must fit inside the frame. Left hand relaxed near her waist. No spell circle, no hovering objects, no large aura, no long train; only the staff crystal glows. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/starlight-mage.png",
+          "promptSha256": "41ca653676186f89c9a3b0f361964d2dc6cdb7545a6d653c5b64ab7fc7a20ff6",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1886388,
+          "sha256": "232ba6287c082d65b9c4f86a60fe726cc6125d076c53deb5a8a9f4581ff06b76",
+          "recordedAt": "2026-10-26T16:53:26+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-26T16:49:17+08:00",
+            "resultObservedAt": "2026-10-26T16:53:26+08:00"
+          },
+          "sourceFile": "exec-7e41a002-5bb8-4717-8490-643d381d54c1.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.67266845703125,
+            "alphaBounds": [
+              0,
+              29,
+              1008,
+              1512
+            ],
+            "reviewedAt": "2026-10-26T16:56:46+08:00",
+            "alphaBoundsAt16": [
+              194,
+              97,
+              850,
+              1455
+            ],
+            "lowAlphaPixelCount": 34308,
+            "safeMarginRequirementMet": false
+          },
+          "usage": {
+            "intendedSurface": "法术输出职业、技能养成、角色详情",
+            "keepAspectRatio": true,
+            "textBakedIn": false,
+            "integrationStatus": "asset-only",
+            "animationFrames": false
+          }
+        },
+        {
+          "id": "ironwall-guardian",
+          "label": "铁壁守卫",
+          "group": "library",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult male human guardian with a broad stocky build, dark skin, short cropped hair and a close beard, confident visible face. Heavy brushed silver and dark steel plate armor with thick broad pauldrons, charcoal padded underlayers, articulated greaves and heavy boots. A medium-tall rectangular dark steel tower shield with silver reinforced edges on his left forearm, tilted outward at his side so his torso and both legs remain visible. His right hand holds a compact steel mace pointing down beside his other leg. Small plain gold rank clasp at collar. No helmet, no horns, no huge cape, no emblems or writing. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/ironwall-guardian.png",
+          "promptSha256": "ac8855b67fdbcb84b32afaed6158318e4ef30edf8179caa0315633f81cf9c76b",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2300902,
+          "sha256": "f456993ee7d7876b5a58ceac95ce3cf88bd4d774fe50b7031302f784cc9d59bc",
+          "recordedAt": "2026-10-26T16:53:27+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-26T16:49:18+08:00",
+            "resultObservedAt": "2026-10-26T16:53:27+08:00"
+          },
+          "sourceFile": "exec-0b5992a4-7c2e-431d-ad76-767deb187ac6.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.5579427083333334,
+            "alphaBounds": [
+              27,
+              39,
+              976,
+              1512
+            ],
+            "reviewedAt": "2026-10-26T16:56:46+08:00",
+            "alphaBoundsAt16": [
+              108,
+              120,
+              970,
+              1430
+            ],
+            "lowAlphaPixelCount": 26743,
+            "safeMarginRequirementMet": false
+          },
+          "usage": {
+            "intendedSurface": "防御职业、前排编队、角色详情",
+            "keepAspectRatio": true,
+            "textBakedIn": false,
+            "integrationStatus": "asset-only",
+            "animationFrames": false
+          }
+        }
+      ],
+      "themeId": "miniprogram-characters",
+      "startedAt": "2026-10-26T16:49:15+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "sunward-swordsman",
+          "group": "library",
+          "startedAt": "2026-10-26T16:49:16+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "f5cbd5125373fd14d5ce871178abcf6fe5b4a82f0df8f5d0c04bad2e8782efd0",
+          "resultObservedAt": "2026-10-26T16:53:25+08:00",
+          "outputPath": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+          "sourceFile": "exec-e3c69073-2ca4-4faf-9961-eefcca210a6c.png",
+          "decodeVerified": true
+        },
+        {
+          "number": 2,
+          "slotId": "frostfeather-ranger",
+          "group": "library",
+          "startedAt": "2026-10-26T16:49:16+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "fae87a30b5b87a36603d7ac2702f535627b6b067e12d3b524bc37cf916a80e2a",
+          "resultObservedAt": "2026-10-26T16:53:25+08:00",
+          "outputPath": "assets/daily/2026/10/26/20261026-164915-characters/library/frostfeather-ranger.png",
+          "sourceFile": "exec-ac7f84a7-3cee-4c18-b0cf-c7cced6d2a0a.png",
+          "decodeVerified": true
+        },
+        {
+          "number": 3,
+          "slotId": "starlight-mage",
+          "group": "library",
+          "startedAt": "2026-10-26T16:49:17+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "41ca653676186f89c9a3b0f361964d2dc6cdb7545a6d653c5b64ab7fc7a20ff6",
+          "resultObservedAt": "2026-10-26T16:53:26+08:00",
+          "outputPath": "assets/daily/2026/10/26/20261026-164915-characters/library/starlight-mage.png",
+          "sourceFile": "exec-7e41a002-5bb8-4717-8490-643d381d54c1.png",
+          "decodeVerified": true
+        },
+        {
+          "number": 4,
+          "slotId": "ironwall-guardian",
+          "group": "library",
+          "startedAt": "2026-10-26T16:49:18+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "ac8855b67fdbcb84b32afaed6158318e4ef30edf8179caa0315633f81cf9c76b",
+          "resultObservedAt": "2026-10-26T16:53:27+08:00",
+          "outputPath": "assets/daily/2026/10/26/20261026-164915-characters/library/ironwall-guardian.png",
+          "sourceFile": "exec-0b5992a4-7c2e-431d-ad76-767deb187ac6.png",
+          "decodeVerified": true
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "sunward-swordsman",
+          "label": "逐日剑士",
+          "use": "近战输出职业、角色选择、养成详情",
+          "group": "library",
+          "filename": "sunward-swordsman.png",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult male human swordsman with short dark hair, a calm determined visible face and an athletic build. Lightweight articulated brushed silver breastplate and compact shoulder armor over charcoal cloth, dark leather belt and fitted armored boots. One silver longsword with a restrained gold crossguard held in his right hand pointing diagonally down beside his right boot, the entire blade clear of the legs and frame. Left hand rests naturally on his belt. No cape, no helmet, no shield. The sword is a normal practical length, not oversized. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+          "promptSha256": "f5cbd5125373fd14d5ce871178abcf6fe5b4a82f0df8f5d0c04bad2e8782efd0"
+        },
+        {
+          "id": "frostfeather-ranger",
+          "label": "霜羽游侠",
+          "use": "远程输出职业、编队、角色详情",
+          "group": "library",
+          "filename": "frostfeather-ranger.png",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult female human ranger with dark braided hair pulled back, alert visible face, lean athletic build. Practical fully covering charcoal leather armor, fitted trousers and leather boots, a short slate-gray shoulder cape ending above the waist, modest silver buckles. Hold one slim recurved longbow vertically down at her left side with her left hand, with visible single taut bowstring and coherent limbs; right hand relaxed at the belt. A compact quiver on the back with a few pale silver-gray fletchings. No arrow drawn, no magical arrows, no long flowing cape, no exposed midriff. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/frostfeather-ranger.png",
+          "promptSha256": "fae87a30b5b87a36603d7ac2702f535627b6b067e12d3b524bc37cf916a80e2a"
+        },
+        {
+          "id": "starlight-mage",
+          "label": "星辉法师",
+          "use": "法术输出职业、技能养成、角色详情",
+          "group": "library",
+          "filename": "starlight-mage.png",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult female human mage with medium warm skin, dark silver-streaked hair neatly tied back, composed visible face. A fully covering charcoal layered long robe with tailored shoulder structure and simple silver fasteners, narrow waist belt, sturdy visible boots and a short high collar without a hood. Hold one straight dark staff in her right hand beside the body, topped with one small contained cyan energy crystal; the full staff from tip to foot must fit inside the frame. Left hand relaxed near her waist. No spell circle, no hovering objects, no large aura, no long train; only the staff crystal glows. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/starlight-mage.png",
+          "promptSha256": "41ca653676186f89c9a3b0f361964d2dc6cdb7545a6d653c5b64ab7fc7a20ff6"
+        },
+        {
+          "id": "ironwall-guardian",
+          "label": "铁壁守卫",
+          "use": "防御职业、前排编队、角色详情",
+          "group": "library",
+          "filename": "ironwall-guardian.png",
+          "promptVersion": "miniprogram-character-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: an adult male human guardian with a broad stocky build, dark skin, short cropped hair and a close beard, confident visible face. Heavy brushed silver and dark steel plate armor with thick broad pauldrons, charcoal padded underlayers, articulated greaves and heavy boots. A medium-tall rectangular dark steel tower shield with silver reinforced edges on his left forearm, tilted outward at his side so his torso and both legs remain visible. His right hand holds a compact steel mace pointing down beside his other leg. Small plain gold rank clasp at collar. No helmet, no horns, no huge cape, no emblems or writing. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained brushed metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8; small warm gold #f2b632 equipment details, cyan #3ec7e0 only for magical energy. No red or green decorative trim. Camera: eye-level nearly orthographic full-body three-quarter front view, neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, cloak hem, both boots and the full weapon. Keep at least 12 percent clear space above the head and below both soles, at least 15 percent clear space beside every weapon or garment; subject including all equipment occupies no more than 76 percent of image height and 70 percent of image width. Both feet at a consistent horizontal baseline, no pedestal, no ground plane, no scene, no cast shadow outside the cutout, no painted checkerboard. Clean cutout edges. No text, letters, numbers, logos, border, interface, stats, watermarks, extra characters, duplicate limbs or detached equipment. A static isolated character asset, not a character sheet or collage.",
+          "path": "assets/daily/2026/10/26/20261026-164915-characters/library/ironwall-guardian.png",
+          "promptSha256": "ac8855b67fdbcb84b32afaed6158318e4ef30edf8179caa0315633f81cf9c76b"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "sunward-swordsman",
+          "type": "library-review",
+          "observations": [
+            "全身、双脚及剑尖完整，握剑位置与护手衔接自然，另一手扶腰，无误带文字或明显额外肢体。",
+            "银甲覆盖较多，视觉更接近中甲，但体格与轮廓仍轻于守卫；头脚留白没有达到要求，脚底位置与其他角色未严格对齐。",
+            "实际1024x1536与请求一致；真实透明alpha范围0-254，原始输出字节保留，无重抽或修图。",
+            "所有装备与双脚可见，但人物高度、脚底基线和请求的头脚安全留白未完全统一，界面接入时需分别设置缩放与对齐。"
+          ]
+        },
+        {
+          "assetId": "frostfeather-ranger",
+          "type": "library-review",
+          "observations": [
+            "短斗篷、箭囊与长弓区分明确，握弓手与弓柄衔接可读，双脚与弓梢完整；弓弦可见且未见明显断开。",
+            "弓弦很细，小尺寸会弱化或消失；脸型与法师接近，主要依靠弓箭和皮甲区分职业。",
+            "实际1024x1536与请求一致；真实透明alpha范围0-254，原始输出字节保留，无重抽或修图。",
+            "所有装备与双脚可见，但人物高度、脚底基线和请求的头脚安全留白未完全统一，界面接入时需分别设置缩放与对齐。"
+          ]
+        },
+        {
+          "assetId": "starlight-mage",
+          "type": "library-review",
+          "observations": [
+            "长袍、宽袖与青色晶石法杖构成独立职业轮廓，握杖手可读，双脚与法杖两端均完整；另一手为自然下垂，偏离提示词的腰部姿态。",
+            "细杖杆靠近袍身，小尺寸下需要足够展示空间；左侧画布边缘有极低alpha像素，可见主体没有被裁切。",
+            "实际1024x1536与请求一致；真实透明alpha范围0-254，原始输出字节保留，无重抽或修图。",
+            "所有装备与双脚可见，但人物高度、脚底基线和请求的头脚安全留白未完全统一，界面接入时需分别设置缩放与对齐。"
+          ]
+        },
+        {
+          "assetId": "ironwall-guardian",
+          "type": "library-review",
+          "observations": [
+            "宽肩重甲、塔盾与钉锤具有清楚的防御职业特征，两腿、双脚及武器末端完整，无误带文字或明显额外肢体。",
+            "持盾手臂与手被盾遮挡，不能从这一视角验证盾背握持结构；主体最宽，右侧盾牌留白较小。",
+            "实际1024x1536与请求一致；真实透明alpha范围0-254，原始输出字节保留，无重抽或修图。",
+            "所有装备与双脚可见，但人物高度、脚底基线和请求的头脚安全留白未完全统一，界面接入时需分别设置缩放与对齐。"
+          ]
+        }
+      ],
+      "notes": [
+        "用户明确追加请求：生成一些人物素材吧。本批单独手动追加4张竞技／角色养成全身立绘，不属于每日定时批次。",
+        "本日已有4次定时调用与6次手动追加调用；此次按最新人物请求另追加4次，自动化每日4张与冻结基准保持不变。",
+        "模型与随机种子未由工具返回时如实记录为unreported/null。",
+        "原图解码、尺寸、文件/提示词哈希与工具源文件字节一致性均通过；深浅底两种手机展示尺寸已检查。历史页当日共14张，分为本次4张、此前手动6张、定时4张；原有固定题目跨日对照保持正确。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "生成一些人物素材吧",
+        "plannedAdditionalCalls": 4,
+        "scheduledCallsAlreadyToday": 4,
+        "manualCallsAlreadyToday": 6
+      },
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "benchmarkAssets": 0,
+        "libraryAssets": 4,
+        "attempts": 4,
+        "noResampling": true,
+        "originalFilesPreserved": true,
+        "manualAdditionalAuthorizationRecorded": true,
+        "historyPageVerified": true,
+        "reviewedAt": "2026-10-26T16:58:22+08:00",
+        "historyDateAssetCount": 14,
+        "historyScheduledAssetCount": 4,
+        "historyEarlierManualAssetCount": 6,
+        "historyThisRunAssetCount": 4,
+        "crossDateBenchmarkSelectionPreserved": true,
+        "thumbnailReview": {
+          "sizesCssPx": [
+            [
+              128,
+              192
+            ],
+            [
+              192,
+              288
+            ]
+          ],
+          "backgrounds": [
+            "#171c24",
+            "#f2f4f8"
+          ],
+          "completeFiguresAndWeapons": true,
+          "visibleOpaqueBackdrop": false,
+          "observation": "原PNG按真实alpha显示后没有工具预览中的宽灰晕，也没有脚底实心底板；深色皮甲与细弓弦在浅底更清楚。"
+        }
+      },
+      "completedAt": "2026-10-26T16:58:22+08:00"
     }
   ]
 }
