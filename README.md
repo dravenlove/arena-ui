@@ -25,6 +25,8 @@ npm run dev
 
 新图片按 `assets/daily/YYYY/MM/DD/<run-id>/` 归档，原图、提示词、校验值与生成记录保留在一起。初次会话已有的八张图片索引为首次手动记录，不代表定时任务已经执行。固定题目使用冻结提示词，不为挑选更好结果而重抽；随机差异与模型升级分开记录。配置见 [assets/daily/config.json](assets/daily/config.json)，执行说明见 [docs/DAILY_GENERATION.md](docs/DAILY_GENERATION.md)。
 
+2026-10-26 另按用户请求追加了 [6 张微信竞技／角色养成透明素材](docs/MINIPROGRAM_ASSETS.md)：奖杯、碎盾、传送门、任务板、锻造台和钥匙。手动追加与定时批次分别记录，原图及用途说明可直接在档案中查看。
+
 定时任务依赖本地电脑开机、桌面应用运行，以及图像工具和账户额度可用；启用计划不等于首个自动批次已验证成功。
 
 ## 原则 (Principles)

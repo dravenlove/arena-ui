@@ -1,0 +1,664 @@
+{
+  "id": "20261026-163304-manual",
+  "date": "2026-10-26",
+  "time": "16:33:04",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/26/20261026-163304-manual/manifest.json",
+  "kind": "manual-extension",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "victory-trophy",
+      "label": "胜利桂冠奖杯",
+      "group": "library",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One compact championship trophy: a broad brushed gold cup, two thick laurel-shaped handles, a dark steel plinth and one simple embossed star without writing. Strong iconic silhouette with an easy-to-read bowl and base. No floating confetti. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/victory-trophy.png",
+      "promptSha256": "6edaadd854d30ea9a9ece0b4355049e1f577cc67e9a6452cb716071072adc903",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1384448,
+      "sha256": "d55fce1c58063d9dcb2ef780f7d8debeb1337903b70c4893d6d8ed3a8b679e8b",
+      "recordedAt": "2026-10-26T16:35:43+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T16:33:16+08:00",
+        "resultObservedAt": "2026-10-26T16:35:43+08:00"
+      },
+      "sourceFile": "exec-7ad64fb5-ffa8-4471-86c0-0a183f687e89.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6113801067842871,
+        "alphaBounds": [
+          0,
+          36,
+          1228,
+          1236
+        ],
+        "reviewedAt": "2026-10-26T16:41:50+08:00",
+        "alphaBoundsAt16": [
+          93,
+          113,
+          1162,
+          1141
+        ],
+        "lowAlphaPixelCount": 23105,
+        "safeMarginRequirementMet": false
+      },
+      "usage": {
+        "intendedSurface": "胜利结算、赛季奖励",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only"
+      }
+    },
+    {
+      "id": "defeat-shield",
+      "label": "战败碎裂盾牌",
+      "group": "library",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One battered circular dark steel shield, its face split into two large readable sections with a small broken silver sword resting diagonally in front. A restrained thin red fracture expresses damage. A compact cohesive cluster, all pieces fully visible. No blood or characters. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/defeat-shield.png",
+      "promptSha256": "0a569fc2685b2a2ff079c6adecb684d933155ed91194b8b4e10eaf456c0fb331",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1637867,
+      "sha256": "b68bd50558af7f010d4adc4aab170fe32f70083ce548d1a6cc017b7b21e10586",
+      "recordedAt": "2026-10-26T16:35:44+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T16:33:16+08:00",
+        "resultObservedAt": "2026-10-26T16:35:44+08:00"
+      },
+      "sourceFile": "exec-9cc117aa-647c-4bb4-8218-b66abc8df2f2.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6197628513795727,
+        "alphaBounds": [
+          0,
+          9,
+          1188,
+          1254
+        ],
+        "reviewedAt": "2026-10-26T16:41:50+08:00",
+        "alphaBoundsAt16": [
+          106,
+          159,
+          1122,
+          1096
+        ],
+        "lowAlphaPixelCount": 17302,
+        "safeMarginRequirementMet": false
+      },
+      "usage": {
+        "intendedSurface": "失败结算、重试提示",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only"
+      }
+    },
+    {
+      "id": "checkpoint-gate",
+      "label": "关卡传送门",
+      "group": "library",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One small freestanding fantasy checkpoint portal: a sturdy low charcoal stone arch bound by brushed silver braces, a restrained cyan energy membrane contained strictly inside the arch, two broad entrance steps. Show the complete self-contained miniature gateway, three-quarter view, no surrounding scenery. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/checkpoint-gate.png",
+      "promptSha256": "76c6abc83013a564fcc0e376098afe3796a7682b1c8d9ecaecac04cc6a363855",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1394401,
+      "sha256": "7035ffa6da7ff787e87bf09f2c568133cd4d271a9d907087f505f000a63878a9",
+      "recordedAt": "2026-10-26T16:35:45+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T16:33:17+08:00",
+        "resultObservedAt": "2026-10-26T16:35:45+08:00"
+      },
+      "sourceFile": "exec-47a808f6-3d6a-46d9-9504-92f328e08d43.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.601458427132061,
+        "alphaBounds": [
+          0,
+          145,
+          1240,
+          1254
+        ],
+        "reviewedAt": "2026-10-26T16:41:50+08:00",
+        "alphaBoundsAt16": [
+          140,
+          180,
+          1116,
+          1104
+        ],
+        "lowAlphaPixelCount": 12095,
+        "safeMarginRequirementMet": false
+      },
+      "usage": {
+        "intendedSurface": "关卡选择、冒险入口",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only"
+      }
+    },
+    {
+      "id": "bounty-board",
+      "label": "每日悬赏任务板",
+      "group": "library",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One freestanding compact quest noticeboard of weathered charcoal wood and dark forged steel, two legs on a small stone foot, three clearly separated blank ivory parchment notes held by plain round gold seals. The parchment must be entirely blank. Show the entire board and feet, three-quarter view. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/bounty-board.png",
+      "promptSha256": "782f6c66b5c4d8fcfdf8580f25559f665b0c914d3557cdaff56bc232fc96901b",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1638479,
+      "sha256": "a3db76baf476788e3b8fb0e0de8db2e14147a6fd01e63672d3bdb0f42a3fcd22",
+      "recordedAt": "2026-10-26T16:39:07+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T16:35:45+08:00",
+        "resultObservedAt": "2026-10-26T16:39:07+08:00"
+      },
+      "sourceFile": "exec-d78973a1-bd0b-4310-aca3-9e324ec3039a.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.5157734484100639,
+        "alphaBounds": [
+          0,
+          22,
+          1234,
+          1254
+        ],
+        "reviewedAt": "2026-10-26T16:41:50+08:00",
+        "alphaBoundsAt16": [
+          71,
+          78,
+          1187,
+          1162
+        ],
+        "lowAlphaPixelCount": 21059,
+        "safeMarginRequirementMet": false
+      },
+      "usage": {
+        "intendedSurface": "每日任务、委托入口",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only"
+      }
+    },
+    {
+      "id": "forge-anvil",
+      "label": "装备锻造台",
+      "group": "library",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One compact portable blacksmith workstation: a heavy brushed dark steel anvil mounted on a squat charcoal stone base, a silver-headed hammer resting across the anvil, a small neat bundle of silver ingots beside the base. Simple bold large forms, sparse detailing, slight three-quarter view. No fire, sparks or scenery. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/forge-anvil.png",
+      "promptSha256": "a3972266cc9d49ac013edc5b5af26617a3126b14787ebbf30b7a032208ee20f1",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1515544,
+      "sha256": "b46261cab80b94047a4482600a8da36e5014ea353c59b30e92d18ba3bb859e5d",
+      "recordedAt": "2026-10-26T16:39:08+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T16:35:46+08:00",
+        "resultObservedAt": "2026-10-26T16:39:08+08:00"
+      },
+      "sourceFile": "exec-95b623b1-d149-4462-9f8d-181433946aee.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.5968855006880693,
+        "alphaBounds": [
+          0,
+          23,
+          1222,
+          1254
+        ],
+        "reviewedAt": "2026-10-26T16:41:50+08:00",
+        "alphaBoundsAt16": [
+          123,
+          158,
+          1154,
+          1122
+        ],
+        "lowAlphaPixelCount": 17250,
+        "safeMarginRequirementMet": false
+      },
+      "usage": {
+        "intendedSurface": "装备强化、合成入口",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only"
+      }
+    },
+    {
+      "id": "dungeon-key",
+      "label": "地城通行钥匙",
+      "group": "library",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One ornate but bold dungeon key, diagonally oriented from upper left to lower right, with a large angular brushed-gold bow, dark steel shaft and three thick silver teeth; the bow contains a simple solid gold lozenge. Entire key visible, broad readable proportions, no chain or extra keys. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/dungeon-key.png",
+      "promptSha256": "e117e102237151def2c0adea4423c214d93576dd6ff91569f760e5bc939e614a",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 692934,
+      "sha256": "8dffb72c3c765745f291a0674d7e33f47e7aeddf7061d40ebd56a7cce2b72154",
+      "recordedAt": "2026-10-26T16:39:09+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T16:35:47+08:00",
+        "resultObservedAt": "2026-10-26T16:39:09+08:00"
+      },
+      "sourceFile": "exec-1015834f-7c88-48df-a66c-3209a356018c.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.8360652610211915,
+        "alphaBounds": [
+          0,
+          25,
+          1240,
+          1254
+        ],
+        "reviewedAt": "2026-10-26T16:41:50+08:00",
+        "alphaBoundsAt16": [
+          162,
+          123,
+          1091,
+          1141
+        ],
+        "lowAlphaPixelCount": 15057,
+        "safeMarginRequirementMet": false
+      },
+      "usage": {
+        "intendedSurface": "关卡解锁、消耗道具",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only"
+      }
+    }
+  ],
+  "themeId": "miniprogram-gameplay",
+  "startedAt": "2026-10-26T16:33:04+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 6,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "victory-trophy",
+      "group": "library",
+      "startedAt": "2026-10-26T16:33:16+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "6edaadd854d30ea9a9ece0b4355049e1f577cc67e9a6452cb716071072adc903",
+      "resultObservedAt": "2026-10-26T16:35:43+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-163304-manual/library/victory-trophy.png",
+      "sourceFile": "exec-7ad64fb5-ffa8-4471-86c0-0a183f687e89.png",
+      "decodeVerified": true
+    },
+    {
+      "number": 2,
+      "slotId": "defeat-shield",
+      "group": "library",
+      "startedAt": "2026-10-26T16:33:16+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "0a569fc2685b2a2ff079c6adecb684d933155ed91194b8b4e10eaf456c0fb331",
+      "resultObservedAt": "2026-10-26T16:35:44+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-163304-manual/library/defeat-shield.png",
+      "sourceFile": "exec-9cc117aa-647c-4bb4-8218-b66abc8df2f2.png",
+      "decodeVerified": true
+    },
+    {
+      "number": 3,
+      "slotId": "checkpoint-gate",
+      "group": "library",
+      "startedAt": "2026-10-26T16:33:17+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "76c6abc83013a564fcc0e376098afe3796a7682b1c8d9ecaecac04cc6a363855",
+      "resultObservedAt": "2026-10-26T16:35:45+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-163304-manual/library/checkpoint-gate.png",
+      "sourceFile": "exec-47a808f6-3d6a-46d9-9504-92f328e08d43.png",
+      "decodeVerified": true
+    },
+    {
+      "number": 4,
+      "slotId": "bounty-board",
+      "group": "library",
+      "startedAt": "2026-10-26T16:35:45+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "782f6c66b5c4d8fcfdf8580f25559f665b0c914d3557cdaff56bc232fc96901b",
+      "resultObservedAt": "2026-10-26T16:39:07+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-163304-manual/library/bounty-board.png",
+      "sourceFile": "exec-d78973a1-bd0b-4310-aca3-9e324ec3039a.png",
+      "decodeVerified": true
+    },
+    {
+      "number": 5,
+      "slotId": "forge-anvil",
+      "group": "library",
+      "startedAt": "2026-10-26T16:35:46+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "a3972266cc9d49ac013edc5b5af26617a3126b14787ebbf30b7a032208ee20f1",
+      "resultObservedAt": "2026-10-26T16:39:08+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-163304-manual/library/forge-anvil.png",
+      "sourceFile": "exec-95b623b1-d149-4462-9f8d-181433946aee.png",
+      "decodeVerified": true
+    },
+    {
+      "number": 6,
+      "slotId": "dungeon-key",
+      "group": "library",
+      "startedAt": "2026-10-26T16:35:47+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "e117e102237151def2c0adea4423c214d93576dd6ff91569f760e5bc939e614a",
+      "resultObservedAt": "2026-10-26T16:39:09+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-163304-manual/library/dungeon-key.png",
+      "sourceFile": "exec-1015834f-7c88-48df-a66c-3209a356018c.png",
+      "decodeVerified": true
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "victory-trophy",
+      "label": "胜利桂冠奖杯",
+      "use": "胜利结算、赛季奖励",
+      "group": "library",
+      "filename": "victory-trophy.png",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One compact championship trophy: a broad brushed gold cup, two thick laurel-shaped handles, a dark steel plinth and one simple embossed star without writing. Strong iconic silhouette with an easy-to-read bowl and base. No floating confetti. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/victory-trophy.png",
+      "promptSha256": "6edaadd854d30ea9a9ece0b4355049e1f577cc67e9a6452cb716071072adc903"
+    },
+    {
+      "id": "defeat-shield",
+      "label": "战败碎裂盾牌",
+      "use": "失败结算、重试提示",
+      "group": "library",
+      "filename": "defeat-shield.png",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One battered circular dark steel shield, its face split into two large readable sections with a small broken silver sword resting diagonally in front. A restrained thin red fracture expresses damage. A compact cohesive cluster, all pieces fully visible. No blood or characters. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/defeat-shield.png",
+      "promptSha256": "0a569fc2685b2a2ff079c6adecb684d933155ed91194b8b4e10eaf456c0fb331"
+    },
+    {
+      "id": "checkpoint-gate",
+      "label": "关卡传送门",
+      "use": "关卡选择、冒险入口",
+      "group": "library",
+      "filename": "checkpoint-gate.png",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One small freestanding fantasy checkpoint portal: a sturdy low charcoal stone arch bound by brushed silver braces, a restrained cyan energy membrane contained strictly inside the arch, two broad entrance steps. Show the complete self-contained miniature gateway, three-quarter view, no surrounding scenery. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/checkpoint-gate.png",
+      "promptSha256": "76c6abc83013a564fcc0e376098afe3796a7682b1c8d9ecaecac04cc6a363855"
+    },
+    {
+      "id": "bounty-board",
+      "label": "每日悬赏任务板",
+      "use": "每日任务、委托入口",
+      "group": "library",
+      "filename": "bounty-board.png",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One freestanding compact quest noticeboard of weathered charcoal wood and dark forged steel, two legs on a small stone foot, three clearly separated blank ivory parchment notes held by plain round gold seals. The parchment must be entirely blank. Show the entire board and feet, three-quarter view. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/bounty-board.png",
+      "promptSha256": "782f6c66b5c4d8fcfdf8580f25559f665b0c914d3557cdaff56bc232fc96901b"
+    },
+    {
+      "id": "forge-anvil",
+      "label": "装备锻造台",
+      "use": "装备强化、合成入口",
+      "group": "library",
+      "filename": "forge-anvil.png",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One compact portable blacksmith workstation: a heavy brushed dark steel anvil mounted on a squat charcoal stone base, a silver-headed hammer resting across the anvil, a small neat bundle of silver ingots beside the base. Simple bold large forms, sparse detailing, slight three-quarter view. No fire, sparks or scenery. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/forge-anvil.png",
+      "promptSha256": "a3972266cc9d49ac013edc5b5af26617a3126b14787ebbf30b7a032208ee20f1"
+    },
+    {
+      "id": "dungeon-key",
+      "label": "地城通行钥匙",
+      "use": "关卡解锁、消耗道具",
+      "group": "library",
+      "filename": "dungeon-key.png",
+      "promptVersion": "miniprogram-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Asset type: standalone transparent game illustration for a WeChat mini-game UI in the existing Arena UI family. Create a square 1024x1024 PNG. One ornate but bold dungeon key, diagonally oriented from upper left to lower right, with a large angular brushed-gold bow, dark steel shaft and three thick silver teeth; the bow contains a simple solid gold lozenge. Entire key visible, broad readable proportions, no chain or extra keys. Style: premium hand-painted sculptural 3D game art, crisp broad silhouette and readable at mobile thumbnail scale, restrained metal wear, consistent soft upper-left studio lighting. Palette charcoal #171c24, brushed silver #9aa6b8, warm gold #f2b632 only for action/reward, cyan #3ec7e0 only for energy, red #ef5b60 only for damage. Composition: one centered complete subject filling at most 72 percent of the canvas in both dimensions, at least 14 percent completely clear space on every side. Preserve every protrusion inside this safe area. Genuine transparent alpha background, no painted checkerboard, no backdrop, no surrounding scene, no contact shadow outside the subject, no wide glow. No text, letters, numbers, UI frames, logos, watermark or multiple views. Clean cutout edges.",
+      "path": "assets/daily/2026/10/26/20261026-163304-manual/library/dungeon-key.png",
+      "promptSha256": "e117e102237151def2c0adea4423c214d93576dd6ff91569f760e5bc939e614a"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "victory-trophy",
+      "type": "library-review",
+      "observations": [
+        "桂冠杯耳、杯体、星形底座完整，金色奖励语义明确，无文字。",
+        "轮廓清晰；左右留白少于请求的14%，细金属纹理不适合承担小尺寸识别。",
+        "真实alpha透明；原始透明区域存在alpha低于16的零星像素，全部非零alpha边界不能代表主要可见轮廓，边缘存在细点或毛边。",
+        "实际1254x1254，与请求1024x1024不同；完整保留原图，没有缩放或重抽。"
+      ]
+    },
+    {
+      "assetId": "defeat-shield",
+      "type": "library-review",
+      "observations": [
+        "裂损圆盾与断剑组成完整紧凑的失败插画，红色集中在损伤裂缝，无文字。",
+        "包含盾与断剑两件物体，适合结算插画；细裂纹缩小时会消失，不适合作单件装备图标。",
+        "真实alpha透明；原始透明区域存在alpha低于16的零星像素，全部非零alpha边界不能代表主要可见轮廓，边缘存在细点或毛边。",
+        "实际1254x1254，与请求1024x1024不同；完整保留原图，没有缩放或重抽。"
+      ]
+    },
+    {
+      "assetId": "checkpoint-gate",
+      "type": "library-review",
+      "observations": [
+        "石制门框与两级台阶完整，青色能量集中在门内，适合关卡入口。",
+        "门内能量较亮，左右及下方留白略小于请求；外围无大场景。",
+        "真实alpha透明；原始透明区域存在alpha低于16的零星像素，全部非零alpha边界不能代表主要可见轮廓，边缘存在细点或毛边。",
+        "实际1254x1254，与请求1024x1024不同；完整保留原图，没有缩放或重抽。"
+      ]
+    },
+    {
+      "assetId": "bounty-board",
+      "type": "library-review",
+      "observations": [
+        "三张纸张均为空白，没有混入伪文字；木板、支柱和底脚完整。",
+        "六张中主体最贴近画布边缘，实际可见留白约6%；纸面带透视，适合入口插画，不宜当普通文字列表底板。",
+        "真实alpha透明；原始透明区域存在alpha低于16的零星像素，全部非零alpha边界不能代表主要可见轮廓，边缘存在细点或毛边。",
+        "实际1254x1254，与请求1024x1024不同；完整保留原图，没有缩放或重抽。"
+      ]
+    },
+    {
+      "assetId": "forge-anvil",
+      "type": "library-review",
+      "observations": [
+        "铁砧、锤、金属锭与石基形成完整锻造场景，无文字或火花。",
+        "深灰主体适合加有间距的界面底板；金属裂纹缩小时弱化，金属锭可能与底座混在一起。",
+        "真实alpha透明；原始透明区域存在alpha低于16的零星像素，全部非零alpha边界不能代表主要可见轮廓，边缘存在细点或毛边。",
+        "实际1254x1254，与请求1024x1024不同；完整保留原图，没有缩放或重抽。"
+      ]
+    },
+    {
+      "assetId": "dungeon-key",
+      "type": "library-review",
+      "observations": [
+        "单把钥匙形态完整，金色握环、钢制杆和三齿清楚，没有多余钥匙或文字。",
+        "斜向长轮廓需保持完整画布，避免圆形强裁；留白未完全满足14%要求。",
+        "真实alpha透明；原始透明区域存在alpha低于16的零星像素，全部非零alpha边界不能代表主要可见轮廓，边缘存在细点或毛边。",
+        "实际1254x1254，与请求1024x1024不同；完整保留原图，没有缩放或重抽。"
+      ]
+    }
+  ],
+  "notes": [
+    "用户明确追加请求：多生成一些，后续想放进新加的微信小程序。本批单独手动追加6张，不属于每日定时批次。",
+    "本日已有4次定时调用；此次手动追加按最新用户请求单独记录，自动化每日4张与冻结基准保持不变。",
+    "模型与随机种子未由工具返回时如实记录为unreported/null。",
+    "用户确认目标为竞技／角色养成游戏；本批为静态透明素材，尚未集成至微信小程序工程。",
+    "对照原始工具输出字节、PNG解码、尺寸、透明alpha、哈希、索引一致性均通过；历史页10/26共10张，原定时4张与手动6张按时刻分别展示，跨日固定题目仍来自scheduled批次。96px与128px深浅底缩略图检查完成。"
+  ],
+  "authorization": {
+    "type": "explicit-manual-addition",
+    "request": "多生成一些，我后续想放进我新加的微信小程序上",
+    "plannedAdditionalCalls": 6,
+    "scheduledCallsAlreadyToday": 4
+  },
+  "completedAt": "2026-10-26T16:41:50+08:00",
+  "validation": {
+    "successfulDecodedAssets": 6,
+    "benchmarkAssets": 0,
+    "libraryAssets": 6,
+    "attempts": 6,
+    "noResampling": true,
+    "originalFilesPreserved": true,
+    "manualAdditionalAuthorizationRecorded": true,
+    "historyPageVerified": true,
+    "reviewedAt": "2026-10-26T16:44:18+08:00",
+    "historyDateAssetCount": 10,
+    "historyScheduledAssetCount": 4,
+    "historyManualAssetCount": 6,
+    "crossDateBenchmarkSelectionPreserved": true,
+    "thumbnailReview": {
+      "sizesCssPx": [
+        96,
+        128
+      ],
+      "backgrounds": [
+        "#171c24",
+        "#f2f4f8"
+      ],
+      "visibleSilhouettes": true,
+      "observation": "六种轮廓可辨；碎盾深色细节较暗，金属细纹缩小时弱化。"
+    }
+  }
+}
