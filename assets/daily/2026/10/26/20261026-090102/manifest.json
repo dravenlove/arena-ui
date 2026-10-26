@@ -1,0 +1,364 @@
+{
+  "id": "20261026-090102",
+  "date": "2026-10-26",
+  "time": "09:01:02",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/26/20261026-090102/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/26/20261026-090102/benchmark/ui-kit-board.png",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "benchmarkId": "ui-kit-board-v1",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "afc83290ce66d5d42a4e442c85a32541c459aebae40f1833c21f723602168ced",
+      "bytes": 1647291,
+      "recordedAt": "2026-10-26T09:05:10+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T09:01:31+08:00",
+        "resultObservedAt": "2026-10-26T09:05:10+08:00"
+      },
+      "sourceFile": "exec-7e1a3229-b4f2-434d-aa43-bf5288e18671.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-26T09:09:36+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/26/20261026-090102/benchmark/equipment-atlas.png",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "benchmarkId": "equipment-atlas-v1",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "c757fac2081bc725a9c46051734e423a01f3441e0b276dd42a9d29edbbe4fe90",
+      "bytes": 2154867,
+      "recordedAt": "2026-10-26T09:05:10+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T09:01:31+08:00",
+        "resultObservedAt": "2026-10-26T09:05:10+08:00"
+      },
+      "sourceFile": "exec-2e78b3f7-8ffc-42c4-8efa-277cc22fb048.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-26T09:09:36+08:00"
+      }
+    },
+    {
+      "id": "warden-portrait",
+      "label": "重甲守望者头像",
+      "group": "library",
+      "path": "assets/daily/2026/10/26/20261026-090102/library/warden-portrait.png",
+      "promptSha256": "f28e1d615e6bc8100404d2e43bb61f3c8d8e7a8b7ad6682e551a86cac1661dfe",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 head-and-shoulders portrait with a centered readable silhouette, comfortable headroom and a quiet #171c24 background, suitable for cropping to an avatar. A dignified armored warden wearing a sculpted brushed silver hornless helmet and charcoal heavy armor, subtle gold clasp, slight three-quarter turn, restrained cool cyan rim light.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "9cf8c83a3ebc701610f613448cfd318c8b55885736735e05ceff5f6f3750d114",
+      "bytes": 2615917,
+      "recordedAt": "2026-10-26T09:05:10+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T09:01:31+08:00",
+        "resultObservedAt": "2026-10-26T09:05:10+08:00"
+      },
+      "sourceFile": "exec-7eed7c78-bf3b-418c-bfa3-6533daf86bc4.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-26T09:09:36+08:00"
+      }
+    },
+    {
+      "id": "alchemist-portrait",
+      "label": "炼金师头像",
+      "group": "library",
+      "path": "assets/daily/2026/10/26/20261026-090102/library/alchemist-portrait.png",
+      "promptSha256": "4d720a4d7969e57a12a9bf28acbbcabc813556a2db5d345142d28756e1ac36b8",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 head-and-shoulders portrait with a centered readable silhouette, comfortable headroom and a quiet #171c24 background, suitable for cropping to an avatar. An enigmatic adult alchemist in a charcoal hood and worn dark leather collar, neutral silver goggles pushed above the brow, one small amber glass vial at the chest, thoughtful expression, no bright decorative magic.",
+      "promptVersion": "v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "sha256": "6e9cb617309c764d18e8240429b1b42308564af42c4110ca1ad503cd370b42be",
+      "bytes": 2606335,
+      "recordedAt": "2026-10-26T09:05:10+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-26T09:01:31+08:00",
+        "resultObservedAt": "2026-10-26T09:05:10+08:00"
+      },
+      "sourceFile": "exec-bc0abb00-509e-4106-86ce-e5f28cd7dd81.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "reviewedAt": "2026-10-26T09:09:36+08:00"
+      }
+    }
+  ],
+  "themeId": "portraits",
+  "startedAt": "2026-10-26T09:01:02+08:00",
+  "scheduledFor": "2026-10-26T09:00:00+08:00",
+  "completedAt": "2026-10-26T09:09:36+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-10-26T09:01:31+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-10-26T09:05:10+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-090102/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-7e1a3229-b4f2-434d-aa43-bf5288e18671.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-26T09:09:36+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-10-26T09:01:31+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-10-26T09:05:10+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-090102/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-2e78b3f7-8ffc-42c4-8efa-277cc22fb048.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-26T09:09:36+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "warden-portrait",
+      "group": "library",
+      "startedAt": "2026-10-26T09:01:31+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "f28e1d615e6bc8100404d2e43bb61f3c8d8e7a8b7ad6682e551a86cac1661dfe",
+      "resultObservedAt": "2026-10-26T09:05:10+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-090102/library/warden-portrait.png",
+      "sourceFile": "exec-7eed7c78-bf3b-418c-bfa3-6533daf86bc4.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-26T09:09:36+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "alchemist-portrait",
+      "group": "library",
+      "startedAt": "2026-10-26T09:01:31+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "4d720a4d7969e57a12a9bf28acbbcabc813556a2db5d345142d28756e1ac36b8",
+      "resultObservedAt": "2026-10-26T09:05:10+08:00",
+      "outputPath": "assets/daily/2026/10/26/20261026-090102/library/alchemist-portrait.png",
+      "sourceFile": "exec-bc0abb00-509e-4106-86ce-e5f28cd7dd81.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-26T09:09:36+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/26/20261026-090102/benchmark/ui-kit-board.png",
+      "benchmarkId": "ui-kit-board-v1"
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "path": "assets/daily/2026/10/26/20261026-090102/benchmark/equipment-atlas.png",
+      "benchmarkId": "equipment-atlas-v1"
+    },
+    {
+      "id": "warden-portrait",
+      "label": "重甲守望者头像",
+      "filename": "warden-portrait.png",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 head-and-shoulders portrait with a centered readable silhouette, comfortable headroom and a quiet #171c24 background, suitable for cropping to an avatar. A dignified armored warden wearing a sculpted brushed silver hornless helmet and charcoal heavy armor, subtle gold clasp, slight three-quarter turn, restrained cool cyan rim light.",
+      "promptSha256": "f28e1d615e6bc8100404d2e43bb61f3c8d8e7a8b7ad6682e551a86cac1661dfe",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "library",
+      "path": "assets/daily/2026/10/26/20261026-090102/library/warden-portrait.png"
+    },
+    {
+      "id": "alchemist-portrait",
+      "label": "炼金师头像",
+      "filename": "alchemist-portrait.png",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 head-and-shoulders portrait with a centered readable silhouette, comfortable headroom and a quiet #171c24 background, suitable for cropping to an avatar. An enigmatic adult alchemist in a charcoal hood and worn dark leather collar, neutral silver goggles pushed above the brow, one small amber glass vial at the chest, thoughtful expression, no bright decorative magic.",
+      "promptSha256": "4d720a4d7969e57a12a9bf28acbbcabc813556a2db5d345142d28756e1ac36b8",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "library",
+      "path": "assets/daily/2026/10/26/20261026-090102/library/alchemist-portrait.png"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "fixed-prompt-comparison",
+      "comparedToRunId": "20261025-090655",
+      "comparedToPath": "assets/daily/2026/10/25/20261025-090655/benchmark/ui-kit-board.png",
+      "samePromptSha256": true,
+      "observations": [
+        "角色面板回到上方中央，露面战士换为面甲骑士；标签页移到左侧中部，弹窗移至右下并重新加入场景背景。",
+        "相较前次，未再展示通知、滑块、评分和独立圆形头像，模块减少而单个面板更大；属于内容取舍变化。",
+        "标题、按钮及弹窗主文案清晰，未见明显叠压，角色属性与背包数量小字仍较细。",
+        "HP/MP/XP填充保持红/青/金；但选中标签、道具框和开启控件仍用金色，未遵循青色表示选中的规范。"
+      ]
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "fixed-prompt-comparison",
+      "comparedToRunId": "20261025-090655",
+      "comparedToPath": "assets/daily/2026/10/25/20261025-090655/benchmark/equipment-atlas.png",
+      "samePromptSha256": true,
+      "observations": [
+        "八件物品及四列两行顺序保持正确，未见缺件。",
+        "剑的斜向反转，斧头更接近竖直；盾面、戒指镶座、药瓶包边、头盔结构均有变化。",
+        "每格约20%安全留白仍不足：剑尖和盾顶靠近上边缘，剑柄靠近右侧格边；第二排斧刃顶端略过理论行中线，等分裁切有截边风险。",
+        "卷轴出现暗红缎带，使红色用于药水以外的装饰；青色水晶和紫色戒指仍容易区分。"
+      ]
+    },
+    {
+      "assetId": "warden-portrait",
+      "type": "library-review",
+      "observations": [
+        "新增无角银色面甲重甲守望者，与既有兜帽游侠形成不同职业轮廓。",
+        "银色金属与黑色眼缝对比强，主要轮廓适合小尺寸识别，细小刻纹和磨损在缩小后会消失。",
+        "盔顶接近画面上缘，未充分满足舒适头顶留白；圆形头像裁切时需注意顶部。",
+        "实际输出1254x1254，与请求的1024x1024不同，按原样保存并分别记录。"
+      ]
+    },
+    {
+      "assetId": "alchemist-portrait",
+      "type": "library-review",
+      "observations": [
+        "新增成年炼金师，人脸、额前护目镜和胸前琥珀药瓶形成明确身份标识。",
+        "人物与深色背景分离清晰，无文字或强烈装饰魔法。",
+        "兜帽顶部接近上缘，未充分满足舒适头顶留白；小尺寸可保留人脸及护目镜轮廓，细纹与瓶扣需另行检查。",
+        "实际输出1254x1254，与请求的1024x1024不同，保留原始输出。"
+      ]
+    }
+  ],
+  "notes": [
+    "北京时间09:00之前仅进行了只读准备与等待，四次图像工具调用均始于09:01:31之后。",
+    "四次内置工具调用获得四张可解码原图；视觉缺陷全部保留，没有为偏好或质量重抽。",
+    "两张固定题目原文提示词及冻结参数与配置一致，已与最近的2026-10-25输出并排观察。",
+    "工具未返回底层模型版本或随机种子，记录为unreported/null；可见差异及主观观察不构成训练、升级或能力提升的证据。",
+    "未修改页面代码、配置或既有图片；进行了数据与PNG校验及历史页只读检查，未运行含初始单日假设的完整测试套件。"
+  ],
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "attemptBudgetRespected": true,
+    "historyPageVerified": true,
+    "crossDateSamePromptVerified": true,
+    "comparisonDate": "2026-10-25",
+    "reviewedAt": "2026-10-26T09:09:36+08:00"
+  }
+}
