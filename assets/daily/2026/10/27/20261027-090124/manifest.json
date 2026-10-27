@@ -1,0 +1,410 @@
+{
+  "id": "20261027-090124",
+  "date": "2026-10-27",
+  "time": "09:01:24",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/27/20261027-090124/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "path": "assets/daily/2026/10/27/20261027-090124/benchmark/ui-kit-board.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1638029,
+      "sha256": "de68950ce6d4a21d3b355fdb13bd66e384398765bc945f4a8e7b333e4355016d",
+      "recordedAt": "2026-10-27T09:06:19+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-27T09:01:48+08:00",
+        "resultObservedAt": "2026-10-27T09:06:19+08:00"
+      },
+      "sourceFile": "exec-b182f643-3af0-4b8d-83f8-d6b6c936828e.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0,
+        "alphaBounds": null,
+        "reviewedAt": "2026-10-27T09:12:13+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "path": "assets/daily/2026/10/27/20261027-090124/benchmark/equipment-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 2173510,
+      "sha256": "85f194c201ba8586ca64abbd70c41b502bf8fe7c8daec056e9e79ee280788b17",
+      "recordedAt": "2026-10-27T09:06:20+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-27T09:01:48+08:00",
+        "resultObservedAt": "2026-10-27T09:06:20+08:00"
+      },
+      "sourceFile": "exec-697b7875-a872-4281-8496-226277099dc6.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0,
+        "alphaBounds": null,
+        "reviewedAt": "2026-10-27T09:12:13+08:00"
+      }
+    },
+    {
+      "id": "empty-reliquary",
+      "label": "空宝匣插画",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 isolated illustration on genuine transparent alpha, with the complete object inside the center 70 percent of the canvas, clean edges, no ground plane, no checkerboard and no solid backdrop. One small open and visibly empty dark steel reliquary with brushed silver hinges and a tiny warm gold clasp, sculptural three-quarter view, quiet modest appearance, no coins or treasure.",
+      "promptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "path": "assets/daily/2026/10/27/20261027-090124/library/empty-reliquary.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1312570,
+      "sha256": "a7c09417e12b076bd83eed260c54856965bb6ffc014d35bf56cad7e532dd8c65",
+      "recordedAt": "2026-10-27T09:06:21+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-27T09:01:49+08:00",
+        "resultObservedAt": "2026-10-27T09:06:21+08:00"
+      },
+      "sourceFile": "exec-7c386b64-f2d8-44f6-8a53-d8e2a99edd23.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6391235446888934,
+        "alphaBounds": [
+          49,
+          39,
+          1154,
+          1214
+        ],
+        "reviewedAt": "2026-10-27T09:12:13+08:00",
+        "alphaBoundsAt16": [
+          242,
+          138,
+          1090,
+          1133
+        ],
+        "lowAlphaPixelCount": 11244,
+        "safeMarginRequirementMet": false,
+        "lightAndDark128pxVerified": true
+      }
+    },
+    {
+      "id": "cooldown-hourglass",
+      "label": "冷却等待沙漏",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 isolated illustration on genuine transparent alpha, with the complete object inside the center 70 percent of the canvas, clean edges, no ground plane, no checkerboard and no solid backdrop. One compact upright hourglass for a skill cooldown waiting state, sculptural slight three-quarter view. Brushed dark steel top and base, two sturdy silver supports, clear glass chambers with a readable narrow neck. A small amount of cyan energy sand remains in the upper chamber and a thin visible stream is falling into a modest mound of cyan energy sand in the lower chamber. Cyan is confined to the sand; the frame and glass are neutral steel and silver. Strong simple silhouette, complete top and base, no clock hands, no symbols, no words, no broad glow, no smoke, no particles outside the glass.",
+      "promptSha256": "1c769aa47b6cf5495bebce0a1ce98eb7d5e964eb2a0e5a97c130fc8da5ccff58",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "sourceTemplateId": "victory-trophy",
+      "variationReason": "已有2026-10-26胜利奖杯，改为尚未覆盖的技能冷却等待状态。",
+      "path": "assets/daily/2026/10/27/20261027-090124/library/cooldown-hourglass.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1352853,
+      "sha256": "3bd51d14be493c82e32f6b7bde2db4b5883caeab48f5d68fc98c8d5203d636d8",
+      "recordedAt": "2026-10-27T09:06:22+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-27T09:01:50+08:00",
+        "resultObservedAt": "2026-10-27T09:06:22+08:00"
+      },
+      "sourceFile": "exec-62a07e18-b580-4e07-ba41-b3333d28659f.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6783409516977887,
+        "alphaBounds": [
+          0,
+          51,
+          1242,
+          1254
+        ],
+        "reviewedAt": "2026-10-27T09:12:13+08:00",
+        "alphaBoundsAt16": [
+          313,
+          89,
+          941,
+          1143
+        ],
+        "lowAlphaPixelCount": 31246,
+        "safeMarginRequirementMet": false,
+        "lightAndDark128pxVerified": true
+      }
+    }
+  ],
+  "themeId": "feedback",
+  "startedAt": "2026-10-27T09:01:24+08:00",
+  "scheduledFor": "2026-10-27T09:00:00+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-10-27T09:01:48+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-10-27T09:06:19+08:00",
+      "outputPath": "assets/daily/2026/10/27/20261027-090124/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-b182f643-3af0-4b8d-83f8-d6b6c936828e.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-27T09:12:13+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-10-27T09:01:48+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-10-27T09:06:20+08:00",
+      "outputPath": "assets/daily/2026/10/27/20261027-090124/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-697b7875-a872-4281-8496-226277099dc6.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-27T09:12:13+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "empty-reliquary",
+      "group": "library",
+      "startedAt": "2026-10-27T09:01:49+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+      "resultObservedAt": "2026-10-27T09:06:21+08:00",
+      "outputPath": "assets/daily/2026/10/27/20261027-090124/library/empty-reliquary.png",
+      "sourceFile": "exec-7c386b64-f2d8-44f6-8a53-d8e2a99edd23.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-27T09:12:13+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "cooldown-hourglass",
+      "group": "library",
+      "startedAt": "2026-10-27T09:01:50+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "1c769aa47b6cf5495bebce0a1ce98eb7d5e964eb2a0e5a97c130fc8da5ccff58",
+      "resultObservedAt": "2026-10-27T09:06:22+08:00",
+      "outputPath": "assets/daily/2026/10/27/20261027-090124/library/cooldown-hourglass.png",
+      "sourceFile": "exec-62a07e18-b580-4e07-ba41-b3333d28659f.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-27T09:12:13+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "path": "assets/daily/2026/10/27/20261027-090124/benchmark/ui-kit-board.png"
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "path": "assets/daily/2026/10/27/20261027-090124/benchmark/equipment-atlas.png"
+    },
+    {
+      "id": "empty-reliquary",
+      "label": "空宝匣插画",
+      "filename": "empty-reliquary.png",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 isolated illustration on genuine transparent alpha, with the complete object inside the center 70 percent of the canvas, clean edges, no ground plane, no checkerboard and no solid backdrop. One small open and visibly empty dark steel reliquary with brushed silver hinges and a tiny warm gold clasp, sculptural three-quarter view, quiet modest appearance, no coins or treasure.",
+      "promptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "path": "assets/daily/2026/10/27/20261027-090124/library/empty-reliquary.png"
+    },
+    {
+      "id": "cooldown-hourglass",
+      "label": "冷却等待沙漏",
+      "filename": "cooldown-hourglass.png",
+      "promptVersion": "v1",
+      "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a square 1024x1024 isolated illustration on genuine transparent alpha, with the complete object inside the center 70 percent of the canvas, clean edges, no ground plane, no checkerboard and no solid backdrop. One compact upright hourglass for a skill cooldown waiting state, sculptural slight three-quarter view. Brushed dark steel top and base, two sturdy silver supports, clear glass chambers with a readable narrow neck. A small amount of cyan energy sand remains in the upper chamber and a thin visible stream is falling into a modest mound of cyan energy sand in the lower chamber. Cyan is confined to the sand; the frame and glass are neutral steel and silver. Strong simple silhouette, complete top and base, no clock hands, no symbols, no words, no broad glow, no smoke, no particles outside the glass.",
+      "promptSha256": "1c769aa47b6cf5495bebce0a1ce98eb7d5e964eb2a0e5a97c130fc8da5ccff58",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "sourceTemplateId": "victory-trophy",
+      "variationReason": "已有2026-10-26胜利奖杯，改为尚未覆盖的技能冷却等待状态。",
+      "path": "assets/daily/2026/10/27/20261027-090124/library/cooldown-hourglass.png"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "fixed-prompt-comparison",
+      "comparedToRunId": "20261026-090102",
+      "comparedToPath": "assets/daily/2026/10/26/20261026-090102/benchmark/ui-kit-board.png",
+      "samePromptSha256": true,
+      "observations": [
+        "弹窗从右下移到左下，标签页移到右侧中部；底部新增步进器和提示框，未再展示昨日分页示例。",
+        "面甲骑士仍在中央角色区域，但头像裁切、名称、属性和数值重新安排；八件背包物品及顺序保持。",
+        "主标题、按钮、弹窗文案清晰，未见明显叠压；背包卷轴出现符号样笔迹，不能用作正式文案。",
+        "选中标签和开启开关仍用金色，未完全遵循提示词的青色选中要求；新增紫色CURSED徽章也不符合库内紫色仅用于史诗稀有度的语义。"
+      ],
+      "interpretation": "仅记录可见差异；风格或布局偏好属于主观判断。生成随机性仍在，不能据单次变化认定模型训练、升级或能力提升。"
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "fixed-prompt-comparison",
+      "comparedToRunId": "20261026-090102",
+      "comparedToPath": "assets/daily/2026/10/26/20261026-090102/benchmark/equipment-atlas.png",
+      "samePromptSha256": true,
+      "observations": [
+        "四列两行八件物品齐全且顺序正确，剑的斜向保持；盾面花纹、戒指角度、头盔结构及水晶排列改变。",
+        "药瓶增加金色包边，卷轴由红缎带改回绳结，红色用于无关装饰的情况减少。",
+        "20%安全留白仍未满足，剑尖和盾顶靠近上边缘，剑柄靠近右侧格边；斧刃顶端略跨理论行中线，等分裁切有截边风险。",
+        "没有明显物品互相遮挡；底色带渐变和局部明暗，并非严格均匀的#171c24。"
+      ],
+      "interpretation": "仅记录可见差异；风格或布局偏好属于主观判断。生成随机性仍在，不能据单次变化认定模型训练、升级或能力提升。"
+    },
+    {
+      "assetId": "empty-reliquary",
+      "type": "library-review",
+      "observations": [
+        "打开的盖子、空内腔与铰链清楚，没有金币、宝物或文字，适合无战利品或待领取奖励的空状态。",
+        "主体完整，主要可见边界约为[242,138,1090,1133]；垂直占幅超过中心70%目标，上下留白不足。",
+        "128px深浅底显示轮廓清楚，暗色内腔在缩小时深度细节减弱；实际alpha预览未见不透明底板。",
+        "实际1254x1254，与请求1024x1024不同，保存原始输出。"
+      ]
+    },
+    {
+      "assetId": "cooldown-hourglass",
+      "type": "library-review",
+      "observations": [
+        "上腔仍有少量青色能量砂、细流连接下腔积砂，表达正在等待；银钢框与玻璃主体完整，无文字。",
+        "青色集中在能量砂，玻璃形状与框架可辨；主要可见边界约为[313,89,941,1143]，垂直占幅超过中心70%目标。",
+        "128px深浅底预览清楚，无明显宽灰晕或底板；工具原图展示中的白青色边缘不据此当作实际不透明背景。",
+        "实际1254x1254，与请求1024x1024不同，保留原始alpha与像素。"
+      ]
+    }
+  ],
+  "notes": [
+    "当日生成前核对全部已知索引与运行清单，10月27日尚无调用；没有补造错过日期。",
+    "今日feedback主题：空宝匣沿用配置模板；为避免重复昨日胜利奖杯，第二张变为冷却等待沙漏，实际提示词和哈希在调用前已保存。",
+    "固定题目逐字复用配置，不添加参考图。模型与随机种子未由工具返回时记录unreported/null。",
+    "四次工具调用获得四张可解码原图，无质量重抽；两张冻结题目与最近的10月26日同哈希原图已等尺寸并排观察。",
+    "工具没有返回实际模型版本或种子，保持unreported/null；没有训练模型或升级证据。",
+    "只改今日日期目录和索引；进行了文件、数据、透明通道及历史页只读验证，未改页面代码、自动化频率或冻结配置，未跑完整浏览器测试套件。"
+  ],
+  "completedAt": "2026-10-27T09:12:13+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "attemptBudgetRespected": true,
+    "localDateTotalToolCalls": 4,
+    "originalFilesPreserved": true,
+    "historyPageVerified": true,
+    "crossDateSamePromptVerified": true,
+    "comparisonDate": "2026-10-26",
+    "lightAndDarkAlphaPreviewVerified": true,
+    "reviewedAt": "2026-10-27T09:12:13+08:00"
+  }
+}
