@@ -9,6 +9,7 @@
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="../tokens/tokens.css">
   <link rel="stylesheet" href="./sprites.css">
+  <script src="./idle-motion.js" defer></script>
   <script src="./sprites.js" defer></script>
 </head>
 <body>
@@ -35,24 +36,36 @@
           <span id="play-state" class="play-state">等待素材</span>
         </div>
         <div id="stage" class="stage" data-background="dark">
-          <canvas id="sprite-canvas" width="256" height="384" role="img" aria-label="角色待机动作预览">浏览器需要支持 Canvas 才能播放动画。</canvas>
+          <canvas id="idle-canvas" width="384" height="576" role="img" aria-label="逐日剑士连续呼吸待机">浏览器需要支持 WebGL 才能播放连续待机。</canvas>
+          <canvas id="sprite-canvas" width="256" height="384" role="img" aria-label="角色待机动作预览" hidden>浏览器需要支持 Canvas 才能播放动画。</canvas>
           <img id="sprite-sheet" class="sprite-sheet" alt="按播放顺序排列的完整动作图集" hidden>
         </div>
         <div class="viewer-bottomline"><span id="frame-count">— / —</span><span id="loop-summary">逐帧检查人物与装备</span></div>
       </section>
       <aside class="controls" aria-labelledby="controls-title">
-        <div class="control-heading"><span class="eyebrow">MOTION STUDY</span><h2 id="controls-title">让动作慢下来</h2><p>先播放一遍，再停在任何一帧看细节。</p></div>
+        <div class="control-heading"><span class="eyebrow">MOTION STUDY</span><h2 id="controls-title">对照动作表现</h2><p id="mode-note">一张立绘，连续呼吸。脸和装备沿用同一张图。</p></div>
+        <label class="field mode-field" for="animation-mode"><span>动作方式</span><select id="animation-mode" disabled><option value="continuous">连贯待机 · 单张立绘</option><option value="frames">原始 8 帧 · AI 图集</option></select></label>
         <div class="transport">
           <button id="previous" class="button" type="button" aria-label="上一帧" disabled>←</button>
           <button id="toggle-play" class="button primary" type="button" disabled>播放</button>
           <button id="next" class="button" type="button" aria-label="下一帧" disabled>→</button>
         </div>
+        <div id="continuous-controls">
+          <label class="slider-label" for="phase-slider"><span>呼吸进度</span><output id="phase-output" for="phase-slider">0%</output></label>
+          <input id="phase-slider" type="range" min="0" max="1000" value="0" step="1" aria-label="呼吸进度" disabled>
+          <label class="field" for="breath-speed"><span>呼吸速度</span><select id="breath-speed" disabled><option value="0.5">舒缓 · 0.5 倍</option><option value="1" selected>自然 · 1 倍</option><option value="1.5">加快 · 1.5 倍</option></select></label>
+          <p class="method-note">程序驱动胸肩起伏；双脚与握剑手保持稳定。适合轻微待机动作。</p>
+        </div>
+        <div id="frame-controls" hidden>
         <label class="slider-label" for="frame-slider"><span>当前帧</span><output id="frame-output" for="frame-slider">—</output></label>
         <input id="frame-slider" type="range" min="0" max="7" value="0" step="1" aria-label="当前帧" disabled>
         <div id="frame-buttons" class="frame-buttons" role="group" aria-label="选择动作帧"></div>
         <div class="control-section">
           <label class="alignment-choice"><input id="align-feet" type="checkbox" checked disabled><span>固定脚底<small>关闭可比较原始位置变化</small></span></label>
           <label class="field" for="play-speed"><span>播放速度</span><select id="play-speed" disabled><option value="4">慢速 · 4 帧／秒</option><option value="8" selected>原速 · 8 帧／秒</option><option value="12">快速 · 12 帧／秒</option></select></label>
+        </div>
+        </div>
+        <div class="control-section">
           <fieldset class="background-choice"><legend>查看背景</legend><div class="segmented" role="group" aria-label="查看背景"><button type="button" data-background="dark" aria-pressed="true" disabled>深色</button><button type="button" data-background="light" aria-pressed="false" disabled>浅色</button><button type="button" data-background="checker" aria-pressed="false" disabled>棋盘</button></div></fieldset>
         </div>
         <p id="motion-note" class="motion-note" hidden>已遵循系统的减少动态效果设置，点击播放可查看动画。</p>

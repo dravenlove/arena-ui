@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "sunward-idle-procedural-v1",
+  "mode": "procedural",
+  "renderer": "webgl-mesh",
+  "label": "逐日剑士 · 连续呼吸",
+  "description": "同一张立绘的连续轻微呼吸，脸与装备纹理保持来自原图。可与之前的八帧生成样本对比。",
+  "image": "assets/daily/2026/10/26/20261026-164915-characters/library/sunward-swordsman.png",
+  "sourceSize": [1024, 1536],
+  "canvasSize": [512, 768],
+  "cycleSeconds": 3.2,
+  "loop": true,
+  "mesh": {"columns": 64, "rows": 96},
+  "motion": {
+    "centerX": 0.54,
+    "headEndY": 0.18,
+    "neckEndY": 0.24,
+    "anchorStartY": 0.35,
+    "anchorEndY": 0.5,
+    "chestCenter": [0.54, 0.30],
+    "chestSpread": [0.25, 0.17],
+    "chestLiftPixels": 10,
+    "headLiftPixels": 5,
+    "chestExpandPixels": 5.5
+  },
+  "rigidRegions": [
+    {
+      "type": "capsule",
+      "start": [0.345, 0.437],
+      "end": [0.087, 0.90],
+      "radiusPixels": 46,
+      "featherPixels": 38,
+      "label": "剑与握剑手附近保持固定，避免剑身弯曲"
+    }
+  ],
+  "notes": [
+    "这是程序连续网格变形，不是新的逐帧生图，也没有修改原始PNG。",
+    "phase 为0到1的循环相位；0与1完全同姿态，0.5为吸气峰值。",
+    "motion中的Pixels均以原图1024×1536像素为单位；画布按同一比例缩放。",
+    "归一化源坐标y>=0.5（原图y>=768，当前画布y>=384）所有网格顶点完全固定；脚与下肢不做整体缩放或位移。"
+  ],
+  "review": [
+    "连续使用同一张人物原图，脸、盔甲和武器不会在不同生成帧之间换样。",
+    "胸肩微幅起伏，头部随呼吸轻移；腰以下固定，剑与握剑手附近保持稳定。",
+    "这是单图待机效果实验，没有生成走路、攻击动作，也未接入微信小程序实机。"
+  ]
+}
