@@ -1,0 +1,154 @@
+{
+  "id": "20261028-152436-nightblade",
+  "date": "2026-10-28",
+  "time": "15:24:36",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/28/20261028-152436-nightblade/manifest.json",
+  "kind": "manual-extension",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "nightblade-assassin",
+      "label": "夜刃刺客",
+      "group": "library",
+      "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: Nightblade, an adult female human assassin with short asymmetrical charcoal-black hair, a clearly visible focused face, and a lean athletic build. Practical fully covering charcoal leather armor with compact brushed-silver shoulder guards and bracers, fitted trousers, flat-soled leather boots, and two small closed belt pouches. Hold exactly two practical short steel daggers, one in each hand, arms resting slightly away from her sides, blade tips pointing diagonally downward and outward clear of the legs. Clearly coherent hands, hilts and blade connections. No hood, mask, cape, bow, shield or long sword. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8, only small warm gold #f2b632 buckles. No bright colored decorative trim, smoke, magical aura or floating particles. Camera: eye-level nearly orthographic full-body three-quarter front view, calm neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, both boots and the complete two daggers. Both soles on a common baseline. Entire visible cutout including weapons stays inside x=160 to 864 and y=184 to 1352 on the requested 1024x1536 canvas; prioritize the generous empty margins over a large subject. Genuine transparent empty space, clean cutout edges, no backdrop, no vignette or surrounding glow, no ground plane, no pedestal, no cast shadow outside the character, no painted checkerboard. No text, letters, numbers, logos, border, interface, stats, watermark, extra characters, duplicate limbs or detached equipment. A single static isolated character asset, not a character sheet, animation sprite sheet or collage.",
+      "promptSha256": "9c694a98e90f2da696ba882bc0bf92afd39f412ec6da5e586d47c26559b86178",
+      "promptVersion": "miniprogram-character-v2",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "path": "assets/daily/2026/10/28/20261028-152436-nightblade/library/nightblade-assassin.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1633725,
+      "sha256": "b25a8faf9904fa5f57a7148b2b8f2e1918a6a9a808c7114930f6f03e0e2e5bdf",
+      "recordedAt": "2026-10-28T15:25:36+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T15:24:36+08:00",
+        "resultObservedAt": "2026-10-28T07:25:20Z"
+      },
+      "sourceFile": "exec-f7e5ecab-c98e-431f-8676-3c60c9fa5164.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.7801539103190104,
+        "alphaBounds": [
+          57,
+          23,
+          1006,
+          1520
+        ],
+        "alphaBoundsAt16": [
+          152,
+          91,
+          868,
+          1422
+        ],
+        "lowAlphaPixelCount": 28346,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T15:27:36+08:00",
+        "safeMarginRequirementMet": false,
+        "fullCharacterAndWeaponsVisible": true
+      },
+      "usage": {
+        "intendedSurface": "近战刺客职业、角色选择、编队、养成详情",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    }
+  ],
+  "themeId": "miniprogram-characters",
+  "startedAt": "2026-10-28T15:24:36+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 1,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "nightblade-assassin",
+      "group": "library",
+      "startedAt": "2026-10-28T15:24:36+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "9c694a98e90f2da696ba882bc0bf92afd39f412ec6da5e586d47c26559b86178",
+      "resultObservedAt": "2026-10-28T07:25:20Z",
+      "outputPath": "assets/daily/2026/10/28/20261028-152436-nightblade/library/nightblade-assassin.png",
+      "sourceFile": "exec-f7e5ecab-c98e-431f-8676-3c60c9fa5164.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T15:25:36+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "nightblade-assassin",
+      "label": "夜刃刺客",
+      "group": "library",
+      "filename": "nightblade-assassin.png",
+      "prompt": "Use case: stylized-concept. Asset type: one full-body playable character illustration for a competitive role-progression WeChat mini-game, in the Arena UI dark fantasy family. Generate a portrait 1024x1536 PNG with genuine transparent alpha. Subject: Nightblade, an adult female human assassin with short asymmetrical charcoal-black hair, a clearly visible focused face, and a lean athletic build. Practical fully covering charcoal leather armor with compact brushed-silver shoulder guards and bracers, fitted trousers, flat-soled leather boots, and two small closed belt pouches. Hold exactly two practical short steel daggers, one in each hand, arms resting slightly away from her sides, blade tips pointing diagonally downward and outward clear of the legs. Clearly coherent hands, hilts and blade connections. No hood, mask, cape, bow, shield or long sword. Art direction: premium polished hand-painted 3D fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, clear face, restrained metal and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8, only small warm gold #f2b632 buckles. No bright colored decorative trim, smoke, magical aura or floating particles. Camera: eye-level nearly orthographic full-body three-quarter front view, calm neutral ready-to-select standing pose, weight balanced, face turned gently toward the viewer. Frame exactly one entire character including all hair, fingers, both boots and the complete two daggers. Both soles on a common baseline. Entire visible cutout including weapons stays inside x=160 to 864 and y=184 to 1352 on the requested 1024x1536 canvas; prioritize the generous empty margins over a large subject. Genuine transparent empty space, clean cutout edges, no backdrop, no vignette or surrounding glow, no ground plane, no pedestal, no cast shadow outside the character, no painted checkerboard. No text, letters, numbers, logos, border, interface, stats, watermark, extra characters, duplicate limbs or detached equipment. A single static isolated character asset, not a character sheet, animation sprite sheet or collage.",
+      "promptSha256": "9c694a98e90f2da696ba882bc0bf92afd39f412ec6da5e586d47c26559b86178",
+      "promptVersion": "miniprogram-character-v2",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "nightblade-assassin",
+      "type": "library-review",
+      "observations": [
+        "短发、轻甲和两把向外下垂的短刃构成清晰的刺客轮廓。头发、双脚、双手及两把完整短刃均在画布内，未见额外肢体、文字或界面元素。",
+        "可见主体alpha>=16边界为x=152..867、y=91..1421，超出请求的x=160..864、y=184..1352安全区；头脚留白不足，双脚因站姿与透视没有完全落在同一水平线。",
+        "服装胸口有小块开口，偏离完全覆盖的要求；腰身束带较多，细节在小尺寸展示时会减弱。保留本次输出，不重抽。",
+        "真实RGBA alpha范围0-254，完全透明像素约78.0%，存在低alpha边缘像素；历史页棋盘底可穿透背景，未见工具预览的宽灰色实心光晕。",
+        "历史页中新增素材已成功加载，实际1024x1536，日内显示5张素材，本次手动追加1张与早晨定时4张分开。",
+        "这是静态立绘，尚无动作帧、分层骨骼或微信小程序实机接入验证。"
+      ]
+    }
+  ],
+  "notes": [
+    "用户在今日定时批次完成后明确请求：生成。依照现有竞技／角色养成小程序方向，追加一位尚未覆盖的刺客角色。",
+    "本批为手动追加1次，定时09:00四张计划、冻结基准与当日定时记录均保持原样。",
+    "内置工具若未返回实际模型版本或种子，则记录unreported/null。"
+  ],
+  "authorization": {
+    "type": "explicit-manual-addition",
+    "request": "生成",
+    "plannedAdditionalCalls": 1,
+    "scheduledCallsAlreadyToday": 4,
+    "manualCallsAlreadyToday": 0
+  },
+  "validation": {
+    "successfulDecodedAssets": 1,
+    "benchmarkAssets": 0,
+    "libraryAssets": 1,
+    "attempts": 1,
+    "noResampling": true,
+    "originalFilesPreserved": true,
+    "manualAdditionalAuthorizationRecorded": true,
+    "historyPageVerified": true,
+    "historyDateAssetCount": 5,
+    "historyScheduledAssetCount": 4,
+    "historyThisRunAssetCount": 1,
+    "reviewedAt": "2026-10-28T15:27:36+08:00"
+  },
+  "completedAt": "2026-10-28T15:27:36+08:00"
+}
