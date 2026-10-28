@@ -2692,6 +2692,400 @@
         "lightAndDarkAlphaPreviewVerified": true,
         "reviewedAt": "2026-10-27T09:12:13+08:00"
       }
+    },
+    {
+      "id": "20261028-090526",
+      "date": "2026-10-28",
+      "time": "09:05:26",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/28/20261028-090526/manifest.json",
+      "kind": "scheduled",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "path": "assets/daily/2026/10/28/20261028-090526/benchmark/ui-kit-board.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1708246,
+          "sha256": "64c176a7be304cb0224e8531720766e4dcc8451642de150b2c17a1e02bd95063",
+          "recordedAt": "2026-10-28T09:06:18+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-28T09:05:35+08:00",
+            "resultObservedAt": "2026-10-28T09:06:18+08:00"
+          },
+          "sourceFile": "exec-c1d3cb33-b114-440c-8ad1-38a84d93e945.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "alphaBounds": null,
+            "reviewedAt": "2026-10-28T09:12:19+08:00"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "path": "assets/daily/2026/10/28/20261028-090526/benchmark/equipment-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2144027,
+          "sha256": "c72195a82774a06afdd0f971cf6d6ac6ff31503df5676eec7e2fdd95582896bd",
+          "recordedAt": "2026-10-28T09:06:58+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-28T09:06:18+08:00",
+            "resultObservedAt": "2026-10-28T09:06:58+08:00"
+          },
+          "sourceFile": "exec-13583cb7-29c3-427b-97b0-1c6a554220e8.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "alphaBounds": null,
+            "reviewedAt": "2026-10-28T09:12:19+08:00",
+            "gridColumns": 4,
+            "gridRows": 2,
+            "visibleObjectGroups": 8,
+            "safeMarginRequirementMet": false
+          }
+        },
+        {
+          "id": "adventure-modes-atlas",
+          "label": "玩法入口扩展图集",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight sculptural miniature game mode objects, each a clearly readable menu icon. Row one left to right: a sturdy charcoal leather training dummy on a small iron stand, a compact dark wood expedition airship with silver fins and a tiny gold prow, a narrow stepped dark stone challenge tower with a cyan energy beacon, a miniature fortified guild hall with a blank charcoal banner. Row two left to right: three matching silver armored chess pawns grouped as one team, a dark stone boss altar holding one large ivory monster claw, a square stone labyrinth miniature with open pathways, a small dark steel pedestal supporting three distinct silver theatrical masks for a character drafting mode. No trophy, arena gate, anvil or compass. Each complete object stays strictly within the middle 60 percent of its cell, including all tips and shadows.",
+          "promptSha256": "2ab0b2a9b8018a67b8e32ae82e6a1917dd8b069c0cf46065f655055dbb2f2eec",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "mode-atlas",
+          "variationReason": "沿用navigation主题图集规格，避开已有奖杯、关卡门、铁砧、沙漏与空背包，补齐游戏玩法和功能入口。",
+          "path": "assets/daily/2026/10/28/20261028-090526/library/adventure-modes-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2112008,
+          "sha256": "6adcfdcfc241de13e426ae38a472d4ae0ee123bd1da9d463c1b9a24fb09d6ccb",
+          "recordedAt": "2026-10-28T09:07:40+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-28T09:06:59+08:00",
+            "resultObservedAt": "2026-10-28T09:07:40+08:00"
+          },
+          "sourceFile": "exec-ee3fbdb4-efaa-44aa-8f49-3b5e5907d411.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "alphaBounds": null,
+            "reviewedAt": "2026-10-28T09:12:19+08:00",
+            "gridColumns": 4,
+            "gridRows": 2,
+            "visibleObjectGroups": 8,
+            "safeMarginRequirementMet": false
+          }
+        },
+        {
+          "id": "menu-utilities-atlas",
+          "label": "功能入口扩展图集",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight sculptural utility menu objects. Row one left to right: a simple brushed silver gear wheel for settings, a closed cream envelope with one small warm gold wax seal for mail, a charcoal leather ledger with a silver clasp and no writing for quests, a small dark formation board with four silver chess tokens arranged in a two-by-two formation. Row two left to right: a silver magnifying glass beside a small neutral stone specimen for a collection encyclopedia, a compact standing flip-calendar with blank cream pages and gold binding rings for daily check-in rewards, a balanced silver merchant scale holding a few plain gold coins for the exchange shop, a small upright silver notification bell with a charcoal handle. No backpack, anvil, hourglass, medal or map. No printed markings anywhere. Each complete object stays strictly within the middle 60 percent of its cell, including all tips and shadows.",
+          "promptSha256": "67a4c42c1acab72742f0f35e8cbd425bbb7323293bb2784389c1a4ce44abaae5",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "utility-atlas",
+          "variationReason": "沿用navigation主题图集规格，避开已有奖杯、关卡门、铁砧、沙漏与空背包，补齐游戏玩法和功能入口。",
+          "path": "assets/daily/2026/10/28/20261028-090526/library/menu-utilities-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1828453,
+          "sha256": "48b5b4c5e8a7a62846f96887480fddb8edfbbdf94ad1bc439fce65b03096ad33",
+          "recordedAt": "2026-10-28T09:08:25+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-28T09:07:41+08:00",
+            "resultObservedAt": "2026-10-28T09:08:25+08:00"
+          },
+          "sourceFile": "exec-19a99a61-1b6e-4ace-acf1-93438bd14c3b.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "alphaBounds": null,
+            "reviewedAt": "2026-10-28T09:12:19+08:00",
+            "gridColumns": 4,
+            "gridRows": 2,
+            "visibleObjectGroups": 8,
+            "safeMarginRequirementMet": false
+          }
+        }
+      ],
+      "themeId": "navigation",
+      "startedAt": "2026-10-28T09:05:26+08:00",
+      "scheduledFor": "2026-10-28T09:00:00+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "ui-kit-board-v1",
+          "group": "benchmark",
+          "startedAt": "2026-10-28T09:05:35+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "resultObservedAt": "2026-10-28T09:06:18+08:00",
+          "outputPath": "assets/daily/2026/10/28/20261028-090526/benchmark/ui-kit-board.png",
+          "sourceFile": "exec-c1d3cb33-b114-440c-8ad1-38a84d93e945.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-28T09:12:19+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "equipment-atlas-v1",
+          "group": "benchmark",
+          "startedAt": "2026-10-28T09:06:18+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "resultObservedAt": "2026-10-28T09:06:58+08:00",
+          "outputPath": "assets/daily/2026/10/28/20261028-090526/benchmark/equipment-atlas.png",
+          "sourceFile": "exec-13583cb7-29c3-427b-97b0-1c6a554220e8.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-28T09:12:19+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "adventure-modes-atlas",
+          "group": "library",
+          "startedAt": "2026-10-28T09:06:59+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "2ab0b2a9b8018a67b8e32ae82e6a1917dd8b069c0cf46065f655055dbb2f2eec",
+          "resultObservedAt": "2026-10-28T09:07:40+08:00",
+          "outputPath": "assets/daily/2026/10/28/20261028-090526/library/adventure-modes-atlas.png",
+          "sourceFile": "exec-ee3fbdb4-efaa-44aa-8f49-3b5e5907d411.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-28T09:12:19+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "menu-utilities-atlas",
+          "group": "library",
+          "startedAt": "2026-10-28T09:07:41+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "67a4c42c1acab72742f0f35e8cbd425bbb7323293bb2784389c1a4ce44abaae5",
+          "resultObservedAt": "2026-10-28T09:08:25+08:00",
+          "outputPath": "assets/daily/2026/10/28/20261028-090526/library/menu-utilities-atlas.png",
+          "sourceFile": "exec-19a99a61-1b6e-4ace-acf1-93438bd14c3b.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-28T09:12:19+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "filename": "ui-kit-board.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1"
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "filename": "equipment-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1"
+        },
+        {
+          "id": "adventure-modes-atlas",
+          "label": "玩法入口扩展图集",
+          "filename": "adventure-modes-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight sculptural miniature game mode objects, each a clearly readable menu icon. Row one left to right: a sturdy charcoal leather training dummy on a small iron stand, a compact dark wood expedition airship with silver fins and a tiny gold prow, a narrow stepped dark stone challenge tower with a cyan energy beacon, a miniature fortified guild hall with a blank charcoal banner. Row two left to right: three matching silver armored chess pawns grouped as one team, a dark stone boss altar holding one large ivory monster claw, a square stone labyrinth miniature with open pathways, a small dark steel pedestal supporting three distinct silver theatrical masks for a character drafting mode. No trophy, arena gate, anvil or compass. Each complete object stays strictly within the middle 60 percent of its cell, including all tips and shadows.",
+          "promptSha256": "2ab0b2a9b8018a67b8e32ae82e6a1917dd8b069c0cf46065f655055dbb2f2eec",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "mode-atlas",
+          "variationReason": "沿用navigation主题图集规格，避开已有奖杯、关卡门、铁砧、沙漏与空背包，补齐游戏玩法和功能入口。"
+        },
+        {
+          "id": "menu-utilities-atlas",
+          "label": "功能入口扩展图集",
+          "filename": "menu-utilities-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Arena UI dark fantasy game component library. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, gold #f2b632 for rewards and action, cyan #3ec7e0 for energy and selection. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, UI borders, logos or watermark. Create a landscape 1536x1024 atlas with exactly 4 columns and 2 rows of equally sized cells, no gutters or visible grid. Flat opaque #171c24 throughout. Center one complete object in each cell with 20 percent margin, consistent scale and no effects crossing cell boundaries. Eight sculptural utility menu objects. Row one left to right: a simple brushed silver gear wheel for settings, a closed cream envelope with one small warm gold wax seal for mail, a charcoal leather ledger with a silver clasp and no writing for quests, a small dark formation board with four silver chess tokens arranged in a two-by-two formation. Row two left to right: a silver magnifying glass beside a small neutral stone specimen for a collection encyclopedia, a compact standing flip-calendar with blank cream pages and gold binding rings for daily check-in rewards, a balanced silver merchant scale holding a few plain gold coins for the exchange shop, a small upright silver notification bell with a charcoal handle. No backpack, anvil, hourglass, medal or map. No printed markings anywhere. Each complete object stays strictly within the middle 60 percent of its cell, including all tips and shadows.",
+          "promptSha256": "67a4c42c1acab72742f0f35e8cbd425bbb7323293bb2784389c1a4ce44abaae5",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "utility-atlas",
+          "variationReason": "沿用navigation主题图集规格，避开已有奖杯、关卡门、铁砧、沙漏与空背包，补齐游戏玩法和功能入口。"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "ui-kit-board-v1",
+          "type": "fixed-prompt-comparison",
+          "observations": [
+            "动作按钮由横排变为左侧竖排；属性板移到右上，八格背包移到左下，弹窗移到中下，标签导航移到底部。",
+            "ARENA UI、BATTLE、EQUIP、DISMANTLE、HP/MP/XP与READY TO BATTLE?可读，主要模块没有明显遮挡；八件库存物品齐全且顺序正确。",
+            "红色HP、青色MP与金色XP保持；CURSED徽章由紫色改为红色，但选中标签、勾选框和开启开关仍为金色，没有遵循青色选择语义。",
+            "新增分页、删除昨天的输入框与步进器；显示值与角色名称改变，这些属于同提示词下的自由布局和内容差异。"
+          ],
+          "comparedToRunId": "20261027-090124",
+          "comparedToPath": "assets/daily/2026/10/27/20261027-090124/benchmark/ui-kit-board.png",
+          "samePromptSha256": true,
+          "interpretation": "布局、造型与文字内容变化为可见差异；阅读舒适度等偏好属于主观判断。两次输出仍可能受随机差异影响；本次未训练模型，工具未报告型号变化，不能据此认定模型升级。"
+        },
+        {
+          "assetId": "equipment-atlas-v1",
+          "type": "fixed-prompt-comparison",
+          "observations": [
+            "两版均为四列两行且八件物品顺序一致；今天斧柄倾向左下，昨天倾向右下，盾面纹样、头盔角度和戒指造型也有变化。",
+            "药瓶由金色外框改为颈部绳结与吊牌，水晶簇形状与基座变化；红药、紫戒指、青盾宝石及青水晶仍易区分。",
+            "20%安全留白仍未满足，剑尖与盾顶接近上边缘；斧刃最高处略过理论y=512行界，直接等分裁切仍有截边风险。",
+            "物品没有互相遮挡，也没有文字；底色带局部阴影和色阶变化，并非完全均匀的#171c24。"
+          ],
+          "comparedToRunId": "20261027-090124",
+          "comparedToPath": "assets/daily/2026/10/27/20261027-090124/benchmark/equipment-atlas.png",
+          "samePromptSha256": true,
+          "interpretation": "布局、造型与文字内容变化为可见差异；阅读舒适度等偏好属于主观判断。两次输出仍可能受随机差异影响；本次未训练模型，工具未报告型号变化，不能据此认定模型升级。"
+        },
+        {
+          "assetId": "adventure-modes-atlas",
+          "type": "library-review",
+          "observations": [
+            "四列两行八组图形齐全，顺序为训练假人、远征飞艇、挑战塔、公会厅／三人队伍、首领祭坛、迷宫、选角面具。各组轮廓可辨，没有文字标签。",
+            "飞艇船头略越理论x=384列界，迷宫左角也贴近列界；塔顶青色光束接近上边缘，未满足格内中心60%和20%留白要求，使用等分图集前需要裁切校对。",
+            "首领祭坛出现红色布饰、队伍出现蓝色围巾，超出约定的克制配色；塔的青色能量表现符合用途。",
+            "主体完整，没有明显组间遮挡；飞艇、公会厅和迷宫细节较多，缩成小入口时建筑细部辨识度会降低。"
+          ]
+        },
+        {
+          "assetId": "menu-utilities-atlas",
+          "type": "library-review",
+          "observations": [
+            "四列两行八组图形齐全，顺序为设置齿轮、邮件、任务册、编队棋盘／图鉴放大镜、签到日历、兑换天平、通知铃。棋盘确有四枚棋子。",
+            "各物件完整，没有明显越过等分格界；日历为空白，任务册没有文字。金币与蜡封有装饰纹样，不是纯无纹表面。",
+            "多数主体宽度超过单格60%，20%安全留白未达标；底色有柔和阴影，不是严格纯色，适合深色底入口并需按实际轮廓处理。",
+            "未出现已有背包、铁砧、沙漏、奖章和地图；齿轮、信封、日历和铃铛的形状相对简单，作为小尺寸入口的主观可读性优于复杂建筑图标。"
+          ]
+        }
+      ],
+      "notes": [
+        "生成前核对当日索引与运行目录，尚无调用；按实际上海日期归档，不补造日期。",
+        "两个扩展提示词已在调用前完整记录；冻结基准逐字复用，不附加参考图。",
+        "四次内置图像工具调用获得四张1536×1024可解码原图；无重抽、无图像重绘或缩放，源文件字节原样复制。",
+        "四张均按请求使用不透明背景，实际alpha均为255；图集留白和分格边缘缺陷原样保留。",
+        "历史页2026-10-28记录已显示四张素材；两个固定题目均与2026-10-27相同提示词哈希原图等尺寸并排观察。",
+        "仅更新本次日期目录和索引；未修改页面代码、冻结配置、每日频率或已完成的首次运行状态，未运行不相关测试套件。"
+      ],
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "benchmarkAssets": 2,
+        "libraryAssets": 2,
+        "attemptBudgetRespected": true,
+        "localDateTotalToolCalls": 4,
+        "originalFilesPreserved": true,
+        "historyPageVerified": true,
+        "crossDateSamePromptVerified": true,
+        "comparisonDate": "2026-10-27",
+        "opaqueAlphaVerified": true,
+        "reviewedAt": "2026-10-28T09:12:19+08:00"
+      },
+      "completedAt": "2026-10-28T09:12:19+08:00"
     }
   ]
 }
