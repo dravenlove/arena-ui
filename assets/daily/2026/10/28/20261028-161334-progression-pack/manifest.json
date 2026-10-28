@@ -1,0 +1,678 @@
+{
+  "id": "20261028-161334-progression-pack",
+  "date": "2026-10-28",
+  "time": "16:13:34",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/28/20261028-161334-progression-pack/manifest.json",
+  "kind": "manual-extension",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "dawn-healer",
+      "label": "圣愈祭司",
+      "promptVersion": "miniprogram-character-v2",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: full-body playable healer for a competitive role-progression WeChat mini-game. Subject: an adult male human healer with short silver-gray hair and a neatly trimmed beard, kind composed visible face, sturdy ordinary build. Fully closed high-collar charcoal tunic with silver shoulder trim and a waist-length split tabard over fitted trousers, sturdy flat-soled boots. Torso completely covered. Right hand holds one straight practical silver-capped dark staff vertically beside the body. Its compact circular head encloses one small green healing crystal, the only green element, with only contained internal light. Full staff shorter than the top of the character's hair and clear of his head and legs. Left palm rests over a small closed belt pouch. No book, wings, halo, helmet or floating magic. Art direction: Arena UI premium polished hand-painted 3D dark fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, restrained brushed steel and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8, small warm gold #f2b632 clasps. Cyan #3ec7e0 only for energy and green #46c97a only for healing. Camera: eye-level nearly orthographic full-body three-quarter front view, quiet balanced ready-to-select standing pose. Generate one portrait 1024x1536 PNG with genuine transparent alpha. Keep the complete character and all equipment within the central 70 percent of canvas width and central 76 percent of height, with ample empty transparent headroom and space below both soles. Both feet, hands, every weapon tip and hair must be fully visible. Make the character smaller to preserve margins. No cape, ground plane, pedestal, cast shadow outside the cutout, backdrop, vignette, broad glow, smoke, particles or painted checkerboard. No text, letters, numbers, logos, watermark, UI, borders, extra characters, duplicate limbs or detached equipment. Static single-character asset, not an animation sheet.",
+      "group": "library",
+      "transparentBackground": true,
+      "promptSha256": "3d94fcd0b32b18cb18bc4bf03e44d89fa03a5e9eaa5760094886508805913297",
+      "path": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/dawn-healer.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1592130,
+      "sha256": "6802a7167ae419b424847a7a58cb64365d4ca45456d0ff2173c222b842ddc524",
+      "recordedAt": "2026-10-28T16:15:22+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T16:13:48+08:00",
+        "resultObservedAt": "2026-10-28T16:15:08+08:00"
+      },
+      "sourceFile": "exec-26c8e5e6-7f23-4812-9810-91678f558c96.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.7843182881673177,
+        "alphaBounds": [
+          57,
+          37,
+          986,
+          1536
+        ],
+        "alphaBoundsAt16": [
+          201,
+          178,
+          732,
+          1387
+        ],
+        "lowAlphaPixelCount": 19985,
+        "safeMarginRequirementMet": false,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T16:22:43+08:00"
+      },
+      "usage": {
+        "intendedSurface": "治疗支援职业、编队、角色养成详情",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "silver-lancer",
+      "label": "银锋枪卫",
+      "promptVersion": "miniprogram-character-v2",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: full-body playable spear guard for a competitive role-progression WeChat mini-game. Subject: an adult female human lancer with dark hair in a tight short bun, alert calm visible face, athletic practical build. Fully closed high-collar charcoal padded jacket beneath compact brushed-silver breastplate and shoulder guards, fitted armored trousers, flat-soled combat boots. Torso fully covered. Hold one straight practical spear upright in her right hand slightly outside the body silhouette: dark shaft, compact silver leaf-shaped blade, small gold socket ring, no banner or tassel. Spear total length from boot level to just above the crown of her head, entire spear head and butt fully in frame. Left hand rests naturally at her waist. Neutral stance with both feet supported, no lunging or throwing. No shield, sword, helmet, cloak or magical effects. Art direction: Arena UI premium polished hand-painted 3D dark fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, restrained brushed steel and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8, small warm gold #f2b632 clasps. Cyan #3ec7e0 only for energy and green #46c97a only for healing. Camera: eye-level nearly orthographic full-body three-quarter front view, quiet balanced ready-to-select standing pose. Generate one portrait 1024x1536 PNG with genuine transparent alpha. Keep the complete character and all equipment within the central 70 percent of canvas width and central 76 percent of height, with ample empty transparent headroom and space below both soles. Both feet, hands, every weapon tip and hair must be fully visible. Make the character smaller to preserve margins. No cape, ground plane, pedestal, cast shadow outside the cutout, backdrop, vignette, broad glow, smoke, particles or painted checkerboard. No text, letters, numbers, logos, watermark, UI, borders, extra characters, duplicate limbs or detached equipment. Static single-character asset, not an animation sheet.",
+      "group": "library",
+      "transparentBackground": true,
+      "promptSha256": "b51b76734f2eb3e7f3a9f71f7c77fde1705bb6b171550f0e04212267cf70213f",
+      "path": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/silver-lancer.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1495230,
+      "sha256": "2ed3674b5f0c785916798571c53c705bb261096e6d8aac6ceafe10cb9a167486",
+      "recordedAt": "2026-10-28T16:15:23+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T16:13:48+08:00",
+        "resultObservedAt": "2026-10-28T16:15:08+08:00"
+      },
+      "sourceFile": "exec-d7eaf498-f3d7-4464-972c-b37c3a82144f.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.8166758219401041,
+        "alphaBounds": [
+          17,
+          19,
+          1008,
+          1536
+        ],
+        "alphaBoundsAt16": [
+          298,
+          65,
+          760,
+          1421
+        ],
+        "lowAlphaPixelCount": 30568,
+        "safeMarginRequirementMet": false,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T16:22:43+08:00"
+      },
+      "usage": {
+        "intendedSurface": "长柄武器职业、阵容编队、角色选择",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "repeater-hand-crossbow",
+      "label": "机关手弩",
+      "promptVersion": "miniprogram-inventory-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one isolated equippable weapon icon for a competitive role-progression WeChat mini-game. Subject: one compact fantasy repeating hand crossbow in a clear three-quarter view, diagonally arranged with bow toward upper left and grip toward lower right. A short charcoal hardwood stock, symmetrical compact brushed-silver limbs, a single taut bowstring, one central bolt rail, dark leather-wrapped pistol grip, and a compact closed metal repeating magazine integrated above the rear stock. Coherent plausible joins, simple readable trigger guard, no extra bows or detached bolts. Small gold rivets, no glowing parts. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "transparentBackground": true,
+      "promptSha256": "f5412dbb2c23b237c124843e5f14eafdd2071edd00574131970f4d82dadd0057",
+      "path": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/repeater-hand-crossbow.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 888472,
+      "sha256": "84412ce0a70c0a8702592ecef2a7cf1e00916e9d1ed5befbb39d61fa7edcd8db",
+      "recordedAt": "2026-10-28T16:17:26+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T16:15:30+08:00",
+        "resultObservedAt": "2026-10-28T16:17:14+08:00"
+      },
+      "sourceFile": "exec-da1f6e76-3845-4893-869c-60093dbe5f04.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.8086900228678119,
+        "alphaBounds": [
+          41,
+          23,
+          1218,
+          1230
+        ],
+        "alphaBoundsAt16": [
+          159,
+          163,
+          1100,
+          1062
+        ],
+        "lowAlphaPixelCount": 22815,
+        "safeMarginRequirementMet": false,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T16:22:43+08:00"
+      },
+      "usage": {
+        "intendedSurface": "远程武器背包格、装备详情、锻造配方",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "sentinel-bracer",
+      "label": "守护腕甲",
+      "promptVersion": "miniprogram-inventory-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one isolated equippable armor icon for a competitive role-progression WeChat mini-game. Subject: one empty sculpted forearm bracer shown diagonally in three-quarter view, broad wrist opening visible, brushed-silver overlapping plates on a charcoal leather cuff, two substantial dark leather fastening straps with simple small gold buckles, smooth angular ridge suggesting protection. Broad simplified silhouette, realistic hollow wearable construction, no hand or arm inside, no matching pair, no shield emblem, spikes, gemstones or magical light. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "transparentBackground": true,
+      "promptSha256": "10d44173dc186dd1943c2552ef4951e3f287339b73418fd80e0f1d60f4584768",
+      "path": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/sentinel-bracer.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1026339,
+      "sha256": "b7f19ab2b37e098e200f762b2f2499ebaa9e8a14acbf3f7ed11b80273fbf88ff",
+      "recordedAt": "2026-10-28T16:17:26+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T16:15:30+08:00",
+        "resultObservedAt": "2026-10-28T16:17:14+08:00"
+      },
+      "sourceFile": "exec-dddcca43-9fca-4955-b252-a1430fad67ef.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.7546460576553752,
+        "alphaBounds": [
+          33,
+          31,
+          1224,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          276,
+          122,
+          1046,
+          1111
+        ],
+        "lowAlphaPixelCount": 8422,
+        "safeMarginRequirementMet": false,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T16:22:43+08:00"
+      },
+      "usage": {
+        "intendedSurface": "防具背包格、装备强化、锻造配方",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "awakening-core",
+      "label": "觉醒核心",
+      "promptVersion": "miniprogram-progression-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one isolated character-ascension material icon for a competitive role-progression WeChat mini-game. Subject: one compact faceted cyan energy core securely nested in a dark steel hexagonal cradle with six simple brushed-silver retaining prongs and a small gold connector collar. The single crystal and its mount form one connected, compact object in three-quarter view. Strong simple hexagonal silhouette, large clear facets, cyan internal light contained within the crystal with no outer aura. No orbiting fragments, loose shards, inscription, runic symbols, rings floating outside or cables. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "transparentBackground": true,
+      "promptSha256": "50cc9acf2036f7de42548d0e638899b97cf93a29c8159bbce3e9c20ef979ed95",
+      "path": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/awakening-core.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1116244,
+      "sha256": "d3205fde23fe2f1be69c774915ae436ea76a4698789130a955ff042be1659ba4",
+      "recordedAt": "2026-10-28T16:19:32+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T16:17:33+08:00",
+        "resultObservedAt": "2026-10-28T16:19:01+08:00"
+      },
+      "sourceFile": "exec-9fbb4893-21a4-40d0-9d06-525e841746aa.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.7040157302056068,
+        "alphaBounds": [
+          31,
+          36,
+          1212,
+          1214
+        ],
+        "alphaBoundsAt16": [
+          260,
+          204,
+          994,
+          1033
+        ],
+        "lowAlphaPixelCount": 7398,
+        "safeMarginRequirementMet": false,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T16:22:43+08:00"
+      },
+      "usage": {
+        "intendedSurface": "角色突破材料、觉醒消耗品、奖励展示",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "tactical-skill-tome",
+      "label": "技能秘典",
+      "promptVersion": "miniprogram-progression-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one isolated skill-upgrade material icon for a competitive role-progression WeChat mini-game. Subject: one compact closed charcoal leather training tome in a clear three-quarter view with a visible thick cream page block, broad silver corner protectors, one simple gold mechanical clasp and a plain raised silver chevron made of two short metal strips centered on the cover. One short dark fabric bookmark remains neatly tucked within the silhouette. Bold simple construction readable at icon size. Closed book, blank unmarked leather and page edges, no letters, numbers, magical writing, open pages, loose papers, gemstone, chains or glow. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "transparentBackground": true,
+      "promptSha256": "d621f143193d663fbf8273897a7fd0a029626590ff60fb04576220214c25e44e",
+      "path": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/tactical-skill-tome.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1471004,
+      "sha256": "d90879a1042b09426e17f589483c15aeaf0fecef3ec56fdbfb05e1c4674d36af",
+      "recordedAt": "2026-10-28T16:19:32+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T16:17:34+08:00",
+        "resultObservedAt": "2026-10-28T16:19:01+08:00"
+      },
+      "sourceFile": "exec-b7873482-b77d-435c-85ba-7d63244aaa07.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6563640687916689,
+        "alphaBounds": [
+          0,
+          67,
+          1234,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          222,
+          187,
+          1058,
+          1086
+        ],
+        "lowAlphaPixelCount": 9578,
+        "safeMarginRequirementMet": false,
+        "originalBytesPreserved": true,
+        "reviewedAt": "2026-10-28T16:22:43+08:00"
+      },
+      "usage": {
+        "intendedSurface": "技能升级材料、技能树消耗品、奖励展示",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "asset-only",
+        "animationFrames": false
+      }
+    }
+  ],
+  "themeId": "miniprogram-progression-pack",
+  "startedAt": "2026-10-28T16:13:34+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 6,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "dawn-healer",
+      "group": "library",
+      "startedAt": "2026-10-28T16:13:48+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "3d94fcd0b32b18cb18bc4bf03e44d89fa03a5e9eaa5760094886508805913297",
+      "resultObservedAt": "2026-10-28T16:15:08+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/dawn-healer.png",
+      "sourceFile": "exec-26c8e5e6-7f23-4812-9810-91678f558c96.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T16:15:22+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "silver-lancer",
+      "group": "library",
+      "startedAt": "2026-10-28T16:13:48+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "b51b76734f2eb3e7f3a9f71f7c77fde1705bb6b171550f0e04212267cf70213f",
+      "resultObservedAt": "2026-10-28T16:15:08+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/silver-lancer.png",
+      "sourceFile": "exec-d7eaf498-f3d7-4464-972c-b37c3a82144f.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T16:15:23+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "repeater-hand-crossbow",
+      "group": "library",
+      "startedAt": "2026-10-28T16:15:30+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "f5412dbb2c23b237c124843e5f14eafdd2071edd00574131970f4d82dadd0057",
+      "resultObservedAt": "2026-10-28T16:17:14+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/repeater-hand-crossbow.png",
+      "sourceFile": "exec-da1f6e76-3845-4893-869c-60093dbe5f04.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T16:17:26+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "sentinel-bracer",
+      "group": "library",
+      "startedAt": "2026-10-28T16:15:30+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "10d44173dc186dd1943c2552ef4951e3f287339b73418fd80e0f1d60f4584768",
+      "resultObservedAt": "2026-10-28T16:17:14+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/sentinel-bracer.png",
+      "sourceFile": "exec-dddcca43-9fca-4955-b252-a1430fad67ef.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T16:17:26+08:00"
+    },
+    {
+      "number": 5,
+      "slotId": "awakening-core",
+      "group": "library",
+      "startedAt": "2026-10-28T16:17:33+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "50cc9acf2036f7de42548d0e638899b97cf93a29c8159bbce3e9c20ef979ed95",
+      "resultObservedAt": "2026-10-28T16:19:01+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/awakening-core.png",
+      "sourceFile": "exec-9fbb4893-21a4-40d0-9d06-525e841746aa.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T16:19:32+08:00"
+    },
+    {
+      "number": 6,
+      "slotId": "tactical-skill-tome",
+      "group": "library",
+      "startedAt": "2026-10-28T16:17:34+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d621f143193d663fbf8273897a7fd0a029626590ff60fb04576220214c25e44e",
+      "resultObservedAt": "2026-10-28T16:19:01+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-161334-progression-pack/library/tactical-skill-tome.png",
+      "sourceFile": "exec-b7873482-b77d-435c-85ba-7d63244aaa07.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T16:19:32+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "dawn-healer",
+      "label": "圣愈祭司",
+      "promptVersion": "miniprogram-character-v2",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "usage": "治疗支援职业、编队、角色养成详情",
+      "prompt": "Use case: stylized-concept. Asset type: full-body playable healer for a competitive role-progression WeChat mini-game. Subject: an adult male human healer with short silver-gray hair and a neatly trimmed beard, kind composed visible face, sturdy ordinary build. Fully closed high-collar charcoal tunic with silver shoulder trim and a waist-length split tabard over fitted trousers, sturdy flat-soled boots. Torso completely covered. Right hand holds one straight practical silver-capped dark staff vertically beside the body. Its compact circular head encloses one small green healing crystal, the only green element, with only contained internal light. Full staff shorter than the top of the character's hair and clear of his head and legs. Left palm rests over a small closed belt pouch. No book, wings, halo, helmet or floating magic. Art direction: Arena UI premium polished hand-painted 3D dark fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, restrained brushed steel and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8, small warm gold #f2b632 clasps. Cyan #3ec7e0 only for energy and green #46c97a only for healing. Camera: eye-level nearly orthographic full-body three-quarter front view, quiet balanced ready-to-select standing pose. Generate one portrait 1024x1536 PNG with genuine transparent alpha. Keep the complete character and all equipment within the central 70 percent of canvas width and central 76 percent of height, with ample empty transparent headroom and space below both soles. Both feet, hands, every weapon tip and hair must be fully visible. Make the character smaller to preserve margins. No cape, ground plane, pedestal, cast shadow outside the cutout, backdrop, vignette, broad glow, smoke, particles or painted checkerboard. No text, letters, numbers, logos, watermark, UI, borders, extra characters, duplicate limbs or detached equipment. Static single-character asset, not an animation sheet.",
+      "group": "library",
+      "filename": "dawn-healer.png",
+      "transparentBackground": true,
+      "promptSha256": "3d94fcd0b32b18cb18bc4bf03e44d89fa03a5e9eaa5760094886508805913297"
+    },
+    {
+      "id": "silver-lancer",
+      "label": "银锋枪卫",
+      "promptVersion": "miniprogram-character-v2",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "usage": "长柄武器职业、阵容编队、角色选择",
+      "prompt": "Use case: stylized-concept. Asset type: full-body playable spear guard for a competitive role-progression WeChat mini-game. Subject: an adult female human lancer with dark hair in a tight short bun, alert calm visible face, athletic practical build. Fully closed high-collar charcoal padded jacket beneath compact brushed-silver breastplate and shoulder guards, fitted armored trousers, flat-soled combat boots. Torso fully covered. Hold one straight practical spear upright in her right hand slightly outside the body silhouette: dark shaft, compact silver leaf-shaped blade, small gold socket ring, no banner or tassel. Spear total length from boot level to just above the crown of her head, entire spear head and butt fully in frame. Left hand rests naturally at her waist. Neutral stance with both feet supported, no lunging or throwing. No shield, sword, helmet, cloak or magical effects. Art direction: Arena UI premium polished hand-painted 3D dark fantasy game character, slightly stylized believable adult anatomy, approximately seven-head proportions, crisp broad readable silhouette, restrained brushed steel and leather wear, soft studio key light from upper left with subtle cool rim light. Palette: charcoal #171c24 and dark leather, brushed silver #9aa6b8, small warm gold #f2b632 clasps. Cyan #3ec7e0 only for energy and green #46c97a only for healing. Camera: eye-level nearly orthographic full-body three-quarter front view, quiet balanced ready-to-select standing pose. Generate one portrait 1024x1536 PNG with genuine transparent alpha. Keep the complete character and all equipment within the central 70 percent of canvas width and central 76 percent of height, with ample empty transparent headroom and space below both soles. Both feet, hands, every weapon tip and hair must be fully visible. Make the character smaller to preserve margins. No cape, ground plane, pedestal, cast shadow outside the cutout, backdrop, vignette, broad glow, smoke, particles or painted checkerboard. No text, letters, numbers, logos, watermark, UI, borders, extra characters, duplicate limbs or detached equipment. Static single-character asset, not an animation sheet.",
+      "group": "library",
+      "filename": "silver-lancer.png",
+      "transparentBackground": true,
+      "promptSha256": "b51b76734f2eb3e7f3a9f71f7c77fde1705bb6b171550f0e04212267cf70213f"
+    },
+    {
+      "id": "repeater-hand-crossbow",
+      "label": "机关手弩",
+      "promptVersion": "miniprogram-inventory-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "usage": "远程武器背包格、装备详情、锻造配方",
+      "prompt": "Use case: stylized-concept. Asset type: one isolated equippable weapon icon for a competitive role-progression WeChat mini-game. Subject: one compact fantasy repeating hand crossbow in a clear three-quarter view, diagonally arranged with bow toward upper left and grip toward lower right. A short charcoal hardwood stock, symmetrical compact brushed-silver limbs, a single taut bowstring, one central bolt rail, dark leather-wrapped pistol grip, and a compact closed metal repeating magazine integrated above the rear stock. Coherent plausible joins, simple readable trigger guard, no extra bows or detached bolts. Small gold rivets, no glowing parts. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "filename": "repeater-hand-crossbow.png",
+      "transparentBackground": true,
+      "promptSha256": "f5412dbb2c23b237c124843e5f14eafdd2071edd00574131970f4d82dadd0057"
+    },
+    {
+      "id": "sentinel-bracer",
+      "label": "守护腕甲",
+      "promptVersion": "miniprogram-inventory-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "usage": "防具背包格、装备强化、锻造配方",
+      "prompt": "Use case: stylized-concept. Asset type: one isolated equippable armor icon for a competitive role-progression WeChat mini-game. Subject: one empty sculpted forearm bracer shown diagonally in three-quarter view, broad wrist opening visible, brushed-silver overlapping plates on a charcoal leather cuff, two substantial dark leather fastening straps with simple small gold buckles, smooth angular ridge suggesting protection. Broad simplified silhouette, realistic hollow wearable construction, no hand or arm inside, no matching pair, no shield emblem, spikes, gemstones or magical light. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "filename": "sentinel-bracer.png",
+      "transparentBackground": true,
+      "promptSha256": "10d44173dc186dd1943c2552ef4951e3f287339b73418fd80e0f1d60f4584768"
+    },
+    {
+      "id": "awakening-core",
+      "label": "觉醒核心",
+      "promptVersion": "miniprogram-progression-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "usage": "角色突破材料、觉醒消耗品、奖励展示",
+      "prompt": "Use case: stylized-concept. Asset type: one isolated character-ascension material icon for a competitive role-progression WeChat mini-game. Subject: one compact faceted cyan energy core securely nested in a dark steel hexagonal cradle with six simple brushed-silver retaining prongs and a small gold connector collar. The single crystal and its mount form one connected, compact object in three-quarter view. Strong simple hexagonal silhouette, large clear facets, cyan internal light contained within the crystal with no outer aura. No orbiting fragments, loose shards, inscription, runic symbols, rings floating outside or cables. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "filename": "awakening-core.png",
+      "transparentBackground": true,
+      "promptSha256": "50cc9acf2036f7de42548d0e638899b97cf93a29c8159bbce3e9c20ef979ed95"
+    },
+    {
+      "id": "tactical-skill-tome",
+      "label": "技能秘典",
+      "promptVersion": "miniprogram-progression-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "usage": "技能升级材料、技能树消耗品、奖励展示",
+      "prompt": "Use case: stylized-concept. Asset type: one isolated skill-upgrade material icon for a competitive role-progression WeChat mini-game. Subject: one compact closed charcoal leather training tome in a clear three-quarter view with a visible thick cream page block, broad silver corner protectors, one simple gold mechanical clasp and a plain raised silver chevron made of two short metal strips centered on the cover. One short dark fabric bookmark remains neatly tucked within the silhouette. Bold simple construction readable at icon size. Closed book, blank unmarked leather and page edges, no letters, numbers, magical writing, open pages, loose papers, gemstone, chains or glow. Art direction: Arena UI premium sculptural hand-painted 3D dark fantasy game asset, crisp broad readable silhouette, convincing brushed silver #9aa6b8 and charcoal #171c24 materials, dark leather where appropriate, restrained wear, tiny gold #f2b632 fasteners. Green #46c97a only for healing; cyan #3ec7e0 only for energy; no red or violet decoration. Soft studio key light from upper left, restrained cool rim light, clear separation of major forms. Generate one square 1024x1024 PNG with genuine transparent alpha. Center the complete object with all tips and details inside the central 64 percent of the canvas, leaving at least 18 percent empty transparent margin on each edge. Keep details large enough to read as a small inventory icon. No ground plane, pedestal, external cast shadow, scenery, vignette, broad glow, smoke, particles, checkerboard or solid backdrop. No text, letters, numbers, logos, watermark, border, UI, item frame or other unrelated objects. One standalone inventory asset, not an atlas or collage.",
+      "group": "library",
+      "filename": "tactical-skill-tome.png",
+      "transparentBackground": true,
+      "promptSha256": "d621f143193d663fbf8273897a7fd0a029626590ff60fb04576220214c25e44e"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "dawn-healer",
+      "observations": [
+        "灰白短发与短须、绿色晶石法杖及深色高领服饰清楚可辨，头、双脚、双手和整根法杖完整；绿色集中在治疗晶石，没有误带文字。",
+        "法杖握持与杖头可读；下摆延伸到大腿，偏离腰长短罩衣要求，装甲与金色饰件比提示词更繁复。",
+        "实际1024×1536，alpha范围0–254；alpha>=16主体边界[201,178,732,1387]，上下安全留白未完全达到要求。128×192深浅底下角色与杖头可辨，细杖杆在深底较弱。",
+        "原始输出文件与复制件逐字节一致，已验证解码、提示词及文件SHA-256。深底#171c24、浅底#f2f4f8显示时背景可透出，未见实心黑底或宽灰晕。本次未重抽或修图。"
+      ],
+      "type": "library-review"
+    },
+    {
+      "assetId": "silver-lancer",
+      "observations": [
+        "盘发、银色胸甲与直立长枪区分职业，躯干服装闭合，全身及枪头、枪尾完整，没有额外武器或漂浮特效。",
+        "长枪明显高出头部，超过提示词仅略高于头顶的长度；alpha>=16顶部y=65，约4.2%高度，少于12%留白要求。两脚因站姿透视未完全齐平。",
+        "实际1024×1536，alpha范围0–254，存在低alpha边缘像素到画布底边；可见脚部完整。128×192时人物较窄、脸部细节弱，长枪职业轮廓仍可辨，后续编队展示需单独调整缩放。",
+        "原始输出文件与复制件逐字节一致，已验证解码、提示词及文件SHA-256。深底#171c24、浅底#f2f4f8显示时背景可透出，未见实心黑底或宽灰晕。本次未重抽或修图。"
+      ],
+      "type": "library-review"
+    },
+    {
+      "assetId": "repeater-hand-crossbow",
+      "observations": [
+        "单件手弩的弩臂、弦、箭槽、扳机护圈、皮革握把及封闭金属机匣可见，所有末端完整；左右弩臂因透视大小不同，没有独立散落弩箭。",
+        "机械细节是游戏概念造型，不能由单张图证明连发机构可工作；细弦在128×128时弱化，但手弩主轮廓清楚。",
+        "实际1254×1254而非请求1024×1024；alpha范围0–255，保留原始尺寸。alpha>=16边界[159,163,1100,1062]，未达到每边18%留白。",
+        "原始输出文件与复制件逐字节一致，已验证解码、提示词及文件SHA-256。深底#171c24、浅底#f2f4f8显示时背景可透出，未见实心黑底或宽灰晕。本次未重抽或修图。"
+      ],
+      "type": "library-review"
+    },
+    {
+      "assetId": "sentinel-bracer",
+      "observations": [
+        "单件空腕甲，腕口内衬、叠片银甲、两条皮带与两只金扣可见，无手臂、成对装备或额外符号，主体完整。",
+        "银甲层叠与空心腕口在128×128深浅底均可辨；深色内衬在深底对比低，主要依赖银色外缘。",
+        "实际1254×1254而非请求1024×1024；alpha范围0–255。alpha>=16边界[276,122,1046,1111]，上方留白约9.7%，少于18%要求；低alpha杂点到画布底边，可见主体未裁切。",
+        "原始输出文件与复制件逐字节一致，已验证解码、提示词及文件SHA-256。深底#171c24、浅底#f2f4f8显示时背景可透出，未见实心黑底或宽灰晕。本次未重抽或修图。"
+      ],
+      "type": "library-review"
+    },
+    {
+      "assetId": "awakening-core",
+      "observations": [
+        "单颗青色能量晶体与深色金属底座连成完整物件，晶面、银色固定爪和少量金色连接件可辨，没有漂浮碎片、符文或外扩光圈。",
+        "画面前方可见五处固定爪，背侧被晶体遮挡，不能验证提示词指定的六爪总数；视角较接近正面。大块青色在128×128时仍清楚，适合突破材料图标。",
+        "实际1254×1254而非请求1024×1024；alpha范围0–255。alpha>=16边界[260,204,994,1033]，上下留白略少于每边18%要求，保留原图。",
+        "原始输出文件与复制件逐字节一致，已验证解码、提示词及文件SHA-256。深底#171c24、浅底#f2f4f8显示时背景可透出，未见实心黑底或宽灰晕。本次未重抽或修图。"
+      ],
+      "type": "library-review"
+    },
+    {
+      "assetId": "tactical-skill-tome",
+      "observations": [
+        "闭合深色皮书、银色护角、金色扣锁和浅色书页完整可见，无可读文字、数字或散页。128×128时书本轮廓及升级箭头清楚。",
+        "封面生成了两道上折角箭头，偏离提示词的一道；书签伸出书页轮廓，偏离完全收在书本轮廓内的要求，但仍完整位于画布内。",
+        "实际1254×1254而非请求1024×1024；alpha范围0–255。alpha>=16边界[222,187,1058,1086]，未达到每边18%留白；低alpha像素触及左/下画布边界，可见书本主体完整。",
+        "原始输出文件与复制件逐字节一致，已验证解码、提示词及文件SHA-256。深底#171c24、浅底#f2f4f8显示时背景可透出，未见实心黑底或宽灰晕。本次未重抽或修图。"
+      ],
+      "type": "library-review"
+    }
+  ],
+  "notes": [
+    "用户明确要求：多生成一些素材。本批追加两位角色、两件装备和两种养成材料，共6张独立透明素材。",
+    "逐个素材仅调用一次内置工具；本批为手动追加，不修改每日09:00四张定时计划与冻结基准。",
+    "模型版本与随机种子若未报告，则记录unreported/null；原图完整保留。"
+  ],
+  "authorization": {
+    "type": "explicit-manual-addition",
+    "request": "多生成一些素材",
+    "plannedAdditionalCalls": 6,
+    "scheduledCallsAlreadyToday": 4,
+    "manualCallsAlreadyToday": 1
+  },
+  "completedAt": "2026-10-28T16:22:43+08:00",
+  "validation": {
+    "successfulDecodedAssets": 6,
+    "benchmarkAssets": 0,
+    "libraryAssets": 6,
+    "attempts": 6,
+    "noResampling": true,
+    "originalFilesPreserved": true,
+    "manualAdditionalAuthorizationRecorded": true,
+    "historyPageVerified": true,
+    "historyDateAssetCount": 11,
+    "historyThisRunAssetCount": 6,
+    "reviewedAt": "2026-10-28T16:22:43+08:00",
+    "thumbnailReview": {
+      "characterCssPx": [
+        128,
+        192
+      ],
+      "inventoryCssPx": [
+        128,
+        128
+      ],
+      "backgrounds": [
+        "#171c24",
+        "#f2f4f8"
+      ],
+      "allTwelvePreviewImagesDecoded": true,
+      "visibleOpaqueBackdrop": false,
+      "completeSubjects": true
+    }
+  }
+}
