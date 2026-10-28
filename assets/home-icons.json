@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261028-205556-home-icons",
+  "manifest": "assets/daily/2026/10/28/20261028-205556-home-icons/manifest.json",
+  "items": [
+    {
+      "id": "home-heroes",
+      "label": "英雄",
+      "description": "角色列表、编队与角色养成",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-heroes.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1505667,
+      "sha256": "03c20f9aa866390b774f1aaa45aca40c772c56ed9717c8803c7adb232c2b1a00"
+    },
+    {
+      "id": "home-backpack",
+      "label": "背包",
+      "description": "物品背包与装备整理",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-backpack.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1680836,
+      "sha256": "b3c85ea886a8afa7834001d5f863868b9783577714d712584be0d32c94d5cb0d"
+    },
+    {
+      "id": "home-quests",
+      "label": "任务",
+      "description": "每日任务、委托与成就目标",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-quests.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1372883,
+      "sha256": "7e45e5a3ff0f39dc128ac35ebd3803638b2fca0d00970f1eb26876dbe69df8a3"
+    },
+    {
+      "id": "home-shop",
+      "label": "商城",
+      "description": "道具商店与礼包入口",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-shop.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1341423,
+      "sha256": "f35f5068e0b6fde34e8d6957042e77192fa751b6aad232c8b202bcdfd3d5a9dc"
+    },
+    {
+      "id": "home-mail",
+      "label": "邮件",
+      "description": "系统邮件、通知与附件领取",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-mail.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1135594,
+      "sha256": "738d1aa84e3342c4d4d2fd4e39a3cd5a2dd805719f7e7cc9d4ed85c1bfc6ac8d"
+    },
+    {
+      "id": "home-friends",
+      "label": "好友",
+      "description": "好友列表与社交邀请",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-friends.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1159465,
+      "sha256": "efddc3b29b2f70fb55265cb0787ca9585bc063024ec5b25c151617c9b7c905f8"
+    },
+    {
+      "id": "home-ranking",
+      "label": "排行榜",
+      "description": "竞技排名、段位与赛季排行",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-ranking.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1045642,
+      "sha256": "00d773029fdd11f797a0d3849b9d81a5d92dcc8a55641c7dbd1cd3e66ce4d3c9"
+    },
+    {
+      "id": "home-settings",
+      "label": "设置",
+      "description": "音效、画质与游戏设置",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-settings.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1450947,
+      "sha256": "c9a0bc247780ee968d62605984a9e239f522d3d1bd2d511926d6eb540f2985d8"
+    }
+  ]
+}

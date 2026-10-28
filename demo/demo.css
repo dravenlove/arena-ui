@@ -276,3 +276,33 @@ noscript{display:block;padding:24px;color:var(--gold);text-align:center}
 @media(max-width:760px){.sidebar nav{gap:0}.nav-link{padding-left:7px;padding-right:7px}.nav-link svg{display:none}.feedback-card .specimen-content{grid-template-columns:1fr;gap:18px;min-height:184px}.feedback-card .badge-examples{max-width:none}}
 @media(max-width:390px){.sidebar{padding-left:14px;padding-right:14px;gap:10px}.brand>span{font-size:18px}.nav-link{padding:4px 6px;font-size:9px}.nav-link svg{display:none}main#main{padding:26px 14px}.topbar{padding:0 14px}.intro h1{font-size:29px}.campaign-copy{padding:20px}.campaign h2{font-size:24px}.campaign-corner{display:none}.inventory-card .specimen-content{padding:18px 14px}.inventory-grid{gap:14px 8px}.inventory-item>.au-slot{height:72px}.item-art{width:48px;height:64px}.selected-item>span:not(.rarity-dot){display:none}.palette{padding:14px;gap:6px}.color-token strong{font-size:8px}.color-token small{font-size:7px}.page-footer{flex-direction:column;gap:7px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* 主界面入口图标保留独立 PNG，展示尺寸与标签由页面控制。 */
+.home-icons-section{margin:0 0 36px;scroll-margin-top:94px}
+.home-icons-section .section-heading h2{flex-wrap:wrap}
+.home-icons-toolbar{display:flex;flex-wrap:wrap;gap:16px 30px;padding:15px 18px;margin-bottom:14px;border:1px solid #303c4c;background:#141a22}
+.home-icons-toolbar fieldset{display:flex;align-items:center;flex-wrap:wrap;gap:10px 16px;border:0;padding:0;margin:0;min-width:0}
+.home-icons-toolbar legend{float:left;margin-right:16px;padding:0;color:#8ea0b9;font-size:10px}
+.home-icons-toolbar label{display:inline-flex;align-items:center;gap:6px;min-height:28px;font-size:11px;color:#cad6e5;cursor:pointer}
+.home-icons-toolbar input{accent-color:var(--cyan);margin:0}
+.home-icons-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.home-icon-card{min-width:0;border:1px solid #334054;background:#141c26;border-radius:3px;overflow:hidden}
+.home-icon-select{display:flex;flex-direction:column;align-items:center;width:100%;padding:12px 8px 10px;gap:7px;border:1px solid transparent;background:transparent;cursor:pointer}
+.home-icon-select:hover{background:#3ec7e008}
+.home-icon-select[aria-pressed=true]{border-color:var(--cyan);background:#3ec7e00c}
+.home-icon-stage{display:flex;align-items:center;justify-content:center;width:100%;height:112px;background:#171c24;border-radius:2px}
+.home-icon-stage img{display:block;width:var(--home-icon-size);height:var(--home-icon-size);object-fit:contain}
+.home-icon-stage img[hidden]{display:none}
+.home-icon-stage[data-failed=true]:after{content:'图片暂不可用';font-size:10px;color:#9aa6b8}
+.home-icons-grid.is-light .home-icon-stage{background:#f2f4f8}
+.home-icon-label{font-size:12px;color:#d5deeb}
+.home-icon-download{display:block;text-align:center;padding:10px;border-top:1px solid #303e51;color:#8fa5c1;font-size:10px}
+.home-icon-download:hover{color:var(--gold);background:#1b2634}
+.home-icon-detail{display:flex;align-items:center;flex-wrap:wrap;gap:12px 24px;margin-top:14px;padding:16px 18px;border:1px solid #334054;background:#141a22;font-size:11px}
+.home-icon-detail>div{display:flex;flex-direction:column;gap:5px;flex:1;min-width:180px}
+.home-icon-detail strong{color:var(--cyan);font-size:13px}
+.home-icon-detail span{color:#9cadc3;font-size:11px}
+.home-icon-detail p{margin:0;color:#849bb8;font-size:10px}
+.home-icon-detail>a{color:#cedae9}
+.home-icons-message{display:flex;align-items:center;gap:14px;padding:24px;border:1px dashed #40536b;color:#9cadc3}
+@media(max-width:760px){.home-icons-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.home-icons-section .section-heading{flex-wrap:wrap;gap:12px}.home-icons-toolbar{padding:12px;gap:8px 20px}.home-icons-toolbar label{min-height:36px}.home-icon-select{padding:10px 6px}.home-icon-detail{gap:12px;padding:14px}.home-icon-detail>div{min-width:100%;}.home-icon-stage{height:108px}}

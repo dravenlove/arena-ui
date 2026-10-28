@@ -86,6 +86,14 @@
     "repeater-hand-crossbow": "equipment",
     "sentinel-bracer": "equipment",
     "awakening-core": "progression",
-    "tactical-skill-tome": "progression"
+    "tactical-skill-tome": "progression",
+    "home-heroes": "navigation",
+    "home-backpack": "navigation",
+    "home-quests": "navigation",
+    "home-shop": "navigation",
+    "home-mail": "navigation",
+    "home-friends": "navigation",
+    "home-ranking": "navigation",
+    "home-settings": "navigation"
   }
 }

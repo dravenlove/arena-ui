@@ -1,0 +1,892 @@
+{
+  "id": "20261028-205556-home-icons",
+  "date": "2026-10-28",
+  "time": "20:55:56",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/10/28/20261028-205556-home-icons/manifest.json",
+  "kind": "manual-extension",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "home-heroes",
+      "label": "英雄入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One compact empty silver knight helmet and shoulder-armor bust, no human face or body. A clear open visor as dark negative space, smooth hornless domed helmet, compact symmetrical shoulder plates and small gold collar clasp. Recognizable heroic armor silhouette; no weapon, plinth or stand.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "2c4d323cf3e32f4f373e1b48b04e72e04fae442339a294cd676395d58c3a1468",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-heroes.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1505667,
+      "sha256": "03c20f9aa866390b774f1aaa45aca40c772c56ed9717c8803c7adb232c2b1a00",
+      "recordedAt": "2026-10-28T21:01:05+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T20:56:31+08:00",
+        "resultObservedAt": "2026-10-28T21:00:12+08:00"
+      },
+      "sourceFile": "exec-70ad554f-f9d2-4e3d-8ed2-17f8863a1a5c.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6207396299942258,
+        "alphaBounds": [
+          27,
+          77,
+          1230,
+          1234
+        ],
+        "alphaBoundsAt16": [
+          55,
+          87,
+          1200,
+          1153
+        ],
+        "lowAlphaPixelCount": 11488,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "角色列表、编队与角色养成",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-backpack",
+      "label": "背包入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One closed compact charcoal leather adventurer backpack with a rounded flap, two broad simple straps and a gold central buckle, slight three-quarter view. A short loop handle, tidy thick silhouette, no items protruding, no side bottles, no scattered treasure. Distinct as a filled sturdy equipment bag, not an empty-state illustration.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "d79a42ec104db529225d2aeea3b8d212d0138996c358764e9a62bdf7fa616f4e",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-backpack.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1680836,
+      "sha256": "b3c85ea886a8afa7834001d5f863868b9783577714d712584be0d32c94d5cb0d",
+      "recordedAt": "2026-10-28T21:01:07+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T20:56:32+08:00",
+        "resultObservedAt": "2026-10-28T21:00:12+08:00"
+      },
+      "sourceFile": "exec-f8ea6f35-6677-47c0-821c-812a33c79c02.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.5252264523858581,
+        "alphaBounds": [
+          0,
+          45,
+          1148,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          134,
+          119,
+          1124,
+          1101
+        ],
+        "lowAlphaPixelCount": 10665,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "物品背包与装备整理",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-quests",
+      "label": "任务入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One short cream parchment mission scroll with two dark silver end rollers, a large plain gold wax seal near the lower center and one restrained folded charcoal ribbon. Parchment surface completely blank. Slight three-quarter tilt, simple recognizable rolled-scroll silhouette, no pen, feather, writing, ticks or text.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "6c93b1d1e809da4cca9f5ac2b516f7cee94de8010af2468dee9437cd33238b49",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-quests.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1372883,
+      "sha256": "7e45e5a3ff0f39dc128ac35ebd3803638b2fca0d00970f1eb26876dbe69df8a3",
+      "recordedAt": "2026-10-28T21:01:08+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T20:56:33+08:00",
+        "resultObservedAt": "2026-10-28T20:59:13+08:00"
+      },
+      "sourceFile": "exec-71c314bb-488b-4e6e-8b38-dcb6ef78ad23.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.594617161288025,
+        "alphaBounds": [
+          0,
+          16,
+          1232,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          132,
+          116,
+          1192,
+          1129
+        ],
+        "lowAlphaPixelCount": 19808,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "每日任务、委托与成就目标",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-shop",
+      "label": "商城入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One miniature merchant shop-front symbol: a compact dark timber counter with a broad charcoal-and-cream striped canopy, two short silver posts and one large plain gold coin disk attached to the counter front. The entire stall is one connected compact icon. No goods, people, lettering, coin markings, price tags or surrounding scene.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "3c2e8e44cdf7da41c3a0243d786b7f12ca2a08b8bccc1455e00aff4223532e8f",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-shop.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1341423,
+      "sha256": "f35f5068e0b6fde34e8d6957042e77192fa751b6aad232c8b202bcdfd3d5a9dc",
+      "recordedAt": "2026-10-28T21:01:09+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T20:56:34+08:00",
+        "resultObservedAt": "2026-10-28T21:00:12+08:00"
+      },
+      "sourceFile": "exec-762dabd8-c0f2-4b27-9935-068346fc806e.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6306161590724673,
+        "alphaBounds": [
+          27,
+          27,
+          1202,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          185,
+          179,
+          1085,
+          1063
+        ],
+        "lowAlphaPixelCount": 18469,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "道具商店与礼包入口",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-mail",
+      "label": "邮件入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One closed cream envelope with a broad triangular flap and a plain round gold wax seal, slightly tilted three-quarter view. Restrained silver reinforced corner tips and a short charcoal ribbon beneath the seal. Simple envelope silhouette, no writing, stamp, letters, symbols, loose papers or feather.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "42906210efc9f827f39038e28e083a76a98ad996c1f7084216e4cb54093f5b74",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-mail.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1135594,
+      "sha256": "738d1aa84e3342c4d4d2fd4e39a3cd5a2dd805719f7e7cc9d4ed85c1bfc6ac8d",
+      "recordedAt": "2026-10-28T21:08:52+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T21:01:21+08:00",
+        "resultObservedAt": "2026-10-28T21:04:47+08:00"
+      },
+      "sourceFile": "exec-3b16fa02-2665-411e-8bf1-b09a89ebcbca.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6562349763054875,
+        "alphaBounds": [
+          0,
+          21,
+          1168,
+          1230
+        ],
+        "alphaBoundsAt16": [
+          146,
+          230,
+          1118,
+          1030
+        ],
+        "lowAlphaPixelCount": 9714,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "系统邮件、通知与附件领取",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-friends",
+      "label": "好友入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: Exactly two simple silver human bust silhouettes forming a single compact social emblem: larger bust front-left and smaller bust behind-right, each with a smooth round head and broad shoulders, connected at their bases by one discreet dark metal bridge. Abstract faceless silhouettes, no anatomy details, no realistic faces, no additional people. Small gold collar line only.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "fff4b2e02650415dac6b227d1d48baed5babc3d5eeb3dbbe086b01629d203d0e",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-friends.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1159465,
+      "sha256": "efddc3b29b2f70fb55265cb0787ca9585bc063024ec5b25c151617c9b7c905f8",
+      "recordedAt": "2026-10-28T21:08:53+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T21:01:22+08:00",
+        "resultObservedAt": "2026-10-28T21:04:47+08:00"
+      },
+      "sourceFile": "exec-14545095-8b2f-492c-9b61-5d29fbba6452.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.684990804545073,
+        "alphaBounds": [
+          0,
+          19,
+          1224,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          145,
+          220,
+          1110,
+          1044
+        ],
+        "lowAlphaPixelCount": 10610,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "好友列表与社交邀请",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-ranking",
+      "label": "排行榜入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One compact dark-metal three-step winners podium with the central block highest, left block intermediate and right block lowest. Brushed-silver edges and one small simple gold laurel crest attached to the central front face. Bold connected silhouette with visible three block heights. No numerals, letters, trophy, people or floating objects.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "8e0deaea2b096172877b3a4cb8e26187df519fe837560bbee41f6ecb6f0c8770",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-ranking.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1045642,
+      "sha256": "00d773029fdd11f797a0d3849b9d81a5d92dcc8a55641c7dbd1cd3e66ce4d3c9",
+      "recordedAt": "2026-10-28T21:08:54+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T21:01:23+08:00",
+        "resultObservedAt": "2026-10-28T21:04:02+08:00"
+      },
+      "sourceFile": "exec-8ffe740f-ac26-47d1-a2a6-1679705bda2e.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.7117275754268955,
+        "alphaBounds": [
+          0,
+          53,
+          1242,
+          1224
+        ],
+        "alphaBoundsAt16": [
+          111,
+          338,
+          1168,
+          935
+        ],
+        "lowAlphaPixelCount": 9371,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "竞技排名、段位与赛季排行",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    },
+    {
+      "id": "home-settings",
+      "label": "设置入口图标",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One simple eight-tooth brushed-silver cogwheel in a slight three-quarter view, a large clean circular central opening, dark charcoal recessed bevels and a narrow restrained gold inner ring. Thick rounded broad teeth, coherent symmetrical mechanical form, no additional gears, screws, symbols or glowing parts.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "5e45926e8a429a00c7938052d75a29685266ffddbf7235386020ac37b69e698b",
+      "path": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-settings.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1450947,
+      "sha256": "c9a0bc247780ee968d62605984a9e239f522d3d1bd2d511926d6eb540f2985d8",
+      "recordedAt": "2026-10-28T21:08:56+08:00",
+      "generationWindow": {
+        "startedAt": "2026-10-28T21:01:24+08:00",
+        "resultObservedAt": "2026-10-28T21:04:47+08:00"
+      },
+      "sourceFile": "exec-fffe28f3-8ae4-4844-b1c2-41e111d5cf00.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "promptHashVerified": true,
+        "fileHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6336895777213077,
+        "alphaBounds": [
+          0,
+          53,
+          1198,
+          1254
+        ],
+        "alphaBoundsAt16": [
+          132,
+          136,
+          1122,
+          1119
+        ],
+        "lowAlphaPixelCount": 11718,
+        "safeMarginRequirementMet": false,
+        "reviewedAt": "2026-10-28T21:13:33+08:00"
+      },
+      "usage": {
+        "intendedSurface": "音效、画质与游戏设置",
+        "keepAspectRatio": true,
+        "textBakedIn": false,
+        "integrationStatus": "homepage-preview",
+        "animationFrames": false
+      }
+    }
+  ],
+  "themeId": "main-menu-icons",
+  "startedAt": "2026-10-28T20:55:56+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 8,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "home-heroes",
+      "group": "library",
+      "startedAt": "2026-10-28T20:56:31+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "2c4d323cf3e32f4f373e1b48b04e72e04fae442339a294cd676395d58c3a1468",
+      "resultObservedAt": "2026-10-28T21:00:12+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-heroes.png",
+      "sourceFile": "exec-70ad554f-f9d2-4e3d-8ed2-17f8863a1a5c.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:01:05+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "home-backpack",
+      "group": "library",
+      "startedAt": "2026-10-28T20:56:32+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d79a42ec104db529225d2aeea3b8d212d0138996c358764e9a62bdf7fa616f4e",
+      "resultObservedAt": "2026-10-28T21:00:12+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-backpack.png",
+      "sourceFile": "exec-f8ea6f35-6677-47c0-821c-812a33c79c02.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:01:07+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "home-quests",
+      "group": "library",
+      "startedAt": "2026-10-28T20:56:33+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "6c93b1d1e809da4cca9f5ac2b516f7cee94de8010af2468dee9437cd33238b49",
+      "resultObservedAt": "2026-10-28T20:59:13+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-quests.png",
+      "sourceFile": "exec-71c314bb-488b-4e6e-8b38-dcb6ef78ad23.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:01:08+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "home-shop",
+      "group": "library",
+      "startedAt": "2026-10-28T20:56:34+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "3c2e8e44cdf7da41c3a0243d786b7f12ca2a08b8bccc1455e00aff4223532e8f",
+      "resultObservedAt": "2026-10-28T21:00:12+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-shop.png",
+      "sourceFile": "exec-762dabd8-c0f2-4b27-9935-068346fc806e.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:01:09+08:00"
+    },
+    {
+      "number": 5,
+      "slotId": "home-mail",
+      "group": "library",
+      "startedAt": "2026-10-28T21:01:21+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "42906210efc9f827f39038e28e083a76a98ad996c1f7084216e4cb54093f5b74",
+      "resultObservedAt": "2026-10-28T21:04:47+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-mail.png",
+      "sourceFile": "exec-3b16fa02-2665-411e-8bf1-b09a89ebcbca.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:08:52+08:00"
+    },
+    {
+      "number": 6,
+      "slotId": "home-friends",
+      "group": "library",
+      "startedAt": "2026-10-28T21:01:22+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "fff4b2e02650415dac6b227d1d48baed5babc3d5eeb3dbbe086b01629d203d0e",
+      "resultObservedAt": "2026-10-28T21:04:47+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-friends.png",
+      "sourceFile": "exec-14545095-8b2f-492c-9b61-5d29fbba6452.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:08:53+08:00"
+    },
+    {
+      "number": 7,
+      "slotId": "home-ranking",
+      "group": "library",
+      "startedAt": "2026-10-28T21:01:23+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "8e0deaea2b096172877b3a4cb8e26187df519fe837560bbee41f6ecb6f0c8770",
+      "resultObservedAt": "2026-10-28T21:04:02+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-ranking.png",
+      "sourceFile": "exec-8ffe740f-ac26-47d1-a2a6-1679705bda2e.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:08:54+08:00"
+    },
+    {
+      "number": 8,
+      "slotId": "home-settings",
+      "group": "library",
+      "startedAt": "2026-10-28T21:01:24+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "5e45926e8a429a00c7938052d75a29685266ffddbf7235386020ac37b69e698b",
+      "resultObservedAt": "2026-10-28T21:04:47+08:00",
+      "outputPath": "assets/daily/2026/10/28/20261028-205556-home-icons/library/home-settings.png",
+      "sourceFile": "exec-fffe28f3-8ae4-4844-b1c2-41e111d5cf00.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-10-28T21:08:56+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "home-heroes",
+      "label": "英雄入口图标",
+      "menuLabel": "英雄",
+      "usage": "角色列表、编队与角色养成",
+      "filename": "home-heroes.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One compact empty silver knight helmet and shoulder-armor bust, no human face or body. A clear open visor as dark negative space, smooth hornless domed helmet, compact symmetrical shoulder plates and small gold collar clasp. Recognizable heroic armor silhouette; no weapon, plinth or stand.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "2c4d323cf3e32f4f373e1b48b04e72e04fae442339a294cd676395d58c3a1468"
+    },
+    {
+      "id": "home-backpack",
+      "label": "背包入口图标",
+      "menuLabel": "背包",
+      "usage": "物品背包与装备整理",
+      "filename": "home-backpack.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One closed compact charcoal leather adventurer backpack with a rounded flap, two broad simple straps and a gold central buckle, slight three-quarter view. A short loop handle, tidy thick silhouette, no items protruding, no side bottles, no scattered treasure. Distinct as a filled sturdy equipment bag, not an empty-state illustration.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "d79a42ec104db529225d2aeea3b8d212d0138996c358764e9a62bdf7fa616f4e"
+    },
+    {
+      "id": "home-quests",
+      "label": "任务入口图标",
+      "menuLabel": "任务",
+      "usage": "每日任务、委托与成就目标",
+      "filename": "home-quests.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One short cream parchment mission scroll with two dark silver end rollers, a large plain gold wax seal near the lower center and one restrained folded charcoal ribbon. Parchment surface completely blank. Slight three-quarter tilt, simple recognizable rolled-scroll silhouette, no pen, feather, writing, ticks or text.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "6c93b1d1e809da4cca9f5ac2b516f7cee94de8010af2468dee9437cd33238b49"
+    },
+    {
+      "id": "home-shop",
+      "label": "商城入口图标",
+      "menuLabel": "商城",
+      "usage": "道具商店与礼包入口",
+      "filename": "home-shop.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One miniature merchant shop-front symbol: a compact dark timber counter with a broad charcoal-and-cream striped canopy, two short silver posts and one large plain gold coin disk attached to the counter front. The entire stall is one connected compact icon. No goods, people, lettering, coin markings, price tags or surrounding scene.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "3c2e8e44cdf7da41c3a0243d786b7f12ca2a08b8bccc1455e00aff4223532e8f"
+    },
+    {
+      "id": "home-mail",
+      "label": "邮件入口图标",
+      "menuLabel": "邮件",
+      "usage": "系统邮件、通知与附件领取",
+      "filename": "home-mail.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One closed cream envelope with a broad triangular flap and a plain round gold wax seal, slightly tilted three-quarter view. Restrained silver reinforced corner tips and a short charcoal ribbon beneath the seal. Simple envelope silhouette, no writing, stamp, letters, symbols, loose papers or feather.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "42906210efc9f827f39038e28e083a76a98ad996c1f7084216e4cb54093f5b74"
+    },
+    {
+      "id": "home-friends",
+      "label": "好友入口图标",
+      "menuLabel": "好友",
+      "usage": "好友列表与社交邀请",
+      "filename": "home-friends.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: Exactly two simple silver human bust silhouettes forming a single compact social emblem: larger bust front-left and smaller bust behind-right, each with a smooth round head and broad shoulders, connected at their bases by one discreet dark metal bridge. Abstract faceless silhouettes, no anatomy details, no realistic faces, no additional people. Small gold collar line only.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "fff4b2e02650415dac6b227d1d48baed5babc3d5eeb3dbbe086b01629d203d0e"
+    },
+    {
+      "id": "home-ranking",
+      "label": "排行榜入口图标",
+      "menuLabel": "排行榜",
+      "usage": "竞技排名、段位与赛季排行",
+      "filename": "home-ranking.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One compact dark-metal three-step winners podium with the central block highest, left block intermediate and right block lowest. Brushed-silver edges and one small simple gold laurel crest attached to the central front face. Bold connected silhouette with visible three block heights. No numerals, letters, trophy, people or floating objects.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "8e0deaea2b096172877b3a4cb8e26187df519fe837560bbee41f6ecb6f0c8770"
+    },
+    {
+      "id": "home-settings",
+      "label": "设置入口图标",
+      "menuLabel": "设置",
+      "usage": "音效、画质与游戏设置",
+      "filename": "home-settings.png",
+      "prompt": "Use case: stylized-concept. Asset type: one reusable main-menu navigation icon for Arena UI, a competitive character-progression WeChat mini-game. Premium sculptural hand-painted 3D dark fantasy game art. Charcoal #171c24, brushed silver #9aa6b8, small restrained gold #f2b632 details; warm cream paper where appropriate. Bold simplified silhouette and broad forms readable at 64px. Soft upper-left studio lighting, restrained metal and leather texture, no tiny ornamental filigree. Square 1024x1024 PNG, genuine transparent alpha. One connected object or tightly unified symbolic group, complete and centered in the middle 64 percent of the canvas, at least 18 percent clear transparent space on every edge. No frame, background, pedestal, ground plane, cast shadow outside the object, checkerboard, aura, sparkle, letters, digits, logos, watermark or interface. Subject: One simple eight-tooth brushed-silver cogwheel in a slight three-quarter view, a large clean circular central opening, dark charcoal recessed bevels and a narrow restrained gold inner ring. Thick rounded broad teeth, coherent symmetrical mechanical form, no additional gears, screws, symbols or glowing parts.",
+      "promptVersion": "main-menu-icon-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "group": "library",
+      "promptSha256": "5e45926e8a429a00c7938052d75a29685266ffddbf7235386020ac37b69e698b"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "home-heroes",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "可见空头盔与肩甲，深色面罩内无人物面孔；金色点缀和银色边缘延续竞技场风格。",
+        "肩部较宽，主观上 64px 仍可辨认头盔，48px 时胸甲与护颈细节合并。"
+      ]
+    },
+    {
+      "assetId": "home-backpack",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "闭合深色皮革背包、提手与金属扣清晰；前方有三条主要竖带，多于提示词请求的两条。",
+        "在深底 48px 时暗色纹理与侧袋辨识度降低，建议搭配标签并用 64–96px。"
+      ]
+    },
+    {
+      "assetId": "home-quests",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "空白奶油色卷轴、上下卷轴杆和金色封蜡完整，没有可见文字。",
+        "浅色纸面在深底识别清楚；48px 下封蜡与短缎带细节有所合并。"
+      ]
+    },
+    {
+      "assetId": "home-shop",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "条纹棚顶、两根柱子、柜台及中央金币构成单个商店入口，没有人物或散落商品。",
+        "木质与装饰细节比提示词要求更丰富；48px 主要靠棚顶轮廓辨识，建议配文字。"
+      ]
+    },
+    {
+      "assetId": "home-mail",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "封闭奶油色信封、三角封口、金色封蜡、银色角饰和短深色缎带完整，没有字母或邮票。",
+        "48px 仍可辨认信封形状；深浅底均无明显方形遮罩。"
+      ]
+    },
+    {
+      "assetId": "home-friends",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "恰好两个无五官银色头像，左前较大、右后较小，下方身体连接，金色领口可见。",
+        "两个头部在48px仍能区分；主观上适合作为好友／社交入口，需外置文字说明。"
+      ]
+    },
+    {
+      "assetId": "home-ranking",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "三阶领奖台中间最高、左中、右低，中心有金色桂冠，未见数字或人物。",
+        "主体较宽、视觉高度小于其他图标；48px 桂冠很小，主观辨识依赖排行榜标签。"
+      ]
+    },
+    {
+      "assetId": "home-settings",
+      "type": "library-review",
+      "observations": [
+        "独立单体图标，主体轮廓完整，未见文字、额外背景板或格子裁切问题。",
+        "实际 PNG 为 1254×1254，提示词请求为 1024×1024；保留工具原始字节并如实记录实际尺寸。",
+        "RGBA 含真实透明像素；48/64/96 CSS px 与深浅底目视检查未见不透明方形底板。外围有低 alpha 像素，四周 18% 留白未严格达标，详见 alphaBoundsAt16；未做清理或重抽。",
+        "单枚八齿银色齿轮，中央开孔与金色内圈完整，未见额外齿轮或工具。",
+        "孔洞真实透出底色；48/64/96px均能辨识齿轮轮廓。"
+      ]
+    }
+  ],
+  "notes": [
+    "用户明确要求：主界面多新增一些可以用的图标吧。本批手动追加8个独立透明游戏入口图标，并接入主页预览与下载。",
+    "每项仅生成一次，保留原图及可见偏差；不修改定时计划和冻结基准。",
+    "实际模型版本及种子若未报告，记录unreported/null。"
+  ],
+  "authorization": {
+    "type": "explicit-manual-addition",
+    "request": "主界面多新增一些可以用的图标吧",
+    "plannedAdditionalCalls": 8,
+    "scheduledCallsAlreadyToday": 4,
+    "manualCallsAlreadyToday": 7
+  },
+  "completedAt": "2026-10-28T21:13:33+08:00",
+  "validation": {
+    "successfulDecodedAssets": 8,
+    "libraryAssets": 8,
+    "benchmarkAssets": 0,
+    "attempts": 8,
+    "noResampling": true,
+    "originalFilesPreserved": true,
+    "manualAdditionalAuthorizationRecorded": true,
+    "homepagePreviewVerified": true,
+    "historyPageVerified": true,
+    "thumbnailReview": {
+      "sizesCssPx": [
+        48,
+        64,
+        96
+      ],
+      "backgrounds": [
+        "#171c24",
+        "#f2f4f8"
+      ],
+      "visibleOpaqueBackdrop": false
+    },
+    "reviewedAt": "2026-10-28T21:13:33+08:00"
+  }
+}
