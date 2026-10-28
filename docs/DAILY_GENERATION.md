@@ -64,6 +64,10 @@ assets/daily/YYYY/MM/DD/<run-id>/library/<filename>.png
 
 生成仅走已授权的 ChatGPT 内置图像工具。失败时如实记录，不换其他模型，不转入付费 API，不创建替代图片冒充结果。工具不返回底层模型版本时，`model` 始终写 `unreported`，不能标记为已核实的 Image 2.5。
 
+## 新素材的用途分类
+
+新增素材归档时同步检查 `assets/categories.json`：已存在的 `asset.id` 复用用途分类，新 ID 按主要用途补入 `assetCategories`。分类独立于 `benchmark` / `library` 实验分组，不修改旧运行清单和冻结提示词。无法确定时保留为页面的“待分类”，不要根据整批主题误归类。仅在新增映射时将分类文件与本次素材一并提交，具体规则见 [ASSET_CATEGORIES.md](ASSET_CATEGORIES.md)。
+
 ## 如何比较
 
 左右对照只匹配相同 `benchmarkId`，并确认 `promptSha256` 一致；若不同，显示提示词已变化，不能当作固定题目比较。日期档案应同时显示尺寸、透明背景、模型报告状态和提示词版本，便于发现输入或输出条件变化。

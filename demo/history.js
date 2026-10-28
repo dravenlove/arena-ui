@@ -1,12 +1,14 @@
 (function () {
   'use strict';
-  var state = { runs: [], dates: [], group: 'all', date: '', left: '', right: '', benchmark: '' };
+  var state = { runs: [], dates: [], categories: [], assetCategories: {}, category: 'all', group: 'all', date: 'all', left: '', right: '', benchmark: '' };
   var ui = {
     date: document.getElementById('archive-date'), summary: document.getElementById('archive-summary'),
     status: document.getElementById('history-status'), results: document.getElementById('archive-results'),
     retry: document.getElementById('reload-history'), left: document.getElementById('comparison-left'),
     right: document.getElementById('comparison-right'), benchmark: document.getElementById('comparison-benchmark'),
-    comparisonState: document.getElementById('comparison-state'), comparisonResults: document.getElementById('comparison-results')
+    comparisonState: document.getElementById('comparison-state'), comparisonResults: document.getElementById('comparison-results'),
+    categories: document.getElementById('category-filters'), categoryNotice: document.getElementById('category-notice'),
+    reset: document.getElementById('reset-filters')
   };
 
   // 所有归档文本均通过 textContent 展示，提示词不会作为 HTML 执行。
@@ -40,6 +42,55 @@
     return run.kind === 'initial-session' ? '本次手动生成 · 时间未记录' : '时间未记录';
   }
   function groupName(group) { return group === 'benchmark' ? '固定对照' : '素材扩展'; }
+  // 用途分类独立于实验分组；未登记的新素材始终能在“待分类”中找到。
+  function categoryFor(asset) {
+    var id = typeof asset.id === 'string' && Object.prototype.hasOwnProperty.call(state.assetCategories, asset.id) ? state.assetCategories[asset.id] : null;
+    return state.categories.some(function (category) { return category.id === id; }) ? id : 'uncategorized';
+  }
+  function categoryName(id) {
+    var category = state.categories.find(function (item) { return item.id === id; });
+    return id === 'all' ? '全部素材' : category ? category.label : '待分类';
+  }
+  function inScope(run, asset) {
+    return (state.date === 'all' || run.date === state.date) && (state.group === 'all' || asset.group === state.group);
+  }
+  function prepareCategories(catalog) {
+    state.categories = []; state.assetCategories = {}; state.category = 'all';
+    var valid = catalog && catalog.schemaVersion === 1 && Array.isArray(catalog.categories) && catalog.assetCategories && typeof catalog.assetCategories === 'object' && !Array.isArray(catalog.assetCategories);
+    if (valid) {
+      catalog.categories.forEach(function (category) {
+        if (category && typeof category.id === 'string' && /^[a-z][a-z0-9-]*$/.test(category.id) && !['all', 'uncategorized'].includes(category.id) && typeof category.label === 'string' && category.label && !state.categories.some(function (item) { return item.id === category.id; })) state.categories.push(category);
+      });
+      state.assetCategories = catalog.assetCategories;
+    }
+    ui.categoryNotice.hidden = state.categories.length > 0;
+    ui.categoryNotice.textContent = state.categories.length ? '' : '用途分类暂不可用，素材仍可按日期浏览，暂列为“待分类”。';
+    var filters = [{ id: 'all', label: '全部素材' }].concat(state.categories);
+    if (state.runs.some(function (run) { return run.assets.some(function (asset) { return categoryFor(asset) === 'uncategorized'; }); })) filters.push({ id: 'uncategorized', label: '待分类' });
+    ui.categories.replaceChildren();
+    filters.forEach(function (category) {
+      var button = node('button', 'category-filter'); button.type = 'button'; button.dataset.category = category.id;
+      button.setAttribute('aria-pressed', String(category.id === state.category));
+      if (typeof category.description === 'string') button.title = category.description;
+      button.append(node('span', '', category.label), node('span', 'category-count', '0'));
+      button.addEventListener('click', function () { state.category = category.id; renderArchive(); });
+      ui.categories.append(button);
+    });
+  }
+  function renderCategoryCounts() {
+    var counts = { all: 0 };
+    state.runs.forEach(function (run) { run.assets.forEach(function (asset) {
+      if (!inScope(run, asset)) return;
+      var id = categoryFor(asset); counts[id] = (counts[id] || 0) + 1; counts.all++;
+    }); });
+    ui.categories.querySelectorAll('[data-category]').forEach(function (button) {
+      var id = button.dataset.category, count = counts[id] || 0;
+      button.querySelector('.category-count').textContent = count;
+      button.setAttribute('aria-label', categoryName(id) + '，' + count + ' 张');
+      button.setAttribute('aria-pressed', String(id === state.category));
+    });
+    ui.reset.disabled = !state.dates.length || (state.date === 'all' && state.group === 'all' && state.category === 'all');
+  }
   function statusName(status) { return status === 'complete' ? '已完成' : status === 'partial' ? '部分完成' : status === 'failed' ? '生成失败' : '状态未记录'; }
   function sizeText(asset) {
     return Array.isArray(asset.size) && asset.size.length === 2 && asset.size.every(function (n) { return Number.isFinite(n) && n > 0; }) ? asset.size.join(' × ') + ' px' : '尺寸未记录';
@@ -68,6 +119,7 @@
     var body = node('div', 'asset-details-body'), list = node('dl', 'record-list');
     metadataLine(list, '生成记录', text(run.id), true);
     metadataLine(list, '生成时间', run.date + ' · ' + runTime(run));
+    metadataLine(list, '素材用途', categoryName(categoryFor(asset)));
     metadataLine(list, '固定题目', text(asset.benchmarkId, '非固定对照素材'), true);
     metadataLine(list, '提示词版本', text(asset.promptVersion), true);
     metadataLine(list, '提示词 SHA-256', text(asset.promptSha256), true);
@@ -93,7 +145,7 @@
   function assetCard(asset, run, comparison) {
     var card = node('article', comparison ? 'comparison-card' : 'archive-card');
     card.dataset.testid = comparison ? 'comparison-asset' : 'archive-asset';
-    card.dataset.group = asset.group; card.dataset.assetId = text(asset.id, 'unknown');
+    card.dataset.group = asset.group; card.dataset.assetId = text(asset.id, 'unknown'); card.dataset.category = categoryFor(asset);
     var url = assetURL(asset.path), frame = node('div', 'asset-image-frame' + (asset.transparentBackground ? ' is-transparent' : ''));
     if (url) {
       var link = node('a', 'asset-original'); link.href = url; link.target = '_blank'; link.rel = 'noreferrer';
@@ -101,32 +153,32 @@
     } else frame.append(node('p', 'asset-image-error', '文件路径无效，已隐藏链接与预览。'));
     var content = node('div', 'asset-content'), top = node('div', 'asset-card-top');
     top.append(node('span', 'asset-group ' + (asset.group === 'benchmark' ? 'is-benchmark' : ''), groupName(asset.group)), node('span', 'asset-size', sizeText(asset)));
-    content.append(top, node('h3', '', text(asset.label, asset.id)));
+    content.append(top, node('p', 'asset-category', categoryName(categoryFor(asset))), node('h3', '', text(asset.label, asset.id)));
     if (comparison) content.append(node('p', 'asset-comparison-date', run.date + ' · ' + runTime(run)));
     var footer = node('div', 'asset-card-footer'); footer.append(node('span', '', bytesText(asset.bytes)));
     if (url) footer.append(downloadFor(asset, url));
     content.append(footer, detailsFor(asset, run)); card.append(frame, content); return card;
   }
   function renderArchive() {
-    ui.results.replaceChildren();
+    ui.results.replaceChildren(); renderCategoryCounts();
     if (!state.dates.length) {
       ui.status.textContent = '尚无生成记录。每日生成完成后，素材会按日期出现在这里。'; return;
     }
-    var runs = state.runs.filter(function (run) { return run.date === state.date; });
+    var runs = state.runs.filter(function (run) { return state.date === 'all' || run.date === state.date; });
     var shown = 0;
     runs.forEach(function (run) {
-      var assets = run.assets.filter(function (asset) { return state.group === 'all' || asset.group === state.group; });
-      if (!assets.length && state.group !== 'all') return;
+      var assets = run.assets.filter(function (asset) { return inScope(run, asset) && (state.category === 'all' || categoryFor(asset) === state.category); });
+      if (!assets.length && (state.group !== 'all' || state.category !== 'all')) return;
       var section = node('section', 'archive-run'), heading = node('div', 'archive-run-heading');
-      heading.append(node('h3', '', runTime(run)), node('span', 'run-status is-' + run.status, statusName(run.status)));
+      heading.append(node('h3', '', (state.date === 'all' ? run.date + ' · ' : '') + runTime(run)), node('span', 'run-status is-' + run.status, statusName(run.status)));
       section.append(heading);
       if (assets.length) {
         var grid = node('div', 'archive-grid'); assets.forEach(function (asset) { grid.append(assetCard(asset, run, false)); }); section.append(grid); shown += assets.length;
       } else section.append(node('p', 'archive-run-empty', run.status === 'failed' ? '本次生成失败，未产生可展示的素材。' : '本条记录暂未收录素材。'));
       ui.results.append(section);
     });
-    ui.status.textContent = state.date + ' · ' + shown + ' 张素材' + (state.group === 'all' ? '' : ' · ' + groupName(state.group));
-    if (!shown && state.group !== 'all') ui.results.append(node('div', 'history-empty', '这个日期暂无“' + groupName(state.group) + '”素材，可切换其他分组或日期。'));
+    ui.status.textContent = (state.date === 'all' ? '全部日期' : state.date) + ' · ' + shown + ' 张素材' + (state.category === 'all' ? '' : ' · ' + categoryName(state.category)) + (state.group === 'all' ? '' : ' · ' + groupName(state.group));
+    if (!shown && (state.group !== 'all' || state.category !== 'all')) ui.results.append(node('div', 'history-empty', '当前筛选暂无素材。可选择全部日期、其他分类，或重置筛选。'));
   }
   function findBenchmark(date) {
     if (!date || !state.benchmark) return null;
@@ -156,7 +208,7 @@
     else if (left.asset.promptSha256 === right.asset.promptSha256 && left.asset.benchmarkId === right.asset.benchmarkId) comparisonStatus('matched', '提示词一致 · 可并排观察输出差异；随机性仍会影响每次结果。');
     else comparisonStatus('different', '提示词不同，不能直接对照输出变化。');
   }
-  function prepare(data) {
+  function prepare(data, catalog) {
     if (!data || data.schemaVersion !== 1 || !Array.isArray(data.runs)) throw new Error('归档索引格式不受支持。');
     state.runs = data.runs.filter(function (run) { return run && validDate(run.date) && typeof run.id === 'string' && Array.isArray(run.assets); }).map(function (run) {
       return Object.assign({}, run, { status: ['complete', 'partial', 'failed'].includes(run.status) ? run.status : 'unknown', assets: run.assets.filter(function (asset) { return asset && typeof asset === 'object' && (asset.group === 'benchmark' || asset.group === 'library'); }) });
@@ -164,13 +216,16 @@
     // 同一日期优先显示有明确时刻的较新记录；未知时刻不补造时间。
     state.runs.sort(function (a, b) { return b.date.localeCompare(a.date) || String(b.time || '').localeCompare(String(a.time || '')); });
     state.dates = Array.from(new Set(state.runs.map(function (run) { return run.date; }))).sort().reverse();
-    state.date = state.dates[0] || ''; state.left = state.dates.length > 1 ? state.dates[1] : state.date; state.right = state.dates.length > 1 ? state.date : '';
+    state.date = 'all'; state.group = 'all';
+    state.left = state.dates.length > 1 ? state.dates[1] : state.dates[0] || ''; state.right = state.dates.length > 1 ? state.dates[0] : '';
+    prepareCategories(catalog);
+    document.querySelectorAll('.archive-filters [data-group]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.group === state.group)); });
     var benchmarks = [];
     state.runs.forEach(function (run) { run.assets.forEach(function (asset) {
       if (asset.group === 'benchmark' && typeof asset.benchmarkId === 'string' && asset.benchmarkId && !benchmarks.some(function (item) { return item.value === asset.benchmarkId; })) benchmarks.push({ value: asset.benchmarkId, label: text(asset.label, asset.benchmarkId) });
     }); });
     state.benchmark = benchmarks.length ? benchmarks[0].value : '';
-    setOptions(ui.date, dateOptions(), state.date, state.dates.length ? undefined : '暂无日期');
+    setOptions(ui.date, state.dates.length ? [{ value: 'all', label: '全部日期' }].concat(dateOptions()) : [], state.date, state.dates.length ? undefined : '暂无日期');
     setOptions(ui.left, dateOptions(), state.left, state.dates.length ? undefined : '暂无日期');
     setOptions(ui.right, dateOptions(), state.right, state.dates.length > 1 ? '请选择日期' : '等待更多日期');
     setOptions(ui.benchmark, benchmarks, state.benchmark, benchmarks.length ? undefined : '暂无固定题目');
@@ -180,17 +235,28 @@
   }
   function load() {
     ui.status.textContent = '正在加载每日档案…'; ui.retry.hidden = true;
-    return fetch('../assets/daily/index.json', { cache: 'no-store' }).then(function (response) {
+    var archive = fetch('../assets/daily/index.json', { cache: 'no-store' }).then(function (response) {
       if (!response.ok) throw new Error('读取归档失败：HTTP ' + response.status);
       return response.json();
-    }).then(prepare).catch(function () {
+    });
+    var catalog = fetch('../assets/categories.json', { cache: 'no-store' }).then(function (response) {
+      if (!response.ok) throw new Error('用途分类暂不可用');
+      return response.json();
+    }).catch(function () { return null; });
+    return Promise.all([archive, catalog]).then(function (results) { prepare(results[0], results[1]); }).catch(function () {
       ui.summary.textContent = '归档暂不可用'; ui.status.textContent = '暂时无法加载每日档案。请检查归档索引是否可访问，并通过本地预览或 GitHub Pages 打开此页面。';
       ui.results.replaceChildren(); ui.comparisonResults.replaceChildren(); ui.retry.hidden = false;
+      ui.categories.replaceChildren(); ui.reset.disabled = true; ui.categoryNotice.hidden = true;
       [ui.date, ui.left, ui.right, ui.benchmark].forEach(function (select) { select.disabled = true; });
       comparisonStatus('waiting', '归档加载失败，暂时无法比较。');
     });
   }
   ui.date.addEventListener('change', function () { state.date = ui.date.value; renderArchive(); });
+  ui.reset.addEventListener('click', function () {
+    state.category = 'all'; state.group = 'all'; state.date = 'all'; ui.date.value = 'all';
+    document.querySelectorAll('.archive-filters [data-group]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.group === 'all')); });
+    renderArchive();
+  });
   document.querySelectorAll('.archive-filters [data-group]').forEach(function (button) {
     button.addEventListener('click', function () {
       state.group = button.dataset.group;

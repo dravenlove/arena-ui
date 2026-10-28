@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "characters",
+      "label": "人物立绘",
+      "description": "角色选择、编队和养成详情"
+    },
+    {
+      "id": "portraits",
+      "label": "角色头像",
+      "description": "头像框、名片和角色列表"
+    },
+    {
+      "id": "animations",
+      "label": "动作图集",
+      "description": "待机等逐帧动作原图"
+    },
+    {
+      "id": "equipment",
+      "label": "武器防具",
+      "description": "武器、防具与装备图标"
+    },
+    {
+      "id": "abilities",
+      "label": "战斗技能",
+      "description": "战斗技能与效果图标"
+    },
+    {
+      "id": "progression",
+      "label": "养成与奖励",
+      "description": "突破、技能升级、奖励与消耗品"
+    },
+    {
+      "id": "environments",
+      "label": "战役场景",
+      "description": "关卡、战场和界面背景"
+    },
+    {
+      "id": "navigation",
+      "label": "玩法入口",
+      "description": "关卡、任务、锻造和功能入口"
+    },
+    {
+      "id": "feedback",
+      "label": "状态反馈",
+      "description": "空状态、冷却等待与胜负结算"
+    },
+    {
+      "id": "interface",
+      "label": "界面参考",
+      "description": "组件视觉与界面设计参考"
+    }
+  ],
+  "assetCategories": {
+    "campaign": "environments",
+    "equipment-atlas-v1": "equipment",
+    "sentinel": "portraits",
+    "ui-kit-board-v1": "interface",
+    "skills": "abilities",
+    "rewards": "progression",
+    "frost": "environments",
+    "empty": "feedback",
+    "desert-arena": "environments",
+    "forest-arena": "environments",
+    "warden-portrait": "portraits",
+    "alchemist-portrait": "portraits",
+    "victory-trophy": "feedback",
+    "defeat-shield": "feedback",
+    "checkpoint-gate": "navigation",
+    "bounty-board": "navigation",
+    "forge-anvil": "navigation",
+    "dungeon-key": "progression",
+    "sunward-swordsman": "characters",
+    "frostfeather-ranger": "characters",
+    "starlight-mage": "characters",
+    "ironwall-guardian": "characters",
+    "sunward-idle-sheet": "animations",
+    "empty-reliquary": "feedback",
+    "cooldown-hourglass": "feedback",
+    "adventure-modes-atlas": "navigation",
+    "menu-utilities-atlas": "navigation",
+    "nightblade-assassin": "characters",
+    "dawn-healer": "characters",
+    "silver-lancer": "characters",
+    "repeater-hand-crossbow": "equipment",
+    "sentinel-bracer": "equipment",
+    "awakening-core": "progression",
+    "tactical-skill-tome": "progression"
+  }
+}
