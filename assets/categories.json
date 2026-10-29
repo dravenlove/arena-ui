@@ -104,6 +104,14 @@
     "chibi-milo-swordsman": "characters",
     "chibi-lia-ranger": "characters",
     "chibi-lumi-mage": "characters",
-    "chibi-bran-guardian": "characters"
+    "chibi-bran-guardian": "characters",
+    "chibi-health-potion": "progression",
+    "chibi-mana-flask": "progression",
+    "chibi-reward-chest": "progression",
+    "chibi-coin-pouch": "progression",
+    "chibi-epic-growth-crystal": "progression",
+    "chibi-skill-scroll": "progression",
+    "chibi-starter-sword": "equipment",
+    "chibi-oak-shield": "equipment"
   }
 }

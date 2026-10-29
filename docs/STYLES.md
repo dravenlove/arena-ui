@@ -23,4 +23,4 @@
 
 风格目录加载失败时图片仍可访问，但进入“风格待确认”。无效的风格链接不会显示其他风格冒充结果。固定对照要求风格与提示词哈希一致；图库筛选不改变对照区。
 
-Q 版目前是图片素材与静态 UI 参考，并未给现有 React 组件添加换肤功能。首批素材及具体限制见 [CHIBI_UI.md](CHIBI_UI.md)；后续独立主角见 [CHIBI_CHARACTERS.md](CHIBI_CHARACTERS.md)。
+Q 版目前是图片素材与静态 UI 参考，并未给现有 React 组件添加换肤功能。首批素材及具体限制见 [CHIBI_UI.md](CHIBI_UI.md)；后续独立主角见 [CHIBI_CHARACTERS.md](CHIBI_CHARACTERS.md)，游戏道具见 [CHIBI_ITEMS.md](CHIBI_ITEMS.md)。
