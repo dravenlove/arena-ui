@@ -116,6 +116,10 @@
     "anime-astra-swordmaiden": "characters",
     "anime-rune-arcanist": "characters",
     "anime-azure-oath-sword": "equipment",
-    "anime-character-growth-ui-v1": "interface"
+    "anime-character-growth-ui-v1": "interface",
+    "anime-ui-buttons-atlas-v1": "interface",
+    "anime-ui-panels-atlas-v1": "interface",
+    "anime-ui-navigation-atlas-v1": "navigation",
+    "anime-ui-progression-atlas-v1": "interface"
   }
 }

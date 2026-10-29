@@ -25,3 +25,5 @@
 风格目录加载失败时图片仍可访问，但进入“风格待确认”。无效的风格链接不会显示其他风格冒充结果。固定对照要求风格与提示词哈希一致；图库筛选不改变对照区。
 
 Q 版与二次元系列目前是图片素材与静态 UI 参考，并未给现有 React 组件添加换肤功能。Q 版首批素材及具体限制见 [CHIBI_UI.md](CHIBI_UI.md)；后续独立主角见 [CHIBI_CHARACTERS.md](CHIBI_CHARACTERS.md)，游戏道具见 [CHIBI_ITEMS.md](CHIBI_ITEMS.md)。二次元首批四张样张见 [ANIME_ASSETS.md](ANIME_ASSETS.md)。二次元为用户手动追加的独立系列；每日扩展仍使用 Q 版，两个冻结对照仍使用深色金属。
+
+二次元组件套件见 [ANIME_UI.md](ANIME_UI.md)，包含4张图集、28个设计项；[分类专页](../demo/anime-ui.html)与[坐标目录](../assets/anime-ui.json)分别提供逐项预览与实际像素区域。每日图库仍按原图计数。

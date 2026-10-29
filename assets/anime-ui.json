@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "id": "anime-ui-v1",
+  "styleId": "anime-fantasy",
+  "label": "二次元组件 UI",
+  "runId": "20261029-195703-anime-ui-components",
+  "date": "2026-10-29",
+  "manifest": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/manifest.json",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "itemCount": 28,
+  "sheets": [
+    {
+      "id": "buttons",
+      "assetId": "anime-ui-buttons-atlas-v1",
+      "label": "按钮与切换控件",
+      "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-buttons-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "grid": {
+        "columns": 2,
+        "rows": 4
+      },
+      "sha256": "22406e7f24f1f9864fe5887fb497488f531b8c645c7e164f4bfe877e1b8d38e4",
+      "note": "主按钮、次按钮、页签和开关各两种状态。两端装饰略有变化，状态切换时可能轻微跳动。",
+      "items": [
+        {
+          "id": "buttons-1",
+          "label": "主按钮·默认",
+          "index": 0,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-2",
+          "label": "主按钮·按下",
+          "index": 1,
+          "rect": {
+            "x": 768,
+            "y": 0,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-3",
+          "label": "次按钮·默认",
+          "index": 2,
+          "rect": {
+            "x": 0,
+            "y": 256,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-4",
+          "label": "次按钮·禁用",
+          "index": 3,
+          "rect": {
+            "x": 768,
+            "y": 256,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-5",
+          "label": "页签·默认",
+          "index": 4,
+          "rect": {
+            "x": 0,
+            "y": 512,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-6",
+          "label": "页签·选中",
+          "index": 5,
+          "rect": {
+            "x": 768,
+            "y": 512,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-7",
+          "label": "切换开关·关闭",
+          "index": 6,
+          "rect": {
+            "x": 0,
+            "y": 768,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "buttons-8",
+          "label": "切换开关·开启",
+          "index": 7,
+          "rect": {
+            "x": 768,
+            "y": 768,
+            "width": 768,
+            "height": 256
+          }
+        }
+      ]
+    },
+    {
+      "id": "panels",
+      "assetId": "anime-ui-panels-atlas-v1",
+      "label": "面板与弹窗",
+      "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-panels-atlas.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "grid": {
+        "columns": 2,
+        "rows": 2
+      },
+      "sha256": "107e4568338b0d269073d7b883fbe3eb458e52095a2be9e753cff7519d2d23ab",
+      "note": "弹窗、背包、详情、奖励四种底板。边缘有细碎色边；内部为填色面板，并非镂空边框。",
+      "items": [
+        {
+          "id": "panels-1",
+          "label": "通用弹窗",
+          "index": 0,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 627,
+            "height": 627
+          }
+        },
+        {
+          "id": "panels-2",
+          "label": "背包面板",
+          "index": 1,
+          "rect": {
+            "x": 627,
+            "y": 0,
+            "width": 627,
+            "height": 627
+          }
+        },
+        {
+          "id": "panels-3",
+          "label": "详情提示框",
+          "index": 2,
+          "rect": {
+            "x": 0,
+            "y": 627,
+            "width": 627,
+            "height": 627
+          }
+        },
+        {
+          "id": "panels-4",
+          "label": "奖励面板",
+          "index": 3,
+          "rect": {
+            "x": 627,
+            "y": 627,
+            "width": 627,
+            "height": 627
+          }
+        }
+      ]
+    },
+    {
+      "id": "navigation",
+      "assetId": "anime-ui-navigation-atlas-v1",
+      "label": "主导航图标",
+      "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-navigation-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "grid": {
+        "columns": 4,
+        "rows": 2
+      },
+      "sha256": "79f8025d8be9de8015208ef6524283540e75f53346fe500cd44531e664777170",
+      "note": "八种常用功能入口。细节较多，小尺寸建议配合名称使用。",
+      "items": [
+        {
+          "id": "navigation-1",
+          "label": "英雄",
+          "index": 0,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-2",
+          "label": "背包",
+          "index": 1,
+          "rect": {
+            "x": 384,
+            "y": 0,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-3",
+          "label": "任务",
+          "index": 2,
+          "rect": {
+            "x": 768,
+            "y": 0,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-4",
+          "label": "商城",
+          "index": 3,
+          "rect": {
+            "x": 1152,
+            "y": 0,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-5",
+          "label": "邮件",
+          "index": 4,
+          "rect": {
+            "x": 0,
+            "y": 512,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-6",
+          "label": "好友",
+          "index": 5,
+          "rect": {
+            "x": 384,
+            "y": 512,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-7",
+          "label": "排行",
+          "index": 6,
+          "rect": {
+            "x": 768,
+            "y": 512,
+            "width": 384,
+            "height": 512
+          }
+        },
+        {
+          "id": "navigation-8",
+          "label": "设置",
+          "index": 7,
+          "rect": {
+            "x": 1152,
+            "y": 512,
+            "width": 384,
+            "height": 512
+          }
+        }
+      ]
+    },
+    {
+      "id": "progression",
+      "assetId": "anime-ui-progression-atlas-v1",
+      "label": "养成与状态控件",
+      "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-progression-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "grid": {
+        "columns": 2,
+        "rows": 4
+      },
+      "sha256": "755d79af99e4b992a22c0bc0f9be2e8b1f35e1a11dedf6569dc565d8215febe6",
+      "note": "三条进度条、星级、技能槽、装备槽和两块数值底板。填充比例和星级已画在图片中。",
+      "items": [
+        {
+          "id": "progression-1",
+          "label": "生命条",
+          "index": 0,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-2",
+          "label": "能量条",
+          "index": 1,
+          "rect": {
+            "x": 768,
+            "y": 0,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-3",
+          "label": "经验条",
+          "index": 2,
+          "rect": {
+            "x": 0,
+            "y": 256,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-4",
+          "label": "五星等级条",
+          "index": 3,
+          "rect": {
+            "x": 768,
+            "y": 256,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-5",
+          "label": "技能槽·选中",
+          "index": 4,
+          "rect": {
+            "x": 0,
+            "y": 512,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-6",
+          "label": "装备槽·史诗",
+          "index": 5,
+          "rect": {
+            "x": 768,
+            "y": 512,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-7",
+          "label": "金币计数底板",
+          "index": 6,
+          "rect": {
+            "x": 0,
+            "y": 768,
+            "width": 768,
+            "height": 256
+          }
+        },
+        {
+          "id": "progression-8",
+          "label": "属性数值底板",
+          "index": 7,
+          "rect": {
+            "x": 768,
+            "y": 768,
+            "width": 768,
+            "height": 256
+          }
+        }
+      ]
+    }
+  ]
+}

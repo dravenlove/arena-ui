@@ -7078,6 +7078,506 @@
         "noResampling": true,
         "reviewedAt": "2026-10-29T19:49:33+08:00"
       }
+    },
+    {
+      "id": "20261029-195703-anime-ui-components",
+      "date": "2026-10-29",
+      "time": "19:57:03",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "styleId": "anime-fantasy",
+      "assets": [
+        {
+          "id": "anime-ui-buttons-atlas-v1",
+          "label": "二次元·按钮与切换控件",
+          "categoryId": "interface",
+          "componentCategory": "buttons",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "grid": {
+            "columns": 2,
+            "rows": 4
+          },
+          "items": [
+            "主按钮·默认",
+            "主按钮·按下",
+            "次按钮·默认",
+            "次按钮·禁用",
+            "页签·默认",
+            "页签·选中",
+            "切换开关·关闭",
+            "切换开关·开启"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nLandscape canvas 1536 x 1024. EXACTLY 2 equal columns and 4 equal rows, eight 768 x 256 cells. One centered horizontal control per cell. Row 1 left: pale gold primary button unpressed, right: same shape darker inset pressed state. Row 2 left: ivory secondary button with navy outline, right: same button disabled in desaturated blue gray. Row 3 left: navy outlined ivory horizontal tab, right: matching selected tab with cyan underline and corner crystal. Row 4 left: horizontal toggle OFF, pale gray track and navy circular thumb on left; right: matching toggle ON, cyan track and ivory thumb on right. Buttons and tabs must be 560 x 130 in the requested design, equal left/right dimensions, 100-pixel horizontal inner text zone with absolutely no lettering; toggles approximately 240 x 110. Keep top/bottom 50 pixels empty inside each cell. Buttons moderately beveled with clipped corners, delicate star ornament confined to each far end, no ornament invading blank label area.",
+          "promptSha256": "630b2dd60df39d4aa3a18a732429d757ae3920c5262ce925d6690cc6f53540a2",
+          "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-buttons-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1578133,
+          "sha256": "22406e7f24f1f9864fe5887fb497488f531b8c645c7e164f4bfe877e1b8d38e4",
+          "recordedAt": "2026-10-29T19:58:04+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:57:15+08:00",
+            "resultObservedAt": "2026-10-29T19:57:41+08:00"
+          },
+          "sourceFile": "exec-79fe03a7-cc62-4c2e-808f-a131c737e40a.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.5754845937093099,
+            "reviewedAt": "2026-10-29T20:12:47+08:00"
+          }
+        },
+        {
+          "id": "anime-ui-panels-atlas-v1",
+          "label": "二次元·面板与弹窗",
+          "categoryId": "interface",
+          "componentCategory": "panels",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "grid": {
+            "columns": 2,
+            "rows": 2
+          },
+          "items": [
+            "通用弹窗",
+            "背包面板",
+            "详情提示框",
+            "奖励面板"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nSquare canvas 1024 x 1024. EXACTLY 2 columns and 2 rows, four equal 512 x 512 cells. One complete rectangular UI panel centered per cell, around 390 x 390 pixels, at least 50 pixels of transparent padding on every cell edge. Top left: general modal frame, ivory flat fill with thin navy/gold outline, blank narrow title compartment at top separated by a fine line and blank large body. Top right: inventory panel frame with pale blue flat fill, understated angular navy edge, empty wide center without item grid. Bottom left: tooltip/detail panel, navy flat fill, fine ivory and gold line border, blank title zone and blank body, no pointer triangle. Bottom right: reward panel, ivory fill, slender gold border, small symmetrical gold star ornament at top edge, blank spacious center. All four are separate panel skins without text, icons, content, buttons, slots or nested windows. The flat centers are opaque, exterior canvas is true alpha transparency. Decoration limited to corners and narrow edges for future nine-slice adaptation.",
+          "promptSha256": "98e24d596e67e7e723df27e4075124fca11550043b3c34e090c665a6e2e7df19",
+          "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-panels-atlas.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1245953,
+          "sha256": "107e4568338b0d269073d7b883fbe3eb458e52095a2be9e753cff7519d2d23ab",
+          "recordedAt": "2026-10-29T19:59:12+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:58:19+08:00",
+            "resultObservedAt": "2026-10-29T19:58:56+08:00"
+          },
+          "sourceFile": "exec-543e7ce4-e45d-47db-8576-ee96ac38ad06.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.2904275695763986,
+            "reviewedAt": "2026-10-29T20:12:47+08:00"
+          }
+        },
+        {
+          "id": "anime-ui-navigation-atlas-v1",
+          "label": "二次元·主导航图标",
+          "categoryId": "navigation",
+          "componentCategory": "navigation",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "grid": {
+            "columns": 4,
+            "rows": 2
+          },
+          "items": [
+            "英雄",
+            "背包",
+            "任务",
+            "商城",
+            "邮件",
+            "好友",
+            "排行",
+            "设置"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nLandscape canvas 1536 x 1024. EXACTLY 4 columns and 2 rows, eight equal 384 x 512 cells. Center one complete compact navigation emblem per cell, maximum 250 x 250 with generous transparent spacing. Row 1 left to right: HEROES represented by an elegant generic bust silhouette with short cloak, BACKPACK by a closed blue satchel, QUESTS by an ivory scroll with small navy check glyph, SHOP by a small ivory shop awning and gold coin. Row 2 left to right: MAIL by a sealed envelope with cyan diamond seal, FRIENDS by two simplified bust silhouettes, RANKING by a gold trophy, SETTINGS by a navy gear with ivory center. Each emblem uses the same thin diamond-shaped pale-gold outer frame and an ivory inner field, refined crisp anime cel shading. No actual title text or letters, no portrait face details, no dense textures or ground shadows. These should remain visually distinct at small mobile navigation size.",
+          "promptSha256": "c531cc72b9ffde3ab2fec0660bf5162241713a885ac6e550cd595ebffde5792e",
+          "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-navigation-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2068835,
+          "sha256": "79f8025d8be9de8015208ef6524283540e75f53346fe500cd44531e664777170",
+          "recordedAt": "2026-10-29T20:00:35+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:59:23+08:00",
+            "resultObservedAt": "2026-10-29T20:00:16+08:00"
+          },
+          "sourceFile": "exec-4fdabcd3-ccb2-4a03-8504-73aaa0c144b0.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.6459477742513021,
+            "reviewedAt": "2026-10-29T20:12:47+08:00"
+          }
+        },
+        {
+          "id": "anime-ui-progression-atlas-v1",
+          "label": "二次元·养成与状态控件",
+          "categoryId": "interface",
+          "componentCategory": "progression",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "grid": {
+            "columns": 2,
+            "rows": 4
+          },
+          "items": [
+            "生命条",
+            "能量条",
+            "经验条",
+            "五星等级条",
+            "技能槽·选中",
+            "装备槽·史诗",
+            "金币计数底板",
+            "属性数值底板"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nLandscape canvas 1536 x 1024. EXACTLY 2 columns and 4 rows, eight equal 768 x 256 cells. One complete UI widget centered in each cell, with at least 55 pixels above/below and 80 pixels left/right empty. Row 1 left: a wide slim ivory-framed HP bar, coral fill at about 70 percent and quiet pale gray unfilled right segment; right: same bar shape with cyan energy fill at about 50 percent. Row 2 left: same shape with pale-gold XP fill at about 40 percent; right: one compact horizontal five-star rating strip, first three gold filled stars and final two navy outlined stars. Row 3 left: one square EMPTY skill slot, ivory flat center with cyan selected rim, no icon; right: one square EMPTY epic equipment slot, ivory flat center and lavender border with subtle gold corner work, no item. Row 4 left: horizontal ivory currency counter plate with a small gold coin at far left and entirely blank center and right area; right: same size ivory stat value plate with a small navy shield glyph at far left and blank center and right. Bars approximately 570 x 76, plates 560 x 120, slots approximately 140 x 140. No visible values, text, percentages or labels. All frames and shapes are complete, no additional adornments outside cells.",
+          "promptSha256": "7d8a92ce437454c7376a7467a0c1128b9844a31f03a94a210952335fbfc61811",
+          "path": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-progression-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1526902,
+          "sha256": "755d79af99e4b992a22c0bc0f9be2e8b1f35e1a11dedf6569dc565d8215febe6",
+          "recordedAt": "2026-10-29T20:02:28+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T20:00:47+08:00",
+            "resultObservedAt": "2026-10-29T20:01:19+08:00"
+          },
+          "sourceFile": "exec-95873e81-3818-4878-b3f8-6fa01e11f117.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.5569597880045573,
+            "reviewedAt": "2026-10-29T20:12:47+08:00"
+          }
+        }
+      ],
+      "themeId": "anime-ui-components",
+      "startedAt": "2026-10-29T19:57:03+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "anime-ui-buttons-atlas-v1",
+          "group": "library",
+          "startedAt": "2026-10-29T19:57:15+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "630b2dd60df39d4aa3a18a732429d757ae3920c5262ce925d6690cc6f53540a2",
+          "resultObservedAt": "2026-10-29T19:57:41+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-buttons-atlas.png",
+          "sourceFile": "exec-79fe03a7-cc62-4c2e-808f-a131c737e40a.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T19:58:04+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "anime-ui-panels-atlas-v1",
+          "group": "library",
+          "startedAt": "2026-10-29T19:58:19+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "98e24d596e67e7e723df27e4075124fca11550043b3c34e090c665a6e2e7df19",
+          "resultObservedAt": "2026-10-29T19:58:56+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-panels-atlas.png",
+          "sourceFile": "exec-543e7ce4-e45d-47db-8576-ee96ac38ad06.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T19:59:12+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "anime-ui-navigation-atlas-v1",
+          "group": "library",
+          "startedAt": "2026-10-29T19:59:23+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "c531cc72b9ffde3ab2fec0660bf5162241713a885ac6e550cd595ebffde5792e",
+          "resultObservedAt": "2026-10-29T20:00:16+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-navigation-atlas.png",
+          "sourceFile": "exec-4fdabcd3-ccb2-4a03-8504-73aaa0c144b0.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T20:00:35+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "anime-ui-progression-atlas-v1",
+          "group": "library",
+          "startedAt": "2026-10-29T20:00:47+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "7d8a92ce437454c7376a7467a0c1128b9844a31f03a94a210952335fbfc61811",
+          "resultObservedAt": "2026-10-29T20:01:19+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-195703-anime-ui-components/library/anime-fantasy/anime-ui-progression-atlas.png",
+          "sourceFile": "exec-95873e81-3818-4878-b3f8-6fa01e11f117.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T20:02:28+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "anime-ui-buttons-atlas-v1",
+          "label": "二次元·按钮与切换控件",
+          "filename": "anime-ui-buttons-atlas.png",
+          "categoryId": "interface",
+          "componentCategory": "buttons",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "grid": {
+            "columns": 2,
+            "rows": 4
+          },
+          "items": [
+            "主按钮·默认",
+            "主按钮·按下",
+            "次按钮·默认",
+            "次按钮·禁用",
+            "页签·默认",
+            "页签·选中",
+            "切换开关·关闭",
+            "切换开关·开启"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nLandscape canvas 1536 x 1024. EXACTLY 2 equal columns and 4 equal rows, eight 768 x 256 cells. One centered horizontal control per cell. Row 1 left: pale gold primary button unpressed, right: same shape darker inset pressed state. Row 2 left: ivory secondary button with navy outline, right: same button disabled in desaturated blue gray. Row 3 left: navy outlined ivory horizontal tab, right: matching selected tab with cyan underline and corner crystal. Row 4 left: horizontal toggle OFF, pale gray track and navy circular thumb on left; right: matching toggle ON, cyan track and ivory thumb on right. Buttons and tabs must be 560 x 130 in the requested design, equal left/right dimensions, 100-pixel horizontal inner text zone with absolutely no lettering; toggles approximately 240 x 110. Keep top/bottom 50 pixels empty inside each cell. Buttons moderately beveled with clipped corners, delicate star ornament confined to each far end, no ornament invading blank label area.",
+          "promptSha256": "630b2dd60df39d4aa3a18a732429d757ae3920c5262ce925d6690cc6f53540a2"
+        },
+        {
+          "id": "anime-ui-panels-atlas-v1",
+          "label": "二次元·面板与弹窗",
+          "filename": "anime-ui-panels-atlas.png",
+          "categoryId": "interface",
+          "componentCategory": "panels",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "grid": {
+            "columns": 2,
+            "rows": 2
+          },
+          "items": [
+            "通用弹窗",
+            "背包面板",
+            "详情提示框",
+            "奖励面板"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nSquare canvas 1024 x 1024. EXACTLY 2 columns and 2 rows, four equal 512 x 512 cells. One complete rectangular UI panel centered per cell, around 390 x 390 pixels, at least 50 pixels of transparent padding on every cell edge. Top left: general modal frame, ivory flat fill with thin navy/gold outline, blank narrow title compartment at top separated by a fine line and blank large body. Top right: inventory panel frame with pale blue flat fill, understated angular navy edge, empty wide center without item grid. Bottom left: tooltip/detail panel, navy flat fill, fine ivory and gold line border, blank title zone and blank body, no pointer triangle. Bottom right: reward panel, ivory fill, slender gold border, small symmetrical gold star ornament at top edge, blank spacious center. All four are separate panel skins without text, icons, content, buttons, slots or nested windows. The flat centers are opaque, exterior canvas is true alpha transparency. Decoration limited to corners and narrow edges for future nine-slice adaptation.",
+          "promptSha256": "98e24d596e67e7e723df27e4075124fca11550043b3c34e090c665a6e2e7df19"
+        },
+        {
+          "id": "anime-ui-navigation-atlas-v1",
+          "label": "二次元·主导航图标",
+          "filename": "anime-ui-navigation-atlas.png",
+          "categoryId": "navigation",
+          "componentCategory": "navigation",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "grid": {
+            "columns": 4,
+            "rows": 2
+          },
+          "items": [
+            "英雄",
+            "背包",
+            "任务",
+            "商城",
+            "邮件",
+            "好友",
+            "排行",
+            "设置"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nLandscape canvas 1536 x 1024. EXACTLY 4 columns and 2 rows, eight equal 384 x 512 cells. Center one complete compact navigation emblem per cell, maximum 250 x 250 with generous transparent spacing. Row 1 left to right: HEROES represented by an elegant generic bust silhouette with short cloak, BACKPACK by a closed blue satchel, QUESTS by an ivory scroll with small navy check glyph, SHOP by a small ivory shop awning and gold coin. Row 2 left to right: MAIL by a sealed envelope with cyan diamond seal, FRIENDS by two simplified bust silhouettes, RANKING by a gold trophy, SETTINGS by a navy gear with ivory center. Each emblem uses the same thin diamond-shaped pale-gold outer frame and an ivory inner field, refined crisp anime cel shading. No actual title text or letters, no portrait face details, no dense textures or ground shadows. These should remain visually distinct at small mobile navigation size.",
+          "promptSha256": "c531cc72b9ffde3ab2fec0660bf5162241713a885ac6e550cd595ebffde5792e"
+        },
+        {
+          "id": "anime-ui-progression-atlas-v1",
+          "label": "二次元·养成与状态控件",
+          "filename": "anime-ui-progression-atlas.png",
+          "categoryId": "interface",
+          "componentCategory": "progression",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "grid": {
+            "columns": 2,
+            "rows": 4
+          },
+          "items": [
+            "生命条",
+            "能量条",
+            "经验条",
+            "五星等级条",
+            "技能槽·选中",
+            "装备槽·史诗",
+            "金币计数底板",
+            "属性数值底板"
+          ],
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "v1",
+          "benchmarkId": null,
+          "transparentBackground": true,
+          "prompt": "Use case: ui-mockup. Create original raster UI assets for Arena UI ANIME FANTASY mobile RPG collection. Elegant hand-drawn 2D Japanese-animation-inspired fantasy UI, precise colored line art and controlled cel-shaded edges, NOT chibi, NOT gritty dark metal, NOT photorealistic and NOT rounded toy 3D. Cohesive palette: icy ivory #eef5ff surfaces, midnight navy #24385c outlines, pale gold #eccb83 for primary actions/rewards, sky cyan #55c9ea for selection/energy, coral #ef7786 only for health, lavender #a998e5 only for epic rarity. Fine restrained gold corner filigree and a tiny geometric star motif, crisp readable silhouette. TRUE transparent RGBA background, no baked checkerboard, no backdrop, no floor, no cast shadow beyond an object's own boundary, no scenery, no device mockup. Strict front orthographic view, no perspective. No text, letters, numbers, captions, logos or watermarks. These are reusable UI skins: broad flat quiet central areas left completely blank for runtime Chinese text and numbers. Transparent gaps between all separate assets; each complete object entirely inside its equal grid cell with generous safe padding. Do not draw grid lines. One asset in each cell; no duplicate or extra assets.\n\nLandscape canvas 1536 x 1024. EXACTLY 2 columns and 4 rows, eight equal 768 x 256 cells. One complete UI widget centered in each cell, with at least 55 pixels above/below and 80 pixels left/right empty. Row 1 left: a wide slim ivory-framed HP bar, coral fill at about 70 percent and quiet pale gray unfilled right segment; right: same bar shape with cyan energy fill at about 50 percent. Row 2 left: same shape with pale-gold XP fill at about 40 percent; right: one compact horizontal five-star rating strip, first three gold filled stars and final two navy outlined stars. Row 3 left: one square EMPTY skill slot, ivory flat center with cyan selected rim, no icon; right: one square EMPTY epic equipment slot, ivory flat center and lavender border with subtle gold corner work, no item. Row 4 left: horizontal ivory currency counter plate with a small gold coin at far left and entirely blank center and right area; right: same size ivory stat value plate with a small navy shield glyph at far left and blank center and right. Bars approximately 570 x 76, plates 560 x 120, slots approximately 140 x 140. No visible values, text, percentages or labels. All frames and shapes are complete, no additional adornments outside cells.",
+          "promptSha256": "7d8a92ce437454c7376a7467a0c1128b9844a31f03a94a210952335fbfc61811"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "anime-ui-buttons-atlas-v1",
+          "type": "library-review",
+          "observations": [
+            "目视确认2列4行共8项：主按钮两态、次按钮两态、页签两态、开关两态；无文字，文字留白区完整。",
+            "偏差：高光、金边和渐变比简洁赛璐璐要求更突出，开关尺寸比240×110的提示更大；两种状态装饰和轮廓略有差异，不能保证切换无抖动。",
+            "原图1536×1024，alpha 0–254，完全透明像素约57.5%；各控件位于对应768×256区域，未发现跨格主体裁切。",
+            "逐格浅底预览检查通过；页面中文为叠字示意，并按原图实际文字区对齐，原图未改写。"
+          ]
+        },
+        {
+          "assetId": "anime-ui-panels-atlas-v1",
+          "type": "library-review",
+          "observations": [
+            "目视确认2列2行共4块面板：通用弹窗、浅蓝背包、深蓝详情和金边奖励；内部留白，没有嵌入文字、物品或按钮。",
+            "请求1024×1024，实际1254×1254，每格627×627。alpha 0–255，完全透明像素约29.0%，面板内为填色、外部透明。",
+            "偏差：边缘有细碎红黄蓝色边及不规则抗锯齿，奖励面板上下装饰不对称；留白边距小于50/512的提示要求。",
+            "四格在预览中各自完整，没有混入其他格；当前没有九宫格拉伸参数，需另外确定边距并测试拉伸效果。"
+          ]
+        },
+        {
+          "assetId": "anime-ui-navigation-atlas-v1",
+          "type": "library-review",
+          "observations": [
+            "目视确认4列2行共8枚导航：英雄、背包、任务、商城、邮件、好友、排行、设置。采用一致的菱形金边和蓝白内图。",
+            "偏差：英雄、好友使用带头发的头像轮廓，而非纯简化胸像；图案和装饰更复杂，主体尺寸超过250×250且接近格子边界。",
+            "实际1536×1024，每格384×512；alpha 0–254，完全透明像素约64.6%。未发现重复或漏项，主体没有越过对应格子边界。",
+            "主观判断：轮廓用途可辨，小尺寸会损失头发、背包扣和奖杯装饰细节，建议配名称；这是一张八格图集，并非八个独立PNG文件。"
+          ]
+        },
+        {
+          "assetId": "anime-ui-progression-atlas-v1",
+          "type": "library-review",
+          "observations": [
+            "目视确认2列4行共8项：红生命条、青能量条、金经验条、三实二空五星、青技能槽、紫装备槽、金币底板、盾形属性底板。没有文字或数值。",
+            "偏差：槽位比140×140的要求更大，星级额外带装饰底板；条形控件装饰较密。所有主体仍完整包含在对应格子内。",
+            "实际1536×1024，每格768×256；alpha 0–254，完全透明像素约55.7%。边框、填充和星级合并在一张图片中，无法直接作为动态数值控件。",
+            "页面以中文示例展示两块留白底板，原图不含这些数字；需要动态进度时应另行拆分图层或用代码绘制。"
+          ]
+        }
+      ],
+      "notes": [
+        "用户明确要求生成一套二次元组件UI、分类并提交GitHub；本次手动追加4张图集，规划28个设计项，分按钮、面板、导航、养成控件四类。",
+        "沿用anime-fantasy标识、独立运行目录和anime-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "生成一套二次元组件UI分类提交github",
+        "plannedAdditionalCalls": 4,
+        "callsAlreadyToday": 24
+      },
+      "completedAt": "2026-10-29T20:12:47+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "attempts": 4,
+        "originalFilesPreserved": true,
+        "styleArchiveVerified": true,
+        "newStyleId": "anime-fantasy",
+        "noResampling": true,
+        "reviewedAt": "2026-10-29T20:12:47+08:00"
+      }
     }
   ]
 }

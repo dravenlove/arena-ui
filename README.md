@@ -24,6 +24,7 @@ npm run dev
 ## 三套视觉风格
 
 - **[二次元奇幻](demo/history.html?style=anime-fantasy)**：正常人物比例、清晰线稿、蓝白服饰与赛璐璐阴影。首批 [4 张样张](docs/ANIME_ASSETS.md)：两位透明全身角色、一把透明长剑、一张角色养成界面参考。
+- **[二次元组件 UI 专页](demo/anime-ui.html)**：4 张透明图集、28 个设计项，分按钮与切换控件、面板与弹窗、主导航、养成与状态控件。支持逐格预览、深浅底、中文叠字与原图下载；[使用说明](docs/ANIME_UI.md)，[图集坐标清单](assets/anime-ui.json)。
 - **[Q版奇幻](demo/history.html?style=chibi-fantasy)**：奶油暖色、圆润控件、大头小身角色。首批 4 张包含组件参考板、游戏大厅、8 格导航图集和 6 格无字控件图集；[原图与使用限制](docs/CHIBI_UI.md)。另有 [4 位透明全身主角](docs/CHIBI_CHARACTERS.md)：剑士米洛、游侠莉雅、法师露米、守卫布朗，以及 [8 件独立透明道具](docs/CHIBI_ITEMS.md)：两瓶药水、宝箱、金币袋、成长晶石、技能卷轴与剑盾。
 - **[深色金属](demo/history.html?style=dark-metal)**：原 Arena UI 全部历史素材与固定对照，保留原文件和原始记录。
 

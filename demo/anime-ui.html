@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#edf3fc">
+  <title>二次元组件 UI · Arena UI</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./anime-ui.css">
+  <script src="./anime-ui.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="topbar"><a class="brand" href="./index.html">ARENA <b>UI</b></a><nav aria-label="素材导航"><a href="./history.html?style=anime-fantasy">全部二次元素材</a><a href="./index.html">组件库</a></nav></header>
+  <main id="main" tabindex="-1">
+    <section class="intro"><p class="eyebrow">ANIME FANTASY / UI COLLECTION 01</p><h1>为冒险，准备好每一块界面。</h1><p>蓝白底色、金色边饰与青色选中。按用途查看二次元组件素材，原图与每个设计项一一对应。</p><p id="collection-summary" class="summary" role="status">正在读取素材…</p></section>
+    <section class="toolbar" aria-label="预览设置">
+      <div id="category-filters" class="filters" role="group" aria-label="组件分类"></div>
+      <div class="preview-controls"><label>预览底色 <select id="backdrop" aria-label="预览底色"><option value="light">浅色</option><option value="dark">深色</option></select></label><label><input id="labels" type="checkbox" checked> 中文叠字示意</label></div>
+    </section>
+    <p class="notice">4 张图集中的设计项可逐格预览。中文为页面叠加示意；进度填充与星级是静态图片，使用说明包含接入建议。</p>
+    <p id="load-error" role="alert" hidden></p><button id="retry" hidden>重新加载</button>
+    <div id="collection" data-backdrop="light"></div>
+    <footer><a href="../docs/ANIME_UI.md">使用说明与分类清单 ↗</a><a href="../assets/anime-ui.json" download>下载坐标清单 JSON ↓</a><a id="manifest-link" hidden>完整生成记录 ↗</a></footer>
+  </main>
+</body>
+</html>
