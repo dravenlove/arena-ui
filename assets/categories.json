@@ -112,6 +112,10 @@
     "chibi-epic-growth-crystal": "progression",
     "chibi-skill-scroll": "progression",
     "chibi-starter-sword": "equipment",
-    "chibi-oak-shield": "equipment"
+    "chibi-oak-shield": "equipment",
+    "anime-astra-swordmaiden": "characters",
+    "anime-rune-arcanist": "characters",
+    "anime-azure-oath-sword": "equipment",
+    "anime-character-growth-ui-v1": "interface"
   }
 }

@@ -2,6 +2,22 @@
   "schemaVersion": 1,
   "styles": [
     {
+      "id": "anime-fantasy",
+      "label": "二次元奇幻",
+      "description": "正常人物比例、清晰线稿、赛璐璐阴影与冷色幻想服饰",
+      "filenamePrefix": "anime-",
+      "palette": {
+        "background": "#eef5ff",
+        "outline": "#24385c",
+        "actionReward": "#eccb83",
+        "selectionEnergy": "#55c9ea",
+        "healthDanger": "#ef7786",
+        "healing": "#7bc9a4",
+        "epic": "#a998e5"
+      },
+      "promptGuidance": "Original anime fantasy RPG illustration: adult characters with approximately seven-head-tall proportions, crisp controlled colored line art, two or three clear cel-shaded tones, restrained highlights, elegant elongated silhouettes, ivory and midnight-navy costume layers with cyan energy accents and restrained pale gold details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty metal textures."
+    },
+    {
       "id": "chibi-fantasy",
       "label": "Q版奇幻",
       "description": "奶油暖色、圆润控件、大头小身角色与玩具质感",

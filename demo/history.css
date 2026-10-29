@@ -33,16 +33,20 @@ h1>span{display:block;margin-top:4px;color:var(--gold);font-size:27px;font-weigh
 .history-live{display:flex;align-items:center;gap:6px;flex:none;color:#98adc2;font-size:9px}
 .history-live:before{content:'';display:block;width:4px;height:4px;border-radius:50%;background:var(--green)}
 .category-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:0 0 15px}
-.style-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 22px}
+.style-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:0 0 22px}
 .style-filter{display:grid;grid-template-columns:1fr auto;gap:6px 10px;min-width:0;padding:16px;text-align:left;border:1px solid #41516a;border-radius:8px;background:#151c25;color:#b9cbe0;font-family:var(--font-sans);cursor:pointer}
 .style-filter strong{font-size:14px}.style-filter small{grid-column:1/-1;font-size:10px;line-height:1.8;color:#9aadc5}.style-count{font:12px/1.8 var(--font-mono)}
 .style-filter:hover{border-color:#8ba2be}.style-filter[aria-pressed=true]{border-color:var(--cyan);box-shadow:inset 0 0 0 1px var(--cyan);background:#142631}
 .style-filter[data-style=chibi-fantasy]{background:#fff7e7;color:#654c3f;border-color:#d9b989}.style-filter[data-style=chibi-fantasy] small{color:#765c46}.style-filter[data-style=chibi-fantasy][aria-pressed=true]{border-color:#ffc857;box-shadow:inset 0 0 0 2px #ffc857}
+.style-filter[data-style=anime-fantasy]{background:#eef5ff;color:#24385c;border-color:#9db8d9}.style-filter[data-style=anime-fantasy] small{color:#455f81}.style-filter[data-style=anime-fantasy][aria-pressed=true]{border-color:#55c9ea;box-shadow:inset 0 0 0 2px #55c9ea}
 .style-filter:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}.style-collection{display:grid;gap:24px;min-width:0}.style-collection+.style-collection{padding-top:28px;border-top:2px solid #455974}
 .style-collection-title{margin:0;padding:12px 16px;border-left:4px solid #9aa6b8;background:#1c2735;color:#cfdae8;font-size:17px;letter-spacing:.4px}
 .style-collection[data-style=chibi-fantasy]>.style-collection-title{background:#fff7e7;border-color:#ffc857;color:#654c3f;border-radius:8px}
+.style-collection[data-style=anime-fantasy]>.style-collection-title{background:#eef5ff;border-color:#55c9ea;color:#24385c}
 .asset-style{align-self:flex-start;margin:0;padding:3px 8px;border:1px solid #65748b;border-radius:4px;color:#becce0;font-size:10px;line-height:1.5}
 [data-style=chibi-fantasy]>.asset-content>.asset-style{background:#fff7e7;color:#654c3f;border-color:#f0ca86}
+[data-style=anime-fantasy]>.asset-content>.asset-style{background:#eef5ff;color:#24385c;border-color:#9db8d9}
+.archive-card[data-style=anime-fantasy] .asset-image-frame.is-transparent{background-color:#eef5ff;background-image:linear-gradient(45deg,#dce6f3 25%,transparent 25%),linear-gradient(-45deg,#dce6f3 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#dce6f3 75%),linear-gradient(-45deg,transparent 75%,#dce6f3 75%)}
 .archive-card[data-style=chibi-fantasy] .asset-image-frame.is-transparent{background-color:#fff9ee;background-image:linear-gradient(45deg,#eee3cd 25%,transparent 25%),linear-gradient(-45deg,#eee3cd 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#eee3cd 75%),linear-gradient(-45deg,transparent 75%,#eee3cd 75%)}
 @media(max-width:600px){.style-filters{grid-template-columns:1fr;gap:8px}.style-filter{padding:12px 14px}.style-collection-title{font-size:15px}.archive-run-heading h4{font-size:10px}}
 .category-filter{display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0;min-height:44px;padding:10px 13px;border:1px solid #34465c;border-radius:2px;background:#151c25;color:#a9bad0;font:11px/1.6 var(--font-sans);text-align:left}

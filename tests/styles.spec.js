@@ -4,20 +4,25 @@ const path = require('node:path');
 const read = name => JSON.parse(readFileSync(path.join(__dirname, '..', name), 'utf8'));
 const index = () => read('assets/daily/index.json');
 const total = () => index().runs.reduce((n, r) => n + r.assets.length, 0);
-const chibi = () => index().runs.flatMap(r => r.assets).filter(a => a.styleId === 'chibi-fantasy');
+const styleAssets = id => {
+  const catalog = read('assets/styles.json');
+  return index().runs.flatMap(r => r.assets.filter(a => (a.styleId ?? r.styleId ?? catalog.runStyles[r.id]) === id));
+};
+const chibi = () => styleAssets('chibi-fantasy');
 const filter = (page, id) => page.locator(`#style-filters [data-style="${id}"]`);
 
-test('所有素材明确登记风格，新Q版素材有独立身份、路径和用途', () => {
+test('所有素材明确登记风格，新增系列有独立身份、路径和用途', () => {
   const catalog = read('assets/styles.json');
   const categories = read('assets/categories.json').assetCategories;
   for (const run of index().runs) for (const asset of run.assets) {
     const style = asset.styleId ?? run.styleId ?? catalog.runStyles[run.id];
     expect(catalog.styles.map(s => s.id)).toContain(style);
     expect(categories[asset.id]).toBeTruthy();
-    if (style === 'chibi-fantasy') {
-      expect(asset.styleId).toBe('chibi-fantasy');
-      expect(asset.id).toMatch(/^chibi-/);
-      expect(asset.path).toMatch(/\/library\/chibi-fantasy\/chibi-/);
+    const prefix = catalog.styles.find(s => s.id === style).filenamePrefix;
+    if (prefix) {
+      expect(asset.styleId).toBe(style);
+      expect(asset.id.startsWith(prefix)).toBe(true);
+      expect(asset.path).toContain(`/library/${style}/${prefix}`);
       expect(asset.group).toBe('library');
     }
   }
@@ -27,11 +32,13 @@ test('所有素材明确登记风格，新Q版素材有独立身份、路径和�
 test('全部素材按风格分区，分区和每张卡片标签一致', async ({ page }) => {
   await page.goto('/demo/history.html');
   await expect(page.getByTestId('archive-asset')).toHaveCount(total());
-  for (const [id, name, count] of [['chibi-fantasy', 'Q版奇幻', chibi().length], ['dark-metal', '深色金属', total() - chibi().length]]) {
-    const section = page.getByRole('region', { name: `${name}素材分区` });
+  for (const { id, label } of read('assets/styles.json').styles) {
+    const count = styleAssets(id).length;
+    if (!count) continue;
+    const section = page.getByRole('region', { name: `${label}素材分区` });
     await expect(section.getByTestId('archive-asset')).toHaveCount(count);
     expect(await section.getByTestId('archive-asset').evaluateAll(cards => cards.every(card => card.dataset.style === card.closest('.style-collection').dataset.style))).toBe(true);
-    await expect(section.locator('.asset-style').first()).toHaveText(name);
+    await expect(section.locator('.asset-style').first()).toHaveText(label);
   }
 });
 
@@ -109,12 +116,36 @@ test('主页风格入口可访问，390px风格筛选支持键盘且无横向溢
   await expect(page.getByTestId('archive-asset')).toHaveCount(chibi().length);
   await filter(page, 'dark-metal').focus();
   await page.keyboard.press('Enter');
-  await expect(page.getByTestId('archive-asset')).toHaveCount(total() - chibi().length);
+  await expect(page.getByTestId('archive-asset')).toHaveCount(styleAssets('dark-metal').length);
   await filter(page, 'chibi-fantasy').click();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
   const images = page.locator('.archive-card img');
   for (const image of await images.all()) {
     await image.scrollIntoViewIfNeeded();
     await expect.poll(() => image.evaluate(el => el.complete && el.naturalWidth > 0)).toBe(true);
+  }
+});
+
+test('二次元入口在手机可用，按用途筛选不会混入其他风格且原图可下载', async ({ page, request }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/demo/');
+  await page.getByRole('link', { name: /二次元奇幻素材/ }).click();
+  const cards = page.getByTestId('archive-asset');
+  const assets = styleAssets('anime-fantasy');
+  await expect(cards).toHaveCount(assets.length);
+  expect(await cards.evaluateAll(items => items.every(item => item.dataset.style === 'anime-fantasy'))).toBe(true);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
+  for (const asset of assets) {
+    const link = page.locator(`.asset-download[href$="/${asset.path}"]`);
+    await expect(link).toHaveCount(1);
+    const response = await request.get(`/${asset.path}`);
+    expect(response.status()).toBe(200);
+    expect(response.headers()['content-type']).toContain('image/png');
+  }
+  const categories = read('assets/categories.json').assetCategories;
+  for (const category of ['characters', 'equipment', 'interface']) {
+    await page.locator(`#category-filters [data-category="${category}"]`).click();
+    await expect(cards).toHaveCount(assets.filter(a => categories[a.id] === category).length);
+    await expect(cards.first().locator('.asset-style')).toHaveText('二次元奇幻');
   }
 });

@@ -6697,6 +6697,387 @@
         "noResampling": true,
         "reviewedAt": "2026-10-29T15:43:01+08:00"
       }
+    },
+    {
+      "id": "20261029-193628-anime-sample",
+      "date": "2026-10-29",
+      "time": "19:36:28",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/29/20261029-193628-anime-sample/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "styleId": "anime-fantasy",
+      "assets": [
+        {
+          "id": "anime-astra-swordmaiden",
+          "label": "霜星剑士·阿斯特拉（二次元）",
+          "categoryId": "characters",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges. Portrait canvas requested 1024 x 1536. ONE full-body adult character at approximately seven-head-tall proportions with anatomically coherent hands and limbs, age about 25, fully clothed. Front three-quarter view facing slightly right, calm battle-ready standing pose, face and both feet visible. Entire hair, clothing and equipment inside canvas, generous 12 percent or more empty margin on all sides, no part touching the edge. TRUE transparent RGBA background, NO floor, shadow platform, scene, background gradient, particles, aura, text, labels or UI. No duplicate poses or extra characters.\n\nAstra is an original adult female sword knight. Long straight silver-white hair tied loosely at the back, blue eyes, composed warm expression. Elegant ivory long military-style coat with split tails over a midnight-navy high-neck tunic and fitted full-length trousers, pale-gold clasps, subtle cyan crystal clasp at the collar, knee-high navy boots, light ivory shoulder and forearm armor. Modest functional costume, no cleavage, no exposed midriff or thighs, no exaggerated anatomy. Right hand holds one narrow silver longsword pointed diagonally down and clear of her legs; left hand rests near the belt. Clean confident silhouette with fabric folds described in clear flat cel-shaded planes. The sword tip and both boots must be fully visible.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "85aca78236c14791e5c8053f523b8d5cb2044bf8182e40921d3921bf49ee6d12",
+          "path": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-astra-swordmaiden.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1907133,
+          "sha256": "456cb8affe80e63e056e324d1b9302bf7a630e0b0e44065a0f1597bb1078eed2",
+          "recordedAt": "2026-10-29T19:40:18+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:36:51+08:00",
+            "resultObservedAt": "2026-10-29T19:37:34+08:00"
+          },
+          "sourceFile": "exec-a635b433-6af6-4ce1-962c-f9b1a0fd85ff.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.6101481119791666,
+            "reviewedAt": "2026-10-29T19:49:33+08:00"
+          }
+        },
+        {
+          "id": "anime-rune-arcanist",
+          "label": "星轨术师·卢恩（二次元）",
+          "categoryId": "characters",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges. Portrait canvas requested 1024 x 1536. ONE full-body adult character at approximately seven-head-tall proportions with anatomically coherent hands and limbs, age about 25, fully clothed. Front three-quarter view facing slightly right, calm battle-ready standing pose, face and both feet visible. Entire hair, clothing and equipment inside canvas, generous 12 percent or more empty margin on all sides, no part touching the edge. TRUE transparent RGBA background, NO floor, shadow platform, scene, background gradient, particles, aura, text, labels or UI. No duplicate poses or extra characters.\n\nRune is an original adult male celestial arcanist. Tousled short midnight-blue hair, amber eyes, thoughtful confident expression. Long ivory scholar coat with midnight-navy lining, high collar, fitted navy waistcoat, full-length navy trousers and elegant practical boots, thin pale-gold geometric piping, cyan energy crystal at a simple belt buckle. His right hand holds one slender dark-blue staff at his side, topped with a single pale-gold open circular ring containing one cyan diamond crystal, entirely within canvas. His left hand holds a closed ivory and navy spellbook with a plain cyan diamond emblem. No floating particles. His slim tall adult silhouette should feel sophisticated and distinctly anime rather than a small cute mascot.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "7a3569a34cc0d27fe1b10cd2af2d387bd2b7c8c905c65c10379a37f995d835cf",
+          "path": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-rune-arcanist.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1998334,
+          "sha256": "4d2d47fb4e67dc39bfcab96c369015f258d08e24a725da863820012e24cedf12",
+          "recordedAt": "2026-10-29T19:41:19+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:40:30+08:00",
+            "resultObservedAt": "2026-10-29T19:41:08+08:00"
+          },
+          "sourceFile": "exec-3c9b34fd-0537-459c-8a0c-c515f6aa60ad.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.5758450826009115,
+            "reviewedAt": "2026-10-29T19:49:33+08:00"
+          }
+        },
+        {
+          "id": "anime-azure-oath-sword",
+          "label": "苍誓长剑（二次元）",
+          "categoryId": "equipment",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges.\n\nSquare canvas requested 1024 x 1024. ONE isolated long sword called Azure Oath, complete from pommel to tip, diagonal from lower left hilt to upper right tip. Narrow refined straight double-edged silver blade, slim navy central groove near its base, simple tapered pale-gold crossguard with one cyan crystal, midnight-navy wrapped grip, small diamond-shaped gold pommel. Use crisp flat anime cel-shading and controlled fine outlines, elegant slender proportions and minimal readable detail, not a chunky rounded toy sword. Centered with at least 12 percent transparent margin around the complete object. TRUE transparent RGBA background, no hand, no character, no UI frame, no floor, no shadow, no text, no particles, no glow field.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "98b2a19324bbc541a8015e0948666effcbcb5c41d31fb6e66003d5e6a869eb8e",
+          "path": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-azure-oath-sword.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 366962,
+          "sha256": "6ae7030dbaeb7401b96989205a3d53a8af3c0db28ad37818a3d0ef6ec7f1c60e",
+          "recordedAt": "2026-10-29T19:42:39+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:41:31+08:00",
+            "resultObservedAt": "2026-10-29T19:42:26+08:00"
+          },
+          "sourceFile": "exec-09e32d0b-c185-4d7c-8c7e-fcb91ec265d1.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.9316719193954147,
+            "reviewedAt": "2026-10-29T19:49:33+08:00"
+          }
+        },
+        {
+          "id": "anime-character-growth-ui-v1",
+          "label": "角色养成界面参考（二次元）",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": false,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges.\n\nCreate ONE polished portrait mobile fantasy RPG CHARACTER UPGRADE SCREEN reference image, requested 1024 x 1536, opaque pale icy-blue and ivory background with very subtle geometric star-map motifs. No phone frame, no outside margin or mockup desk. Use a tall ORIGINAL adult anime female sword knight with long silver-white hair, blue eyes, ivory split-tail military coat, high-neck midnight-navy tunic, full-length navy trousers, navy knee-high boots and a thin silver longsword held down, matching the written concept of Astra; preserve normal roughly seven-head proportions, not chibi. Character art is the dominant center-left element, complete hair and feet visible, quiet translucent right-side stats panels with thin navy borders and restrained pale-gold trims. Clean clearly separated UI regions with generous whitespace and legible simple text. Exact visible text only: top-left BACK; upper title ASTRA; small label LV. 20; right stats HP 1200, ATK 180, DEF 90; lower panel heading SKILLS above THREE simple distinct square skill icons (slash, shield, cyan crystal); bottom two wide buttons EQUIP and UPGRADE. UPGRADE is pale gold primary, EQUIP ivory outlined secondary. No additional paragraphs, fake tiny writing, Chinese text or logos. Cyan shows selected skill; coral may appear only in the HP bar. Keep all controls inside safe margins with no overlap on the face, no clipped labels. This is a static UI art concept, not a screenshot of a real existing game.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "950801d78b253cec2b23f76e677d9541181fbf2986eae14e7d423bd923673f09",
+          "path": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-character-growth-ui.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2405432,
+          "sha256": "3b83d706b94ef6d06fb6169f81f97d328f2cbad18f9be80d67eac25182f4825c",
+          "recordedAt": "2026-10-29T19:43:46+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T19:42:51+08:00",
+            "resultObservedAt": "2026-10-29T19:43:36+08:00"
+          },
+          "sourceFile": "exec-75ae315e-ff5c-4395-a943-a72233c934e4.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "reviewedAt": "2026-10-29T19:49:33+08:00"
+          }
+        }
+      ],
+      "themeId": "anime-sample",
+      "startedAt": "2026-10-29T19:36:28+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "anime-astra-swordmaiden",
+          "group": "library",
+          "startedAt": "2026-10-29T19:36:51+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "85aca78236c14791e5c8053f523b8d5cb2044bf8182e40921d3921bf49ee6d12",
+          "resultObservedAt": "2026-10-29T19:37:34+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-astra-swordmaiden.png",
+          "sourceFile": "exec-a635b433-6af6-4ce1-962c-f9b1a0fd85ff.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T19:40:18+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "anime-rune-arcanist",
+          "group": "library",
+          "startedAt": "2026-10-29T19:40:30+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "7a3569a34cc0d27fe1b10cd2af2d387bd2b7c8c905c65c10379a37f995d835cf",
+          "resultObservedAt": "2026-10-29T19:41:08+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-rune-arcanist.png",
+          "sourceFile": "exec-3c9b34fd-0537-459c-8a0c-c515f6aa60ad.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T19:41:19+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "anime-azure-oath-sword",
+          "group": "library",
+          "startedAt": "2026-10-29T19:41:31+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "98b2a19324bbc541a8015e0948666effcbcb5c41d31fb6e66003d5e6a869eb8e",
+          "resultObservedAt": "2026-10-29T19:42:26+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-azure-oath-sword.png",
+          "sourceFile": "exec-09e32d0b-c185-4d7c-8c7e-fcb91ec265d1.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T19:42:39+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "anime-character-growth-ui-v1",
+          "group": "library",
+          "startedAt": "2026-10-29T19:42:51+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "950801d78b253cec2b23f76e677d9541181fbf2986eae14e7d423bd923673f09",
+          "resultObservedAt": "2026-10-29T19:43:36+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-193628-anime-sample/library/anime-fantasy/anime-character-growth-ui.png",
+          "sourceFile": "exec-75ae315e-ff5c-4395-a943-a72233c934e4.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T19:43:46+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "anime-astra-swordmaiden",
+          "label": "霜星剑士·阿斯特拉（二次元）",
+          "categoryId": "characters",
+          "filename": "anime-astra-swordmaiden.png",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges. Portrait canvas requested 1024 x 1536. ONE full-body adult character at approximately seven-head-tall proportions with anatomically coherent hands and limbs, age about 25, fully clothed. Front three-quarter view facing slightly right, calm battle-ready standing pose, face and both feet visible. Entire hair, clothing and equipment inside canvas, generous 12 percent or more empty margin on all sides, no part touching the edge. TRUE transparent RGBA background, NO floor, shadow platform, scene, background gradient, particles, aura, text, labels or UI. No duplicate poses or extra characters.\n\nAstra is an original adult female sword knight. Long straight silver-white hair tied loosely at the back, blue eyes, composed warm expression. Elegant ivory long military-style coat with split tails over a midnight-navy high-neck tunic and fitted full-length trousers, pale-gold clasps, subtle cyan crystal clasp at the collar, knee-high navy boots, light ivory shoulder and forearm armor. Modest functional costume, no cleavage, no exposed midriff or thighs, no exaggerated anatomy. Right hand holds one narrow silver longsword pointed diagonally down and clear of her legs; left hand rests near the belt. Clean confident silhouette with fabric folds described in clear flat cel-shaded planes. The sword tip and both boots must be fully visible.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "85aca78236c14791e5c8053f523b8d5cb2044bf8182e40921d3921bf49ee6d12"
+        },
+        {
+          "id": "anime-rune-arcanist",
+          "label": "星轨术师·卢恩（二次元）",
+          "categoryId": "characters",
+          "filename": "anime-rune-arcanist.png",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges. Portrait canvas requested 1024 x 1536. ONE full-body adult character at approximately seven-head-tall proportions with anatomically coherent hands and limbs, age about 25, fully clothed. Front three-quarter view facing slightly right, calm battle-ready standing pose, face and both feet visible. Entire hair, clothing and equipment inside canvas, generous 12 percent or more empty margin on all sides, no part touching the edge. TRUE transparent RGBA background, NO floor, shadow platform, scene, background gradient, particles, aura, text, labels or UI. No duplicate poses or extra characters.\n\nRune is an original adult male celestial arcanist. Tousled short midnight-blue hair, amber eyes, thoughtful confident expression. Long ivory scholar coat with midnight-navy lining, high collar, fitted navy waistcoat, full-length navy trousers and elegant practical boots, thin pale-gold geometric piping, cyan energy crystal at a simple belt buckle. His right hand holds one slender dark-blue staff at his side, topped with a single pale-gold open circular ring containing one cyan diamond crystal, entirely within canvas. His left hand holds a closed ivory and navy spellbook with a plain cyan diamond emblem. No floating particles. His slim tall adult silhouette should feel sophisticated and distinctly anime rather than a small cute mascot.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "7a3569a34cc0d27fe1b10cd2af2d387bd2b7c8c905c65c10379a37f995d835cf"
+        },
+        {
+          "id": "anime-azure-oath-sword",
+          "label": "苍誓长剑（二次元）",
+          "categoryId": "equipment",
+          "filename": "anime-azure-oath-sword.png",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges.\n\nSquare canvas requested 1024 x 1024. ONE isolated long sword called Azure Oath, complete from pommel to tip, diagonal from lower left hilt to upper right tip. Narrow refined straight double-edged silver blade, slim navy central groove near its base, simple tapered pale-gold crossguard with one cyan crystal, midnight-navy wrapped grip, small diamond-shaped gold pommel. Use crisp flat anime cel-shading and controlled fine outlines, elegant slender proportions and minimal readable detail, not a chunky rounded toy sword. Centered with at least 12 percent transparent margin around the complete object. TRUE transparent RGBA background, no hand, no character, no UI frame, no floor, no shadow, no text, no particles, no glow field.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "98b2a19324bbc541a8015e0948666effcbcb5c41d31fb6e66003d5e6a869eb8e"
+        },
+        {
+          "id": "anime-character-growth-ui-v1",
+          "label": "角色养成界面参考（二次元）",
+          "categoryId": "interface",
+          "filename": "anime-character-growth-ui.png",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": false,
+          "prompt": "Create an ORIGINAL high-quality anime fantasy RPG asset, suitable for a mobile character-collection game. A clearly different visual style from chibi: precise clean colored line art, 2-3 crisp cel-shaded tones per surface, restrained painted highlights, elegant long forms, a hand-drawn 2D Japanese-animation-inspired aesthetic. Ivory and midnight navy, sky-cyan energy accents and restrained pale gold trims. No 3D toy rendering, no chibi, no oversized head, no photorealism, no gritty metal textures, no existing franchise logos or named franchise character. Professional readable composition, clean anti-aliased edges.\n\nCreate ONE polished portrait mobile fantasy RPG CHARACTER UPGRADE SCREEN reference image, requested 1024 x 1536, opaque pale icy-blue and ivory background with very subtle geometric star-map motifs. No phone frame, no outside margin or mockup desk. Use a tall ORIGINAL adult anime female sword knight with long silver-white hair, blue eyes, ivory split-tail military coat, high-neck midnight-navy tunic, full-length navy trousers, navy knee-high boots and a thin silver longsword held down, matching the written concept of Astra; preserve normal roughly seven-head proportions, not chibi. Character art is the dominant center-left element, complete hair and feet visible, quiet translucent right-side stats panels with thin navy borders and restrained pale-gold trims. Clean clearly separated UI regions with generous whitespace and legible simple text. Exact visible text only: top-left BACK; upper title ASTRA; small label LV. 20; right stats HP 1200, ATK 180, DEF 90; lower panel heading SKILLS above THREE simple distinct square skill icons (slash, shield, cyan crystal); bottom two wide buttons EQUIP and UPGRADE. UPGRADE is pale gold primary, EQUIP ivory outlined secondary. No additional paragraphs, fake tiny writing, Chinese text or logos. Cyan shows selected skill; coral may appear only in the HP bar. Keep all controls inside safe margins with no overlap on the face, no clipped labels. This is a static UI art concept, not a screenshot of a real existing game.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "promptVersion": "anime-fantasy-v1",
+          "promptSha256": "950801d78b253cec2b23f76e677d9541181fbf2986eae14e7d423bd923673f09"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "anime-astra-swordmaiden",
+          "type": "library-review",
+          "observations": [
+            "目视：成年比例银发剑士全身、鞋靴与剑尖完整，蓝白配色、细线稿与平面阴影明确，未出现文字或额外人物。",
+            "偏差：人物占画布较高，四周留白小于要求的12%；金饰、发丝与高光比两三层简洁赛璐璐要求更细密。",
+            "透明验证：PNG可解码，实际1024×1536，RGBA alpha 0–254，完全透明像素约61.0%。图库浅色棋盘底可见，未出现不透明矩形背景。",
+            "主观判断：适合角色详情页展示；手机缩略图保留轮廓，复杂服饰细节需要放大。没有生成其他动作或严格一致的多视图。"
+          ]
+        },
+        {
+          "assetId": "anime-rune-arcanist",
+          "type": "library-review",
+          "observations": [
+            "目视：蓝发成年男性术师全身、两只靴子、环形法杖及闭合书本完整，身材修长，藏蓝与象牙白造型属于二次元系列。",
+            "偏差：头顶、右靴距边缘较近，未达到12%边距；金色图案和法杖装饰比提示的简练几何形式更繁复，阴影含细微渐变。",
+            "透明验证：PNG可解码，实际1024×1536，RGBA alpha 0–254，完全透明像素约57.6%。图库浅色棋盘底透出，主体完整无矩形底。",
+            "主观判断：与女剑士配色接近，可用于同一角色选择系列；建议用等比适配并在容器留出内边距。"
+          ]
+        },
+        {
+          "assetId": "anime-azure-oath-sword",
+          "type": "library-review",
+          "observations": [
+            "目视：单把细长银色长剑由左下朝右上，剑尖、护手和柄端均在画布内；藏蓝剑槽和青色宝石清楚，无人物、文字或图框。",
+            "偏差：画布角部留白不足12%；剑柄末端额外出现青色宝石；原图边缘可见细碎亮色、红黄蓝色边，原样保留未修图。",
+            "文件验证：请求1024×1024，实际1254×1254；RGBA alpha 0–255，完全透明像素约93.2%，原始字节保留。",
+            "主观判断：装备详情图轮廓明确；狭长剑刃在很小的图标中会减弱，应配名称并避免背景过于复杂。"
+          ]
+        },
+        {
+          "assetId": "anime-character-growth-ui-v1",
+          "type": "library-review",
+          "observations": [
+            "目视：右侧HP1200、ATK180、DEF90、三个技能格、EQUIP与UPGRADE按钮均清楚，BACK、ASTRA、LV.20与SKILLS可辨，主要控件未遮挡脸部。",
+            "偏差：背景出现较复杂的幻想城堡和地面，超过提示要求的轻微星图；左侧发梢与部分衣摆被构图边缘裁切。",
+            "角色按相同文字设定独立生成，未用参考图；发饰、服装和佩剑与独立阿斯特拉立绘存在差异，不能据此认定角色严格一致。",
+            "文件验证：实际1024×1536，alpha为255–255，不透明背景符合请求。画面是静态参考，不含可交互按钮或可直接替换数值的文字层。",
+            "主观判断：蓝白界面与两位角色的配色协调，作为养成页方向样张；接入小程序时需单独实现按钮、数值和布局。"
+          ]
+        }
+      ],
+      "notes": [
+        "用户明确要求生成其他风格，并指定二次元方向；本次手动追加4张二次元奇幻样张：2位角色、1件武器、1张角色养成界面参考。",
+        "新系列使用anime-fantasy标识、独立运行目录和anime-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "生成其他风格的，二次元风格可以做到吗",
+        "plannedAdditionalCalls": 4,
+        "callsAlreadyToday": 20
+      },
+      "completedAt": "2026-10-29T19:49:33+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "attempts": 4,
+        "originalFilesPreserved": true,
+        "styleArchiveVerified": true,
+        "newStyleId": "anime-fantasy",
+        "noResampling": true,
+        "reviewedAt": "2026-10-29T19:49:33+08:00"
+      }
     }
   ]
 }
