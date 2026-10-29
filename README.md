@@ -23,7 +23,7 @@ npm run dev
 
 ## 两套视觉风格
 
-- **[Q版奇幻](demo/history.html?style=chibi-fantasy)**：奶油暖色、圆润控件、大头小身角色。首批 4 张包含组件参考板、游戏大厅、8 格导航图集和 6 格无字控件图集；[原图与使用限制](docs/CHIBI_UI.md)。
+- **[Q版奇幻](demo/history.html?style=chibi-fantasy)**：奶油暖色、圆润控件、大头小身角色。首批 4 张包含组件参考板、游戏大厅、8 格导航图集和 6 格无字控件图集；[原图与使用限制](docs/CHIBI_UI.md)。另有 [4 位透明全身主角](docs/CHIBI_CHARACTERS.md)：剑士米洛、游侠莉雅、法师露米、守卫布朗。
 - **[深色金属](demo/history.html?style=dark-metal)**：原 Arena UI 全部历史素材与固定对照，保留原文件和原始记录。
 
 素材页先按风格分区，再按用途、日期和固定／扩展分组筛选。每张图片保留风格标签；未登记风格单列“风格待确认”。[风格目录与维护规则](docs/STYLES.md)独立于用途分类。现有 React 组件仍使用深色主题；Q 版目前是图片素材系列与静态设计参考。

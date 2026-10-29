@@ -5585,6 +5585,402 @@
         "noResampling": true,
         "reviewedAt": "2026-10-29T14:13:29+08:00"
       }
+    },
+    {
+      "id": "20261029-151334-chibi-heroes",
+      "date": "2026-10-29",
+      "time": "15:13:34",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "styleId": "chibi-fantasy",
+      "assets": [
+        {
+          "id": "chibi-milo-swordsman",
+          "label": "逐光剑士·米洛（Q版）",
+          "characterName": "米洛",
+          "role": "剑士",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: MILO, a cheerful young-adult male swordsman represented in chibi proportions. Tousled short white-silver hair, warm amber eyes, simple cream-and-silver rounded breastplate with honey-gold edge trim, cyan scarf tied behind shoulder with a short soft flutter, brown leather belt and oversized brown boots. A modest short sword in his right hand held diagonally DOWN and away from body, blade and hand fully visible; small rounded kite shield in his left hand with a simple sun-shaped gold emblem. Shield must not obscure face or boots. No helmet. Main silhouette compact and agile. No aura or particles.",
+          "promptSha256": "0f673c6bfe170e6db8b82d0bb8c1dd2b75651b6abc2f10508fc07b63bbcf5a4a",
+          "path": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-milo-swordsman.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2211504,
+          "sha256": "f1372a9afaed9bc2408f2efaf0a5c70b0d1f314d9679202b3e17d43880f7d9ab",
+          "recordedAt": "2026-10-29T15:15:42+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T15:13:43+08:00",
+            "resultObservedAt": "2026-10-29T15:14:37+08:00"
+          },
+          "sourceFile": "exec-1c442b62-fc64-4a23-9ce7-5e363bde68a8.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.5251229604085287,
+            "reviewedAt": "2026-10-29T15:21:56+08:00"
+          }
+        },
+        {
+          "id": "chibi-lia-ranger",
+          "label": "风铃游侠·莉雅（Q版）",
+          "characterName": "莉雅",
+          "role": "游侠",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: LIA, a lively young-adult female woodland ranger represented in chibi proportions. Chestnut bob with one small side braid, large hazel eyes, short pointed elf ears, cream short hooded cape with hood DOWN, cocoa leather vest and modest tunic, cream leggings, oversized cocoa boots, sky-cyan scarf and small gold buckle. A short rounded wooden recurve bow held low at her left side, bowstring clearly attached at both ends; her right hand loosely holds ONE arrow pointing diagonally DOWN beside her leg. Small quiver visible behind shoulder, only three arrow tips. Light quick scout silhouette, fully clothed, relaxed smile. No leaves, landscape, particles, or animal companions.",
+          "promptSha256": "edf773e5b62859d6d5327ca6eb20316ff3d9ed7a92e522003ce68b946bd9ec88",
+          "path": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-lia-ranger.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2174751,
+          "sha256": "2f1d53ea61f6a8cf957551b745957b636ec4238bf24708fb1273edf3394da586",
+          "recordedAt": "2026-10-29T15:15:43+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T15:14:37+08:00",
+            "resultObservedAt": "2026-10-29T15:15:26+08:00"
+          },
+          "sourceFile": "exec-452a8f4c-9ccb-44a9-80cb-760ee51d16d1.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.5608933766682943,
+            "reviewedAt": "2026-10-29T15:21:56+08:00"
+          }
+        },
+        {
+          "id": "chibi-lumi-mage",
+          "label": "星糖法师·露米（Q版）",
+          "characterName": "露米",
+          "role": "法师",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: LUMI, a curious young-adult female star mage represented in chibi proportions. Soft chin-length midnight-blue hair, large amber eyes, oversized floppy cream wizard hat with a cocoa band and small honey-gold star buckle, sky-cyan short cape, cream layered robe with cocoa hems, tiny brown mitt-style gloves, two oversized brown boots clearly visible below robe. Holds ONE short cocoa wooden staff at her right side topped with a rounded gold crescent surrounding a solid cyan crystal; entire hat and staff remain inside clear margins. Left hand holds a CLOSED cream spellbook with one cyan gem on its cover. Staff does not cross face, no floating objects, no magic clouds or particles. Rounded curious friendly silhouette.",
+          "promptSha256": "2d5df05135e2a1dad4765df5ffb392298a2ed2e8e08f490d6a31742e48d9e0c2",
+          "path": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-lumi-mage.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2326621,
+          "sha256": "66b27f3183f312fcdbcef35df80efd4c7992daa4d4335a857c27ad1f940f3eda",
+          "recordedAt": "2026-10-29T15:18:27+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T15:15:52+08:00",
+            "resultObservedAt": "2026-10-29T15:16:36+08:00"
+          },
+          "sourceFile": "exec-5d6909ac-f9f5-46d4-b7c9-bd431891b0df.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.44657135009765625,
+            "reviewedAt": "2026-10-29T15:21:56+08:00"
+          }
+        },
+        {
+          "id": "chibi-bran-guardian",
+          "label": "橡盾守卫·布朗（Q版）",
+          "characterName": "布朗",
+          "role": "守卫",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: BRAN, a sturdy adult male dwarf guardian represented in chibi proportions. Wide friendly face, thick short chestnut beard, bold rounded eyebrows, open-face cream helmet with simple gold brow band and NO horns. Broad shoulders, rounded cream-and-silver padded armor, cocoa straps, small cyan neck cloth, very short sturdy legs with two large brown armored boots. Left arm carries ONE broad round cream-and-oak shield with a honey-gold acorn emblem at his side; right hand holds ONE short square-headed cream-and-gold toy-like war hammer, head downward beside his other leg. Face, both boots, hands and hammer remain readable and separate. Shield must not hide entire body. Strong compact tank silhouette distinct from the slimmer swordsman. No cracks, battle damage, sparks, scenery or pedestal.",
+          "promptSha256": "090a93a680efd61162eb0e9b99ac55fc3889a04895d651cce67a2d3d1f8b9a1e",
+          "path": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-bran-guardian.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2157239,
+          "sha256": "5175946dd68fae2b2a85c39da96bb35c6c3c42dc13b2a5e2bf0c81a212acc78a",
+          "recordedAt": "2026-10-29T15:18:28+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T15:16:37+08:00",
+            "resultObservedAt": "2026-10-29T15:17:31+08:00"
+          },
+          "sourceFile": "exec-3b260932-699e-45f4-8b6c-3d54bb76ba8c.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.505713144938151,
+            "reviewedAt": "2026-10-29T15:21:56+08:00"
+          }
+        }
+      ],
+      "themeId": "chibi-heroes",
+      "startedAt": "2026-10-29T15:13:34+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "chibi-milo-swordsman",
+          "group": "library",
+          "startedAt": "2026-10-29T15:13:43+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "0f673c6bfe170e6db8b82d0bb8c1dd2b75651b6abc2f10508fc07b63bbcf5a4a",
+          "resultObservedAt": "2026-10-29T15:14:37+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-milo-swordsman.png",
+          "sourceFile": "exec-1c442b62-fc64-4a23-9ce7-5e363bde68a8.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T15:15:42+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "chibi-lia-ranger",
+          "group": "library",
+          "startedAt": "2026-10-29T15:14:37+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "edf773e5b62859d6d5327ca6eb20316ff3d9ed7a92e522003ce68b946bd9ec88",
+          "resultObservedAt": "2026-10-29T15:15:26+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-lia-ranger.png",
+          "sourceFile": "exec-452a8f4c-9ccb-44a9-80cb-760ee51d16d1.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T15:15:43+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "chibi-lumi-mage",
+          "group": "library",
+          "startedAt": "2026-10-29T15:15:52+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "2d5df05135e2a1dad4765df5ffb392298a2ed2e8e08f490d6a31742e48d9e0c2",
+          "resultObservedAt": "2026-10-29T15:16:36+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-lumi-mage.png",
+          "sourceFile": "exec-5d6909ac-f9f5-46d4-b7c9-bd431891b0df.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T15:18:27+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "chibi-bran-guardian",
+          "group": "library",
+          "startedAt": "2026-10-29T15:16:37+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "090a93a680efd61162eb0e9b99ac55fc3889a04895d651cce67a2d3d1f8b9a1e",
+          "resultObservedAt": "2026-10-29T15:17:31+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-151334-chibi-heroes/library/chibi-fantasy/chibi-bran-guardian.png",
+          "sourceFile": "exec-3b260932-699e-45f4-8b6c-3d54bb76ba8c.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T15:18:28+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "chibi-milo-swordsman",
+          "label": "逐光剑士·米洛（Q版）",
+          "filename": "chibi-milo-swordsman.png",
+          "characterName": "米洛",
+          "role": "剑士",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: MILO, a cheerful young-adult male swordsman represented in chibi proportions. Tousled short white-silver hair, warm amber eyes, simple cream-and-silver rounded breastplate with honey-gold edge trim, cyan scarf tied behind shoulder with a short soft flutter, brown leather belt and oversized brown boots. A modest short sword in his right hand held diagonally DOWN and away from body, blade and hand fully visible; small rounded kite shield in his left hand with a simple sun-shaped gold emblem. Shield must not obscure face or boots. No helmet. Main silhouette compact and agile. No aura or particles.",
+          "promptSha256": "0f673c6bfe170e6db8b82d0bb8c1dd2b75651b6abc2f10508fc07b63bbcf5a4a"
+        },
+        {
+          "id": "chibi-lia-ranger",
+          "label": "风铃游侠·莉雅（Q版）",
+          "filename": "chibi-lia-ranger.png",
+          "characterName": "莉雅",
+          "role": "游侠",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: LIA, a lively young-adult female woodland ranger represented in chibi proportions. Chestnut bob with one small side braid, large hazel eyes, short pointed elf ears, cream short hooded cape with hood DOWN, cocoa leather vest and modest tunic, cream leggings, oversized cocoa boots, sky-cyan scarf and small gold buckle. A short rounded wooden recurve bow held low at her left side, bowstring clearly attached at both ends; her right hand loosely holds ONE arrow pointing diagonally DOWN beside her leg. Small quiver visible behind shoulder, only three arrow tips. Light quick scout silhouette, fully clothed, relaxed smile. No leaves, landscape, particles, or animal companions.",
+          "promptSha256": "edf773e5b62859d6d5327ca6eb20316ff3d9ed7a92e522003ce68b946bd9ec88"
+        },
+        {
+          "id": "chibi-lumi-mage",
+          "label": "星糖法师·露米（Q版）",
+          "filename": "chibi-lumi-mage.png",
+          "characterName": "露米",
+          "role": "法师",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: LUMI, a curious young-adult female star mage represented in chibi proportions. Soft chin-length midnight-blue hair, large amber eyes, oversized floppy cream wizard hat with a cocoa band and small honey-gold star buckle, sky-cyan short cape, cream layered robe with cocoa hems, tiny brown mitt-style gloves, two oversized brown boots clearly visible below robe. Holds ONE short cocoa wooden staff at her right side topped with a rounded gold crescent surrounding a solid cyan crystal; entire hat and staff remain inside clear margins. Left hand holds a CLOSED cream spellbook with one cyan gem on its cover. Staff does not cross face, no floating objects, no magic clouds or particles. Rounded curious friendly silhouette.",
+          "promptSha256": "2d5df05135e2a1dad4765df5ffb392298a2ed2e8e08f490d6a31742e48d9e0c2"
+        },
+        {
+          "id": "chibi-bran-guardian",
+          "label": "橡盾守卫·布朗（Q版）",
+          "filename": "chibi-bran-guardian.png",
+          "characterName": "布朗",
+          "role": "守卫",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "characters",
+          "promptVersion": "chibi-heroes-v1",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "prompt": "Create ONE standalone full-body playable hero for the Arena Chibi fantasy mobile RPG asset library. Portrait canvas requested 1024 x 1536. TRUE transparent RGBA background, no backdrop, no floor, no platform, no cast shadow, no border, no UI, no text, no lettering, no watermark. A polished hand-painted 3D-toy-like CHIBI game illustration: oversized expressive head, compact approximately two-and-a-half-head-tall body, short sturdy limbs, oversized boots and hands, rounded chunky silhouettes, soft matte cream materials, cocoa-brown linework, warm honey-gold accents, sky-cyan accents. Same cohesive art direction as a warm cream chibi fantasy RPG UI. Gentle soft upper-left lighting, restrained broad highlights, clean edges, no grain. Full character and ALL equipment inside canvas; center subject occupying about 75 percent of canvas height, generous clear alpha margin on all four sides, no cropped feet, hair, weapons or cape. Front three-quarter view facing slightly toward viewer's right, both feet visible and planted, calm ready stance, friendly confident expression. Keep limbs and accessories separated and readable at mobile size. Not photorealistic, not gritty dark fantasy, no sharp gothic spikes, no realistic adult body proportions. Gold means action/rewards, cyan means selection/energy; no red, green or purple used as arbitrary decoration. One character only, one pose, no duplicate views.\n\nCharacter: BRAN, a sturdy adult male dwarf guardian represented in chibi proportions. Wide friendly face, thick short chestnut beard, bold rounded eyebrows, open-face cream helmet with simple gold brow band and NO horns. Broad shoulders, rounded cream-and-silver padded armor, cocoa straps, small cyan neck cloth, very short sturdy legs with two large brown armored boots. Left arm carries ONE broad round cream-and-oak shield with a honey-gold acorn emblem at his side; right hand holds ONE short square-headed cream-and-gold toy-like war hammer, head downward beside his other leg. Face, both boots, hands and hammer remain readable and separate. Shield must not hide entire body. Strong compact tank silhouette distinct from the slimmer swordsman. No cracks, battle damage, sparks, scenery or pedestal.",
+          "promptSha256": "090a93a680efd61162eb0e9b99ac55fc3889a04895d651cce67a2d3d1f8b9a1e"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "chibi-milo-swordsman",
+          "type": "library-review",
+          "observations": [
+            "可见：单人全身白发金眼剑士，青色围巾、金边银甲、短剑和太阳纹盾；剑尖、头发、双靴均完整，无文字。",
+            "透明验证：1024×1536 RGBA，alpha范围0–254，完全透明像素52.5123%。alpha>128主体边界(67,66,981,1470)，未触及画布边缘。",
+            "可见偏差：整体约91.4%画布高度，比要求的75%大；金属高光较亮，体型比初始Q版界面角色更修长，未严格遵循2.5头身。",
+            "复用判断：适用于角色选择与养成详情静态立绘；没有动作帧或骨骼，不能当作完成的sprite动画。"
+          ]
+        },
+        {
+          "assetId": "chibi-lia-ranger",
+          "type": "library-review",
+          "observations": [
+            "可见：单人全身棕发精灵游侠，侧辫、青围巾、奶油披肩、弓弦和一支向下的箭可辨；弓尖、靴子均完整。",
+            "透明验证：1024×1536 RGBA，alpha范围0–254，完全透明像素56.0893%。alpha>128主体边界(53,77,989,1490)。",
+            "可见偏差：双腿偏长，服装和金边细节较密；主体约92.0%画布高度，留白少于请求。",
+            "主观判断：弓箭轮廓与剑盾角色区别清楚；小尺寸需要检查箭与弓弦的可见程度。"
+          ]
+        },
+        {
+          "assetId": "chibi-lumi-mage",
+          "type": "library-review",
+          "observations": [
+            "可见：单人全身深蓝发法师，宽檐奶油帽、金色月牙法杖和青色晶体、闭合书本、两只靴子完整，没有额外人物、文字或悬浮背景。",
+            "透明验证：1024×1536 RGBA，alpha范围0–254，完全透明像素44.6571%。alpha>128主体边界(48,68,986,1483)。",
+            "可见偏差：帽沿宽度大、金色挂饰较多，主体约92.1%画布高度；需要在移动端避免被窄容器裁掉帽沿。",
+            "主观判断：法杖与书本读图清晰，职业识别明确；静态立绘不是动作资源。"
+          ]
+        },
+        {
+          "assetId": "chibi-bran-guardian",
+          "type": "library-review",
+          "observations": [
+            "可见：单人全身矮人守卫，开脸头盔、棕色辫须、奶油银甲、圆盾橡果纹样与方头短锤完整；盾与锤区分两手。",
+            "透明验证：1024×1536 RGBA，alpha范围0–254，完全透明像素50.5713%。alpha>128主体边界(28,188,1012,1380)。",
+            "可见偏差：盾右侧仅约12px安全留白，宽度占画布较多；锤头贴近靴子，胡须比短须设定更长且多辫。",
+            "主观判断：宽肩短腿体型与其他三位区别明显，适合前排角色展示；不同人物需按可见高度和脚底对齐。"
+          ]
+        }
+      ],
+      "notes": [
+        "用户明确请求继续生成多个主角，沿用刚确认的Q版风格，手动追加4张不同职业的透明全身立绘。",
+        "新系列使用chibi-fantasy标识、独立运行目录和chibi-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "继续生成多个主角",
+        "plannedAdditionalCalls": 4,
+        "callsAlreadyToday": 8
+      },
+      "completedAt": "2026-10-29T15:21:56+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "attempts": 4,
+        "originalFilesPreserved": true,
+        "styleArchiveVerified": true,
+        "newStyleId": "chibi-fantasy",
+        "noResampling": true,
+        "reviewedAt": "2026-10-29T15:21:56+08:00"
+      }
     }
   ]
 }

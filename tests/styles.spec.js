@@ -21,13 +21,13 @@ test('所有素材明确登记风格，新Q版素材有独立身份、路径和�
       expect(asset.group).toBe('library');
     }
   }
-  expect(chibi()).toHaveLength(4);
+  expect(chibi().length).toBeGreaterThanOrEqual(4);
 });
 
 test('全部素材按风格分区，分区和每张卡片标签一致', async ({ page }) => {
   await page.goto('/demo/history.html');
   await expect(page.getByTestId('archive-asset')).toHaveCount(total());
-  for (const [id, name, count] of [['chibi-fantasy', 'Q版奇幻', 4], ['dark-metal', '深色金属', total() - 4]]) {
+  for (const [id, name, count] of [['chibi-fantasy', 'Q版奇幻', chibi().length], ['dark-metal', '深色金属', total() - chibi().length]]) {
     const section = page.getByRole('region', { name: `${name}素材分区` });
     await expect(section.getByTestId('archive-asset')).toHaveCount(count);
     expect(await section.getByTestId('archive-asset').evaluateAll(cards => cards.every(card => card.dataset.style === card.closest('.style-collection').dataset.style))).toBe(true);
@@ -38,9 +38,9 @@ test('全部素材按风格分区，分区和每张卡片标签一致', async ({
 test('风格链接与用途、日期和固定分组取交集，重置恢复全量', async ({ page }) => {
   await page.goto('/demo/history.html?style=chibi-fantasy');
   const cards = page.getByTestId('archive-asset');
-  await expect(cards).toHaveCount(4);
+  await expect(cards).toHaveCount(chibi().length);
   await page.locator('#category-filters [data-category="interface"]').click();
-  await expect(cards).toHaveCount(3);
+  await expect(cards).toHaveCount(chibi().filter(a => read('assets/categories.json').assetCategories[a.id] === 'interface').length);
   await page.getByLabel('选择日期', { exact: true }).selectOption('2026-10-24');
   await expect(cards).toHaveCount(0);
   await expect(page.locator('.history-empty')).toBeVisible();
@@ -106,10 +106,10 @@ test('主页风格入口可访问，390px风格筛选支持键盘且无横向溢
   const section = page.getByRole('region', { name: '视觉风格系列' });
   await expect(section).toContainText('当前交互组件演示属于深色金属系列');
   await section.getByRole('link', { name: /Q版奇幻素材/ }).click();
-  await expect(page.getByTestId('archive-asset')).toHaveCount(4);
+  await expect(page.getByTestId('archive-asset')).toHaveCount(chibi().length);
   await filter(page, 'dark-metal').focus();
   await page.keyboard.press('Enter');
-  await expect(page.getByTestId('archive-asset')).toHaveCount(total() - 4);
+  await expect(page.getByTestId('archive-asset')).toHaveCount(total() - chibi().length);
   await filter(page, 'chibi-fantasy').click();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBe(true);
   const images = page.locator('.archive-card img');
