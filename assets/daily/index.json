@@ -4810,6 +4810,401 @@
         },
         "reviewedAt": "2026-10-28T21:13:33+08:00"
       }
+    },
+    {
+      "id": "20261029-090034",
+      "date": "2026-10-29",
+      "time": "09:00:34",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/29/20261029-090034/manifest.json",
+      "kind": "scheduled",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "path": "assets/daily/2026/10/29/20261029-090034/benchmark/ui-kit-board.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1788471,
+          "sha256": "7a9d2cbd0c63d94c2a150480dc351b8f424b95ea090910d7458aa076ed18ba14",
+          "recordedAt": "2026-10-29T09:02:05+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T09:00:42+08:00",
+            "resultObservedAt": "2026-10-29T09:01:23+08:00"
+          },
+          "sourceFile": "exec-04059f49-1edc-448a-b5bd-d6e6e1d88147.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "reviewedAt": "2026-10-29T09:06:03+08:00"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "path": "assets/daily/2026/10/29/20261029-090034/benchmark/equipment-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2156844,
+          "sha256": "1b55d1f589178c2fc81efd3aafadb8bffb633eb832895756874ae096a107a809",
+          "recordedAt": "2026-10-29T09:02:06+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T09:01:24+08:00",
+            "resultObservedAt": "2026-10-29T09:01:54+08:00"
+          },
+          "sourceFile": "exec-dd5f9e4d-06b9-42e4-980a-af6fe0196da5.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "reviewedAt": "2026-10-29T09:06:03+08:00",
+            "gridColumns": 4,
+            "gridRows": 2,
+            "visibleObjectGroups": 8,
+            "safeMarginRequirementMet": false
+          }
+        },
+        {
+          "id": "arsenal-weapons-atlas",
+          "label": "兵器扩展图集",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: equipment inventory atlas for Arena UI, a competitive dark fantasy character-progression game. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, restrained gold #f2b632 for rewards and action, cyan #3ec7e0 only for energy. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, labels, UI borders, logos or watermark. Create one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters and no visible grid. Flat opaque uniform #171c24 background throughout. Center one complete object in each cell, each including every tip and shadow inside the central 60 percent of its own cell, with 20 percent margin on every side. Consistent icon scale, no overlap and no effects crossing cell boundaries. Eight different weapons. Row one left to right: a straight silver-tipped infantry spear with a charcoal shaft, a short dark steel flanged mace, a modest silver staff holding one small cyan energy crystal, a silver crescent-bladed halberd with a charcoal shaft. Row two left to right: a compact charcoal wooden shortbow with a visible bowstring and no arrow, a slender silver rapier with a restrained gold basket guard, a compact dark steel war hammer with a squared silver striking face, a short dark steel flail with one compact spiked ball connected to its handle by a short slack chain. All long objects angled diagonally to fit their own cells. No longsword, crossbow, dagger, battle axe, shield, character or scenic base.",
+          "promptSha256": "a32cb573b9e31bb519dda502f851ab204df0e44e447a9972ef6713f838c5d24d",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "weapons-atlas",
+          "variationReason": "沿用arsenal主题，避开已有独立手弩、腕甲与固定装备图集，补充未单独覆盖的兵器及穿戴部件。",
+          "path": "assets/daily/2026/10/29/20261029-090034/library/arsenal-weapons-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1436022,
+          "sha256": "0e2ee008c19d8ef114003b7a669aba97afca7698b1d74c1122accb073bf96977",
+          "recordedAt": "2026-10-29T09:03:27+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T09:02:14+08:00",
+            "resultObservedAt": "2026-10-29T09:02:42+08:00"
+          },
+          "sourceFile": "exec-aaf1c2ce-e2d8-490c-897e-677c168d0e6c.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "reviewedAt": "2026-10-29T09:06:03+08:00",
+            "gridColumns": 4,
+            "gridRows": 2,
+            "visibleObjectGroups": 8,
+            "safeMarginRequirementMet": false
+          }
+        },
+        {
+          "id": "arsenal-armor-atlas",
+          "label": "护甲扩展图集",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: equipment inventory atlas for Arena UI, a competitive dark fantasy character-progression game. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, restrained gold #f2b632 for rewards and action, cyan #3ec7e0 only for energy. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, labels, UI borders, logos or watermark. Create one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters and no visible grid. Flat opaque uniform #171c24 background throughout. Center one complete object in each cell, each including every tip and shadow inside the central 60 percent of its own cell, with 20 percent margin on every side. Consistent icon scale, no overlap and no effects crossing cell boundaries. Eight different wearable armor items with no wearer. Row one left to right: one silver steel breastplate with charcoal leather straps, one pair of tall charcoal ranger boots grouped as one icon, one pair of overlapping silver shoulder pauldrons grouped as one icon, one pair of articulated silver gauntlets grouped as one icon. Row two left to right: one short dark chainmail shirt with clearly readable sleeves, one folded charcoal traveling cloak with a small silver clasp and no hooded person, one dark leather utility belt curled into an oval with a plain gold buckle, one matched pair of silver shin greaves grouped as one icon. No helmet, shield, wrist bracer, backpack, weapon, mannequin, human anatomy, character or scenic base.",
+          "promptSha256": "6adae5edd525da35e664841e47c4bee298b2b480f0d44b5116dec9b42fc25080",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "armor-atlas",
+          "variationReason": "沿用arsenal主题，避开已有独立手弩、腕甲与固定装备图集，补充未单独覆盖的兵器及穿戴部件。",
+          "path": "assets/daily/2026/10/29/20261029-090034/library/arsenal-armor-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2251622,
+          "sha256": "55d59c947aa3d0d9428328875c99dd49e6e9cbe2ed664995ad2136d7573d993e",
+          "recordedAt": "2026-10-29T09:03:28+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-29T09:02:43+08:00",
+            "resultObservedAt": "2026-10-29T09:03:11+08:00"
+          },
+          "sourceFile": "exec-7d155a2f-21e3-459a-b3e9-157a88d284a5.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "reviewedAt": "2026-10-29T09:06:03+08:00",
+            "gridColumns": 4,
+            "gridRows": 2,
+            "visibleObjectGroups": 8,
+            "safeMarginRequirementMet": false
+          }
+        }
+      ],
+      "themeId": "arsenal",
+      "startedAt": "2026-10-29T09:00:34+08:00",
+      "scheduledFor": "2026-10-29T09:00:00+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "ui-kit-board-v1",
+          "group": "benchmark",
+          "startedAt": "2026-10-29T09:00:42+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "resultObservedAt": "2026-10-29T09:01:23+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-090034/benchmark/ui-kit-board.png",
+          "sourceFile": "exec-04059f49-1edc-448a-b5bd-d6e6e1d88147.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T09:02:05+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "equipment-atlas-v1",
+          "group": "benchmark",
+          "startedAt": "2026-10-29T09:01:24+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "resultObservedAt": "2026-10-29T09:01:54+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-090034/benchmark/equipment-atlas.png",
+          "sourceFile": "exec-dd5f9e4d-06b9-42e4-980a-af6fe0196da5.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T09:02:06+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "arsenal-weapons-atlas",
+          "group": "library",
+          "startedAt": "2026-10-29T09:02:14+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "a32cb573b9e31bb519dda502f851ab204df0e44e447a9972ef6713f838c5d24d",
+          "resultObservedAt": "2026-10-29T09:02:42+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-090034/library/arsenal-weapons-atlas.png",
+          "sourceFile": "exec-aaf1c2ce-e2d8-490c-897e-677c168d0e6c.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T09:03:27+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "arsenal-armor-atlas",
+          "group": "library",
+          "startedAt": "2026-10-29T09:02:43+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "6adae5edd525da35e664841e47c4bee298b2b480f0d44b5116dec9b42fc25080",
+          "resultObservedAt": "2026-10-29T09:03:11+08:00",
+          "outputPath": "assets/daily/2026/10/29/20261029-090034/library/arsenal-armor-atlas.png",
+          "sourceFile": "exec-7d155a2f-21e3-459a-b3e9-157a88d284a5.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-29T09:03:28+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "filename": "ui-kit-board.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1"
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "filename": "equipment-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1"
+        },
+        {
+          "id": "arsenal-weapons-atlas",
+          "label": "兵器扩展图集",
+          "filename": "arsenal-weapons-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: equipment inventory atlas for Arena UI, a competitive dark fantasy character-progression game. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, restrained gold #f2b632 for rewards and action, cyan #3ec7e0 only for energy. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, labels, UI borders, logos or watermark. Create one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters and no visible grid. Flat opaque uniform #171c24 background throughout. Center one complete object in each cell, each including every tip and shadow inside the central 60 percent of its own cell, with 20 percent margin on every side. Consistent icon scale, no overlap and no effects crossing cell boundaries. Eight different weapons. Row one left to right: a straight silver-tipped infantry spear with a charcoal shaft, a short dark steel flanged mace, a modest silver staff holding one small cyan energy crystal, a silver crescent-bladed halberd with a charcoal shaft. Row two left to right: a compact charcoal wooden shortbow with a visible bowstring and no arrow, a slender silver rapier with a restrained gold basket guard, a compact dark steel war hammer with a squared silver striking face, a short dark steel flail with one compact spiked ball connected to its handle by a short slack chain. All long objects angled diagonally to fit their own cells. No longsword, crossbow, dagger, battle axe, shield, character or scenic base.",
+          "promptSha256": "a32cb573b9e31bb519dda502f851ab204df0e44e447a9972ef6713f838c5d24d",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "weapons-atlas",
+          "variationReason": "沿用arsenal主题，避开已有独立手弩、腕甲与固定装备图集，补充未单独覆盖的兵器及穿戴部件。"
+        },
+        {
+          "id": "arsenal-armor-atlas",
+          "label": "护甲扩展图集",
+          "filename": "arsenal-armor-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: equipment inventory atlas for Arena UI, a competitive dark fantasy character-progression game. Premium coherent painterly 3D game art, crisp silhouettes, detailed steel and leather, controlled top-left lighting. Palette charcoal #0e1116 and #171c24, silver #9aa6b8, restrained gold #f2b632 for rewards and action, cyan #3ec7e0 only for energy. Red only for health or damage, green only for healing, violet only for epic rarity. No text, letters, numbers, labels, UI borders, logos or watermark. Create one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters and no visible grid. Flat opaque uniform #171c24 background throughout. Center one complete object in each cell, each including every tip and shadow inside the central 60 percent of its own cell, with 20 percent margin on every side. Consistent icon scale, no overlap and no effects crossing cell boundaries. Eight different wearable armor items with no wearer. Row one left to right: one silver steel breastplate with charcoal leather straps, one pair of tall charcoal ranger boots grouped as one icon, one pair of overlapping silver shoulder pauldrons grouped as one icon, one pair of articulated silver gauntlets grouped as one icon. Row two left to right: one short dark chainmail shirt with clearly readable sleeves, one folded charcoal traveling cloak with a small silver clasp and no hooded person, one dark leather utility belt curled into an oval with a plain gold buckle, one matched pair of silver shin greaves grouped as one icon. No helmet, shield, wrist bracer, backpack, weapon, mannequin, human anatomy, character or scenic base.",
+          "promptSha256": "6adae5edd525da35e664841e47c4bee298b2b480f0d44b5116dec9b42fc25080",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "library",
+          "sourceTemplateId": "armor-atlas",
+          "variationReason": "沿用arsenal主题，避开已有独立手弩、腕甲与固定装备图集，补充未单独覆盖的兵器及穿戴部件。"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "ui-kit-board-v1",
+          "type": "fixed-prompt-comparison",
+          "comparedToRunId": "20261028-090526",
+          "comparedToPath": "assets/daily/2026/10/28/20261028-090526/benchmark/ui-kit-board.png",
+          "samePromptSha256": true,
+          "observations": [
+            "两个样本已在历史页等宽并排观察，提示词 SHA-256、版本、请求尺寸和不透明设置一致。",
+            "今天三个行动按钮改为顶端横排，角色面板移至中左并扩大，八格背包移至中右，弹窗移至左下；昨天为竖排按钮、右上角色面板、左下背包和中下弹窗。",
+            "ARENA UI、COMPONENT COLLECTION、BATTLE、EQUIP、DISMANTLE、HP/MP/XP及READY TO BATTLE?主要文字可读；八件物品顺序正确，模块没有明显遮挡。今天增加角色说明句、五项属性和弹窗背景场景，删除昨天的分页。",
+            "红色HP、青色MP与金色XP保持；选中下拉框有青色边缘，但选中标签、勾选框和开启开关仍为金色，未统一遵守青色选中语义。徽章包含绿色ONLINE等自由内容，语义控制仍非严格一致。"
+          ],
+          "interpretation": "以上布局与造型变化是可见差异；对简洁程度、细节和阅读舒适度的评价属于主观判断。同提示词仍有随机差异，本次生成未训练模型，工具未报告型号或种子，不能据此认定模型升级。"
+        },
+        {
+          "assetId": "equipment-atlas-v1",
+          "type": "fixed-prompt-comparison",
+          "comparedToRunId": "20261028-090526",
+          "comparedToPath": "assets/daily/2026/10/28/20261028-090526/benchmark/equipment-atlas.png",
+          "samePromptSha256": true,
+          "observations": [
+            "两版均为4列2行，八件物品及顺序一致：剑、盾、戒指、药瓶／斧、头盔、卷轴、水晶。没有文字或相互遮挡，整体物件完整。",
+            "斧柄由昨天左下方向改为今天右下；盾上金边更丰富，剑柄增加青色宝石，戒指镶口与头盔朝向改变，药瓶从吊牌造型改为金色装饰底座，卷轴更接近横向。",
+            "20%留白仍未满足，剑尖和盾顶接近画布上边缘，斧刃顶端略越理论y=512行界；直接等分裁切仍需校对。",
+            "红药、紫戒指、青盾宝石及青水晶仍可辨。背景存在轻微阴影和色阶变化，并非严格均匀的#171c24；主观上今天金饰比昨天更繁复，不能等同于质量提升。"
+          ],
+          "interpretation": "以上布局与造型变化是可见差异；对简洁程度、细节和阅读舒适度的评价属于主观判断。同提示词仍有随机差异，本次生成未训练模型，工具未报告型号或种子，不能据此认定模型升级。"
+        },
+        {
+          "assetId": "arsenal-weapons-atlas",
+          "type": "library-review",
+          "observations": [
+            "4列2行共8件兵器，顺序为长矛、钉锤、青晶法杖、长戟／短弓、细剑、战锤、链枷。长兵器对角放置，短弓有弦且无箭，链枷为一个球头；未见文字、人物、边框或明显组间遮挡。",
+            "20%留白未满足，长矛和长戟尖端接近顶边，多个武器高度或宽度超过单格60%；主体仍处于各自理论格内，提取图标时应检查每个实际边界。",
+            "请求的凸棱短锤呈带尖刺的多边锤头，造型有偏差；法杖晶体相对显著、底端另有青色小晶体，超过单一小晶体的简化意图。",
+            "配色主要为深钢、银色和皮革；青色用于法杖能量，金色集中在细剑护手。底色有柔和明暗，并非严格纯色。作为不透明图集保存，未裁切为独立透明图标。"
+          ]
+        },
+        {
+          "assetId": "arsenal-armor-atlas",
+          "type": "library-review",
+          "observations": [
+            "4列2行共8组防具，顺序为胸甲、靴子、肩甲、手套／锁子甲、折叠披风、腰带、护胫。靴子、肩甲、手套和护胫均成对归为一组；未见人体、角色或文字。",
+            "胸甲带附加肩部甲片，披风扣有装饰纹样；这些比简化要求更丰富。皮革、金属与锁环轮廓清楚，复杂锁环和手指关节在小尺寸会失去细节。",
+            "20%留白未满足，胸甲、肩甲、锁子甲和披风接近各自列界，画面整体没有明显物件缺角或组间遮挡；等分切图后仍应留意边缘。",
+            "深色皮革、银色钢板与克制金属扣延续现有风格，未加入红绿紫装饰；底色有局部阴影，实际为完全不透明PNG。"
+          ]
+        }
+      ],
+      "notes": [
+        "生成前核对当日索引和日期目录，尚无调用；按本次实际上海日期归档。",
+        "两个扩展提示词在调用前完整记录，两个冻结基准逐字复用且不附带参考图。",
+        "保留所有原图及可见偏差；本次未重抽、缩放或修图。",
+        "仅添加本次日期目录、索引和新增分类映射；冻结配置、首次运行状态与计划频率不变。"
+      ],
+      "completedAt": "2026-10-29T09:06:03+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "benchmarkAssets": 2,
+        "libraryAssets": 2,
+        "localDateTotalToolCalls": 4,
+        "attemptBudgetRespected": true,
+        "originalFilesPreserved": true,
+        "historyPageVerified": true,
+        "crossDateSamePromptVerified": true,
+        "comparisonDate": "2026-10-28",
+        "reviewedAt": "2026-10-29T09:06:03+08:00"
+      }
     }
   ]
 }

@@ -94,6 +94,8 @@
     "home-mail": "navigation",
     "home-friends": "navigation",
     "home-ranking": "navigation",
-    "home-settings": "navigation"
+    "home-settings": "navigation",
+    "arsenal-weapons-atlas": "equipment",
+    "arsenal-armor-atlas": "equipment"
   }
 }
