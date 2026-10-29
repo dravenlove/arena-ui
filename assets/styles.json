@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "styles": [
+    {
+      "id": "chibi-fantasy",
+      "label": "Q版奇幻",
+      "description": "奶油暖色、圆润控件、大头小身角色与玩具质感",
+      "filenamePrefix": "chibi-",
+      "palette": {
+        "background": "#fff7e7",
+        "outline": "#654c3f",
+        "actionReward": "#ffc857",
+        "selectionEnergy": "#60c9e8",
+        "healthDanger": "#ed777b",
+        "healing": "#7ecf9e",
+        "epic": "#ab8ee6"
+      },
+      "promptGuidance": "Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions."
+    },
+    {
+      "id": "dark-metal",
+      "label": "深色金属",
+      "description": "原 Arena UI 系列：深色底、银钢与皮革、金色行动与青色选中",
+      "palette": {
+        "background": "#171c24",
+        "metal": "#9aa6b8",
+        "actionReward": "#f2b632",
+        "selectionEnergy": "#3ec7e0",
+        "healthDanger": "#ef5b60",
+        "healing": "#46c97a",
+        "epic": "#b48cf2"
+      },
+      "promptGuidance": "Existing Arena UI dark fantasy art with charcoal surfaces, silver steel, leather, restrained gold and cyan. Frozen benchmark prompts remain verbatim."
+    }
+  ],
+  "runStyles": {
+    "20261024-initial-session": "dark-metal",
+    "20261025-090655": "dark-metal",
+    "20261026-090102": "dark-metal",
+    "20261026-163304-manual": "dark-metal",
+    "20261026-164915-characters": "dark-metal",
+    "20261026-203035-sprite": "dark-metal",
+    "20261027-090124": "dark-metal",
+    "20261028-090526": "dark-metal",
+    "20261028-152436-nightblade": "dark-metal",
+    "20261028-161334-progression-pack": "dark-metal",
+    "20261028-205556-home-icons": "dark-metal",
+    "20261029-090034": "dark-metal"
+  },
+  "resolutionOrder": [
+    "asset.styleId",
+    "run.styleId",
+    "runStyles[run.id]"
+  ],
+  "unknownPolicy": "未登记的风格单列为风格待确认，不根据日期、用途或ID猜测"
+}

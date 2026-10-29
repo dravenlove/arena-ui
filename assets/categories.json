@@ -96,6 +96,10 @@
     "home-ranking": "navigation",
     "home-settings": "navigation",
     "arsenal-weapons-atlas": "equipment",
-    "arsenal-armor-atlas": "equipment"
+    "arsenal-armor-atlas": "equipment",
+    "chibi-ui-kit-board-v1": "interface",
+    "chibi-game-lobby-v1": "interface",
+    "chibi-navigation-atlas-v1": "navigation",
+    "chibi-controls-atlas-v1": "interface"
   }
 }

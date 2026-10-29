@@ -21,12 +21,14 @@
     <section class="history-intro" aria-labelledby="history-title">
       <p class="history-eyebrow">A NEW FRAME, EVERY DAY</p>
       <h1 id="history-title">每日生成档案<span>让时间，记录每一次输出。</span></h1>
-      <p class="history-description">按用途找到人物、装备、道具和场景，再按日期查看原图与记录。相同题目的历史输出，也能放在一起比较。</p>
+      <p class="history-description">先选视觉风格，再按用途和日期查找素材。Q版奇幻与深色金属分区保存，每张原图都有独立风格标签。</p>
       <div class="history-meta"><span>Asia/Shanghai · 上海时间</span><span id="archive-summary">正在读取归档…</span></div>
     </section>
 
     <section class="archive-section" aria-labelledby="archive-title">
-      <div class="history-section-heading"><div><h2 id="archive-title">按用途找素材 <span>THE ASSET COLLECTION</span></h2><p>分类数量随日期和分组变化；一张图集计为一张原图。</p></div><span class="history-live">持续积累</span></div>
+      <div class="history-section-heading"><div><h2 id="archive-title">按风格与用途找素材 <span>THE ASSET COLLECTION</span></h2><p>先选风格，再选用途；一张图集计为一张原图。</p></div><span class="history-live">持续积累</span></div>
+      <div id="style-filters" class="style-filters" role="group" aria-label="视觉风格"></div>
+      <p id="style-notice" class="category-notice" role="status" hidden></p>
       <div id="category-filters" class="category-filters" role="group" aria-label="素材用途"></div>
       <p id="category-notice" class="category-notice" role="status" hidden></p>
       <div class="archive-toolbar">
@@ -44,7 +46,7 @@
     </section>
 
     <section class="comparison-section" aria-labelledby="comparison-title">
-      <div class="history-section-heading"><div><h2 id="comparison-title">把同一道题，放在时间两端 <span>FIXED PROMPT COMPARISON</span></h2><p>先确认题目与提示词相同，再观察画面差异。</p></div></div>
+      <div class="history-section-heading"><div><h2 id="comparison-title">把同一道题，放在时间两端 <span>FIXED PROMPT COMPARISON</span></h2><p>固定对照保留深色金属风，与Q版扩展素材分开；这里不受上方筛选影响。</p></div></div>
       <div class="comparison-toolbar">
         <label class="history-field" for="comparison-left"><span>左侧日期</span><select id="comparison-left" aria-label="左侧日期" disabled><option value="">加载中…</option></select></label>
         <label class="history-field" for="comparison-right"><span>右侧日期</span><select id="comparison-right" aria-label="右侧日期" disabled><option value="">加载中…</option></select></label>

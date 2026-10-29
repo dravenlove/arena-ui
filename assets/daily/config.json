@@ -350,6 +350,20 @@
     "allowUncoveredSubjectVariation": true,
     "recordActualPromptBeforeGeneration": true,
     "hashActualPromptUtf8": true,
-    "preserveArenaVisualLanguage": true
+    "preserveArenaVisualLanguage": true,
+    "defaultStyleId": "chibi-fantasy",
+    "rewriteLegacyStyleBeforeGeneration": true
+  },
+  "stylePolicy": {
+    "catalogPath": "assets/styles.json",
+    "benchmarkStyleId": "dark-metal",
+    "libraryDefaultStyleId": "chibi-fantasy",
+    "effectiveDate": "2026-10-29",
+    "source": "用户明确要求后续每日两张扩展也改为Q版；已完成批次不重跑。",
+    "recordStyleOnEveryNewAsset": true,
+    "mixedRunsRequirePerAssetStyle": true,
+    "libraryFilenamePrefix": "chibi-",
+    "librarySubdirectory": "chibi-fantasy",
+    "templateHandling": "现有themes中的扩展提示词属于历史深色金属模板。后续保留轮换主题、用途、构图、尺寸与透明设置，依据assets/styles.json的chibi-fantasy风格说明重写实际提示词，生成前保存原文和新哈希。冻结benchmarks必须逐字原样使用，不能转换成Q版。"
   }
 }

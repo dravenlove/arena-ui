@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var state = { runs: [], dates: [], categories: [], assetCategories: {}, category: 'all', group: 'all', date: 'all', left: '', right: '', benchmark: '' };
+  var state = { runs: [], dates: [], categories: [], assetCategories: {}, styles: [], runStyles: {}, style: 'all', category: 'all', group: 'all', date: 'all', left: '', right: '', benchmark: '' };
   var ui = {
     date: document.getElementById('archive-date'), summary: document.getElementById('archive-summary'),
     status: document.getElementById('history-status'), results: document.getElementById('archive-results'),
@@ -8,7 +8,7 @@
     right: document.getElementById('comparison-right'), benchmark: document.getElementById('comparison-benchmark'),
     comparisonState: document.getElementById('comparison-state'), comparisonResults: document.getElementById('comparison-results'),
     categories: document.getElementById('category-filters'), categoryNotice: document.getElementById('category-notice'),
-    reset: document.getElementById('reset-filters')
+    reset: document.getElementById('reset-filters'), styles: document.getElementById('style-filters'), styleNotice: document.getElementById('style-notice')
   };
 
   // 所有归档文本均通过 textContent 展示，提示词不会作为 HTML 执行。
@@ -42,6 +42,56 @@
     return run.kind === 'initial-session' ? '本次手动生成 · 时间未记录' : '时间未记录';
   }
   function groupName(group) { return group === 'benchmark' ? '固定对照' : '素材扩展'; }
+  // 风格按素材显式记录、整批记录、历史映射依次解析，未知值绝不猜成旧风格。
+  function styleFor(run, asset) {
+    var id = Object.prototype.hasOwnProperty.call(asset, 'styleId') ? asset.styleId : Object.prototype.hasOwnProperty.call(run, 'styleId') ? run.styleId : Object.prototype.hasOwnProperty.call(state.runStyles, run.id) ? state.runStyles[run.id] : null;
+    return state.styles.some(function (style) { return style.id === id; }) ? id : 'unclassified-style';
+  }
+  function styleName(id) {
+    var style = state.styles.find(function (item) { return item.id === id; });
+    return id === 'all' ? '全部风格' : style ? style.label : '风格待确认';
+  }
+  function updateStyleURL() {
+    var url = new URL(window.location.href);
+    if (state.style === 'all') url.searchParams.delete('style'); else url.searchParams.set('style', state.style);
+    window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+  }
+  function prepareStyles(catalog) {
+    state.styles = []; state.runStyles = {};
+    var valid = catalog && catalog.schemaVersion === 1 && Array.isArray(catalog.styles) && catalog.runStyles && typeof catalog.runStyles === 'object' && !Array.isArray(catalog.runStyles);
+    if (valid) {
+      catalog.styles.forEach(function (style) {
+        if (style && typeof style.id === 'string' && /^[a-z][a-z0-9-]*$/.test(style.id) && !['all', 'unclassified-style'].includes(style.id) && typeof style.label === 'string' && style.label && !state.styles.some(function (item) { return item.id === style.id; })) state.styles.push(style);
+      });
+      state.runStyles = catalog.runStyles;
+    }
+    state.style = new URL(window.location.href).searchParams.get('style') || 'all';
+    var knownSelection = state.style === 'all' || state.style === 'unclassified-style' || state.styles.some(function (style) { return style.id === state.style; });
+    ui.styleNotice.hidden = state.styles.length > 0 && knownSelection;
+    ui.styleNotice.textContent = !state.styles.length ? '风格目录暂不可用，素材单列为“风格待确认”，不会自动归入旧风格。' : '指定风格尚未登记，请选择已登记的风格或重置筛选。';
+    var filters = [{ id: 'all', label: '全部风格', description: '按风格分区浏览，保留各自标签' }].concat(state.styles);
+    if (state.runs.some(function (run) { return !run.assets.length ? styleFor(run, {}) === 'unclassified-style' : run.assets.some(function (asset) { return styleFor(run, asset) === 'unclassified-style'; }); })) filters.push({ id: 'unclassified-style', label: '风格待确认', description: '缺少或无法核实风格记录的素材' });
+    ui.styles.replaceChildren();
+    filters.forEach(function (style) {
+      var button = node('button', 'style-filter'); button.type = 'button'; button.dataset.style = style.id;
+      button.append(node('strong', '', style.label), node('span', 'style-count', '0'), node('small', '', typeof style.description === 'string' ? style.description : ''));
+      button.addEventListener('click', function () { state.style = style.id; updateStyleURL(); ui.styleNotice.hidden = state.styles.length > 0; renderArchive(); });
+      ui.styles.append(button);
+    });
+  }
+  function renderStyleCounts() {
+    var counts = { all: 0 };
+    state.runs.forEach(function (run) { run.assets.forEach(function (asset) {
+      if (!baseScope(run, asset) || (state.category !== 'all' && categoryFor(asset) !== state.category)) return;
+      var id = styleFor(run, asset); counts[id] = (counts[id] || 0) + 1; counts.all++;
+    }); });
+    ui.styles.querySelectorAll('[data-style]').forEach(function (button) {
+      var id = button.dataset.style, count = counts[id] || 0;
+      button.querySelector('.style-count').textContent = count + ' 张';
+      button.setAttribute('aria-label', styleName(id) + '，' + count + ' 张');
+      button.setAttribute('aria-pressed', String(id === state.style));
+    });
+  }
   // 用途分类独立于实验分组；未登记的新素材始终能在“待分类”中找到。
   function categoryFor(asset) {
     var id = typeof asset.id === 'string' && Object.prototype.hasOwnProperty.call(state.assetCategories, asset.id) ? state.assetCategories[asset.id] : null;
@@ -51,9 +101,10 @@
     var category = state.categories.find(function (item) { return item.id === id; });
     return id === 'all' ? '全部素材' : category ? category.label : '待分类';
   }
-  function inScope(run, asset) {
+  function baseScope(run, asset) {
     return (state.date === 'all' || run.date === state.date) && (state.group === 'all' || asset.group === state.group);
   }
+  function inScope(run, asset) { return baseScope(run, asset) && (state.style === 'all' || styleFor(run, asset) === state.style); }
   function prepareCategories(catalog) {
     state.categories = []; state.assetCategories = {}; state.category = 'all';
     var valid = catalog && catalog.schemaVersion === 1 && Array.isArray(catalog.categories) && catalog.assetCategories && typeof catalog.assetCategories === 'object' && !Array.isArray(catalog.assetCategories);
@@ -89,7 +140,7 @@
       button.setAttribute('aria-label', categoryName(id) + '，' + count + ' 张');
       button.setAttribute('aria-pressed', String(id === state.category));
     });
-    ui.reset.disabled = !state.dates.length || (state.date === 'all' && state.group === 'all' && state.category === 'all');
+    ui.reset.disabled = !state.dates.length || (state.date === 'all' && state.group === 'all' && state.category === 'all' && state.style === 'all');
   }
   function statusName(status) { return status === 'complete' ? '已完成' : status === 'partial' ? '部分完成' : status === 'failed' ? '生成失败' : '状态未记录'; }
   function sizeText(asset) {
@@ -120,6 +171,7 @@
     metadataLine(list, '生成记录', text(run.id), true);
     metadataLine(list, '生成时间', run.date + ' · ' + runTime(run));
     metadataLine(list, '素材用途', categoryName(categoryFor(asset)));
+    metadataLine(list, '视觉风格', styleName(styleFor(run, asset)));
     metadataLine(list, '固定题目', text(asset.benchmarkId, '非固定对照素材'), true);
     metadataLine(list, '提示词版本', text(asset.promptVersion), true);
     metadataLine(list, '提示词 SHA-256', text(asset.promptSha256), true);
@@ -146,6 +198,7 @@
     var card = node('article', comparison ? 'comparison-card' : 'archive-card');
     card.dataset.testid = comparison ? 'comparison-asset' : 'archive-asset';
     card.dataset.group = asset.group; card.dataset.assetId = text(asset.id, 'unknown'); card.dataset.category = categoryFor(asset);
+    card.dataset.style = styleFor(run, asset);
     var url = assetURL(asset.path), frame = node('div', 'asset-image-frame' + (asset.transparentBackground ? ' is-transparent' : ''));
     if (url) {
       var link = node('a', 'asset-original'); link.href = url; link.target = '_blank'; link.rel = 'noreferrer';
@@ -153,32 +206,40 @@
     } else frame.append(node('p', 'asset-image-error', '文件路径无效，已隐藏链接与预览。'));
     var content = node('div', 'asset-content'), top = node('div', 'asset-card-top');
     top.append(node('span', 'asset-group ' + (asset.group === 'benchmark' ? 'is-benchmark' : ''), groupName(asset.group)), node('span', 'asset-size', sizeText(asset)));
-    content.append(top, node('p', 'asset-category', categoryName(categoryFor(asset))), node('h3', '', text(asset.label, asset.id)));
+    content.append(top, node('p', 'asset-style', styleName(styleFor(run, asset))), node('p', 'asset-category', categoryName(categoryFor(asset))), node('h3', '', text(asset.label, asset.id)));
     if (comparison) content.append(node('p', 'asset-comparison-date', run.date + ' · ' + runTime(run)));
     var footer = node('div', 'asset-card-footer'); footer.append(node('span', '', bytesText(asset.bytes)));
     if (url) footer.append(downloadFor(asset, url));
     content.append(footer, detailsFor(asset, run)); card.append(frame, content); return card;
   }
   function renderArchive() {
-    ui.results.replaceChildren(); renderCategoryCounts();
+    ui.results.replaceChildren(); renderCategoryCounts(); renderStyleCounts();
     if (!state.dates.length) {
       ui.status.textContent = '尚无生成记录。每日生成完成后，素材会按日期出现在这里。'; return;
     }
     var runs = state.runs.filter(function (run) { return state.date === 'all' || run.date === state.date; });
-    var shown = 0;
-    runs.forEach(function (run) {
-      var assets = run.assets.filter(function (asset) { return inScope(run, asset) && (state.category === 'all' || categoryFor(asset) === state.category); });
-      if (!assets.length && (state.group !== 'all' || state.category !== 'all')) return;
-      var section = node('section', 'archive-run'), heading = node('div', 'archive-run-heading');
-      heading.append(node('h3', '', (state.date === 'all' ? run.date + ' · ' : '') + runTime(run)), node('span', 'run-status is-' + run.status, statusName(run.status)));
-      section.append(heading);
-      if (assets.length) {
-        var grid = node('div', 'archive-grid'); assets.forEach(function (asset) { grid.append(assetCard(asset, run, false)); }); section.append(grid); shown += assets.length;
-      } else section.append(node('p', 'archive-run-empty', run.status === 'failed' ? '本次生成失败，未产生可展示的素材。' : '本条记录暂未收录素材。'));
-      ui.results.append(section);
+    var shown = 0, styles = state.styles.map(function (style) { return style.id; }).concat('unclassified-style');
+    styles.forEach(function (styleId) {
+      if (state.style !== 'all' && state.style !== styleId) return;
+      var collection = node('section', 'style-collection'); collection.dataset.style = styleId;
+      collection.setAttribute('aria-label', styleName(styleId) + '素材分区');
+      collection.append(node('h3', 'style-collection-title', styleName(styleId)));
+      var sections = 0;
+      runs.forEach(function (run) {
+        var assets = run.assets.filter(function (asset) { return inScope(run, asset) && styleFor(run, asset) === styleId && (state.category === 'all' || categoryFor(asset) === state.category); });
+        if (!assets.length && (run.assets.length || state.group !== 'all' || state.category !== 'all' || styleFor(run, {}) !== styleId)) return;
+        var section = node('section', 'archive-run'), heading = node('div', 'archive-run-heading');
+        heading.append(node('h4', '', (state.date === 'all' ? run.date + ' · ' : '') + runTime(run)), node('span', 'run-status is-' + run.status, statusName(run.status)));
+        section.append(heading);
+        if (assets.length) {
+          var grid = node('div', 'archive-grid'); assets.forEach(function (asset) { grid.append(assetCard(asset, run, false)); }); section.append(grid); shown += assets.length;
+        } else section.append(node('p', 'archive-run-empty', run.status === 'failed' ? '本次生成失败，未产生可展示的素材。' : '本条记录暂未收录素材。'));
+        collection.append(section); sections++;
+      });
+      if (sections) ui.results.append(collection);
     });
-    ui.status.textContent = (state.date === 'all' ? '全部日期' : state.date) + ' · ' + shown + ' 张素材' + (state.category === 'all' ? '' : ' · ' + categoryName(state.category)) + (state.group === 'all' ? '' : ' · ' + groupName(state.group));
-    if (!shown && (state.group !== 'all' || state.category !== 'all')) ui.results.append(node('div', 'history-empty', '当前筛选暂无素材。可选择全部日期、其他分类，或重置筛选。'));
+    ui.status.textContent = (state.date === 'all' ? '全部日期' : state.date) + ' · ' + shown + ' 张素材' + ' · ' + styleName(state.style) + (state.category === 'all' ? '' : ' · ' + categoryName(state.category)) + (state.group === 'all' ? '' : ' · ' + groupName(state.group));
+    if (!shown && (state.group !== 'all' || state.category !== 'all' || state.style !== 'all')) ui.results.append(node('div', 'history-empty', '当前筛选暂无素材。可选择全部日期、其他分类，或重置筛选。'));
   }
   function findBenchmark(date) {
     if (!date || !state.benchmark) return null;
@@ -204,11 +265,13 @@
     if (sameRecord) comparisonStatus('same-record', '左右是同一份生成记录，不能作为两次实验。');
     else if (state.dates.length < 2) comparisonStatus('waiting', state.dates.length ? '目前只有一个生成日期，需更多日期记录才能观察长期变化。' : '尚无固定对照记录，等待首次归档后再来查看。');
     else if (!left || !right) comparisonStatus('missing', '所选日期缺少该固定题目的记录，请更换日期或题目。');
+    else if (styleFor(left.run, left.asset) === 'unclassified-style' || styleFor(right.run, right.asset) === 'unclassified-style') comparisonStatus('unknown-style', '风格记录尚未确认，不能作为同风格固定对照。');
+    else if (styleFor(left.run, left.asset) !== styleFor(right.run, right.asset)) comparisonStatus('different-style', '两份素材风格不同，不能作为同风格固定对照。');
     else if (!/^[a-f0-9]{64}$/i.test(left.asset.promptSha256 || '') || !/^[a-f0-9]{64}$/i.test(right.asset.promptSha256 || '')) comparisonStatus('missing', '提示词摘要未完整记录，暂时无法确认是否为相同题目条件。');
     else if (left.asset.promptSha256 === right.asset.promptSha256 && left.asset.benchmarkId === right.asset.benchmarkId) comparisonStatus('matched', '提示词一致 · 可并排观察输出差异；随机性仍会影响每次结果。');
     else comparisonStatus('different', '提示词不同，不能直接对照输出变化。');
   }
-  function prepare(data, catalog) {
+  function prepare(data, catalog, styles) {
     if (!data || data.schemaVersion !== 1 || !Array.isArray(data.runs)) throw new Error('归档索引格式不受支持。');
     state.runs = data.runs.filter(function (run) { return run && validDate(run.date) && typeof run.id === 'string' && Array.isArray(run.assets); }).map(function (run) {
       return Object.assign({}, run, { status: ['complete', 'partial', 'failed'].includes(run.status) ? run.status : 'unknown', assets: run.assets.filter(function (asset) { return asset && typeof asset === 'object' && (asset.group === 'benchmark' || asset.group === 'library'); }) });
@@ -219,6 +282,7 @@
     state.date = 'all'; state.group = 'all';
     state.left = state.dates.length > 1 ? state.dates[1] : state.dates[0] || ''; state.right = state.dates.length > 1 ? state.dates[0] : '';
     prepareCategories(catalog);
+    prepareStyles(styles);
     document.querySelectorAll('.archive-filters [data-group]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.group === state.group)); });
     var benchmarks = [];
     state.runs.forEach(function (run) { run.assets.forEach(function (asset) {
@@ -243,17 +307,22 @@
       if (!response.ok) throw new Error('用途分类暂不可用');
       return response.json();
     }).catch(function () { return null; });
-    return Promise.all([archive, catalog]).then(function (results) { prepare(results[0], results[1]); }).catch(function () {
+    var styles = fetch('../assets/styles.json', { cache: 'no-store' }).then(function (response) {
+      if (!response.ok) throw new Error('风格目录暂不可用');
+      return response.json();
+    }).catch(function () { return null; });
+    return Promise.all([archive, catalog, styles]).then(function (results) { prepare(results[0], results[1], results[2]); }).catch(function () {
       ui.summary.textContent = '归档暂不可用'; ui.status.textContent = '暂时无法加载每日档案。请检查归档索引是否可访问，并通过本地预览或 GitHub Pages 打开此页面。';
       ui.results.replaceChildren(); ui.comparisonResults.replaceChildren(); ui.retry.hidden = false;
       ui.categories.replaceChildren(); ui.reset.disabled = true; ui.categoryNotice.hidden = true;
+      ui.styles.replaceChildren(); ui.styleNotice.hidden = true;
       [ui.date, ui.left, ui.right, ui.benchmark].forEach(function (select) { select.disabled = true; });
       comparisonStatus('waiting', '归档加载失败，暂时无法比较。');
     });
   }
   ui.date.addEventListener('change', function () { state.date = ui.date.value; renderArchive(); });
   ui.reset.addEventListener('click', function () {
-    state.category = 'all'; state.group = 'all'; state.date = 'all'; ui.date.value = 'all';
+    state.category = 'all'; state.group = 'all'; state.date = 'all'; state.style = 'all'; ui.date.value = 'all'; updateStyleURL(); ui.styleNotice.hidden = state.styles.length > 0;
     document.querySelectorAll('.archive-filters [data-group]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.group === 'all')); });
     renderArchive();
   });

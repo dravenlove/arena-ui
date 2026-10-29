@@ -18,7 +18,7 @@ async function useSecondDay(page, changePrompt = false) {
   const fixed = seed.assets.filter(asset => asset.group === 'benchmark');
   const additions = seed.assets.filter(asset => asset.group !== 'benchmark').slice(0, 2);
   const future = JSON.parse(JSON.stringify({
-    ...seed, id: 'fixture-20261025-daily', date: fixtureDate, time: '09:00:00', kind: 'scheduled',
+    ...seed, id: 'fixture-20261025-daily', date: fixtureDate, time: '09:00:00', kind: 'scheduled', styleId: 'dark-metal',
     manifest: 'assets/daily/2026/10/25/test-fixture/manifest.json', assets: [...fixed, ...additions]
   }));
   if (changePrompt) {
