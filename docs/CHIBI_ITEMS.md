@@ -39,3 +39,20 @@
 目录：`assets/daily/2026/10/29/20261029-152631-chibi-items/library/chibi-fantasy/`。
 
 [本次 manifest：完整提示词、调用时间、PNG 尺寸、alpha 检查和 SHA-256](../assets/daily/2026/10/29/20261029-152631-chibi-items/manifest.json)。每件只调用一次，共8次，所有成功结果均保存。未报告的底层模型版本与随机种子分别记录为 `unreported` 与 `null`。
+
+## 2026-10-30 追加：挑战、锻造与补给
+
+按用户追加请求，通过 ChatGPT 内置 image_gen 生成4张独立透明原图，归入 **Q版奇幻 → 养成与奖励**。每张仅生成一次，本批为 manual-extension，与今天早晨的 scheduled 四张独立记录。
+
+| 道具／原图下载 | 用途 | 实际尺寸 |
+| --- | --- | --- |
+| [Q版·竞技入场券](../assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-arena-entry-ticket.png) | 竞技挑战入场消耗品 | 1254×1254 |
+| [Q版·锻造矿锭](../assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-forge-ingot.png) | 装备锻造与升级材料 | 1254×1254 |
+| [Q版·体力便当](../assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-stamina-lunchbox.png) | 体力恢复消耗品 | 1254×1254 |
+| [Q版·召唤星铃](../assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-summon-starbell.png) | 角色招募消耗品 | 1254×1254 |
+
+四张均为RGBA，alpha范围0–255，完全透明像素占比约47–70%；请求1024×1024，实际1254×1254，保存工具原始输出字节。已目视检查64px、96px在深色与奶油底上的效果，主体完整可辨。
+
+这些是独立图片，无需从图集裁切。原图留白均有不足15%的方向，建议小程序使用 `aspectFit` 并增加容器内边距。金边反光偏亮；矿锭上的锤形压印容易看成字母T，建议配用途标签；便当的米粒和木纹在64px下减弱。
+
+[本批完整提示词、时间、透明通道与校验记录](../assets/daily/2026/10/30/20261030-141114-chibi-utility-items/manifest.json)。实际模型版本未返回，记录为 `unreported`，随机种子为 `null`。

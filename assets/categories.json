@@ -122,6 +122,10 @@
     "anime-ui-navigation-atlas-v1": "navigation",
     "anime-ui-progression-atlas-v1": "interface",
     "chibi-attack-skills-v1": "abilities",
-    "chibi-support-skills-v1": "abilities"
+    "chibi-support-skills-v1": "abilities",
+    "chibi-arena-entry-ticket": "progression",
+    "chibi-forge-ingot": "progression",
+    "chibi-stamina-lunchbox": "progression",
+    "chibi-summon-starbell": "progression"
   }
 }

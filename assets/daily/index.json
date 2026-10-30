@@ -8130,6 +8130,447 @@
         "comparisonDate": "2026-10-29",
         "reviewedAt": "2026-10-30T09:15:37+08:00"
       }
+    },
+    {
+      "id": "20261030-141114-chibi-utility-items",
+      "date": "2026-10-30",
+      "time": "14:11:14",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "styleId": "chibi-fantasy",
+      "assets": [
+        {
+          "id": "chibi-arena-entry-ticket",
+          "label": "Q版·竞技入场券",
+          "use": "竞技挑战入场消耗品",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE thick ivory paper arena admission ticket tilted slightly upward to the right. Rounded rectangular ticket with one semicircular notch on each short edge, a chunky honey-gold border, and an embossed simple gold trophy silhouette in its center. A short cocoa perforation seam near one end, using only a few large dots. No writing, no barcodes, no additional tickets, no gems. Paper with soft rounded bevels; prominent clean ticket silhouette.",
+          "promptSha256": "6cdd8e31aa20a68230df302b293719f1541d2f962604a7f5699b37129252eff8",
+          "path": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-arena-entry-ticket.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1044008,
+          "sha256": "8633f13c52728e19aae85f631337cb32630ec4c1eb7f6850db13f0859bd9a9f9",
+          "recordedAt": "2026-10-30T14:12:30+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:11:24+08:00",
+            "resultObservedAt": "2026-10-30T14:12:22+08:00"
+          },
+          "sourceFile": "exec-ffb135ef-9b43-4a6d-a6b9-0b6c15ad2bd7.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.5876385359513036,
+            "reviewedAt": "2026-10-30T14:18:29+08:00"
+          }
+        },
+        {
+          "id": "chibi-forge-ingot",
+          "label": "Q版·锻造矿锭",
+          "use": "装备锻造与升级材料",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE squat rounded silver-ivory metal ingot, broad trapezoidal loaf shape, sitting at a slight three-quarter angle. A single simple cocoa hammer-shaped stamp embossed on the front upper surface, a narrow warm honey-gold band around the lower rim. Smooth lightly matte toy metal, no gritty texture. No anvil, no hammer placed beside it, no pile, no scattered ore, no sparks. Only one ingot with a readable chunky silhouette.",
+          "promptSha256": "4bdadaf36490df1d80169e680ee7bd33c489272bef420227bc5db37abf9c2d96",
+          "path": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-forge-ingot.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 835978,
+          "sha256": "b101cfeb0248487155dedaa10fa103b8f043a28b3622a36c7b92d38e50e3e61f",
+          "recordedAt": "2026-10-30T14:13:39+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:12:31+08:00",
+            "resultObservedAt": "2026-10-30T14:13:30+08:00"
+          },
+          "sourceFile": "exec-afd6b0d4-b161-41cf-a6d4-ccd1641f5eb2.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.6840871571418033,
+            "reviewedAt": "2026-10-30T14:18:29+08:00"
+          }
+        },
+        {
+          "id": "chibi-stamina-lunchbox",
+          "label": "Q版·体力便当",
+          "use": "体力恢复消耗品",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE compact open cocoa wooden lunch box containing two plump ivory rice balls, each with one simple cocoa seaweed patch. A folded sky-cyan cloth wraps tightly around the lower box and forms one short rounded bow on the front to signify stamina energy. Rounded square box with honey-gold corner fasteners. No chopsticks, no cutlery, no other foods, no face on the rice, no detached props. Treat the whole lunch box and contained rice as one tightly composed inventory item.",
+          "promptSha256": "d344bcef986eced6a906a27948c0debecefcfacdcee1ac61115cd97a5ab15089",
+          "path": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-stamina-lunchbox.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1473724,
+          "sha256": "39813c99224d331f805caacd35447887ba2995ccb532d140013c195155d2b3d9",
+          "recordedAt": "2026-10-30T14:15:22+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:13:39+08:00",
+            "resultObservedAt": "2026-10-30T14:15:11+08:00"
+          },
+          "sourceFile": "exec-1fab0c06-f465-416f-b1ba-0ce375a305ea.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.4737185503994872,
+            "reviewedAt": "2026-10-30T14:18:29+08:00"
+          }
+        },
+        {
+          "id": "chibi-summon-starbell",
+          "label": "Q版·召唤星铃",
+          "use": "角色招募消耗品",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE rounded honey-gold summoning bell with a small thick ivory star-shaped handle directly attached on top and a short cocoa ribbon bow around its neck. Bell opening visible slightly from below, one large ivory clapper inside. A simple shallow star engraving on the front, no other ornament. Soft broad highlights on matte gold, no glow rays, no sparkles, no hovering stars, no gems, no detached ribbon ends. Friendly sturdy toy silhouette, full bell visible.",
+          "promptSha256": "2625752db0b3e4cc62dbc2377e65abc887936d06ce9b78c8ed56e4d5c96513df",
+          "path": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-summon-starbell.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 840518,
+          "sha256": "e455fb0163761bd238ac72619fabe93ccb034ddba1bc476b8c9a3a8ec159ecd2",
+          "recordedAt": "2026-10-30T14:16:11+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:15:22+08:00",
+            "resultObservedAt": "2026-10-30T14:16:01+08:00"
+          },
+          "sourceFile": "exec-4307341e-7486-45de-9c73-d767b430dc0b.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.7022402315779299,
+            "reviewedAt": "2026-10-30T14:18:29+08:00"
+          }
+        }
+      ],
+      "themeId": "chibi-utility-items",
+      "startedAt": "2026-10-30T14:11:14+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "chibi-arena-entry-ticket",
+          "group": "library",
+          "startedAt": "2026-10-30T14:11:24+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "6cdd8e31aa20a68230df302b293719f1541d2f962604a7f5699b37129252eff8",
+          "resultObservedAt": "2026-10-30T14:12:22+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-arena-entry-ticket.png",
+          "sourceFile": "exec-ffb135ef-9b43-4a6d-a6b9-0b6c15ad2bd7.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:12:30+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "chibi-forge-ingot",
+          "group": "library",
+          "startedAt": "2026-10-30T14:12:31+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "4bdadaf36490df1d80169e680ee7bd33c489272bef420227bc5db37abf9c2d96",
+          "resultObservedAt": "2026-10-30T14:13:30+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-forge-ingot.png",
+          "sourceFile": "exec-afd6b0d4-b161-41cf-a6d4-ccd1641f5eb2.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:13:39+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "chibi-stamina-lunchbox",
+          "group": "library",
+          "startedAt": "2026-10-30T14:13:39+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "d344bcef986eced6a906a27948c0debecefcfacdcee1ac61115cd97a5ab15089",
+          "resultObservedAt": "2026-10-30T14:15:11+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-stamina-lunchbox.png",
+          "sourceFile": "exec-1fab0c06-f465-416f-b1ba-0ce375a305ea.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:15:22+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "chibi-summon-starbell",
+          "group": "library",
+          "startedAt": "2026-10-30T14:15:22+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "2625752db0b3e4cc62dbc2377e65abc887936d06ce9b78c8ed56e4d5c96513df",
+          "resultObservedAt": "2026-10-30T14:16:01+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-141114-chibi-utility-items/library/chibi-fantasy/chibi-summon-starbell.png",
+          "sourceFile": "exec-4307341e-7486-45de-9c73-d767b430dc0b.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:16:11+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "chibi-arena-entry-ticket",
+          "label": "Q版·竞技入场券",
+          "use": "竞技挑战入场消耗品",
+          "filename": "chibi-arena-entry-ticket.png",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE thick ivory paper arena admission ticket tilted slightly upward to the right. Rounded rectangular ticket with one semicircular notch on each short edge, a chunky honey-gold border, and an embossed simple gold trophy silhouette in its center. A short cocoa perforation seam near one end, using only a few large dots. No writing, no barcodes, no additional tickets, no gems. Paper with soft rounded bevels; prominent clean ticket silhouette.",
+          "promptSha256": "6cdd8e31aa20a68230df302b293719f1541d2f962604a7f5699b37129252eff8"
+        },
+        {
+          "id": "chibi-forge-ingot",
+          "label": "Q版·锻造矿锭",
+          "use": "装备锻造与升级材料",
+          "filename": "chibi-forge-ingot.png",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE squat rounded silver-ivory metal ingot, broad trapezoidal loaf shape, sitting at a slight three-quarter angle. A single simple cocoa hammer-shaped stamp embossed on the front upper surface, a narrow warm honey-gold band around the lower rim. Smooth lightly matte toy metal, no gritty texture. No anvil, no hammer placed beside it, no pile, no scattered ore, no sparks. Only one ingot with a readable chunky silhouette.",
+          "promptSha256": "4bdadaf36490df1d80169e680ee7bd33c489272bef420227bc5db37abf9c2d96"
+        },
+        {
+          "id": "chibi-stamina-lunchbox",
+          "label": "Q版·体力便当",
+          "use": "体力恢复消耗品",
+          "filename": "chibi-stamina-lunchbox.png",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE compact open cocoa wooden lunch box containing two plump ivory rice balls, each with one simple cocoa seaweed patch. A folded sky-cyan cloth wraps tightly around the lower box and forms one short rounded bow on the front to signify stamina energy. Rounded square box with honey-gold corner fasteners. No chopsticks, no cutlery, no other foods, no face on the rice, no detached props. Treat the whole lunch box and contained rice as one tightly composed inventory item.",
+          "promptSha256": "d344bcef986eced6a906a27948c0debecefcfacdcee1ac61115cd97a5ab15089"
+        },
+        {
+          "id": "chibi-summon-starbell",
+          "label": "Q版·召唤星铃",
+          "use": "角色招募消耗品",
+          "filename": "chibi-summon-starbell.png",
+          "categoryId": "progression",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "chibi-utility-items-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "prompt": "Use case: stylized-concept. Asset type: ONE reusable inventory item for a chibi fantasy mobile RPG. Square canvas requested 1024x1024. Genuine transparent RGBA background, isolated cutout, no floor, no pedestal, no shadow outside the object, no surrounding glow. Arena Chibi style: chunky rounded shapes, warm ivory and cocoa-brown outlines, soft hand-painted toy-like 3D volume, restrained broad highlights, clean silhouette readable at 64-96 pixels. Honey gold for actions and rewards, sky cyan for energy, coral only for health, mint only for healing, lavender only for epic rarity. Soft upper-left light. Slight three-quarter view. One centered object or compact attached group, occupying about 65 percent of canvas, at least 15 percent empty transparent margin on all four edges. Entire object fully visible, no cropping. No characters, hands, text, lettering, numbers, watermark, UI card, border, grid, checkerboard drawn into image, scenery or alternate versions. No gritty realistic dark metal, sharp gothic spikes, tiny detached particles or elaborate filigree.\n\nONE rounded honey-gold summoning bell with a small thick ivory star-shaped handle directly attached on top and a short cocoa ribbon bow around its neck. Bell opening visible slightly from below, one large ivory clapper inside. A simple shallow star engraving on the front, no other ornament. Soft broad highlights on matte gold, no glow rays, no sparkles, no hovering stars, no gems, no detached ribbon ends. Friendly sturdy toy silhouette, full bell visible.",
+          "promptSha256": "2625752db0b3e4cc62dbc2377e65abc887936d06ce9b78c8ed56e4d5c96513df"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "chibi-arena-entry-ticket",
+          "observations": [
+            "独立入场券轮廓完整，奖杯、双侧缺口和票根虚线清楚；无额外道具或文字。",
+            "64px及96px深浅底均可辨，96px奖杯细节更清晰；实际金边高光比哑光要求亮。",
+            "主体横向占比偏大，透明边距未达到每边15%；使用时建议aspectFit和容器内边距。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "wholeSubjectVisible": true,
+            "smallSizeChecked": [
+              64,
+              96
+            ],
+            "backgroundsChecked": [
+              "#171c24",
+              "#fff7e7"
+            ],
+            "safeMargin15PercentMet": false
+          }
+        },
+        {
+          "assetId": "chibi-forge-ingot",
+          "observations": [
+            "单枚银白矿锭与金色底边完整，材质偏光亮；压印形状较像字母T，作为锤子符号的辨识度有限。",
+            "64px及96px深浅底均能识别矿锭主体，小尺寸时压印仍容易被看成T，建议配锻造材料文字标签。",
+            "横向留白未达到15%；原图有真实透明背景，不包含地面或额外矿石。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "wholeSubjectVisible": true,
+            "smallSizeChecked": [
+              64,
+              96
+            ],
+            "backgroundsChecked": [
+              "#171c24",
+              "#fff7e7"
+            ],
+            "symbolAmbiguous": true,
+            "safeMargin15PercentMet": false
+          }
+        },
+        {
+          "assetId": "chibi-stamina-lunchbox",
+          "observations": [
+            "一只打开的木便当盒中有两枚饭团，蓝色包布、绳结和金色角件完整；盒盖比紧凑构图预期更高，米粒和海苔纹理比要求细。",
+            "64px及96px深浅底检查中，饭团和蓝布仍可辨；64px米粒、木纹等细节变弱，但不影响补给物品主体识别。",
+            "主体完整未裁边，外缘留白小于15%；建议等比适配并保留容器内边距。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "wholeSubjectVisible": true,
+            "smallSizeChecked": [
+              64,
+              96
+            ],
+            "backgroundsChecked": [
+              "#171c24",
+              "#fff7e7"
+            ],
+            "safeMargin15PercentMet": false
+          }
+        },
+        {
+          "assetId": "chibi-summon-starbell",
+          "observations": [
+            "金色铃身、奶油星形提手、棕色蝴蝶结和铃舌完整，轮廓清晰；星形提手及铃身雕刻均可辨。",
+            "64px及96px深浅底均能识别铃铛，96px更利于呈现星形镂空；金属高光强于柔和哑光要求。",
+            "实际构图偏竖向，上下留白不足15%；透明背景与主体边缘完整，未见文字、水印或漂浮粒子。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "wholeSubjectVisible": true,
+            "smallSizeChecked": [
+              64,
+              96
+            ],
+            "backgroundsChecked": [
+              "#171c24",
+              "#fff7e7"
+            ],
+            "safeMargin15PercentMet": false
+          }
+        }
+      ],
+      "notes": [
+        "用户再次请求生成素材，本次手动追加4张Q版独立透明道具，按用途与风格分类；不改变每日任务。",
+        "新系列使用chibi-fantasy标识、独立运行目录和chibi-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "再给我生成一些素材",
+        "plannedAdditionalCalls": 4,
+        "callsAlreadyToday": 4
+      },
+      "completedAt": "2026-10-30T14:18:29+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "attempts": 4,
+        "originalFilesPreserved": true,
+        "styleArchiveVerified": true,
+        "newStyleId": "chibi-fantasy",
+        "noResampling": true,
+        "reviewedAt": "2026-10-30T14:18:29+08:00"
+      }
     }
   ]
 }
