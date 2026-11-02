@@ -134,6 +134,10 @@
     "anime-ui-shop-product-card": "interface",
     "anime-ui-summon-panel": "interface",
     "anime-ui-party-portrait-slot": "interface",
-    "anime-ui-victory-ribbon": "feedback"
+    "anime-ui-victory-ribbon": "feedback",
+    "anime-ui-inventory-page-panel": "interface",
+    "anime-ui-story-dialogue-box": "interface",
+    "anime-ui-stage-detail-card": "interface",
+    "anime-ui-equipment-upgrade-panel": "interface"
   }
 }

@@ -1,0 +1,470 @@
+{
+  "id": "20261102-101020-anime-gameplay-ui",
+  "date": "2026-11-02",
+  "time": "10:10:20",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/manifest.json",
+  "kind": "manual-extension",
+  "status": "complete",
+  "styleId": "anime-fantasy",
+  "assets": [
+    {
+      "id": "anime-ui-inventory-page-panel",
+      "label": "二次元·背包分页底板",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a portrait 1024x1536 PNG. Subject: one tall inventory-page panel. A compact blank navy header bar at top; directly below, exactly THREE evenly spaced empty category tabs, first tab with a restrained cyan selected underline. Main body is a simple ivory panel containing EXACTLY TWELVE identical empty square item wells arranged as EXACTLY FOUR columns by THREE rows in an evenly spaced, perfectly aligned grid. Every well has a thin pale-gold rim and a solid midnight-navy empty interior, with no item, badge, number or miniature extra slot. Bottom footer contains one broad blank ivory pagination strip with a tiny unlabelled left chevron at its far left and a tiny right chevron at its far right. This is an empty inventory container; do not add buttons, coins, items or a scrollbar. Keep grid cells large and uniform, with generous gutters. Interior surfaces are filled, not transparent.",
+      "promptSha256": "35187cb77451b7711ba74f1b97883808e6dfdf40b11bc2b1c1e33bc1eb86b4c2",
+      "path": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-inventory-page-panel.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1214919,
+      "sha256": "8f0c6044c8c2617a696443f96c13cebab6473d1f02fc2ee8d4e042621a88153f",
+      "recordedAt": "2026-11-02T10:11:13+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-02T10:10:21+08:00",
+        "resultObservedAt": "2026-11-02T10:11:02+08:00"
+      },
+      "sourceFile": "exec-90189089-3c64-4bdd-b559-5ec3282d5373.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.3360392252604167,
+        "reviewedAt": "2026-11-02T10:15:46+08:00",
+        "boundingBoxAlphaOver8": [
+          51,
+          199,
+          973,
+          1338
+        ],
+        "centerPixelAlpha": 254,
+        "center40PercentAlphaRange": [
+          253,
+          254
+        ]
+      }
+    },
+    {
+      "id": "anime-ui-story-dialogue-box",
+      "label": "二次元·剧情对话框",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a landscape 1536x1024 PNG. Subject: one wide cinematic story dialogue box, about 3:1 in visible body aspect ratio. Main body is a plain ivory filled panel with a fine navy and pale-gold angular border, enough uninterrupted empty space for three lines of dialogue. A small blank navy speaker-name tab is attached along the upper-left edge. A single small cyan downward-pointing continuation triangle is attached inside the bottom-right corner. No portrait slot, no avatar, no action buttons, no text lines or simulated writing. Keep the large central ivory text area completely empty. Outside the whole attached silhouette is transparent; inside is filled. Restrained straight edges, very few ornaments.",
+      "promptSha256": "b0fed9b59f36d3c0afb9e324e96609081caff51ac11645bd484a39cce3c2fe28",
+      "path": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-story-dialogue-box.png",
+      "size": [
+        2172,
+        724
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 559809,
+      "sha256": "e6b9a1274542634176c33328c35c6a1cc0fda2d643806a1166dd2ae7db86c7fa",
+      "recordedAt": "2026-11-02T10:11:57+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-02T10:11:14+08:00",
+        "resultObservedAt": "2026-11-02T10:11:44+08:00"
+      },
+      "sourceFile": "exec-0f0ed708-f155-43d7-8055-0719f317f3cf.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6150415127743354,
+        "reviewedAt": "2026-11-02T10:15:46+08:00",
+        "boundingBoxAlphaOver8": [
+          218,
+          165,
+          1956,
+          532
+        ],
+        "centerPixelAlpha": 254,
+        "center40PercentAlphaRange": [
+          253,
+          254
+        ]
+      }
+    },
+    {
+      "id": "anime-ui-stage-detail-card",
+      "label": "二次元·关卡详情卡",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a portrait 1024x1536 PNG. Subject: one vertical stage-details card for choosing a battle. Top: a narrow empty navy title strip. Below: one large empty landscape illustration well in solid midnight navy, with a thin gold border. Immediately below that well, exactly THREE equally spaced small outlined five-point stars, all empty and the same size, representing unearned completion objectives. Below the stars: one plain blank ivory description area. Bottom: one small blank ivory cost strip and one broad cyan action button, both empty. Everything is a single connected card with an ivory base and slim navy-gold frame. No landscape artwork, no weapons, no characters, no numbers, no additional stars or icons. Interior card and illustration well are filled; background outside the card is transparent.",
+      "promptSha256": "3e3159ec858123f4b85a1d86f6e4ff3e0f2b817c4ae126423270b096c04cd1f3",
+      "path": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-stage-detail-card.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1211335,
+      "sha256": "8cb84c8c921ec9d5af068b672fb6231a89752bc9c3c1874b4972dd0e9175d217",
+      "recordedAt": "2026-11-02T10:13:14+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-02T10:11:58+08:00",
+        "resultObservedAt": "2026-11-02T10:12:38+08:00"
+      },
+      "sourceFile": "exec-066191b2-e2c0-420a-9a5d-edc19a5f6b06.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.413967768351237,
+        "reviewedAt": "2026-11-02T10:15:46+08:00",
+        "boundingBoxAlphaOver8": [
+          125,
+          144,
+          899,
+          1373
+        ],
+        "centerPixelAlpha": 254,
+        "center40PercentAlphaRange": [
+          253,
+          254
+        ]
+      }
+    },
+    {
+      "id": "anime-ui-equipment-upgrade-panel",
+      "label": "二次元·装备强化面板",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a landscape 1536x1024 PNG. Subject: one equipment-upgrade panel with a navy blank header and ivory filled main body. Upper body: EXACTLY TWO large identical empty square slots side by side, aligned on one horizontal axis, with midnight-navy interiors and thin pale-gold rims. Between them, one modest cyan right-pointing arrow. Under each square is one thin empty ivory caption strip. Lower body: one long thin EMPTY navy progress track with a thin cyan outline and absolutely no filled progress, and below it one centered broad pale-gold action button with no text. No extra item slots, no materials, no weapons, no numbers, no currency symbols, no plus signs or particle effects. Keep visual hierarchy clean and spacious; the two large empty slots and one arrow are unmistakable. Interior body is filled, outside the slim navy-gold border is genuinely transparent.",
+      "promptSha256": "fde91754887369b486d603db3049cb14d9ca2d441d545af76807b4739139595a",
+      "path": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-equipment-upgrade-panel.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1263578,
+      "sha256": "b24f2ee8ae9cc8997aeb58cd0a793441e6683277ac4dec43530db66ac128d538",
+      "recordedAt": "2026-11-02T10:14:15+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-02T10:13:15+08:00",
+        "resultObservedAt": "2026-11-02T10:13:56+08:00"
+      },
+      "sourceFile": "exec-8edacc5e-4296-4122-a5c2-dedc88d0bba6.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.42128245035807294,
+        "reviewedAt": "2026-11-02T10:15:46+08:00",
+        "boundingBoxAlphaOver8": [
+          137,
+          146,
+          1399,
+          880
+        ],
+        "centerPixelAlpha": 254,
+        "center40PercentAlphaRange": [
+          251,
+          254
+        ]
+      }
+    }
+  ],
+  "themeId": "anime-gameplay-ui",
+  "startedAt": "2026-11-02T10:10:20+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "anime-ui-inventory-page-panel",
+      "group": "library",
+      "startedAt": "2026-11-02T10:10:21+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "35187cb77451b7711ba74f1b97883808e6dfdf40b11bc2b1c1e33bc1eb86b4c2",
+      "resultObservedAt": "2026-11-02T10:11:02+08:00",
+      "outputPath": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-inventory-page-panel.png",
+      "sourceFile": "exec-90189089-3c64-4bdd-b559-5ec3282d5373.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-02T10:11:13+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "anime-ui-story-dialogue-box",
+      "group": "library",
+      "startedAt": "2026-11-02T10:11:14+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "b0fed9b59f36d3c0afb9e324e96609081caff51ac11645bd484a39cce3c2fe28",
+      "resultObservedAt": "2026-11-02T10:11:44+08:00",
+      "outputPath": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-story-dialogue-box.png",
+      "sourceFile": "exec-0f0ed708-f155-43d7-8055-0719f317f3cf.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-02T10:11:57+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "anime-ui-stage-detail-card",
+      "group": "library",
+      "startedAt": "2026-11-02T10:11:58+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "3e3159ec858123f4b85a1d86f6e4ff3e0f2b817c4ae126423270b096c04cd1f3",
+      "resultObservedAt": "2026-11-02T10:12:38+08:00",
+      "outputPath": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-stage-detail-card.png",
+      "sourceFile": "exec-066191b2-e2c0-420a-9a5d-edc19a5f6b06.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-02T10:13:14+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "anime-ui-equipment-upgrade-panel",
+      "group": "library",
+      "startedAt": "2026-11-02T10:13:15+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "fde91754887369b486d603db3049cb14d9ca2d441d545af76807b4739139595a",
+      "resultObservedAt": "2026-11-02T10:13:56+08:00",
+      "outputPath": "assets/daily/2026/11/02/20261102-101020-anime-gameplay-ui/library/anime-fantasy/anime-ui-equipment-upgrade-panel.png",
+      "sourceFile": "exec-8edacc5e-4296-4122-a5c2-dedc88d0bba6.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-02T10:14:15+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "anime-ui-inventory-page-panel",
+      "label": "二次元·背包分页底板",
+      "filename": "anime-ui-inventory-page-panel.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a portrait 1024x1536 PNG. Subject: one tall inventory-page panel. A compact blank navy header bar at top; directly below, exactly THREE evenly spaced empty category tabs, first tab with a restrained cyan selected underline. Main body is a simple ivory panel containing EXACTLY TWELVE identical empty square item wells arranged as EXACTLY FOUR columns by THREE rows in an evenly spaced, perfectly aligned grid. Every well has a thin pale-gold rim and a solid midnight-navy empty interior, with no item, badge, number or miniature extra slot. Bottom footer contains one broad blank ivory pagination strip with a tiny unlabelled left chevron at its far left and a tiny right chevron at its far right. This is an empty inventory container; do not add buttons, coins, items or a scrollbar. Keep grid cells large and uniform, with generous gutters. Interior surfaces are filled, not transparent.",
+      "promptSha256": "35187cb77451b7711ba74f1b97883808e6dfdf40b11bc2b1c1e33bc1eb86b4c2"
+    },
+    {
+      "id": "anime-ui-story-dialogue-box",
+      "label": "二次元·剧情对话框",
+      "filename": "anime-ui-story-dialogue-box.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a landscape 1536x1024 PNG. Subject: one wide cinematic story dialogue box, about 3:1 in visible body aspect ratio. Main body is a plain ivory filled panel with a fine navy and pale-gold angular border, enough uninterrupted empty space for three lines of dialogue. A small blank navy speaker-name tab is attached along the upper-left edge. A single small cyan downward-pointing continuation triangle is attached inside the bottom-right corner. No portrait slot, no avatar, no action buttons, no text lines or simulated writing. Keep the large central ivory text area completely empty. Outside the whole attached silhouette is transparent; inside is filled. Restrained straight edges, very few ornaments.",
+      "promptSha256": "b0fed9b59f36d3c0afb9e324e96609081caff51ac11645bd484a39cce3c2fe28"
+    },
+    {
+      "id": "anime-ui-stage-detail-card",
+      "label": "二次元·关卡详情卡",
+      "filename": "anime-ui-stage-detail-card.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a portrait 1024x1536 PNG. Subject: one vertical stage-details card for choosing a battle. Top: a narrow empty navy title strip. Below: one large empty landscape illustration well in solid midnight navy, with a thin gold border. Immediately below that well, exactly THREE equally spaced small outlined five-point stars, all empty and the same size, representing unearned completion objectives. Below the stars: one plain blank ivory description area. Bottom: one small blank ivory cost strip and one broad cyan action button, both empty. Everything is a single connected card with an ivory base and slim navy-gold frame. No landscape artwork, no weapons, no characters, no numbers, no additional stars or icons. Interior card and illustration well are filled; background outside the card is transparent.",
+      "promptSha256": "3e3159ec858123f4b85a1d86f6e4ff3e0f2b817c4ae126423270b096c04cd1f3"
+    },
+    {
+      "id": "anime-ui-equipment-upgrade-panel",
+      "label": "二次元·装备强化面板",
+      "filename": "anime-ui-equipment-upgrade-panel.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "interface",
+      "benchmarkId": null,
+      "promptVersion": "anime-gameplay-ui-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: ui-mockup. Asset type: ONE reusable raster interface skin for an original anime fantasy RPG WeChat mini-program. Style: clean two-dimensional anime game interface illustration, crisp controlled navy line art, simple cel-shaded bevels, ivory #eef5ff surfaces, midnight navy #24385c recessed areas, restrained pale gold #eccb83 edge accents and cyan #55c9ea selected accents. Thin geometric corner cuts and a few small diamond details. Front-facing orthographic flat UI, no perspective. No chibi toy-like forms, no gritty dark metal, no photorealism. All labels, numbers, values and item artwork will be supplied later by game code: leave every content field empty. No letters, text, numerals, logos or watermark. Genuine transparent alpha outside the component, not a painted checkerboard or an opaque background. No outer glow, drop shadow, haze, scenery or floating decorative particles. The entire component must fit inside the central 76 percent of the canvas in both axes, with at least 12 percent clear transparent margin on every side. Keep all edges intact. Generate exactly one unified component, not a collection or a screenshot. Generate a landscape 1536x1024 PNG. Subject: one equipment-upgrade panel with a navy blank header and ivory filled main body. Upper body: EXACTLY TWO large identical empty square slots side by side, aligned on one horizontal axis, with midnight-navy interiors and thin pale-gold rims. Between them, one modest cyan right-pointing arrow. Under each square is one thin empty ivory caption strip. Lower body: one long thin EMPTY navy progress track with a thin cyan outline and absolutely no filled progress, and below it one centered broad pale-gold action button with no text. No extra item slots, no materials, no weapons, no numbers, no currency symbols, no plus signs or particle effects. Keep visual hierarchy clean and spacious; the two large empty slots and one arrow are unmistakable. Interior body is filled, outside the slim navy-gold border is genuinely transparent.",
+      "promptSha256": "fde91754887369b486d603db3049cb14d9ca2d441d545af76807b4739139595a"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "anime-ui-inventory-page-panel",
+      "observations": [
+        "背包底板有4列3行共12个空物品槽、3个分类页签和底部左右翻页箭头；第一分类页签带青色下划线。格数与层次符合请求，无物品和文字。",
+        "原图1024×1536、alpha范围0–254，外部透明且内部填色。左右可见边距约5%，小于请求的12%；网格与细描边有轻微不规则，不能假定严格等距坐标。",
+        "槽位、页签和翻页箭头都合成在同一张PNG中，动态物品、选中态、数量和点击热区需要代码实现；移动端文字及格子交互尚未测试。"
+      ],
+      "visualValidation": {
+        "reviewed": true,
+        "singleComponent": true,
+        "gridColumns": 4,
+        "gridRows": 3,
+        "itemSlots": 12,
+        "categoryTabs": 3,
+        "noTextObserved": true,
+        "safeMargin12PercentMet": false,
+        "browserBackgroundPreviewChecked": false,
+        "productionReadyInteractiveComponent": false
+      }
+    },
+    {
+      "assetId": "anime-ui-story-dialogue-box",
+      "observations": [
+        "横向空白剧情框含左上姓名栏和右下青色继续三角，主文字区域无字，轮廓完整且外围真实透明。",
+        "请求1536×1024，实际2172×724；画布成为3:1，实际可见主体约4.7:1，比计划主体3:1更扁。左右边距约10%，不足12%。",
+        "边缘有极细杂色；手机宽度下正文区域高度有限，三行对话排版尚未验证。姓名、正文、继续提示动画均需应用代码叠加。"
+      ],
+      "visualValidation": {
+        "reviewed": true,
+        "singleComponent": true,
+        "noTextObserved": true,
+        "safeMargin12PercentMet": false,
+        "browserBackgroundPreviewChecked": false,
+        "productionReadyInteractiveComponent": false
+      }
+    },
+    {
+      "assetId": "anime-ui-stage-detail-card",
+      "observations": [
+        "竖向关卡卡片包含空标题、深蓝预览区、恰好3颗未点亮的描边星、空描述区、费用条和底部青色按钮。无关卡图、数字或文字。",
+        "原图1024×1536、alpha范围0–254，外围透明、内部填色；上下可见边距约9.4%和10.6%，不足12%。",
+        "按钮上下中部有装饰凹口，看起来略有左右分区，仍是一张连续底图；三星、按钮和边框都已合成，星级点亮与按钮状态需要单独绘制覆盖，不能直接切换图片内部状态。"
+      ],
+      "visualValidation": {
+        "reviewed": true,
+        "singleComponent": true,
+        "starCount": 3,
+        "noTextObserved": true,
+        "safeMargin12PercentMet": false,
+        "browserBackgroundPreviewChecked": false,
+        "productionReadyInteractiveComponent": false
+      }
+    },
+    {
+      "assetId": "anime-ui-equipment-upgrade-panel",
+      "observations": [
+        "横向强化面板包含恰好2个大空槽、中间向右箭头、2条空说明栏、1条未填充的进度轨道及1个金色按钮；无装备、材料、数值或文字。",
+        "原图1536×1024、alpha范围0–254，外围透明且内部填色。左右边距约8.9%，不足12%；两大槽接近正方形但非严格数学正方形。",
+        "适合作为强化前后展示的底板；装备图、材料语义、进度填充、按钮文字和点击热区仍由应用实现。未验证九宫格或小程序深浅底合成。"
+      ],
+      "visualValidation": {
+        "reviewed": true,
+        "singleComponent": true,
+        "itemSlots": 2,
+        "progressTracks": 1,
+        "emptyProgressTrack": true,
+        "noTextObserved": true,
+        "safeMargin12PercentMet": false,
+        "browserBackgroundPreviewChecked": false,
+        "productionReadyInteractiveComponent": false
+      }
+    }
+  ],
+  "notes": [
+    "用户在上一批4张已完成后再次请求生成二次元UI界面素材；本次手动追加4张背包、对话、关卡与强化底板，延续新请求授权，保留当日已调用4次的台账。每日自动化配置及预算保持原样。",
+    "沿用anime-fantasy标识、独立运行目录和anime-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+  ],
+  "authorization": {
+    "type": "explicit-manual-addition",
+    "request": "生成一下二次元UI界面的素材",
+    "plannedAdditionalCalls": 4,
+    "callsAlreadyToday": 4
+  },
+  "completedAt": "2026-11-02T10:15:46+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "attempts": 4,
+    "originalFilesPreserved": true,
+    "styleArchiveVerified": true,
+    "newStyleId": "anime-fantasy",
+    "noResampling": true,
+    "reviewedAt": "2026-11-02T10:15:46+08:00",
+    "styleArchiveVerificationMethod": "catalog, per-asset style IDs, history filter source and HTTP-served data checks",
+    "browserPreviewChecked": false,
+    "browserPreviewError": "CUA failed to initialize: failed to write kernel assets: 系统找不到指定的路径。 (os error 3)",
+    "httpAssetsVerified": true,
+    "previousRunsUnchanged": true,
+    "originalBytesMatchGeneratedFiles": true
+  }
+}
