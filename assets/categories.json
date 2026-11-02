@@ -138,6 +138,10 @@
     "anime-ui-inventory-page-panel": "interface",
     "anime-ui-story-dialogue-box": "interface",
     "anime-ui-stage-detail-card": "interface",
-    "anime-ui-equipment-upgrade-panel": "interface"
+    "anime-ui-equipment-upgrade-panel": "interface",
+    "anime-ui-battle-status-hud": "interface",
+    "anime-ui-ranking-row-card": "interface",
+    "anime-ui-seven-day-checkin": "interface",
+    "anime-ui-mail-detail-panel": "interface"
   }
 }
