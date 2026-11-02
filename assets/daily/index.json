@@ -8571,6 +8571,427 @@
         "noResampling": true,
         "reviewedAt": "2026-10-30T14:18:29+08:00"
       }
+    },
+    {
+      "id": "20261030-143551-anime-screen-assets",
+      "date": "2026-10-30",
+      "time": "14:35:51",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "styleId": "anime-fantasy",
+      "assets": [
+        {
+          "id": "anime-ui-lobby-sky-background",
+          "label": "二次元·天空庭院主界面背景",
+          "categoryId": "environments",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": false,
+          "use": "竖屏主界面背景，可叠加角色与导航",
+          "prompt": "Use case: stylized-concept. Asset type: portrait mobile anime RPG lobby background, requested 1024x1536 pixels, fully opaque. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. An empty sunlit sky-island academy courtyard overlooking distant floating ivory towers and a soft blue sea of clouds. A simple pale stone terrace fills the lower third, with low balustrades only at the far left and far right. Two elegant ivory architectural columns frame the extreme side edges, delicate gold inlays and tiny restrained cyan crystal accents on the side architecture. Bright gentle late-morning light, serene airy atmosphere. Keep the central 55 percent of the image uncluttered with softly painted sky, distant clouds and low-contrast pavement, suitable for placing a full-body character on top. Keep top 18 percent quiet pale blue sky for a resource bar and bottom 18 percent simple pale pavement for navigation overlays. Layers of atmospheric depth, anime background painting, cohesive readable shapes. No characters, creatures, UI frames, buttons, text, numbers, titles, watermark, logo or glowing particle clutter. Full bleed scenery, no border.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "6810761e41c5edd4d5dacc6c3ff48fc717c2ac2679838f59863980a97d3e52a7",
+          "path": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-lobby-sky-background.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 2225873,
+          "sha256": "22df1e10287c9a2e16c4decd5bbc300cb7475ed5e67d84aaec72adc59adf82c6",
+          "recordedAt": "2026-10-30T14:36:26+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:35:51+08:00",
+            "resultObservedAt": "2026-10-30T14:36:17+08:00"
+          },
+          "sourceFile": "exec-67c353cf-031d-40bd-970f-c0af82a4a843.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "reviewedAt": "2026-11-02T09:51:48+08:00"
+          }
+        },
+        {
+          "id": "anime-ui-character-info-panel",
+          "label": "二次元·角色信息面板",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "use": "角色详情与属性页面底板",
+          "prompt": "Use case: ui-mockup. Asset type: reusable blank UI skin for a mobile anime RPG, not a complete screenshot. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. Flat front-facing orthographic UI, no perspective, no device mockup, no scene behind it. Genuine transparent RGBA background outside the component. One centered component only, all decorations attached and fully inside the canvas, at least 12 percent empty transparent margin on every side. Clean angular corners and fine consistent strokes. No characters, portraits, items, text, letters, numbers, watermarks, logos or detached sparkles. All content fields and button faces blank for dynamic code overlays. Do not draw checkerboard, an outer rectangle background, a floor or drop shadow. Requested portrait 1024x1536 canvas. ONE tall slim character information panel, occupying about 68 percent of canvas width and 72 percent of height. Ivory main surface with midnight-navy header and thin pale-gold border, subtle cyan corner accents. Design a clean blank horizontal name header near the top; below it a large uninterrupted empty ivory region for character details; below that exactly three evenly spaced understated horizontal empty stat rows with small empty circular icon recesses on the left and broad blank space on the right. At the bottom one wide blank cyan action button integrated inside the panel, separated from the rows by generous space. No portrait silhouette, no star rating, no check marks, no dummy lines resembling writing, no progress fill, no extra buttons. Soft ivory center must stay quiet and clear; ornate decoration only as tiny corner cuts.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "56f51d45cd4bfa41247d8fa308e00ae92db1fe469b7eaa4be3b1b92d23de7243",
+          "path": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-character-info-panel.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1327837,
+          "sha256": "cda0212a9126145c3a1e1bc86e6edf1885cca17b9f75fdf86c0545ce3f91ea4d",
+          "recordedAt": "2026-10-30T14:37:13+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:36:26+08:00",
+            "resultObservedAt": "2026-10-30T14:37:01+08:00"
+          },
+          "sourceFile": "exec-c7493ae9-5dc3-4ec5-bf45-9b4fb854b2cc.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.414425532023112,
+            "reviewedAt": "2026-11-02T09:51:48+08:00"
+          }
+        },
+        {
+          "id": "anime-ui-mission-card",
+          "label": "二次元·任务卡片",
+          "categoryId": "interface",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": true,
+          "use": "任务列表单行卡片，可叠加图标、描述与奖励",
+          "prompt": "Use case: ui-mockup. Asset type: reusable blank UI skin for a mobile anime RPG, not a complete screenshot. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. Flat front-facing orthographic UI, no perspective, no device mockup, no scene behind it. Genuine transparent RGBA background outside the component. One centered component only, all decorations attached and fully inside the canvas, at least 12 percent empty transparent margin on every side. Clean angular corners and fine consistent strokes. No characters, portraits, items, text, letters, numbers, watermarks, logos or detached sparkles. All content fields and button faces blank for dynamic code overlays. Do not draw checkerboard, an outer rectangle background, a floor or drop shadow. Requested landscape 1536x1024 canvas. ONE wide horizontal quest card approximately 3:1 aspect ratio, centered and occupying about 72 percent of canvas width. Navy fine frame with ivory content surface and small pale-gold corner cuts. Inside the left side one empty square icon well with a navy backing; the middle is a large completely blank ivory area for task title and description supplied by code; on the far right one simple blank cyan pill-shaped claim button, with gently clipped corners rather than a bubbly toy shape. A single very thin cyan line beneath the center blank area can separate progress text from the description, but do not draw a filled progress bar. No symbol in the icon well, no sample text, no coins, no badges, no lock, no extra cards. Keep all three regions aligned and clearly separated by generous whitespace.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "8cf05399d67b35f534366434f6f6efcc596ed7c65a02b8f776dd6b12a154f0ca",
+          "path": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-mission-card.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 849031,
+          "sha256": "e169c3ebdf2ba6264fcf6e6f0acdfa4f0bd1ac8be3d5abaaba909a7b555e6f2f",
+          "recordedAt": "2026-10-30T14:38:29+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:37:13+08:00",
+            "resultObservedAt": "2026-10-30T14:38:19+08:00"
+          },
+          "sourceFile": "exec-1494884c-d727-4ef3-90dd-b69e6b10eaca.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.7367820739746094,
+            "reviewedAt": "2026-11-02T09:51:48+08:00"
+          }
+        },
+        {
+          "id": "anime-ui-reward-dialog",
+          "label": "二次元·奖励弹窗",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "use": "领取奖励与战斗结算弹窗底板",
+          "prompt": "Use case: ui-mockup. Asset type: reusable blank UI skin for a mobile anime RPG, not a complete screenshot. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. Flat front-facing orthographic UI, no perspective, no device mockup, no scene behind it. Genuine transparent RGBA background outside the component. One centered component only, all decorations attached and fully inside the canvas, at least 12 percent empty transparent margin on every side. Clean angular corners and fine consistent strokes. No characters, portraits, items, text, letters, numbers, watermarks, logos or detached sparkles. All content fields and button faces blank for dynamic code overlays. Do not draw checkerboard, an outer rectangle background, a floor or drop shadow. Requested square 1024x1024 canvas. ONE centered reward collection dialog occupying about 72 percent of canvas width and 70 percent height. Ivory panel with thin pale-gold frame and navy edge accents; one modest centered pale-gold wing-shaped ornament attached at the top, no crown or trophy. Beneath the ornament a wide blank navy title strip. In the middle exactly THREE equally sized empty square reward slots in a single horizontal row, each with navy backing and fine pale-gold outline, no items inside. Leave an empty ivory strip under the three slots for dynamically rendered quantities. At the bottom exactly one wide blank pale-gold confirmation button. Front-facing symmetric layout, no light rays, no falling confetti, no characters, no text, no side buttons. All elements fully inside one coherent panel with generous padding.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "ba1a857438ec8327d5ee3f28afac8933fb694054c931b37fd788275e9f7f4baf",
+          "path": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-reward-dialog.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1186767,
+          "sha256": "17d2bd5392f0eb4fef80339ccdb7f1fb545fab42068e28b3a73634c6f64c0b7b",
+          "recordedAt": "2026-10-30T14:39:30+08:00",
+          "generationWindow": {
+            "startedAt": "2026-10-30T14:38:29+08:00",
+            "resultObservedAt": "2026-10-30T14:39:23+08:00"
+          },
+          "sourceFile": "exec-03da1198-4e92-493c-8962-9c4eecc25d43.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.40605500993312627,
+            "reviewedAt": "2026-11-02T09:51:48+08:00"
+          }
+        }
+      ],
+      "themeId": "anime-screen-assets",
+      "startedAt": "2026-10-30T14:35:51+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "anime-ui-lobby-sky-background",
+          "group": "library",
+          "startedAt": "2026-10-30T14:35:51+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "6810761e41c5edd4d5dacc6c3ff48fc717c2ac2679838f59863980a97d3e52a7",
+          "resultObservedAt": "2026-10-30T14:36:17+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-lobby-sky-background.png",
+          "sourceFile": "exec-67c353cf-031d-40bd-970f-c0af82a4a843.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:36:26+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "anime-ui-character-info-panel",
+          "group": "library",
+          "startedAt": "2026-10-30T14:36:26+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "56f51d45cd4bfa41247d8fa308e00ae92db1fe469b7eaa4be3b1b92d23de7243",
+          "resultObservedAt": "2026-10-30T14:37:01+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-character-info-panel.png",
+          "sourceFile": "exec-c7493ae9-5dc3-4ec5-bf45-9b4fb854b2cc.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:37:13+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "anime-ui-mission-card",
+          "group": "library",
+          "startedAt": "2026-10-30T14:37:13+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "8cf05399d67b35f534366434f6f6efcc596ed7c65a02b8f776dd6b12a154f0ca",
+          "resultObservedAt": "2026-10-30T14:38:19+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-mission-card.png",
+          "sourceFile": "exec-1494884c-d727-4ef3-90dd-b69e6b10eaca.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:38:29+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "anime-ui-reward-dialog",
+          "group": "library",
+          "startedAt": "2026-10-30T14:38:29+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "ba1a857438ec8327d5ee3f28afac8933fb694054c931b37fd788275e9f7f4baf",
+          "resultObservedAt": "2026-10-30T14:39:23+08:00",
+          "outputPath": "assets/daily/2026/10/30/20261030-143551-anime-screen-assets/library/anime-fantasy/anime-ui-reward-dialog.png",
+          "sourceFile": "exec-03da1198-4e92-493c-8962-9c4eecc25d43.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-10-30T14:39:30+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "anime-ui-lobby-sky-background",
+          "label": "二次元·天空庭院主界面背景",
+          "filename": "anime-ui-lobby-sky-background.png",
+          "categoryId": "environments",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": false,
+          "use": "竖屏主界面背景，可叠加角色与导航",
+          "prompt": "Use case: stylized-concept. Asset type: portrait mobile anime RPG lobby background, requested 1024x1536 pixels, fully opaque. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. An empty sunlit sky-island academy courtyard overlooking distant floating ivory towers and a soft blue sea of clouds. A simple pale stone terrace fills the lower third, with low balustrades only at the far left and far right. Two elegant ivory architectural columns frame the extreme side edges, delicate gold inlays and tiny restrained cyan crystal accents on the side architecture. Bright gentle late-morning light, serene airy atmosphere. Keep the central 55 percent of the image uncluttered with softly painted sky, distant clouds and low-contrast pavement, suitable for placing a full-body character on top. Keep top 18 percent quiet pale blue sky for a resource bar and bottom 18 percent simple pale pavement for navigation overlays. Layers of atmospheric depth, anime background painting, cohesive readable shapes. No characters, creatures, UI frames, buttons, text, numbers, titles, watermark, logo or glowing particle clutter. Full bleed scenery, no border.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "6810761e41c5edd4d5dacc6c3ff48fc717c2ac2679838f59863980a97d3e52a7"
+        },
+        {
+          "id": "anime-ui-character-info-panel",
+          "label": "二次元·角色信息面板",
+          "filename": "anime-ui-character-info-panel.png",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "transparentBackground": true,
+          "use": "角色详情与属性页面底板",
+          "prompt": "Use case: ui-mockup. Asset type: reusable blank UI skin for a mobile anime RPG, not a complete screenshot. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. Flat front-facing orthographic UI, no perspective, no device mockup, no scene behind it. Genuine transparent RGBA background outside the component. One centered component only, all decorations attached and fully inside the canvas, at least 12 percent empty transparent margin on every side. Clean angular corners and fine consistent strokes. No characters, portraits, items, text, letters, numbers, watermarks, logos or detached sparkles. All content fields and button faces blank for dynamic code overlays. Do not draw checkerboard, an outer rectangle background, a floor or drop shadow. Requested portrait 1024x1536 canvas. ONE tall slim character information panel, occupying about 68 percent of canvas width and 72 percent of height. Ivory main surface with midnight-navy header and thin pale-gold border, subtle cyan corner accents. Design a clean blank horizontal name header near the top; below it a large uninterrupted empty ivory region for character details; below that exactly three evenly spaced understated horizontal empty stat rows with small empty circular icon recesses on the left and broad blank space on the right. At the bottom one wide blank cyan action button integrated inside the panel, separated from the rows by generous space. No portrait silhouette, no star rating, no check marks, no dummy lines resembling writing, no progress fill, no extra buttons. Soft ivory center must stay quiet and clear; ornate decoration only as tiny corner cuts.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "56f51d45cd4bfa41247d8fa308e00ae92db1fe469b7eaa4be3b1b92d23de7243"
+        },
+        {
+          "id": "anime-ui-mission-card",
+          "label": "二次元·任务卡片",
+          "filename": "anime-ui-mission-card.png",
+          "categoryId": "interface",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": true,
+          "use": "任务列表单行卡片，可叠加图标、描述与奖励",
+          "prompt": "Use case: ui-mockup. Asset type: reusable blank UI skin for a mobile anime RPG, not a complete screenshot. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. Flat front-facing orthographic UI, no perspective, no device mockup, no scene behind it. Genuine transparent RGBA background outside the component. One centered component only, all decorations attached and fully inside the canvas, at least 12 percent empty transparent margin on every side. Clean angular corners and fine consistent strokes. No characters, portraits, items, text, letters, numbers, watermarks, logos or detached sparkles. All content fields and button faces blank for dynamic code overlays. Do not draw checkerboard, an outer rectangle background, a floor or drop shadow. Requested landscape 1536x1024 canvas. ONE wide horizontal quest card approximately 3:1 aspect ratio, centered and occupying about 72 percent of canvas width. Navy fine frame with ivory content surface and small pale-gold corner cuts. Inside the left side one empty square icon well with a navy backing; the middle is a large completely blank ivory area for task title and description supplied by code; on the far right one simple blank cyan pill-shaped claim button, with gently clipped corners rather than a bubbly toy shape. A single very thin cyan line beneath the center blank area can separate progress text from the description, but do not draw a filled progress bar. No symbol in the icon well, no sample text, no coins, no badges, no lock, no extra cards. Keep all three regions aligned and clearly separated by generous whitespace.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "8cf05399d67b35f534366434f6f6efcc596ed7c65a02b8f776dd6b12a154f0ca"
+        },
+        {
+          "id": "anime-ui-reward-dialog",
+          "label": "二次元·奖励弹窗",
+          "filename": "anime-ui-reward-dialog.png",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "use": "领取奖励与战斗结算弹窗底板",
+          "prompt": "Use case: ui-mockup. Asset type: reusable blank UI skin for a mobile anime RPG, not a complete screenshot. Original anime fantasy RPG art direction matching Arena UI anime-fantasy: crisp controlled colored line art, two or three clear cel-shaded tones, restrained broad highlights, elegant clean silhouettes, ivory #eef5ff and midnight navy #24385c surfaces, sky cyan #55c9ea energy accents and restrained pale gold #eccb83 details. No chibi proportions, no rounded toy-like 3D rendering, no photorealism, no gritty dark metal, no baroque filigree. Flat front-facing orthographic UI, no perspective, no device mockup, no scene behind it. Genuine transparent RGBA background outside the component. One centered component only, all decorations attached and fully inside the canvas, at least 12 percent empty transparent margin on every side. Clean angular corners and fine consistent strokes. No characters, portraits, items, text, letters, numbers, watermarks, logos or detached sparkles. All content fields and button faces blank for dynamic code overlays. Do not draw checkerboard, an outer rectangle background, a floor or drop shadow. Requested square 1024x1024 canvas. ONE centered reward collection dialog occupying about 72 percent of canvas width and 70 percent height. Ivory panel with thin pale-gold frame and navy edge accents; one modest centered pale-gold wing-shaped ornament attached at the top, no crown or trophy. Beneath the ornament a wide blank navy title strip. In the middle exactly THREE equally sized empty square reward slots in a single horizontal row, each with navy backing and fine pale-gold outline, no items inside. Leave an empty ivory strip under the three slots for dynamically rendered quantities. At the bottom exactly one wide blank pale-gold confirmation button. Front-facing symmetric layout, no light rays, no falling confetti, no characters, no text, no side buttons. All elements fully inside one coherent panel with generous padding.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-screen-assets-v1",
+          "promptSha256": "ba1a857438ec8327d5ee3f28afac8933fb694054c931b37fd788275e9f7f4baf"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "anime-ui-lobby-sky-background",
+          "observations": [
+            "竖屏天空庭院与远处浮岛建筑完整，中央没有角色、文字或控件，适合叠加立绘。",
+            "实际1024×1536，不透明；中右部城堡和地面反光较细，叠字时仍需独立底板或遮罩。背景比例为2:3，适配更窄手机时需检查横向裁切。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "opaqueBackgroundVerified": true,
+            "noTextObserved": true
+          }
+        },
+        {
+          "assetId": "anime-ui-character-info-panel",
+          "observations": [
+            "空白标题、大面积内容区、三个属性行和底部青色按钮均存在，完整无文字；外部有真实透明通道，内部为填色底板。",
+            "此前深浅底预览中主体边缘可辨；原始工具展示中的大片光晕在实际透明PNG叠加中不明显，仍有细小边缘色带。alpha范围0–254，并非完全不透明。",
+            "上方留白不足12%，按钮与边框已有渐变及高光；这是静态底板，交互、文字、数值和热区需由应用实现，未验证九宫格拉伸。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "statRows": 3,
+            "backgroundsChecked": [
+              "#171c24",
+              "#eef5ff"
+            ],
+            "safeMargin12PercentMet": false,
+            "productionReadyInteractiveComponent": false
+          }
+        },
+        {
+          "assetId": "anime-ui-mission-card",
+          "observations": [
+            "左侧空图标槽、中间空白描述区、右侧青色按钮及分隔线齐全，无文字；实际PNG外部透明，深浅底显示正常。",
+            "卡片主体约4.8:1，比要求约3:1更扁；横向边距不足12%，上下透明留白很多。缩小至手机宽度后描述区高度有限，接入前需核对行高与点击热区。",
+            "alpha范围0–254，边框及按钮为一张静态图片，不能直接作为可变宽高或有按下态的交互组件。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "backgroundsChecked": [
+              "#171c24",
+              "#eef5ff"
+            ],
+            "safeMargin12PercentMet": false,
+            "productionReadyInteractiveComponent": false
+          }
+        },
+        {
+          "assetId": "anime-ui-reward-dialog",
+          "observations": [
+            "空白深蓝标题区、横向三个奖励槽、数量区域与一个金色按钮完整；无文字，带真实透明通道。",
+            "请求1024×1024，实际1254×1254；左右安全留白不足12%。附加青色宝石及较多边角装饰，边缘有轻微杂色，深浅底预览中主体仍清楚。",
+            "内部填色，按钮、奖励槽和框架已画在一张PNG中；需要由代码叠加奖励图标、数量、文字并设置热区。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "rewardSlots": 3,
+            "backgroundsChecked": [
+              "#171c24",
+              "#eef5ff"
+            ],
+            "safeMargin12PercentMet": false,
+            "productionReadyInteractiveComponent": false
+          }
+        }
+      ],
+      "notes": [
+        "用户明确请求生成二次元UI界面素材；本次手动追加4张：主界面背景、角色信息面板、任务卡片、奖励弹窗。",
+        "沿用anime-fantasy标识、独立运行目录和anime-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "生成一下二次元UI界面的素材",
+        "plannedAdditionalCalls": 4,
+        "callsAlreadyToday": 8
+      },
+      "completedAt": "2026-11-02T09:51:48+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "attempts": 4,
+        "originalFilesPreserved": true,
+        "styleArchiveVerified": true,
+        "newStyleId": "anime-fantasy",
+        "noResampling": true,
+        "reviewedAt": "2026-11-02T09:51:48+08:00"
+      }
     }
   ]
 }

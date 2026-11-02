@@ -126,6 +126,10 @@
     "chibi-arena-entry-ticket": "progression",
     "chibi-forge-ingot": "progression",
     "chibi-stamina-lunchbox": "progression",
-    "chibi-summon-starbell": "progression"
+    "chibi-summon-starbell": "progression",
+    "anime-ui-lobby-sky-background": "environments",
+    "anime-ui-character-info-panel": "interface",
+    "anime-ui-mission-card": "interface",
+    "anime-ui-reward-dialog": "interface"
   }
 }
