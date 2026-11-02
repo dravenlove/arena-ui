@@ -130,6 +130,10 @@
     "anime-ui-lobby-sky-background": "environments",
     "anime-ui-character-info-panel": "interface",
     "anime-ui-mission-card": "interface",
-    "anime-ui-reward-dialog": "interface"
+    "anime-ui-reward-dialog": "interface",
+    "anime-ui-shop-product-card": "interface",
+    "anime-ui-summon-panel": "interface",
+    "anime-ui-party-portrait-slot": "interface",
+    "anime-ui-victory-ribbon": "feedback"
   }
 }

@@ -8992,6 +8992,483 @@
         "noResampling": true,
         "reviewedAt": "2026-11-02T09:51:48+08:00"
       }
+    },
+    {
+      "id": "20261102-095306-anime-extra-ui",
+      "date": "2026-11-02",
+      "time": "09:53:06",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/manifest.json",
+      "kind": "manual-extension",
+      "status": "complete",
+      "styleId": "anime-fantasy",
+      "assets": [
+        {
+          "id": "anime-ui-shop-product-card",
+          "label": "二次元·商城商品卡",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "use": "商城单件商品展示、价格和购买入口",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested square 1024x1024 canvas. A single vertically oriented shop product card with approximate 3:4 width-to-height ratio, occupying 70 percent of canvas height. A slim ivory filled panel with angular navy border and tiny champagne-gold corner details. In the upper two thirds, one large EMPTY square midnight-navy product display well, without any product, illustration or symbol. Below it an entirely blank ivory horizontal name strip. Below the name strip one narrow empty navy price plate. At the bottom exactly one empty champagne-gold purchase button integrated inside the card. Equal left and right padding; distinct generous vertical spacing between the four areas. No sale ribbon, currency symbol, gems, inventory items or fake text strokes.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "a0501f7687b3ed49a5e452d5e445f4ab95c0572431e5dd03baa6b86232081c78",
+          "path": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-shop-product-card.png",
+          "size": [
+            1254,
+            1254
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 938919,
+          "sha256": "aee37171a6c3a1bce6a74723a8ca138d6401030de9a26c342e57141acabd2318",
+          "recordedAt": "2026-11-02T09:56:27+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-02T09:53:06+08:00",
+            "resultObservedAt": "2026-11-02T09:56:02+08:00"
+          },
+          "sourceFile": "exec-77b2b648-d783-49d0-b7f7-c51425c2f1be.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              255
+            ],
+            "transparentPixelRatio": 0.5483244685586665,
+            "reviewedAt": "2026-11-02T10:01:53+08:00",
+            "boundingBoxAlphaOver8": [
+              288,
+              72,
+              967,
+              1181
+            ],
+            "centerPixelAlpha": 253,
+            "center40PercentAlphaRange": [
+              252,
+              254
+            ]
+          }
+        },
+        {
+          "id": "anime-ui-summon-panel",
+          "label": "二次元·召唤面板",
+          "categoryId": "interface",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "use": "角色召唤详情与单次、十连操作底板",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested landscape 1536x1024 canvas. ONE broad rectangular summoning interface panel, component approximately 3:2 width-to-height ratio, occupying about 68 percent of canvas width. A filled ivory central field surrounded by a fine navy frame with a few pale-gold angular corner ornaments. A blank navy header strip spans the top. Below it a LARGE totally blank ivory showcase field taking most of the panel for character or item art to be composited later. At the bottom, exactly TWO separate equally sized blank rectangular action buttons side by side: left cyan, right pale gold. A narrow blank ivory cost strip immediately above each button. No magic circle, no character silhouette, no stars, no summoning portal, no floating effects, no gacha capsules or items. Blank showcase field is a filled ivory surface, not a transparent hole.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "552f5a8c51d6acf221c88600322976642cd0c2d6aab16f3093f27d00fe2a24c1",
+          "path": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-summon-panel.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1262468,
+          "sha256": "44e020067ba1e40a125dc12dc7995296535e23d7065bed8e86e2b6e8d80421c3",
+          "recordedAt": "2026-11-02T09:57:41+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-02T09:56:28+08:00",
+            "resultObservedAt": "2026-11-02T09:57:22+08:00"
+          },
+          "sourceFile": "exec-d828d70e-5a56-4352-9c1e-a717be887dca.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.2819722493489583,
+            "reviewedAt": "2026-11-02T10:01:53+08:00",
+            "boundingBoxAlphaOver8": [
+              70,
+              86,
+              1468,
+              934
+            ],
+            "centerPixelAlpha": 254,
+            "center40PercentAlphaRange": [
+              253,
+              254
+            ]
+          }
+        },
+        {
+          "id": "anime-ui-party-portrait-slot",
+          "label": "二次元·队伍编成槽",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "use": "队伍编成与角色选择的独立头像边框",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested portrait 1024x1536 canvas. ONE tall selected party-member portrait FRAME with an approximate 2:3 width-to-height ratio, occupying about 68 percent of canvas height. It is a hollow navy-and-ivory frame with a thin cyan selected inner outline and small champagne-gold angular corner caps. The large central portrait WINDOW must be genuinely TRANSPARENT, exactly like the outside background, not filled white, gray, navy or checkerboard. Do not put a character, silhouette, placeholder icon or cross in the opening. A short blank navy role tab is attached centered along the top edge. A wider blank ivory nameplate is attached across the bottom border, and one small empty circular class-emblem rim sits centered on the bottom edge of that nameplate. All parts belong to a single connected frame. No stars, lock or add sign.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "466e5c78cb682d8db327117b4152643b2118ba96f818aad1fb15682d2b44f3c2",
+          "path": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-party-portrait-slot.png",
+          "size": [
+            1024,
+            1536
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1307812,
+          "sha256": "1885337cb6552196e618e03e4918027098eccaec2303b4d2739673e921a07965",
+          "recordedAt": "2026-11-02T09:58:23+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-02T09:57:42+08:00",
+            "resultObservedAt": "2026-11-02T09:58:15+08:00"
+          },
+          "sourceFile": "exec-3033b99b-50d1-4105-bd4c-d91c7f7c957d.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.7826264699300131,
+            "reviewedAt": "2026-11-02T10:01:53+08:00",
+            "boundingBoxAlphaOver8": [
+              89,
+              77,
+              935,
+              1459
+            ],
+            "centerPixelAlpha": 0,
+            "center40PercentAlphaRange": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "id": "anime-ui-victory-ribbon",
+          "label": "二次元·胜利结算横幅",
+          "categoryId": "feedback",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "use": "战斗胜利、关卡完成与奖励展示标题",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested landscape 1536x1024 canvas. ONE elegant horizontal victory-result banner, approximately 3:1 width-to-height ratio, occupying about 70 percent of canvas width. A broad EMPTY midnight-navy central ribbon with fine pale-gold edges, short angular folded ivory ribbon tails at the left and right. An attached small symmetrical gold laurel half-wreath rises behind the top edge, surrounding one tiny pale-gold diamond crest. Beneath the main ribbon a thin blank ivory subtitle plate is attached for a later stage-clear message. The central navy title area must be completely blank and wide. Gold celebrates victory, cyan only as two tiny accent cuts. No text, letters, numbers, medal, trophy, crown, stars, confetti, rays or sparkles. Keep laurel sparse and stylized rather than detailed realistic leaves.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "e0215d63280db66319bd241a830195effb46160fced1a7c8ab352bba18a4e75c",
+          "path": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-victory-ribbon.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1180218,
+          "sha256": "1ceaab95752189b3ac718bcffe064064c604b0bb0c14fe34bd7fe8754e7e24bb",
+          "recordedAt": "2026-11-02T09:59:11+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-02T09:58:24+08:00",
+            "resultObservedAt": "2026-11-02T09:59:01+08:00"
+          },
+          "sourceFile": "exec-d802a0f2-ffe2-4057-ad96-76bf2a6eff4f.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGBA",
+            "alphaRange": [
+              0,
+              254
+            ],
+            "transparentPixelRatio": 0.7734883626302084,
+            "reviewedAt": "2026-11-02T10:01:53+08:00",
+            "boundingBoxAlphaOver8": [
+              48,
+              299,
+              1488,
+              683
+            ],
+            "centerPixelAlpha": 253,
+            "center40PercentAlphaRange": [
+              0,
+              254
+            ]
+          }
+        }
+      ],
+      "themeId": "anime-extra-ui",
+      "startedAt": "2026-11-02T09:53:06+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "anime-ui-shop-product-card",
+          "group": "library",
+          "startedAt": "2026-11-02T09:53:06+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "a0501f7687b3ed49a5e452d5e445f4ab95c0572431e5dd03baa6b86232081c78",
+          "resultObservedAt": "2026-11-02T09:56:02+08:00",
+          "outputPath": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-shop-product-card.png",
+          "sourceFile": "exec-77b2b648-d783-49d0-b7f7-c51425c2f1be.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-02T09:56:27+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "anime-ui-summon-panel",
+          "group": "library",
+          "startedAt": "2026-11-02T09:56:28+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "552f5a8c51d6acf221c88600322976642cd0c2d6aab16f3093f27d00fe2a24c1",
+          "resultObservedAt": "2026-11-02T09:57:22+08:00",
+          "outputPath": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-summon-panel.png",
+          "sourceFile": "exec-d828d70e-5a56-4352-9c1e-a717be887dca.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-02T09:57:41+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "anime-ui-party-portrait-slot",
+          "group": "library",
+          "startedAt": "2026-11-02T09:57:42+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "466e5c78cb682d8db327117b4152643b2118ba96f818aad1fb15682d2b44f3c2",
+          "resultObservedAt": "2026-11-02T09:58:15+08:00",
+          "outputPath": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-party-portrait-slot.png",
+          "sourceFile": "exec-3033b99b-50d1-4105-bd4c-d91c7f7c957d.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-02T09:58:23+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "anime-ui-victory-ribbon",
+          "group": "library",
+          "startedAt": "2026-11-02T09:58:24+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "e0215d63280db66319bd241a830195effb46160fced1a7c8ab352bba18a4e75c",
+          "resultObservedAt": "2026-11-02T09:59:01+08:00",
+          "outputPath": "assets/daily/2026/11/02/20261102-095306-anime-extra-ui/library/anime-fantasy/anime-ui-victory-ribbon.png",
+          "sourceFile": "exec-d802a0f2-ffe2-4057-ad96-76bf2a6eff4f.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-02T09:59:11+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "anime-ui-shop-product-card",
+          "label": "二次元·商城商品卡",
+          "filename": "anime-ui-shop-product-card.png",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "use": "商城单件商品展示、价格和购买入口",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested square 1024x1024 canvas. A single vertically oriented shop product card with approximate 3:4 width-to-height ratio, occupying 70 percent of canvas height. A slim ivory filled panel with angular navy border and tiny champagne-gold corner details. In the upper two thirds, one large EMPTY square midnight-navy product display well, without any product, illustration or symbol. Below it an entirely blank ivory horizontal name strip. Below the name strip one narrow empty navy price plate. At the bottom exactly one empty champagne-gold purchase button integrated inside the card. Equal left and right padding; distinct generous vertical spacing between the four areas. No sale ribbon, currency symbol, gems, inventory items or fake text strokes.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "a0501f7687b3ed49a5e452d5e445f4ab95c0572431e5dd03baa6b86232081c78"
+        },
+        {
+          "id": "anime-ui-summon-panel",
+          "label": "二次元·召唤面板",
+          "filename": "anime-ui-summon-panel.png",
+          "categoryId": "interface",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "use": "角色召唤详情与单次、十连操作底板",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested landscape 1536x1024 canvas. ONE broad rectangular summoning interface panel, component approximately 3:2 width-to-height ratio, occupying about 68 percent of canvas width. A filled ivory central field surrounded by a fine navy frame with a few pale-gold angular corner ornaments. A blank navy header strip spans the top. Below it a LARGE totally blank ivory showcase field taking most of the panel for character or item art to be composited later. At the bottom, exactly TWO separate equally sized blank rectangular action buttons side by side: left cyan, right pale gold. A narrow blank ivory cost strip immediately above each button. No magic circle, no character silhouette, no stars, no summoning portal, no floating effects, no gacha capsules or items. Blank showcase field is a filled ivory surface, not a transparent hole.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "552f5a8c51d6acf221c88600322976642cd0c2d6aab16f3093f27d00fe2a24c1"
+        },
+        {
+          "id": "anime-ui-party-portrait-slot",
+          "label": "二次元·队伍编成槽",
+          "filename": "anime-ui-party-portrait-slot.png",
+          "categoryId": "interface",
+          "requestedSize": [
+            1024,
+            1536
+          ],
+          "use": "队伍编成与角色选择的独立头像边框",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested portrait 1024x1536 canvas. ONE tall selected party-member portrait FRAME with an approximate 2:3 width-to-height ratio, occupying about 68 percent of canvas height. It is a hollow navy-and-ivory frame with a thin cyan selected inner outline and small champagne-gold angular corner caps. The large central portrait WINDOW must be genuinely TRANSPARENT, exactly like the outside background, not filled white, gray, navy or checkerboard. Do not put a character, silhouette, placeholder icon or cross in the opening. A short blank navy role tab is attached centered along the top edge. A wider blank ivory nameplate is attached across the bottom border, and one small empty circular class-emblem rim sits centered on the bottom edge of that nameplate. All parts belong to a single connected frame. No stars, lock or add sign.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "466e5c78cb682d8db327117b4152643b2118ba96f818aad1fb15682d2b44f3c2"
+        },
+        {
+          "id": "anime-ui-victory-ribbon",
+          "label": "二次元·胜利结算横幅",
+          "filename": "anime-ui-victory-ribbon.png",
+          "categoryId": "feedback",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "use": "战斗胜利、关卡完成与奖励展示标题",
+          "prompt": "Use case: ui-mockup. Asset type: ONE reusable blank anime fantasy mobile RPG interface skin, a production-oriented bitmap UI asset. Cohesive Arena anime-fantasy art direction: refined Japanese anime RPG interface illustration, crisp midnight-navy #24385c outlines, pale ivory #eef5ff surfaces, sky cyan #55c9ea for active selection and energy, restrained champagne gold #eccb83 for actions and rewards. Flat front-facing orthographic layout. Clean elongated proportions, fine geometric edge cuts, two or three controlled shaded tones and restrained broad highlights. No toy-like chibi style, photorealistic metal, gritty texture or excessive baroque ornament. TRUE transparent RGBA background outside the object. Entire component visible and centered with at least 12 percent fully transparent canvas margin on every side. NO background scene, device, floor, outer glow, shadow outside the silhouette, particle effects, checkerboard drawing, text, numbers, letters, watermark or logos. Keep all content areas empty for labels, numbers and icons supplied by code. ONE component only, not a collection or alternate versions. Avoid detached decorations.\n\nRequested landscape 1536x1024 canvas. ONE elegant horizontal victory-result banner, approximately 3:1 width-to-height ratio, occupying about 70 percent of canvas width. A broad EMPTY midnight-navy central ribbon with fine pale-gold edges, short angular folded ivory ribbon tails at the left and right. An attached small symmetrical gold laurel half-wreath rises behind the top edge, surrounding one tiny pale-gold diamond crest. Beneath the main ribbon a thin blank ivory subtitle plate is attached for a later stage-clear message. The central navy title area must be completely blank and wide. Gold celebrates victory, cyan only as two tiny accent cuts. No text, letters, numbers, medal, trophy, crown, stars, confetti, rays or sparkles. Keep laurel sparse and stylized rather than detailed realistic leaves.",
+          "group": "library",
+          "styleId": "anime-fantasy",
+          "benchmarkId": null,
+          "promptVersion": "anime-extra-ui-v1",
+          "transparentBackground": true,
+          "promptSha256": "e0215d63280db66319bd241a830195effb46160fced1a7c8ab352bba18a4e75c"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "anime-ui-shop-product-card",
+          "observations": [
+            "单张竖向商品卡完整，含深蓝商品展示区、空白名称条、价格条和金色购买按钮，无文字或商品图。蓝白淡金配色与既有二次元UI一致。",
+            "请求1024×1024，实际1254×1254。外部真实透明，主体填色区域接近不透明；卡片主体约0.61:1，比要求3:4更窄长。上下边距不足12%，透明边缘有细小杂色。",
+            "文字、价格、商品图片和点击热区需要由代码叠加；按钮与卡框已合成，尚未验证小程序缩放、九宫格拉伸或按钮状态。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "singleComponent": true,
+            "noTextObserved": true,
+            "safeMargin12PercentMet": false,
+            "browserBackgroundPreviewChecked": false,
+            "productionReadyInteractiveComponent": false
+          }
+        },
+        {
+          "assetId": "anime-ui-summon-panel",
+          "observations": [
+            "横向召唤底板完整，有深蓝空标题、大片象牙白展示区、两条费用留白以及恰好两个按钮：左青色、右金色；没有角色或文字。",
+            "实际1536×1024，alpha范围0–254，外围透明、内部填色。主体约1.65:1，四周安全留白不足12%；视图工具显示的外围色晕不能直接认定为实际合成效果，透明统计已单独核对。",
+            "大面积空白方便叠加召唤展示，但两枚按钮是同一PNG中的视觉区域；接入时仍需设置按钮文字、费用和交互。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "singleComponent": true,
+            "buttonCount": 2,
+            "noTextObserved": true,
+            "safeMargin12PercentMet": false,
+            "browserBackgroundPreviewChecked": false,
+            "productionReadyInteractiveComponent": false
+          }
+        },
+        {
+          "assetId": "anime-ui-party-portrait-slot",
+          "observations": [
+            "竖向队伍头像框完整，青色选中线、深蓝顶部标签、象牙白底部名字栏与圆形职业徽章区都存在，无人物或文字。",
+            "实际1024×1536，外部与中央头像窗均有真实透明度：正中心alpha为0，中央40%宽高采样区alpha为0–1，存在极轻微残留，不能称为整块完全清零。可将角色立绘置于框下层。",
+            "四周留白不足12%，装饰角与下方徽章占用空间。尚未进行小尺寸深浅底浏览器合成检查，角色遮罩、选中交互和名字仍由代码实现。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "singleComponent": true,
+            "noTextObserved": true,
+            "centralPortraitTransparencyVerified": true,
+            "centerPixelAlpha": 0,
+            "center40PercentAlphaRange": [
+              0,
+              1
+            ],
+            "safeMargin12PercentMet": false,
+            "browserBackgroundPreviewChecked": false,
+            "productionReadyInteractiveComponent": false
+          }
+        },
+        {
+          "assetId": "anime-ui-victory-ribbon",
+          "observations": [
+            "一条完整空白深蓝横幅，带淡金边、象牙白折尾、顶部月桂叶与菱形徽记，下方有空白副标题条；没有胜利文字、数字或散落纸屑。",
+            "实际1536×1024，alpha范围0–254，外围透明。主体约3.75:1且上下留白较多；左右边距不足12%，缩放时应按实际主体宽度安排版面。",
+            "适合作为战斗结算的装饰底图，标题和副标题需由小程序绘制；尚未验证深浅底和移动端合成效果。"
+          ],
+          "visualValidation": {
+            "reviewed": true,
+            "singleComponent": true,
+            "noTextObserved": true,
+            "safeMargin12PercentMet": false,
+            "browserBackgroundPreviewChecked": false,
+            "productionReadyInteractiveComponent": false
+          }
+        }
+      ],
+      "notes": [
+        "用户明确请求继续生成二次元；沿用UI素材方向，手动追加4张：商城商品卡、召唤面板、队伍编成槽、胜利结算横幅。",
+        "沿用anime-fantasy标识、独立运行目录和anime-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+      ],
+      "authorization": {
+        "type": "explicit-manual-addition",
+        "request": "继续生成二次元",
+        "plannedAdditionalCalls": 4,
+        "callsAlreadyToday": 0
+      },
+      "completedAt": "2026-11-02T10:01:53+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "attempts": 4,
+        "originalFilesPreserved": true,
+        "styleArchiveVerified": true,
+        "newStyleId": "anime-fantasy",
+        "noResampling": true,
+        "reviewedAt": "2026-11-02T10:01:53+08:00",
+        "styleArchiveVerificationMethod": "catalog, per-asset style IDs, history filter source and HTTP-served data checks",
+        "browserPreviewChecked": false,
+        "browserPreviewError": "CUA and node_repl failed to initialize: failed to write kernel assets: 系统找不到指定的路径。 (os error 3)",
+        "httpAssetsVerified": true,
+        "previousRunsUnchanged": true,
+        "originalBytesMatchGeneratedFiles": true
+      }
     }
   ]
 }
