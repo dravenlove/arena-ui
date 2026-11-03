@@ -1,0 +1,609 @@
+{
+  "id": "20261103-090428",
+  "date": "2026-11-03",
+  "time": "09:04:28",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/11/03/20261103-090428/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261030-090424",
+        "date": "2026-10-30",
+        "path": "assets/daily/2026/10/30/20261030-090424/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      },
+      "path": "assets/daily/2026/11/03/20261103-090428/benchmark/ui-kit-board.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1666351,
+      "sha256": "5544844727434f81bb8b0ad2b652b214aa159ef7df122b4d6540c2f164f6bda3",
+      "recordedAt": "2026-11-03T09:06:03+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T09:04:28+08:00",
+        "resultObservedAt": "2026-11-03T09:05:42+08:00"
+      },
+      "sourceFile": "exec-3c6cec75-2b62-409b-88c0-d21c298d931c.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "sideBySideComparisonReviewed": true,
+        "inventoryCellCount": 8,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "reviewedAt": "2026-11-03T09:15:41+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261030-090424",
+        "date": "2026-10-30",
+        "path": "assets/daily/2026/10/30/20261030-090424/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      },
+      "path": "assets/daily/2026/11/03/20261103-090428/benchmark/equipment-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1797426,
+      "sha256": "a6ef48a23fe9ab8c543ae07f0e55306bdaa1c6cc149a2ebd6f93f7dd38a67076",
+      "recordedAt": "2026-11-03T09:07:12+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T09:06:03+08:00",
+        "resultObservedAt": "2026-11-03T09:06:54+08:00"
+      },
+      "sourceFile": "exec-ac4e1c4f-9f12-44ed-a9db-21d6af7fe050.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "sideBySideComparisonReviewed": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "requestedCellMarginMet": false,
+        "uniformBackgroundVisuallyMet": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "reviewedAt": "2026-11-03T09:15:41+08:00"
+      }
+    },
+    {
+      "id": "chibi-empty-reliquary",
+      "label": "Q版·空宝匣",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "feedback",
+      "benchmarkId": null,
+      "promptVersion": "chibi-feedback-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "sourceTemplateId": "empty-reliquary",
+      "sourceTemplatePromptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+      "prompt": "Use case: stylized-concept. Asset type: a reusable empty-inventory state illustration for Arena UI's chibi fantasy game library. Generate one square 1024x1024 isolated PNG with genuine transparent alpha. One small open and visibly EMPTY reliquary chest, quiet modest appearance, in a clear three-quarter view showing its empty cream-lined interior and open rounded lid. A short squat rounded cream body, soft cocoa-brown outline and hinge details, one tiny honey-gold clasp, simple chunky toy-like forms, matte hand-painted surfaces and broad gentle highlights. Warm cream #fff7e7, cocoa #654c3f, honey gold #ffc857 used only for the clasp and restrained trim. The empty cavity is softly shaded warm cocoa, fully visible, containing absolutely no coins, gems, treasure, gifts or lining patterns. This is a subdued empty-state container, not a reward-filled chest. Keep the entire object, including the raised lid and feet, inside the central 70 percent of the canvas, leaving clear transparent margins. Clean closed silhouette, controlled soft top-left lighting. No ground plane, cast ground shadow, checkerboard, solid backdrop, UI frame, text, letters, numbers, logo, watermark, confetti, magical glow or floating props. No dark steel, gritty metal, sharp gothic spikes, photorealism or realistic industrial materials. Preserve the playful rounded chibi fantasy visual language.",
+      "promptSha256": "bb92477b9e685de2d5868ccc74ea7d3dcdd5a2f86495e398844b9bb74a473700",
+      "path": "assets/daily/2026/11/03/20261103-090428/library/chibi-fantasy/chibi-empty-reliquary.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1108755,
+      "sha256": "a98af1a799b11b5c98f554c1864763d06e752b3c2935ab5fd8f7eac524311b6f",
+      "recordedAt": "2026-11-03T09:08:43+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T09:07:12+08:00",
+        "resultObservedAt": "2026-11-03T09:08:22+08:00"
+      },
+      "sourceFile": "exec-f7dba7b2-34c8-4b8c-b6cb-c8d1e4360842.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.5708336194989431,
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "alphaVerified": true,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#fff8e7"
+        ],
+        "previewWidthPx": 316,
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          176,
+          123,
+          1029,
+          1173
+        ],
+        "marginPercent": {
+          "left": 14.04,
+          "top": 9.81,
+          "right": 17.94,
+          "bottom": 6.46
+        },
+        "requestedSafeMarginMet": false,
+        "requestedSizeMet": false,
+        "canvasClippingObserved": false,
+        "emptyInteriorVerified": true,
+        "textOrWatermarkObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "reviewedAt": "2026-11-03T09:15:41+08:00"
+      }
+    },
+    {
+      "id": "chibi-victory-trophy",
+      "label": "Q版·胜利奖杯",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "feedback",
+      "benchmarkId": null,
+      "promptVersion": "chibi-feedback-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "sourceTemplateId": "victory-trophy",
+      "sourceTemplatePromptSha256": "bde92c56f90eaeb702c3a0142ad9b341670e95237a81fb43dc54e22d6ca82580",
+      "prompt": "Use case: stylized-concept. Asset type: a reusable victory-result illustration for Arena UI's chibi fantasy game library. Generate one square 1024x1024 isolated PNG with genuine transparent alpha. One small friendly honey-gold arena trophy with a clearly open circular cup, exactly two short rounded side handles, a stout stem and a broad warm-cream pedestal with a completely blank front plaque. A narrow cocoa ribbon tied around the stem, short ends fully contained within the trophy silhouette. Clear celebratory silhouette without extra objects. Charming chibi fantasy style: rounded chunky toy proportions, soft cocoa outlines, matte hand-painted toy-like depth, broad clean gentle highlights, no sharp metal reflections. Palette honey gold #ffc857 for victory and rewards, warm cream #fff7e7 for the base, cocoa #654c3f for outline and ribbon. Keep the complete trophy and both handles inside the central 70 percent of the canvas with clear transparent margins. One complete centered object, sculptural three-quarter view and controlled soft top-left lighting. No engraved letters, text, numbers, logos, watermark, stars, crowns, laurels, coins, confetti, scenery, UI borders, ground plane, cast ground shadow, glow, checkerboard or solid backdrop. No charcoal steel, gritty dark metal, photorealism, sharp gothic spikes or realistic reflective metal.",
+      "promptSha256": "b8aa876ed0998f75ca74d773f53adcfee30a0b1113d63b2680c41aaaa5bfd2be",
+      "path": "assets/daily/2026/11/03/20261103-090428/library/chibi-fantasy/chibi-victory-trophy.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1021162,
+      "sha256": "5ea06fe646e3a8bb028b12b09265f3c53edb46007b4c62ed801396524b4b914a",
+      "recordedAt": "2026-11-03T09:10:20+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T09:08:43+08:00",
+        "resultObservedAt": "2026-11-03T09:09:53+08:00"
+      },
+      "sourceFile": "exec-bd3ae897-64f9-4ca6-953e-0ae8eb7c5227.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "transparentPixelRatio": 0.6325544541359197,
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "alphaVerified": true,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#fff8e7"
+        ],
+        "previewWidthPx": 316,
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          161,
+          133,
+          1063,
+          1167
+        ],
+        "marginPercent": {
+          "left": 12.84,
+          "top": 10.61,
+          "right": 15.23,
+          "bottom": 6.94
+        },
+        "requestedSafeMarginMet": false,
+        "requestedSizeMet": false,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "reviewedAt": "2026-11-03T09:15:41+08:00"
+      }
+    }
+  ],
+  "themeId": "feedback",
+  "startedAt": "2026-11-03T09:04:28+08:00",
+  "scheduledFor": "2026-11-03T09:00:00+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-03T09:04:28+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-11-03T09:05:42+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-090428/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-3c6cec75-2b62-409b-88c0-d21c298d931c.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T09:06:03+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-03T09:06:03+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-11-03T09:06:54+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-090428/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-ac4e1c4f-9f12-44ed-a9db-21d6af7fe050.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T09:07:12+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "chibi-empty-reliquary",
+      "group": "library",
+      "startedAt": "2026-11-03T09:07:12+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "bb92477b9e685de2d5868ccc74ea7d3dcdd5a2f86495e398844b9bb74a473700",
+      "resultObservedAt": "2026-11-03T09:08:22+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-090428/library/chibi-fantasy/chibi-empty-reliquary.png",
+      "sourceFile": "exec-f7dba7b2-34c8-4b8c-b6cb-c8d1e4360842.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T09:08:43+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "chibi-victory-trophy",
+      "group": "library",
+      "startedAt": "2026-11-03T09:08:43+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "b8aa876ed0998f75ca74d773f53adcfee30a0b1113d63b2680c41aaaa5bfd2be",
+      "resultObservedAt": "2026-11-03T09:09:53+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-090428/library/chibi-fantasy/chibi-victory-trophy.png",
+      "sourceFile": "exec-bd3ae897-64f9-4ca6-953e-0ae8eb7c5227.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T09:10:20+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261030-090424",
+        "date": "2026-10-30",
+        "path": "assets/daily/2026/10/30/20261030-090424/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261030-090424",
+        "date": "2026-10-30",
+        "path": "assets/daily/2026/10/30/20261030-090424/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      }
+    },
+    {
+      "id": "chibi-empty-reliquary",
+      "label": "Q版·空宝匣",
+      "filename": "chibi-empty-reliquary.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "feedback",
+      "benchmarkId": null,
+      "promptVersion": "chibi-feedback-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "sourceTemplateId": "empty-reliquary",
+      "sourceTemplatePromptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+      "prompt": "Use case: stylized-concept. Asset type: a reusable empty-inventory state illustration for Arena UI's chibi fantasy game library. Generate one square 1024x1024 isolated PNG with genuine transparent alpha. One small open and visibly EMPTY reliquary chest, quiet modest appearance, in a clear three-quarter view showing its empty cream-lined interior and open rounded lid. A short squat rounded cream body, soft cocoa-brown outline and hinge details, one tiny honey-gold clasp, simple chunky toy-like forms, matte hand-painted surfaces and broad gentle highlights. Warm cream #fff7e7, cocoa #654c3f, honey gold #ffc857 used only for the clasp and restrained trim. The empty cavity is softly shaded warm cocoa, fully visible, containing absolutely no coins, gems, treasure, gifts or lining patterns. This is a subdued empty-state container, not a reward-filled chest. Keep the entire object, including the raised lid and feet, inside the central 70 percent of the canvas, leaving clear transparent margins. Clean closed silhouette, controlled soft top-left lighting. No ground plane, cast ground shadow, checkerboard, solid backdrop, UI frame, text, letters, numbers, logo, watermark, confetti, magical glow or floating props. No dark steel, gritty metal, sharp gothic spikes, photorealism or realistic industrial materials. Preserve the playful rounded chibi fantasy visual language.",
+      "promptSha256": "bb92477b9e685de2d5868ccc74ea7d3dcdd5a2f86495e398844b9bb74a473700"
+    },
+    {
+      "id": "chibi-victory-trophy",
+      "label": "Q版·胜利奖杯",
+      "filename": "chibi-victory-trophy.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "feedback",
+      "benchmarkId": null,
+      "promptVersion": "chibi-feedback-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": true,
+      "sourceTemplateId": "victory-trophy",
+      "sourceTemplatePromptSha256": "bde92c56f90eaeb702c3a0142ad9b341670e95237a81fb43dc54e22d6ca82580",
+      "prompt": "Use case: stylized-concept. Asset type: a reusable victory-result illustration for Arena UI's chibi fantasy game library. Generate one square 1024x1024 isolated PNG with genuine transparent alpha. One small friendly honey-gold arena trophy with a clearly open circular cup, exactly two short rounded side handles, a stout stem and a broad warm-cream pedestal with a completely blank front plaque. A narrow cocoa ribbon tied around the stem, short ends fully contained within the trophy silhouette. Clear celebratory silhouette without extra objects. Charming chibi fantasy style: rounded chunky toy proportions, soft cocoa outlines, matte hand-painted toy-like depth, broad clean gentle highlights, no sharp metal reflections. Palette honey gold #ffc857 for victory and rewards, warm cream #fff7e7 for the base, cocoa #654c3f for outline and ribbon. Keep the complete trophy and both handles inside the central 70 percent of the canvas with clear transparent margins. One complete centered object, sculptural three-quarter view and controlled soft top-left lighting. No engraved letters, text, numbers, logos, watermark, stars, crowns, laurels, coins, confetti, scenery, UI borders, ground plane, cast ground shadow, glow, checkerboard or solid backdrop. No charcoal steel, gritty dark metal, photorealism, sharp gothic spikes or realistic reflective metal.",
+      "promptSha256": "b8aa876ed0998f75ca74d773f53adcfee30a0b1113d63b2680c41aaaa5bfd2be"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "benchmark-comparison",
+      "comparedWith": {
+        "runId": "20261030-090424",
+        "date": "2026-10-30",
+        "path": "assets/daily/2026/10/30/20261030-090424/benchmark/ui-kit-board.png",
+        "samePromptHash": true
+      },
+      "observations": [
+        "可见变化：与10月30日同提示词样本并排查看，角色卡从中部移到右上，角色由深色头盔骑士变成白发女性；背包由右上移至左中，进度条集中在上方中部，确认弹窗移至中间。",
+        "可见变化：本次背包仍为4列2行共8格；主要按钮、弹窗标题及底部控件可辨，青色用于装备选中。旧样本中的按钮状态说明文字和场景背景本次减少。",
+        "主观判断：本次主要分组与标签更容易扫读，但小字号数值和细节仍需人工复核；这是静态视觉参考，不能直接替代可交互组件。",
+        "限制：相同提示词也会产生随机变化，实际模型版本与种子未报告；本次生成没有训练模型，单次差异不能证明模型升级。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "sideBySideComparisonReviewed": true,
+        "inventoryCellCount": 8,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false
+      }
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "benchmark-comparison",
+      "comparedWith": {
+        "runId": "20261030-090424",
+        "date": "2026-10-30",
+        "path": "assets/daily/2026/10/30/20261030-090424/benchmark/equipment-atlas.png",
+        "samePromptHash": true
+      },
+      "observations": [
+        "可见变化：图集保持4列2行，按长剑、盾牌、紫宝石戒指、红药水、斧头、无角头盔、卷轴、青色水晶顺序排列；图标完整，无可见文字或水印。",
+        "可见变化：与10月30日同提示词样本并排查看，长剑与斧头由倾斜变为近竖直，盾牌金饰减少、钢板分层更明显，戒指装饰减少，头盔顶部轮廓更尖，水晶刻面更大。",
+        "保留缺陷：长剑、斧头等占据较多格子高度，未满足题目要求的20%安全留白；背景肉眼可见轻微明暗变化，未完全呈现均匀底色。",
+        "主观判断：本次竖直武器轮廓更易辨认，但细节密度与裁切安全空间仍限制直接切图使用；不能把这种偏好视为客观质量提升。",
+        "限制：相同提示词也会产生随机变化，实际模型版本与种子未报告；本次生成没有训练模型，单次差异不能证明模型升级。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "sideBySideComparisonReviewed": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "requestedCellMarginMet": false,
+        "uniformBackgroundVisuallyMet": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false
+      }
+    },
+    {
+      "assetId": "chibi-empty-reliquary",
+      "type": "library-review",
+      "observations": [
+        "可见内容：单个圆润奶油色宝匣、可可色轮廓和空的内部，盖子、脚与锁扣完整；无文字、货币或物品。与已有装满金币的Q版宝箱区分，可用于背包无物品等空状态。",
+        "深色与奶油色背景并排查看，透明区域实际透出背景，未见明显整块底色或大范围光晕；缩至316px时主体仍清楚。",
+        "保留缺陷：请求1024×1024，实际1254×1254；以alpha>8测得主体包围盒[176,123,1029,1173]，底部留白约6.46%，未满足四周15%安全留白与中央70%占比要求。原图保持不缩放、不裁切。",
+        "主观判断：奶油暖色、可可描边及圆润玩具造型与Q版奇幻风格一致；最终游戏使用前仍需检查目标显示尺寸。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "alphaVerified": true,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#fff8e7"
+        ],
+        "previewWidthPx": 316,
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          176,
+          123,
+          1029,
+          1173
+        ],
+        "marginPercent": {
+          "left": 14.04,
+          "top": 9.81,
+          "right": 17.94,
+          "bottom": 6.46
+        },
+        "requestedSafeMarginMet": false,
+        "requestedSizeMet": false,
+        "canvasClippingObserved": false,
+        "emptyInteriorVerified": true,
+        "textOrWatermarkObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false
+      }
+    },
+    {
+      "assetId": "chibi-victory-trophy",
+      "type": "library-review",
+      "observations": [
+        "可见内容：单个蜂蜜金奖杯，有两个圆润把手、奶油色台座、空白铭牌和可可色蝴蝶结；无文字、数字、金币或背景装饰，可用于胜利与领奖反馈。",
+        "深色与奶油色背景并排查看，把手、杯身、底座均完整，透明区域实际透出背景；缩至316px时轮廓清楚，未见明显整块底色或大范围光晕。",
+        "保留缺陷：请求1024×1024，实际1254×1254；以alpha>8测得主体包围盒[161,133,1063,1167]，底部留白约6.94%，未满足四周15%安全留白与中央70%占比要求。蝴蝶结比请求的窄丝带更宽，杯身增加了花瓣形浮雕。原图保持不缩放、不裁切。",
+        "主观判断：蜂蜜金奖励语义、奶油色底座与圆润玩具造型适合Q版奇幻；装饰细节属于本次生成差异，不能推断模型变更。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "alphaVerified": true,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#fff8e7"
+        ],
+        "previewWidthPx": 316,
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          161,
+          133,
+          1063,
+          1167
+        ],
+        "marginPercent": {
+          "left": 12.84,
+          "top": 10.61,
+          "right": 15.23,
+          "bottom": 6.94
+        },
+        "requestedSafeMarginMet": false,
+        "requestedSizeMet": false,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false
+      }
+    }
+  ],
+  "notes": [
+    "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+    "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+    "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+    "保留所有原图及可见偏差；未重抽、缩放或修图。",
+    "固定题目相同提示词下的差异只能描述为本次输出变化，不能证明训练或模型升级。"
+  ],
+  "completedAt": "2026-11-03T09:15:41+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "localDateTotalToolCalls": 4,
+    "attemptBudgetRespected": true,
+    "originalFilesPreserved": true,
+    "historyPageVerified": true,
+    "separateStyleSectionsVerified": true,
+    "comparisonDate": "2026-10-30",
+    "reviewedAt": "2026-11-03T09:15:41+08:00"
+  }
+}

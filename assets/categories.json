@@ -142,6 +142,8 @@
     "anime-ui-battle-status-hud": "interface",
     "anime-ui-ranking-row-card": "interface",
     "anime-ui-seven-day-checkin": "interface",
-    "anime-ui-mail-detail-panel": "interface"
+    "anime-ui-mail-detail-panel": "interface",
+    "chibi-empty-reliquary": "feedback",
+    "chibi-victory-trophy": "feedback"
   }
 }
