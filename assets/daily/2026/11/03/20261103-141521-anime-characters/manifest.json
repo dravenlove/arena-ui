@@ -1,0 +1,610 @@
+{
+  "id": "20261103-141521-anime-characters",
+  "date": "2026-11-03",
+  "time": "14:15:21",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/11/03/20261103-141521-anime-characters/manifest.json",
+  "kind": "manual-extension",
+  "status": "complete",
+  "styleId": "anime-fantasy",
+  "assets": [
+    {
+      "id": "anime-kael-wind-ranger",
+      "label": "巡风游侠·凯尔（二次元）",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "ranger",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Male adult ranger, about 27, lean athletic build, short tousled ash-brown hair, teal eyes and calm alert expression. Short ivory shoulder cape fastened on one shoulder over a fitted high-collar navy scout jacket, navy full-length trousers, practical calf-high boots, small pale-gold buckles, one cyan clasp. A compact quiver with only three visible arrow fletchings sits behind the opposite shoulder. One hand holds a SINGLE elegant navy recurve bow down beside his body, pale-gold bow tips and one clearly continuous fine taut bowstring; the other hand rests naturally open beside the belt. No loose arrow, no drawn bow. The curved bow and short cape provide a distinct asymmetrical narrow silhouette. Keep every bow tip inside the safe margin.",
+      "promptSha256": "f194980099f55d1c91f28646a33dcfa350dbb3ebc38c019e8736446a1913362d",
+      "path": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-kael-wind-ranger.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1399921,
+      "sha256": "4eb52e3b72fb1d791b3f41b647cc96a02dcd756c2d862e1ec76d44a5efb51122",
+      "recordedAt": "2026-11-03T14:16:24+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T14:15:22+08:00",
+        "resultObservedAt": "2026-11-03T14:16:17+08:00"
+      },
+      "sourceFile": "exec-4f101ea7-a4d7-45e4-a3ab-dc8ad4718bf2.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.7883872985839844,
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false,
+        "reviewedAt": "2026-11-03T14:21:41+08:00",
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          183,
+          113,
+          741,
+          1422
+        ],
+        "marginPercentLTRB": [
+          17.87,
+          7.36,
+          27.64,
+          7.42
+        ],
+        "nearOpaqueVisiblePixelRatio": 0.8379151419008647
+      }
+    },
+    {
+      "id": "anime-selene-dawn-healer",
+      "label": "晨祷医师·瑟琳（二次元）",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "healer",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Female adult field healer, about 29, medium build, warm composed expression, deep brown skin, amber eyes, dark plum hair gathered in a tidy low braided bun. An ivory knee-length field coat with broad simple sleeves over a navy high-neck dress and opaque navy leggings, flat practical ivory boots, compact medicine satchel on the waist. Mint green #7bc9a4 medical-energy accents are limited to a small crystal in her staff and one sleeve clasp; pale-gold piping remains sparse. One hand holds a short slender staff ending in a SIMPLE open oval surrounding a mint-green crystal, no religious symbols, no glowing aura. The other hand holds one closed plain navy medicine case at waist level. A stable upright gentle stance. Complete shoes and staff visible; sleeves must not hide hands.",
+      "promptSha256": "a39231835aefedd46b17a57044b7721742677bcf39873d2ce0c3d2a871c3cddd",
+      "path": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-selene-dawn-healer.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1434823,
+      "sha256": "81a4546d323c4f3a128c67d77decc60f013035c1653baffe712f8744463cd02b",
+      "recordedAt": "2026-11-03T14:17:34+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T14:16:24+08:00",
+        "resultObservedAt": "2026-11-03T14:17:19+08:00"
+      },
+      "sourceFile": "exec-0ac85177-cc2b-4cfb-b19d-d51ae00a2670.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.7334016164143881,
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false,
+        "reviewedAt": "2026-11-03T14:21:41+08:00",
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          204,
+          101,
+          770,
+          1458
+        ],
+        "marginPercentLTRB": [
+          19.92,
+          6.58,
+          24.8,
+          5.08
+        ],
+        "nearOpaqueVisiblePixelRatio": 0.8495384226479349
+      }
+    },
+    {
+      "id": "anime-rowan-tide-lancer",
+      "label": "沧澜枪卫·罗温（二次元）",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "lancer",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Male adult spear guardian, about 32, tall broad-shouldered sturdy build, cropped dark-blue hair, brown eyes, subtle stubble and dependable expression. Ivory segmented shoulder and forearm armor over a navy padded tunic, short split navy tabard, full-length navy trousers and sturdy armored boots. Pale-gold rivets, one narrow cyan accent in the chest plate, no gritty battle damage. One hand holds exactly ONE upright spear beside him: straight navy shaft, slim silver leaf-shaped spearhead, small pale-gold collar and simple butt cap. Spear overall length only slightly taller than his body; spearhead and butt cap fully within the transparent safe margin. The other hand relaxed at his hip. No shield, sword or extra weapons. Broad stable silhouette with simple readable armor planes.",
+      "promptSha256": "13beeeb6ba09bd0e55edec7e6410b59714128c50c1d826676e6170f6743a144f",
+      "path": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-rowan-tide-lancer.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1478309,
+      "sha256": "ad0ecf7a8808372997c6d766029cff10bc29cc2040650ffbe5bed0e5c060da98",
+      "recordedAt": "2026-11-03T14:18:27+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T14:17:34+08:00",
+        "resultObservedAt": "2026-11-03T14:18:21+08:00"
+      },
+      "sourceFile": "exec-e1cac66a-35e6-4aae-a915-cecda583afb1.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.73199462890625,
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false,
+        "reviewedAt": "2026-11-03T14:21:41+08:00",
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          216,
+          92,
+          802,
+          1443
+        ],
+        "marginPercentLTRB": [
+          21.09,
+          5.99,
+          21.68,
+          6.05
+        ],
+        "nearOpaqueVisiblePixelRatio": 0.8519058870416761
+      }
+    },
+    {
+      "id": "anime-lyra-sun-gauntlet",
+      "label": "曜拳斗士·莉拉（二次元）",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "brawler",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Female adult unarmed martial artist, about 26, compact muscular athletic build, short copper-red side-parted bob haircut, brown eyes and confident friendly grin. Cropped ivory training jacket worn over a fully covering navy high-neck fitted undershirt, full-length loose navy martial trousers, ivory-and-navy ankle boots. No exposed midriff. Both forearms wear substantial but compact ivory gauntlets with navy joints and restrained pale-gold knuckle plates, no spikes or glowing effects. One loose closed fist held near waist and the other held slightly forward at lower chest height, elbows separated from torso, both hands and all fingers coherent beneath fingerless glove openings. Feet grounded in a relaxed balanced ready stance, knees only gently bent. A short pale-gold waist sash with two restrained ends, no long cape, no weapons. Distinct compact silhouette; not a dynamic lunging action pose.",
+      "promptSha256": "be09804bae7c63b90fc10b5fbfc9a1d6eef3588c449e7166f6ae2cc0ccea6a26",
+      "path": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-lyra-sun-gauntlet.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1381393,
+      "sha256": "20aa4e3b34d27d21305891fe522cfa337f216ef7470ab0af4781fe184bd2acc4",
+      "recordedAt": "2026-11-03T14:19:27+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-03T14:18:27+08:00",
+        "resultObservedAt": "2026-11-03T14:19:18+08:00"
+      },
+      "sourceFile": "exec-245b07f8-560e-497f-9f0e-3ccd29aeedb0.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "transparentPixelRatio": 0.7647800445556641,
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false,
+        "reviewedAt": "2026-11-03T14:21:41+08:00",
+        "visibleAlphaThreshold": 8,
+        "visibleAlphaBounds": [
+          244,
+          88,
+          725,
+          1445
+        ],
+        "marginPercentLTRB": [
+          23.83,
+          5.73,
+          29.2,
+          5.92
+        ],
+        "nearOpaqueVisiblePixelRatio": 0.8965805243141993
+      }
+    }
+  ],
+  "themeId": "anime-characters",
+  "startedAt": "2026-11-03T14:15:21+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "anime-kael-wind-ranger",
+      "group": "library",
+      "startedAt": "2026-11-03T14:15:22+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "f194980099f55d1c91f28646a33dcfa350dbb3ebc38c019e8736446a1913362d",
+      "resultObservedAt": "2026-11-03T14:16:17+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-kael-wind-ranger.png",
+      "sourceFile": "exec-4f101ea7-a4d7-45e4-a3ab-dc8ad4718bf2.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T14:16:24+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "anime-selene-dawn-healer",
+      "group": "library",
+      "startedAt": "2026-11-03T14:16:24+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "a39231835aefedd46b17a57044b7721742677bcf39873d2ce0c3d2a871c3cddd",
+      "resultObservedAt": "2026-11-03T14:17:19+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-selene-dawn-healer.png",
+      "sourceFile": "exec-0ac85177-cc2b-4cfb-b19d-d51ae00a2670.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T14:17:34+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "anime-rowan-tide-lancer",
+      "group": "library",
+      "startedAt": "2026-11-03T14:17:34+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "13beeeb6ba09bd0e55edec7e6410b59714128c50c1d826676e6170f6743a144f",
+      "resultObservedAt": "2026-11-03T14:18:21+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-rowan-tide-lancer.png",
+      "sourceFile": "exec-e1cac66a-35e6-4aae-a915-cecda583afb1.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T14:18:27+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "anime-lyra-sun-gauntlet",
+      "group": "library",
+      "startedAt": "2026-11-03T14:18:27+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "be09804bae7c63b90fc10b5fbfc9a1d6eef3588c449e7166f6ae2cc0ccea6a26",
+      "resultObservedAt": "2026-11-03T14:19:18+08:00",
+      "outputPath": "assets/daily/2026/11/03/20261103-141521-anime-characters/library/anime-fantasy/anime-lyra-sun-gauntlet.png",
+      "sourceFile": "exec-245b07f8-560e-497f-9f0e-3ccd29aeedb0.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-03T14:19:27+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "anime-kael-wind-ranger",
+      "label": "巡风游侠·凯尔（二次元）",
+      "filename": "anime-kael-wind-ranger.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "ranger",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Male adult ranger, about 27, lean athletic build, short tousled ash-brown hair, teal eyes and calm alert expression. Short ivory shoulder cape fastened on one shoulder over a fitted high-collar navy scout jacket, navy full-length trousers, practical calf-high boots, small pale-gold buckles, one cyan clasp. A compact quiver with only three visible arrow fletchings sits behind the opposite shoulder. One hand holds a SINGLE elegant navy recurve bow down beside his body, pale-gold bow tips and one clearly continuous fine taut bowstring; the other hand rests naturally open beside the belt. No loose arrow, no drawn bow. The curved bow and short cape provide a distinct asymmetrical narrow silhouette. Keep every bow tip inside the safe margin.",
+      "promptSha256": "f194980099f55d1c91f28646a33dcfa350dbb3ebc38c019e8736446a1913362d"
+    },
+    {
+      "id": "anime-selene-dawn-healer",
+      "label": "晨祷医师·瑟琳（二次元）",
+      "filename": "anime-selene-dawn-healer.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "healer",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Female adult field healer, about 29, medium build, warm composed expression, deep brown skin, amber eyes, dark plum hair gathered in a tidy low braided bun. An ivory knee-length field coat with broad simple sleeves over a navy high-neck dress and opaque navy leggings, flat practical ivory boots, compact medicine satchel on the waist. Mint green #7bc9a4 medical-energy accents are limited to a small crystal in her staff and one sleeve clasp; pale-gold piping remains sparse. One hand holds a short slender staff ending in a SIMPLE open oval surrounding a mint-green crystal, no religious symbols, no glowing aura. The other hand holds one closed plain navy medicine case at waist level. A stable upright gentle stance. Complete shoes and staff visible; sleeves must not hide hands.",
+      "promptSha256": "a39231835aefedd46b17a57044b7721742677bcf39873d2ce0c3d2a871c3cddd"
+    },
+    {
+      "id": "anime-rowan-tide-lancer",
+      "label": "沧澜枪卫·罗温（二次元）",
+      "filename": "anime-rowan-tide-lancer.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "lancer",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Male adult spear guardian, about 32, tall broad-shouldered sturdy build, cropped dark-blue hair, brown eyes, subtle stubble and dependable expression. Ivory segmented shoulder and forearm armor over a navy padded tunic, short split navy tabard, full-length navy trousers and sturdy armored boots. Pale-gold rivets, one narrow cyan accent in the chest plate, no gritty battle damage. One hand holds exactly ONE upright spear beside him: straight navy shaft, slim silver leaf-shaped spearhead, small pale-gold collar and simple butt cap. Spear overall length only slightly taller than his body; spearhead and butt cap fully within the transparent safe margin. The other hand relaxed at his hip. No shield, sword or extra weapons. Broad stable silhouette with simple readable armor planes.",
+      "promptSha256": "13beeeb6ba09bd0e55edec7e6410b59714128c50c1d826676e6170f6743a144f"
+    },
+    {
+      "id": "anime-lyra-sun-gauntlet",
+      "label": "曜拳斗士·莉拉（二次元）",
+      "filename": "anime-lyra-sun-gauntlet.png",
+      "group": "library",
+      "styleId": "anime-fantasy",
+      "categoryId": "characters",
+      "characterRole": "brawler",
+      "benchmarkId": null,
+      "promptVersion": "anime-character-roster-v1",
+      "requestedSize": [
+        1024,
+        1536
+      ],
+      "transparentBackground": true,
+      "prompt": "Use case: stylized-concept. Create ONE original full-body adult anime fantasy RPG character cutout for a WeChat character-collection game. Requested portrait PNG 1024 x 1536, genuine transparent RGBA background. Normal adult proportions about seven heads tall, precise controlled colored line art, two or three crisp cel-shaded planes, restrained highlights, elegant readable silhouette. Ivory and midnight navy clothing, pale gold small accents and limited cyan energy details, consistent with a refined blue-white fantasy anime game roster. No chibi, no toy-like 3D, no photorealistic or gritty texture, no existing franchise character. Fully clothed practical outfit. Both eyes, all limbs and both boots clearly visible, anatomically coherent hands and joints. Front three-quarter standing pose with face turned toward viewer; no extreme foreshortening or airborne pose. Keep the COMPLETE character, hair, all held equipment and both feet within the central 76 percent of the canvas width and height: at least 12 percent truly empty transparent margin on ALL FOUR sides. Scale the whole character down to make room for the weapon. Background alpha exactly zero, opaque painted character interior, soft alpha only on thin antialiased outer edges. No floor, cast shadow, mist, halo, aura, particle effects, scenery, checkerboard, background gradient, text, labels, borders, watermark or UI. One character only, one pose, no alternate views. Female adult unarmed martial artist, about 26, compact muscular athletic build, short copper-red side-parted bob haircut, brown eyes and confident friendly grin. Cropped ivory training jacket worn over a fully covering navy high-neck fitted undershirt, full-length loose navy martial trousers, ivory-and-navy ankle boots. No exposed midriff. Both forearms wear substantial but compact ivory gauntlets with navy joints and restrained pale-gold knuckle plates, no spikes or glowing effects. One loose closed fist held near waist and the other held slightly forward at lower chest height, elbows separated from torso, both hands and all fingers coherent beneath fingerless glove openings. Feet grounded in a relaxed balanced ready stance, knees only gently bent. A short pale-gold waist sash with two restrained ends, no long cape, no weapons. Distinct compact silhouette; not a dynamic lunging action pose.",
+      "promptSha256": "be09804bae7c63b90fc10b5fbfc9a1d6eef3588c449e7166f6ae2cc0ccea6a26"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "anime-kael-wind-ranger",
+      "type": "library-review",
+      "observations": [
+        "可见内容：成年男性游侠，棕色短发、短披肩、反曲弓和箭囊；全身、弓尖与双靴完整，蓝白服装和金青点缀与二次元系列一致。",
+        "保留偏差：上下留白约7.36%与7.42%，少于12%要求；箭囊可见箭羽似多于指定3支，精确数量及握弓手细节仍需原尺寸复核。",
+        "已在深色#171c24及浅色#eef5ff底上以300px画布宽度并排目视检查，背景真实透出，未见生成预览中那种大范围光晕；细线与衣饰在小尺寸仍有细节损失。",
+        "四张PNG的alpha最大值均为254，并非完全不透明；保留工具原始alpha和字节，不自动修补。它们是静态立绘，尚无拆层、骨骼或连续动作帧，不能直接当作角色动画。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false
+      }
+    },
+    {
+      "assetId": "anime-selene-dawn-healer",
+      "type": "library-review",
+      "observations": [
+        "可见内容：成年女性治愈师，深肤色、盘发、薄荷绿晶石法杖、药箱和腰包；脸、双手、法杖末端与双靴完整。",
+        "保留偏差：外套接近小腿长度、法杖偏长，药箱提在髋部下方，与膝长外套、短杖及腰部持箱的设定存在差异；上下留白约6.58%与5.08%。",
+        "已在深色#171c24及浅色#eef5ff底上以300px画布宽度并排目视检查，背景真实透出，未见生成预览中那种大范围光晕；细线与衣饰在小尺寸仍有细节损失。",
+        "四张PNG的alpha最大值均为254，并非完全不透明；保留工具原始alpha和字节，不自动修补。它们是静态立绘，尚无拆层、骨骼或连续动作帧，不能直接当作角色动画。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false
+      }
+    },
+    {
+      "assetId": "anime-rowan-tide-lancer",
+      "type": "library-review",
+      "observations": [
+        "可见内容：成年男性枪卫，短发、胡茬、宽肩分层护甲及一支直立长枪；枪头、枪尾、手与双靴完整，没有盾牌或第二把武器。",
+        "保留偏差：上下留白约5.99%与6.05%，没有达到12%的要求；胸甲与枪头都出现青色细节，装饰比最简设定多。",
+        "已在深色#171c24及浅色#eef5ff底上以300px画布宽度并排目视检查，背景真实透出，未见生成预览中那种大范围光晕；细线与衣饰在小尺寸仍有细节损失。",
+        "四张PNG的alpha最大值均为254，并非完全不透明；保留工具原始alpha和字节，不自动修补。它们是静态立绘，尚无拆层、骨骼或连续动作帧，不能直接当作角色动画。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false
+      }
+    },
+    {
+      "assetId": "anime-lyra-sun-gauntlet",
+      "type": "library-review",
+      "observations": [
+        "可见内容：成年女性格斗家，铜红短发、包覆腹部的藏蓝内搭、宽松长裤及双拳套；双手、腰带与双靴完整，轮廓不同于持武器职业。",
+        "保留偏差：人物体型比要求的紧凑肌肉型更修长；上下留白约5.73%与5.92%，未达到12%的要求，手指与拳套接合细节仍建议在目标尺寸复核。",
+        "已在深色#171c24及浅色#eef5ff底上以300px画布宽度并排目视检查，背景真实透出，未见生成预览中那种大范围光晕；细线与衣饰在小尺寸仍有细节损失。",
+        "四张PNG的alpha最大值均为254，并非完全不透明；保留工具原始alpha和字节，不自动修补。它们是静态立绘，尚无拆层、骨骼或连续动作帧，不能直接当作角色动画。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "fullBodyVisible": true,
+        "canvasClippingObserved": false,
+        "textOrWatermarkObserved": false,
+        "alphaVerified": true,
+        "opaqueInteriorRequirementMet": false,
+        "requestedSizeMet": true,
+        "requestedSafeMarginMet": false,
+        "previewWidthPx": 300,
+        "backgroundsReviewed": [
+          "#171c24",
+          "#eef5ff"
+        ],
+        "broadHaloObservedInBrowser": false,
+        "qualityStatus": "retained-with-notes",
+        "animationReady": false
+      }
+    }
+  ],
+  "notes": [
+    "用户在今日4张定时素材完成后明确要求生成多一些角色。本次依照新的手动追加请求生成4位二次元角色，作为manual-extension；保留此前4次scheduled调用及当日累计台账，不重置预算、不把追加素材冒充定时结果。每日自动化配置保持原样。",
+    "沿用anime-fantasy标识、独立运行目录和anime-文件名前缀。冻结对照提示词和已归档图片保持原样。"
+  ],
+  "authorization": {
+    "type": "explicit-manual-addition",
+    "request": "生成多一些角色",
+    "plannedAdditionalCalls": 4,
+    "callsAlreadyToday": 4
+  },
+  "completedAt": "2026-11-03T14:21:41+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "attempts": 4,
+    "originalFilesPreserved": true,
+    "styleArchiveVerified": true,
+    "newStyleId": "anime-fantasy",
+    "noResampling": true,
+    "reviewedAt": "2026-11-03T14:21:41+08:00",
+    "historyPageVerified": true,
+    "styleCategoryAndDateFilterVerified": true,
+    "previousRunsUnchanged": true,
+    "localDateTotalToolCalls": 8,
+    "scheduledCallsToday": 4,
+    "manualCallsThisRun": 4
+  }
+}

@@ -144,6 +144,10 @@
     "anime-ui-seven-day-checkin": "interface",
     "anime-ui-mail-detail-panel": "interface",
     "chibi-empty-reliquary": "feedback",
-    "chibi-victory-trophy": "feedback"
+    "chibi-victory-trophy": "feedback",
+    "anime-kael-wind-ranger": "characters",
+    "anime-selene-dawn-healer": "characters",
+    "anime-rowan-tide-lancer": "characters",
+    "anime-lyra-sun-gauntlet": "characters"
   }
 }
