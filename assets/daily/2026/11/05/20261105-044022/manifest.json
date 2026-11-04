@@ -1,0 +1,914 @@
+{
+  "id": "20261105-044022",
+  "date": "2026-11-05",
+  "time": "04:40:22",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/11/05/20261105-044022/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261104-043008",
+        "date": "2026-11-04",
+        "path": "assets/daily/2026/11/04/20261104-043008/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      },
+      "path": "assets/daily/2026/11/05/20261105-044022/benchmark/ui-kit-board.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1612042,
+      "sha256": "6b851a8d96c887d34f53c8b7da4138546cdbaf7f643118e8e4eaa4066b374ab6",
+      "recordedAt": "2026-11-05T04:41:41+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-05T04:40:23+08:00",
+        "resultObservedAt": "2026-11-05T04:41:31+08:00"
+      },
+      "sourceFile": "exec-714125da-bd95-4ee7-8dec-5cf66b49a618.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "inventoryCellCount": 8,
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "sideBySideComparisonReviewed": true,
+        "reviewedAt": "2026-11-05T04:48:39+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261104-043008",
+        "date": "2026-11-04",
+        "path": "assets/daily/2026/11/04/20261104-043008/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      },
+      "path": "assets/daily/2026/11/05/20261105-044022/benchmark/equipment-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1794011,
+      "sha256": "bd8510e06a6151baa9a7ed434006317afb032283adae97d81eaceba17952883c",
+      "recordedAt": "2026-11-05T04:42:51+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-05T04:41:42+08:00",
+        "resultObservedAt": "2026-11-05T04:42:40+08:00"
+      },
+      "sourceFile": "exec-b38f04d8-c115-418d-95a8-d0fec60abf6a.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              21,
+              28,
+              36
+            ],
+            [
+              20,
+              28,
+              36
+            ],
+            [
+              20,
+              26,
+              36
+            ],
+            [
+              22,
+              29,
+              38
+            ],
+            [
+              20,
+              26,
+              34
+            ]
+          ]
+        },
+        "sideBySideComparisonReviewed": true,
+        "reviewedAt": "2026-11-05T04:48:39+08:00"
+      }
+    },
+    {
+      "id": "chibi-weapons-atlas-v1",
+      "label": "Q版·职业武器图集",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "equipment",
+      "benchmarkId": null,
+      "promptVersion": "chibi-arsenal-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "weapons-atlas",
+      "sourceTemplatePromptSha256": "44300a29bdaaa9a23efbcb9d14619680f19e9a3ed1e9886ba11580ca2cb0a953",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game equipment inventory icon atlas for a fantasy arena and character-growth mini-program. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 image with EXACTLY FOUR columns and TWO rows of equal-sized cells, eight independent equipment icon groups total. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background across the entire sheet, not transparent. Center one complete icon group in each cell. Every icon, including handles and small local shadows, must fit within the CENTRAL 60 percent of its own cell in both axes, leaving at least 20 percent clear margin on all four sides. Do not cross cell boundaries. Rounded chunky silhouettes with softened points, cocoa #654c3f outlines, matte cream ceramic-like armor, cocoa leather and wood, small honey-gold #ffc857 fittings, broad clean top-left highlights and soft hand-painted toy-like depth. Cyan #60c9e8 is reserved for energy crystals; coral only for health/danger, mint only for healing, lavender only for epic rarity, so omit these latter three colors here. No gritty dark steel, photorealistic metal, gothic spikes, text, letters, numbers, labels, logos, watermarks, UI frames, people, scenery, loose sparkles or broad glows. Clear at small mobile inventory sizes. Eight distinct weapon silhouettes, reading left to right. ROW ONE: 1 a compact cocoa-shaft spear with a rounded cream leaf-shaped head and tiny gold collar; 2 a chunky cocoa-wood crossbow with a cream bow limb and small gold fittings, without a loaded projectile; 3 a short curved cream dagger with a cocoa grip and round gold pommel; 4 a stout cocoa-handled mace with a cream rounded flanged head, no sharp spikes. ROW TWO: 5 a compact cocoa magic staff with one sky-cyan energy crystal held in a rounded cream crescent; 6 a short cream-bladed halberd on a cocoa shaft with a small gold collar, broad simple silhouette; 7 a stout cocoa shortbow with cream limb tips and clearly attached bowstring, no arrow; 8 a slim cream rapier with a rounded honey-gold cup guard and cocoa grip. Long weapons are shortened into chibi inventory proportions and may tilt slightly to fit safely. These are equipment icons, not action effects. Do not repeat a broad starter sword or round wooden shield.",
+      "promptSha256": "aa29f3d8b18b596fb83151dbfcb09b1b4ac603e3eca9502c44353b2e969755c1",
+      "path": "assets/daily/2026/11/05/20261105-044022/library/chibi-fantasy/chibi-weapons-atlas-v1.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1426450,
+      "sha256": "6da5de8086ad075f9c5a5abc0eef8f8c71d0cc9f1c4b1fb55fc9a67a997fbab3",
+      "recordedAt": "2026-11-05T04:43:47+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-05T04:42:52+08:00",
+        "resultObservedAt": "2026-11-05T04:43:36+08:00"
+      },
+      "sourceFile": "exec-6dc7cc0a-1a08-479f-8d43-71fe6bcc0d90.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              253,
+              244,
+              225
+            ],
+            [
+              253,
+              244,
+              226
+            ],
+            [
+              253,
+              243,
+              228
+            ],
+            [
+              252,
+              242,
+              222
+            ],
+            [
+              253,
+              245,
+              231
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true,
+        "reviewedAt": "2026-11-05T04:48:39+08:00"
+      }
+    },
+    {
+      "id": "chibi-armor-atlas-v1",
+      "label": "Q版·冒险防具图集",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "equipment",
+      "benchmarkId": null,
+      "promptVersion": "chibi-arsenal-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "armor-atlas",
+      "sourceTemplatePromptSha256": "7ac83a21e1d55c1b24d642a22ea92abdfdb6b96260bef7dca9561fa0c2c9c56a",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game equipment inventory icon atlas for a fantasy arena and character-growth mini-program. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 image with EXACTLY FOUR columns and TWO rows of equal-sized cells, eight independent equipment icon groups total. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background across the entire sheet, not transparent. Center one complete icon group in each cell. Every icon, including handles and small local shadows, must fit within the CENTRAL 60 percent of its own cell in both axes, leaving at least 20 percent clear margin on all four sides. Do not cross cell boundaries. Rounded chunky silhouettes with softened points, cocoa #654c3f outlines, matte cream ceramic-like armor, cocoa leather and wood, small honey-gold #ffc857 fittings, broad clean top-left highlights and soft hand-painted toy-like depth. Cyan #60c9e8 is reserved for energy crystals; coral only for health/danger, mint only for healing, lavender only for epic rarity, so omit these latter three colors here. No gritty dark steel, photorealistic metal, gothic spikes, text, letters, numbers, labels, logos, watermarks, UI frames, people, scenery, loose sparkles or broad glows. Clear at small mobile inventory sizes. Eight distinct armor-slot icon groups, reading left to right. ROW ONE: 1 a rounded cream breastplate with cocoa side straps and a small gold collar trim; 2 a matching pair of cocoa leather bracers with cream cuffs and tiny gold clasps, arranged tightly as ONE icon group; 3 a matching pair of cocoa ranger boots with cream folded cuffs, arranged tightly as ONE icon group; 4 a matching pair of rounded cream pauldrons with cocoa underside straps and small gold edging, arranged tightly as ONE icon group. ROW TWO: 5 a compact cream kite shield with a cocoa rim and a plain raised gold diamond, distinctly elongated rather than the existing round oak shield; 6 a simple rounded hornless cream adventurer helmet with cocoa padded lining and a small gold brow band, no spikes or face; 7 a short cream traveling cloak with a cocoa hood lining and a small gold fastening clasp, no person or mannequin; 8 a looped cocoa utility belt with one rounded gold buckle and two small attached cream pouches, ONE compact connected icon. No floating detached pieces or separate accessories. All pairs remain fully inside their single grid cell.",
+      "promptSha256": "49e4622d27c36ee478f21529789f8625bca4ebc0ec992e554d7f4928c18e1fe0",
+      "path": "assets/daily/2026/11/05/20261105-044022/library/chibi-fantasy/chibi-armor-atlas-v1.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1517321,
+      "sha256": "8e52f12a80dc80958244770ef8db6f30be7dfe2842be8b47fdf965ce6bb17df4",
+      "recordedAt": "2026-11-05T04:44:44+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-05T04:43:47+08:00",
+        "resultObservedAt": "2026-11-05T04:44:29+08:00"
+      },
+      "sourceFile": "exec-c40b9c3b-de32-4f99-b85d-dce735c2e49d.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              253,
+              244,
+              225
+            ],
+            [
+              253,
+              243,
+              223
+            ],
+            [
+              252,
+              243,
+              226
+            ],
+            [
+              251,
+              240,
+              219
+            ],
+            [
+              253,
+              244,
+              227
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true,
+        "reviewedAt": "2026-11-05T04:48:39+08:00"
+      }
+    }
+  ],
+  "themeId": "arsenal",
+  "startedAt": "2026-11-05T04:40:22+08:00",
+  "scheduledFor": "2026-11-05T04:30:00+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-05T04:40:23+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-11-05T04:41:31+08:00",
+      "outputPath": "assets/daily/2026/11/05/20261105-044022/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-714125da-bd95-4ee7-8dec-5cf66b49a618.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-05T04:41:41+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-05T04:41:42+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-11-05T04:42:40+08:00",
+      "outputPath": "assets/daily/2026/11/05/20261105-044022/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-b38f04d8-c115-418d-95a8-d0fec60abf6a.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-05T04:42:51+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "chibi-weapons-atlas-v1",
+      "group": "library",
+      "startedAt": "2026-11-05T04:42:52+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "aa29f3d8b18b596fb83151dbfcb09b1b4ac603e3eca9502c44353b2e969755c1",
+      "resultObservedAt": "2026-11-05T04:43:36+08:00",
+      "outputPath": "assets/daily/2026/11/05/20261105-044022/library/chibi-fantasy/chibi-weapons-atlas-v1.png",
+      "sourceFile": "exec-6dc7cc0a-1a08-479f-8d43-71fe6bcc0d90.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-05T04:43:47+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "chibi-armor-atlas-v1",
+      "group": "library",
+      "startedAt": "2026-11-05T04:43:47+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "49e4622d27c36ee478f21529789f8625bca4ebc0ec992e554d7f4928c18e1fe0",
+      "resultObservedAt": "2026-11-05T04:44:29+08:00",
+      "outputPath": "assets/daily/2026/11/05/20261105-044022/library/chibi-fantasy/chibi-armor-atlas-v1.png",
+      "sourceFile": "exec-c40b9c3b-de32-4f99-b85d-dce735c2e49d.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-05T04:44:44+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261104-043008",
+        "date": "2026-11-04",
+        "path": "assets/daily/2026/11/04/20261104-043008/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261104-043008",
+        "date": "2026-11-04",
+        "path": "assets/daily/2026/11/04/20261104-043008/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      }
+    },
+    {
+      "id": "chibi-weapons-atlas-v1",
+      "label": "Q版·职业武器图集",
+      "filename": "chibi-weapons-atlas-v1.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "equipment",
+      "benchmarkId": null,
+      "promptVersion": "chibi-arsenal-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "weapons-atlas",
+      "sourceTemplatePromptSha256": "44300a29bdaaa9a23efbcb9d14619680f19e9a3ed1e9886ba11580ca2cb0a953",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game equipment inventory icon atlas for a fantasy arena and character-growth mini-program. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 image with EXACTLY FOUR columns and TWO rows of equal-sized cells, eight independent equipment icon groups total. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background across the entire sheet, not transparent. Center one complete icon group in each cell. Every icon, including handles and small local shadows, must fit within the CENTRAL 60 percent of its own cell in both axes, leaving at least 20 percent clear margin on all four sides. Do not cross cell boundaries. Rounded chunky silhouettes with softened points, cocoa #654c3f outlines, matte cream ceramic-like armor, cocoa leather and wood, small honey-gold #ffc857 fittings, broad clean top-left highlights and soft hand-painted toy-like depth. Cyan #60c9e8 is reserved for energy crystals; coral only for health/danger, mint only for healing, lavender only for epic rarity, so omit these latter three colors here. No gritty dark steel, photorealistic metal, gothic spikes, text, letters, numbers, labels, logos, watermarks, UI frames, people, scenery, loose sparkles or broad glows. Clear at small mobile inventory sizes. Eight distinct weapon silhouettes, reading left to right. ROW ONE: 1 a compact cocoa-shaft spear with a rounded cream leaf-shaped head and tiny gold collar; 2 a chunky cocoa-wood crossbow with a cream bow limb and small gold fittings, without a loaded projectile; 3 a short curved cream dagger with a cocoa grip and round gold pommel; 4 a stout cocoa-handled mace with a cream rounded flanged head, no sharp spikes. ROW TWO: 5 a compact cocoa magic staff with one sky-cyan energy crystal held in a rounded cream crescent; 6 a short cream-bladed halberd on a cocoa shaft with a small gold collar, broad simple silhouette; 7 a stout cocoa shortbow with cream limb tips and clearly attached bowstring, no arrow; 8 a slim cream rapier with a rounded honey-gold cup guard and cocoa grip. Long weapons are shortened into chibi inventory proportions and may tilt slightly to fit safely. These are equipment icons, not action effects. Do not repeat a broad starter sword or round wooden shield.",
+      "promptSha256": "aa29f3d8b18b596fb83151dbfcb09b1b4ac603e3eca9502c44353b2e969755c1"
+    },
+    {
+      "id": "chibi-armor-atlas-v1",
+      "label": "Q版·冒险防具图集",
+      "filename": "chibi-armor-atlas-v1.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "equipment",
+      "benchmarkId": null,
+      "promptVersion": "chibi-arsenal-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "armor-atlas",
+      "sourceTemplatePromptSha256": "7ac83a21e1d55c1b24d642a22ea92abdfdb6b96260bef7dca9561fa0c2c9c56a",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game equipment inventory icon atlas for a fantasy arena and character-growth mini-program. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 image with EXACTLY FOUR columns and TWO rows of equal-sized cells, eight independent equipment icon groups total. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background across the entire sheet, not transparent. Center one complete icon group in each cell. Every icon, including handles and small local shadows, must fit within the CENTRAL 60 percent of its own cell in both axes, leaving at least 20 percent clear margin on all four sides. Do not cross cell boundaries. Rounded chunky silhouettes with softened points, cocoa #654c3f outlines, matte cream ceramic-like armor, cocoa leather and wood, small honey-gold #ffc857 fittings, broad clean top-left highlights and soft hand-painted toy-like depth. Cyan #60c9e8 is reserved for energy crystals; coral only for health/danger, mint only for healing, lavender only for epic rarity, so omit these latter three colors here. No gritty dark steel, photorealistic metal, gothic spikes, text, letters, numbers, labels, logos, watermarks, UI frames, people, scenery, loose sparkles or broad glows. Clear at small mobile inventory sizes. Eight distinct armor-slot icon groups, reading left to right. ROW ONE: 1 a rounded cream breastplate with cocoa side straps and a small gold collar trim; 2 a matching pair of cocoa leather bracers with cream cuffs and tiny gold clasps, arranged tightly as ONE icon group; 3 a matching pair of cocoa ranger boots with cream folded cuffs, arranged tightly as ONE icon group; 4 a matching pair of rounded cream pauldrons with cocoa underside straps and small gold edging, arranged tightly as ONE icon group. ROW TWO: 5 a compact cream kite shield with a cocoa rim and a plain raised gold diamond, distinctly elongated rather than the existing round oak shield; 6 a simple rounded hornless cream adventurer helmet with cocoa padded lining and a small gold brow band, no spikes or face; 7 a short cream traveling cloak with a cocoa hood lining and a small gold fastening clasp, no person or mannequin; 8 a looped cocoa utility belt with one rounded gold buckle and two small attached cream pouches, ONE compact connected icon. No floating detached pieces or separate accessories. All pairs remain fully inside their single grid cell.",
+      "promptSha256": "49e4622d27c36ee478f21529789f8625bca4ebc0ec992e554d7f4928c18e1fe0"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "benchmark-comparison",
+      "observations": [
+        "可见变化：与11月4日同提示词样本并排看，BATTLE/EQUIP/DISMANTLE从左上横排变为左侧纵排，HP/MP/XP移到中上；右侧角色区由人物头像和简写属性改为狮纹徽章、城堡背景与完整属性名列表。",
+        "可见变化：两张都保留4列2行八个背包格；本次没有旧图物品数量角标，确认弹窗移到中部，导航选中从INVENTORY变为OVERVIEW；底部增加搜索框、分类下拉、滑杆、单选和更多徽章。",
+        "目视检查：主要标题、三个动作按钮、进度条与READY TO BATTLE?文字可读，各区完整，没有画布裁切。细小属性和控件文字仍需在实际小程序尺寸下复核。",
+        "主观判断：本次角色属性列表更直观、底部控件更丰富；整体密度也更高。这是设计取舍和个人观感，不能推断整体质量进步。",
+        "限制：工具未报告实际模型版本与随机种子；相同提示词下的随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "inventoryCellCount": 8,
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "sideBySideComparisonReviewed": true
+      },
+      "comparedWith": {
+        "runId": "20261104-043008",
+        "date": "2026-11-04",
+        "path": "assets/daily/2026/11/04/20261104-043008/benchmark/ui-kit-board.png",
+        "samePromptHash": true
+      }
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "benchmark-comparison",
+      "observations": [
+        "可见内容：保持4列2行八件物品，按长剑、盾牌、紫宝石戒指、红药水、双头斧、无角头盔、卷轴和青色水晶排序；各件完整，未见跨格重叠、文字或水印。",
+        "可见变化：与11月4日样本并排看，本次长剑更细长；双头斧由近竖直转为斜放，卷轴由较横向转为较陡的斜向；药水瓶增加颈部绳结，盾面花纹、戒面角度与水晶簇轮廓也改变。",
+        "保留缺陷：长剑、盾和斧等占据超过单格中央60%的范围，未达到每边20%留白；背景取样存在差异，未严格为统一#171c24。",
+        "主观判断：本次卷轴与斧头的斜向构图更有动感，但这属于造型偏好，不是可量化的提升结论。",
+        "限制：工具未报告实际模型版本与随机种子；相同提示词下的随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              21,
+              28,
+              36
+            ],
+            [
+              20,
+              28,
+              36
+            ],
+            [
+              20,
+              26,
+              36
+            ],
+            [
+              22,
+              29,
+              38
+            ],
+            [
+              20,
+              26,
+              34
+            ]
+          ]
+        },
+        "sideBySideComparisonReviewed": true
+      },
+      "comparedWith": {
+        "runId": "20261104-043008",
+        "date": "2026-11-04",
+        "path": "assets/daily/2026/11/04/20261104-043008/benchmark/equipment-atlas.png",
+        "samePromptHash": true
+      }
+    },
+    {
+      "assetId": "chibi-weapons-atlas-v1",
+      "type": "library-review",
+      "observations": [
+        "可见内容：4列2行八件职业武器，依次为短柄矛、弩、弯匕首、圆头锤、青晶法杖、战戟、短弓和细剑。均完整留在独立格内，没有跨格重叠、文字或水印。",
+        "风格与用途：奶油色刃部、可可色木柄和描边、蜂蜜金配件及青色能量晶石符合Q版奇幻系列；扩展不同职业的装备轮廓，未重复旧宽刃新手剑或橡木圆盾。",
+        "保留缺陷：多数图标尺寸超过单格中央60%，未满足20%安全留白；背景有轻微纹理和色差，局部投影也占据额外空间。",
+        "使用限制：按模板保留不透明奶油底，alpha恒为255；尚未切成独立文件，不能当作透明sprite直接叠在任意背景上。图集为静态位图。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              253,
+              244,
+              225
+            ],
+            [
+              253,
+              244,
+              226
+            ],
+            [
+              253,
+              243,
+              228
+            ],
+            [
+              252,
+              242,
+              222
+            ],
+            [
+              253,
+              245,
+              231
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true
+      }
+    },
+    {
+      "assetId": "chibi-armor-atlas-v1",
+      "type": "library-review",
+      "observations": [
+        "可见内容：4列2行八组防具，依次为胸甲、成对护腕、成对靴子、成对护肩、鸢形盾、无角头盔、斗篷和双袋腰带。成对装备各归为一格，未见人物、文字、水印、画布裁切或跨格重叠。",
+        "风格与用途：圆润厚实外形、可可描边、奶油色甲片和金色扣件形成配套套装，归武器防具类别；鸢形盾与已有橡木圆盾具有不同轮廓。",
+        "保留缺陷：护肩、护腕、斗篷、腰带等较宽，未满足每边20%安全留白；奶油背景取样不完全一致。",
+        "使用限制：原图不透明，alpha恒为255，尚未分切或去底；需按各格实际轮廓安排裁切与边距，不能直接作为透明装备图标。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              253,
+              244,
+              225
+            ],
+            [
+              253,
+              243,
+              223
+            ],
+            [
+              252,
+              243,
+              226
+            ],
+            [
+              251,
+              240,
+              219
+            ],
+            [
+              253,
+              244,
+              227
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true
+      }
+    }
+  ],
+  "notes": [
+    "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+    "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+    "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+    "本次按最新heartbeat的04:30北京时间执行；仓库配置和说明仍记录09:00，遵照本次只提交素材与必要映射的范围，不修改旧配置或自动化频率。",
+    "已查看旧Q版新手剑与橡木盾，新增职业武器与冒险防具两张4×2图集；保留主题模板的用途、格数、尺寸和不透明设置，避免仅重复已有单件装备。",
+    "保留所有原图及可见偏差；未重抽、缩放或修图。",
+    "固定题目相同提示词下的差异只能描述为本次输出变化，不能证明训练或模型升级。"
+  ],
+  "completedAt": "2026-11-05T04:48:39+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "localDateTotalToolCalls": 4,
+    "attemptBudgetRespected": true,
+    "originalFilesPreserved": true,
+    "historyPageVerified": true,
+    "separateStyleSectionsVerified": true,
+    "comparisonDate": "2026-11-04",
+    "reviewedAt": "2026-11-05T04:48:40+08:00"
+  }
+}

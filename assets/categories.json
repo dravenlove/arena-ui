@@ -150,6 +150,8 @@
     "anime-rowan-tide-lancer": "characters",
     "anime-lyra-sun-gauntlet": "characters",
     "chibi-adventure-modes-v1": "navigation",
-    "chibi-game-utilities-v1": "navigation"
+    "chibi-game-utilities-v1": "navigation",
+    "chibi-weapons-atlas-v1": "equipment",
+    "chibi-armor-atlas-v1": "equipment"
   }
 }
