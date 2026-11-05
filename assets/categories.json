@@ -152,6 +152,8 @@
     "chibi-adventure-modes-v1": "navigation",
     "chibi-game-utilities-v1": "navigation",
     "chibi-weapons-atlas-v1": "equipment",
-    "chibi-armor-atlas-v1": "equipment"
+    "chibi-armor-atlas-v1": "equipment",
+    "chibi-tactical-attack-skills-v1": "abilities",
+    "chibi-team-support-skills-v1": "abilities"
   }
 }
