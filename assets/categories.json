@@ -156,6 +156,8 @@
     "chibi-tactical-attack-skills-v1": "abilities",
     "chibi-team-support-skills-v1": "abilities",
     "chibi-advanced-weapons-v1": "equipment",
-    "chibi-light-gear-v1": "equipment"
+    "chibi-light-gear-v1": "equipment",
+    "chibi-elemental-offense-v1": "abilities",
+    "chibi-guardian-buffs-v1": "abilities"
   }
 }
