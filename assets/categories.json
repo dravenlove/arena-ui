@@ -158,6 +158,8 @@
     "chibi-advanced-weapons-v1": "equipment",
     "chibi-light-gear-v1": "equipment",
     "chibi-elemental-offense-v1": "abilities",
-    "chibi-guardian-buffs-v1": "abilities"
+    "chibi-guardian-buffs-v1": "abilities",
+    "chibi-growth-materials-v1": "progression",
+    "chibi-reward-containers-v1": "progression"
   }
 }
