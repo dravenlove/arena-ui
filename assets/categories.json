@@ -160,6 +160,8 @@
     "chibi-elemental-offense-v1": "abilities",
     "chibi-guardian-buffs-v1": "abilities",
     "chibi-growth-materials-v1": "progression",
-    "chibi-reward-containers-v1": "progression"
+    "chibi-reward-containers-v1": "progression",
+    "chibi-dune-ring-arena-v1": "environments",
+    "chibi-woodland-gate-arena-v1": "environments"
   }
 }
