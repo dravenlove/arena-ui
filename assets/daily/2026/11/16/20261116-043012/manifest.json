@@ -1,0 +1,682 @@
+{
+  "id": "20261116-043012",
+  "date": "2026-11-16",
+  "time": "04:30:12",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/11/16/20261116-043012/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261115-043154",
+        "date": "2026-11-15",
+        "path": "assets/daily/2026/11/15/20261115-043154/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      },
+      "path": "assets/daily/2026/11/16/20261116-043012/benchmark/ui-kit-board.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1740072,
+      "sha256": "eab579e4ddae11adfcb5758fe3bcf1da5b19a7f59aece9d176632f1850de5788",
+      "recordedAt": "2026-11-16T04:31:09+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-16T04:30:13+08:00",
+        "resultObservedAt": "2026-11-16T04:30:56+08:00"
+      },
+      "sourceFile": "exec-8fec4c19-a3c4-48c9-969b-32f82acf16a3.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "canvasClippingObserved": false,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "inventoryCellCount": 8,
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "sideBySideComparisonReviewed": true,
+        "reviewedAt": "2026-11-16T04:34:33+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261115-043154",
+        "date": "2026-11-15",
+        "path": "assets/daily/2026/11/15/20261115-043154/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      },
+      "path": "assets/daily/2026/11/16/20261116-043012/benchmark/equipment-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1801206,
+      "sha256": "b3f4b7ebcc52932d4507990ca719a406d3c2cd99a1210d9941a5f75d1fa2dc61",
+      "recordedAt": "2026-11-16T04:31:47+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-16T04:31:10+08:00",
+        "resultObservedAt": "2026-11-16T04:31:39+08:00"
+      },
+      "sourceFile": "exec-e670c602-7738-4eb5-8b0d-6e42770fbce6.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "canvasClippingObserved": false,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              22,
+              28,
+              35
+            ],
+            [
+              21,
+              29,
+              35
+            ],
+            [
+              22,
+              28,
+              36
+            ],
+            [
+              22,
+              29,
+              37
+            ],
+            [
+              21,
+              27,
+              34
+            ]
+          ]
+        },
+        "sideBySideComparisonReviewed": true,
+        "reviewedAt": "2026-11-16T04:34:33+08:00"
+      }
+    },
+    {
+      "id": "chibi-ivory-warden-portrait-v1",
+      "label": "Q版·奶油盔守望者头像",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "portraits",
+      "benchmarkId": null,
+      "promptVersion": "chibi-warden-alchemist-avatars-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "warden-portrait",
+      "sourceTemplatePromptSha256": "f28e1d615e6bc8100404d2e43bb61f3c8d8e7a8b7ad6682e551a86cac1661dfe",
+      "prompt": "Use case: stylized-concept. Asset type: reusable character avatar for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE square 1024x1024 HEAD-AND-SHOULDERS portrait of one original adult chibi fantasy character, not full body and not an atlas. Oversized head, compact shoulders with two-head-tall implied body proportions, clear silhouette, readable facial features at small avatar sizes. Keep all hair, hood or helmet comfortably inside the square with generous headroom and side padding; shoulders may naturally reach the lower crop. Quiet opaque uniform warm cream #fff7e7 background, not transparent, no scenery. Cocoa #654c3f outlines, rounded chunky cream clothing and matte toy-like hand-painted 3D depth, broad soft top-left highlights, restrained honey-gold #ffc857 clasps and fittings. Sky cyan #60c9e8 only for energy/selection; no coral danger, mint healing-green or lavender epic accents needed. No gritty realistic steel or leather, photorealistic skin, gothic spikes, realistic adult body proportions, weapons, extra characters, hands, text, letters, numbers, UI frames, border, logos or watermark. Slight three-quarter turn but both eyes readable. A dignified adult woman warden with warm deep-brown skin, short softly curled cocoa hair visible at the temples, large kind dark eyes, thick eyebrows and a calm determined closed-mouth smile. A rounded sculpted matte cream HORNLESS helmet with a simple cocoa central seam and raised open face guard, no crest or spikes. Chunky cream heavy shoulder armor over cocoa padded fabric, one small honey-gold clasp and one tiny cyan energy inset at the collar. Restrained cyan energy rim light only along one helmet edge. The helmet is clearly armor rather than a hood, with the face uncovered. Broad rounded silhouette suited to a frontline defender avatar; no shield visible.",
+      "promptSha256": "983ed15fb832877bdcac2afce5266f92b4151a057e3783e368871db202ab9ad6",
+      "path": "assets/daily/2026/11/16/20261116-043012/library/chibi-fantasy/chibi-ivory-warden-portrait-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1917321,
+      "sha256": "a652b418c2f45e043b48d94f79581ab4bee946b1f3c03ef47f095802ac485578",
+      "recordedAt": "2026-11-16T04:32:28+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-16T04:31:48+08:00",
+        "resultObservedAt": "2026-11-16T04:32:15+08:00"
+      },
+      "sourceFile": "exec-681648d6-f063-4ae1-9903-7abb5f7e63f8.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": false,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "headAndShouldersPortrait": true,
+        "singleCharacter": true,
+        "eyesReadable": true,
+        "headwearFullyVisible": true,
+        "comfortableHeadroomMet": false,
+        "shouldersReachFrameEdges": true,
+        "avatarCropTested": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "reviewedAt": "2026-11-16T04:34:33+08:00"
+      }
+    },
+    {
+      "id": "chibi-amber-alchemist-portrait-v1",
+      "label": "Q版·蜜金炼金师头像",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "portraits",
+      "benchmarkId": null,
+      "promptVersion": "chibi-warden-alchemist-avatars-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "alchemist-portrait",
+      "sourceTemplatePromptSha256": "4d720a4d7969e57a12a9bf28acbbcabc813556a2db5d345142d28756e1ac36b8",
+      "prompt": "Use case: stylized-concept. Asset type: reusable character avatar for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE square 1024x1024 HEAD-AND-SHOULDERS portrait of one original adult chibi fantasy character, not full body and not an atlas. Oversized head, compact shoulders with two-head-tall implied body proportions, clear silhouette, readable facial features at small avatar sizes. Keep all hair, hood or helmet comfortably inside the square with generous headroom and side padding; shoulders may naturally reach the lower crop. Quiet opaque uniform warm cream #fff7e7 background, not transparent, no scenery. Cocoa #654c3f outlines, rounded chunky cream clothing and matte toy-like hand-painted 3D depth, broad soft top-left highlights, restrained honey-gold #ffc857 clasps and fittings. Sky cyan #60c9e8 only for energy/selection; no coral danger, mint healing-green or lavender epic accents needed. No gritty realistic steel or leather, photorealistic skin, gothic spikes, realistic adult body proportions, weapons, extra characters, hands, text, letters, numbers, UI frames, border, logos or watermark. Slight three-quarter turn but both eyes readable. A thoughtful older adult man alchemist with warm tan skin, large hazel eyes, round nose, short cocoa-and-cream moustache and a few cream hair curls. A soft cocoa hood with a thick cream rolled edge, cream goggles with neutral cocoa-tinted lenses pushed above the brow, not over the eyes. Rounded cocoa leather collar and cream layered tunic with one small closed amber glass vial attached at the chest by a honey-gold loop. Gentle inquisitive closed-mouth expression, no bright magic, no smoke, no glowing eyes. The small amber vial signifies crafting materials, not a red health potion. Keep goggles, hood and curls fully visible with ample top padding. Distinguish this scholar silhouette from the armored warden.",
+      "promptSha256": "e0ef57574f78633227db04f7f007edb371035dc8aa38af0af9d4979845fc72b8",
+      "path": "assets/daily/2026/11/16/20261116-043012/library/chibi-fantasy/chibi-amber-alchemist-portrait-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 2099420,
+      "sha256": "6dbeb4c88733fe53f0f6a4bde6fe6f217cd3061e94134f16168f96a2070ecf3d",
+      "recordedAt": "2026-11-16T04:33:11+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-16T04:32:29+08:00",
+        "resultObservedAt": "2026-11-16T04:32:59+08:00"
+      },
+      "sourceFile": "exec-94d739c1-d2d5-42af-b8e8-61bf6e5feb31.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": false,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "headAndShouldersPortrait": true,
+        "singleCharacter": true,
+        "eyesReadable": true,
+        "headwearFullyVisible": true,
+        "comfortableHeadroomMet": false,
+        "shouldersReachFrameEdges": true,
+        "avatarCropTested": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "reviewedAt": "2026-11-16T04:34:33+08:00"
+      }
+    }
+  ],
+  "themeId": "portraits",
+  "startedAt": "2026-11-16T04:30:12+08:00",
+  "scheduledFor": "2026-11-16T04:30:00+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-16T04:30:13+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-11-16T04:30:56+08:00",
+      "outputPath": "assets/daily/2026/11/16/20261116-043012/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-8fec4c19-a3c4-48c9-969b-32f82acf16a3.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-16T04:31:09+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-16T04:31:10+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-11-16T04:31:39+08:00",
+      "outputPath": "assets/daily/2026/11/16/20261116-043012/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-e670c602-7738-4eb5-8b0d-6e42770fbce6.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-16T04:31:47+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "chibi-ivory-warden-portrait-v1",
+      "group": "library",
+      "startedAt": "2026-11-16T04:31:48+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "983ed15fb832877bdcac2afce5266f92b4151a057e3783e368871db202ab9ad6",
+      "resultObservedAt": "2026-11-16T04:32:15+08:00",
+      "outputPath": "assets/daily/2026/11/16/20261116-043012/library/chibi-fantasy/chibi-ivory-warden-portrait-v1.png",
+      "sourceFile": "exec-681648d6-f063-4ae1-9903-7abb5f7e63f8.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-16T04:32:28+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "chibi-amber-alchemist-portrait-v1",
+      "group": "library",
+      "startedAt": "2026-11-16T04:32:29+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "e0ef57574f78633227db04f7f007edb371035dc8aa38af0af9d4979845fc72b8",
+      "resultObservedAt": "2026-11-16T04:32:59+08:00",
+      "outputPath": "assets/daily/2026/11/16/20261116-043012/library/chibi-fantasy/chibi-amber-alchemist-portrait-v1.png",
+      "sourceFile": "exec-94d739c1-d2d5-42af-b8e8-61bf6e5feb31.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-16T04:33:11+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261115-043154",
+        "date": "2026-11-15",
+        "path": "assets/daily/2026/11/15/20261115-043154/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261115-043154",
+        "date": "2026-11-15",
+        "path": "assets/daily/2026/11/15/20261115-043154/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      }
+    },
+    {
+      "id": "chibi-ivory-warden-portrait-v1",
+      "label": "Q版·奶油盔守望者头像",
+      "filename": "chibi-ivory-warden-portrait-v1.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "portraits",
+      "benchmarkId": null,
+      "promptVersion": "chibi-warden-alchemist-avatars-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "warden-portrait",
+      "sourceTemplatePromptSha256": "f28e1d615e6bc8100404d2e43bb61f3c8d8e7a8b7ad6682e551a86cac1661dfe",
+      "prompt": "Use case: stylized-concept. Asset type: reusable character avatar for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE square 1024x1024 HEAD-AND-SHOULDERS portrait of one original adult chibi fantasy character, not full body and not an atlas. Oversized head, compact shoulders with two-head-tall implied body proportions, clear silhouette, readable facial features at small avatar sizes. Keep all hair, hood or helmet comfortably inside the square with generous headroom and side padding; shoulders may naturally reach the lower crop. Quiet opaque uniform warm cream #fff7e7 background, not transparent, no scenery. Cocoa #654c3f outlines, rounded chunky cream clothing and matte toy-like hand-painted 3D depth, broad soft top-left highlights, restrained honey-gold #ffc857 clasps and fittings. Sky cyan #60c9e8 only for energy/selection; no coral danger, mint healing-green or lavender epic accents needed. No gritty realistic steel or leather, photorealistic skin, gothic spikes, realistic adult body proportions, weapons, extra characters, hands, text, letters, numbers, UI frames, border, logos or watermark. Slight three-quarter turn but both eyes readable. A dignified adult woman warden with warm deep-brown skin, short softly curled cocoa hair visible at the temples, large kind dark eyes, thick eyebrows and a calm determined closed-mouth smile. A rounded sculpted matte cream HORNLESS helmet with a simple cocoa central seam and raised open face guard, no crest or spikes. Chunky cream heavy shoulder armor over cocoa padded fabric, one small honey-gold clasp and one tiny cyan energy inset at the collar. Restrained cyan energy rim light only along one helmet edge. The helmet is clearly armor rather than a hood, with the face uncovered. Broad rounded silhouette suited to a frontline defender avatar; no shield visible.",
+      "promptSha256": "983ed15fb832877bdcac2afce5266f92b4151a057e3783e368871db202ab9ad6"
+    },
+    {
+      "id": "chibi-amber-alchemist-portrait-v1",
+      "label": "Q版·蜜金炼金师头像",
+      "filename": "chibi-amber-alchemist-portrait-v1.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "portraits",
+      "benchmarkId": null,
+      "promptVersion": "chibi-warden-alchemist-avatars-v1",
+      "requestedSize": [
+        1024,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "alchemist-portrait",
+      "sourceTemplatePromptSha256": "4d720a4d7969e57a12a9bf28acbbcabc813556a2db5d345142d28756e1ac36b8",
+      "prompt": "Use case: stylized-concept. Asset type: reusable character avatar for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE square 1024x1024 HEAD-AND-SHOULDERS portrait of one original adult chibi fantasy character, not full body and not an atlas. Oversized head, compact shoulders with two-head-tall implied body proportions, clear silhouette, readable facial features at small avatar sizes. Keep all hair, hood or helmet comfortably inside the square with generous headroom and side padding; shoulders may naturally reach the lower crop. Quiet opaque uniform warm cream #fff7e7 background, not transparent, no scenery. Cocoa #654c3f outlines, rounded chunky cream clothing and matte toy-like hand-painted 3D depth, broad soft top-left highlights, restrained honey-gold #ffc857 clasps and fittings. Sky cyan #60c9e8 only for energy/selection; no coral danger, mint healing-green or lavender epic accents needed. No gritty realistic steel or leather, photorealistic skin, gothic spikes, realistic adult body proportions, weapons, extra characters, hands, text, letters, numbers, UI frames, border, logos or watermark. Slight three-quarter turn but both eyes readable. A thoughtful older adult man alchemist with warm tan skin, large hazel eyes, round nose, short cocoa-and-cream moustache and a few cream hair curls. A soft cocoa hood with a thick cream rolled edge, cream goggles with neutral cocoa-tinted lenses pushed above the brow, not over the eyes. Rounded cocoa leather collar and cream layered tunic with one small closed amber glass vial attached at the chest by a honey-gold loop. Gentle inquisitive closed-mouth expression, no bright magic, no smoke, no glowing eyes. The small amber vial signifies crafting materials, not a red health potion. Keep goggles, hood and curls fully visible with ample top padding. Distinguish this scholar silhouette from the armored warden.",
+      "promptSha256": "e0ef57574f78633227db04f7f007edb371035dc8aa38af0af9d4979845fc72b8"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "benchmark-comparison",
+      "observations": [
+        "可见变化：与11月15日相同提示词样本并排看，主按钮由竖排改为左上横排，数值条在其下；人物区从右上移到左下，新增VALERIA、BLADEMASTER名称职业及更多属性，仍为银发人物头像。",
+        "可见变化：背包仍4列2行、长剑青色选中，移到中部，标题容量由8/32变为8/40，未出现昨日药水卷轴水晶数量标签。弹窗移到右侧，移除城堡背景，按钮改为BATTLE在左、CANCEL在右。五项导航选中OVERVIEW改为金色，QUESTS换为TALENTS，底部增加GUARD与COOLDOWN徽章，未出现昨日单选与下拉。",
+        "文字与布局：主要标题、按钮、数值、人物属性和弹窗文字清楚，未见组件画布裁切；细字在实际移动端尺寸仍需复核。",
+        "主观判断：人物属性区更丰富，但失去了部分控件种类，不能将局部设计变化归为整体能力提升。",
+        "限制：工具未报告实际模型版本与随机种子，相同提示词下的随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "canvasClippingObserved": false,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "inventoryCellCount": 8,
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "sideBySideComparisonReviewed": true
+      },
+      "comparedWith": {
+        "runId": "20261115-043154",
+        "date": "2026-11-15",
+        "path": "assets/daily/2026/11/15/20261115-043154/benchmark/ui-kit-board.png",
+        "samePromptHash": true
+      }
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "benchmark-comparison",
+      "observations": [
+        "可见内容：4列2行八件装备，顺序为剑、盾、紫宝石戒指、红药水、双头斧、无角头盔、封印卷轴和青色水晶；各件完整，无文字、水印或跨格重叠。",
+        "可见变化：与11月15日并排看，长剑变得更接近竖向，斧头由斜向变为竖向，斧柄尾由圆环改为尖头；盾面叶纹改为较简洁的金属十字，药水去掉金色吊牌与红带。戒指镶口、头盔侧圆铆件、卷轴印章及水晶簇轮廓也不同。",
+        "保留缺陷：剑、盾、斧等超出单格中央60%，仍未满足四边20%留白；背景采样存在色差，未严格满足统一#171c24。",
+        "主观判断：盾面更简洁、斧头更对称，但这些造型选择不足以证明模型质量趋势，留白问题仍在。",
+        "限制：工具未报告实际模型版本与随机种子，相同提示词下的随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "canvasClippingObserved": false,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              22,
+              28,
+              35
+            ],
+            [
+              21,
+              29,
+              35
+            ],
+            [
+              22,
+              28,
+              36
+            ],
+            [
+              22,
+              29,
+              37
+            ],
+            [
+              21,
+              27,
+              34
+            ]
+          ]
+        },
+        "sideBySideComparisonReviewed": true
+      },
+      "comparedWith": {
+        "runId": "20261115-043154",
+        "date": "2026-11-15",
+        "path": "assets/daily/2026/11/15/20261115-043154/benchmark/equipment-atlas.png",
+        "samePromptHash": true
+      }
+    },
+    {
+      "assetId": "chibi-ivory-warden-portrait-v1",
+      "type": "library-review",
+      "observations": [
+        "可见内容：单人头肩头像，深棕肤色、短卷发、双眼清楚、闭嘴微笑；奶油无角头盔、可可中央接缝、厚肩甲和金青色领扣可辨，青色轮廓光沿右侧头盔并延伸到肩甲。无文字、UI边框、水印、武器或手。",
+        "风格与用途：大头与紧凑肩部形成Q版玩具质感，可用作前排守望者头像；奶油暖底和可可描边与深色金属旧头像区别，分类为Q版奇幻/角色头像。",
+        "保留偏差：请求1024×1024，实际1254×1254；头顶留白很窄，肩甲在左右和底部达到画面边缘，未达到充足侧边留白。青色轮廓光范围超过单侧头盔边。背景有轻微纹理和色差。",
+        "使用限制：不透明原图alpha恒为255，未去底、缩放或实际套用圆形头像裁切；圆框可能进一步裁掉头盔和肩甲，应用时需处理。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": false,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "headAndShouldersPortrait": true,
+        "singleCharacter": true,
+        "eyesReadable": true,
+        "headwearFullyVisible": true,
+        "comfortableHeadroomMet": false,
+        "shouldersReachFrameEdges": true,
+        "avatarCropTested": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false
+      }
+    },
+    {
+      "assetId": "chibi-amber-alchemist-portrait-v1",
+      "type": "library-review",
+      "observations": [
+        "可见内容：单人头肩头像，卷曲奶油发、可可奶油双色胡须、琥珀眼、圆鼻和思索神情；可可兜帽奶油滚边、额上中性镜片护目镜及胸前闭合琥珀瓶清楚。无亮魔法、烟雾、武器、手、文字、UI框或水印。",
+        "风格与用途：奶油可可布皮革与金色扣具形成圆润手绘体积，胡须和护目镜区分于守望者；归Q版奇幻/角色头像，可用于炼金职业或角色列表。",
+        "保留偏差：请求1024×1024，实际1254×1254；兜帽上方留白很窄，肩膀自然延伸出底部。背景并非完全均匀纯色，实际小头像里的琥珀瓶可能难以识别。",
+        "使用限制：不透明原图alpha恒为255，未去底或实际套用头像框；有胡须和白发的Q版脸仍不能从画面确定具体年龄，成人职业身份来自创作设定。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": false,
+        "styleVerified": true,
+        "categoryVerified": true,
+        "headAndShouldersPortrait": true,
+        "singleCharacter": true,
+        "eyesReadable": true,
+        "headwearFullyVisible": true,
+        "comfortableHeadroomMet": false,
+        "shouldersReachFrameEdges": true,
+        "avatarCropTested": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false
+      }
+    }
+  ],
+  "notes": [
+    "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+    "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+    "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+    "本次按最新heartbeat的04:30北京时间执行；仓库配置和说明仍记录09:00，遵照本次只提交素材与必要映射的范围，不修改旧配置或自动化频率。",
+    "已核对角色与头像目录并查看10月26日深色金属守望者与炼金师头像；本次补充两张Q版头肩头像，保留模板职业、方形构图、请求尺寸及不透明设置。",
+    "保留所有原图及可见偏差；未重抽、缩放或修图。",
+    "固定题目相同提示词下的差异只能描述为本次输出变化，不能证明训练或模型升级。"
+  ],
+  "completedAt": "2026-11-16T04:34:33+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "localDateTotalToolCalls": 4,
+    "attemptBudgetRespected": true,
+    "originalFilesPreserved": true,
+    "historyPageVerified": true,
+    "separateStyleSectionsVerified": true,
+    "comparisonDate": "2026-11-15",
+    "reviewedAt": "2026-11-16T04:34:33+08:00"
+  }
+}
