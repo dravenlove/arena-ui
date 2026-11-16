@@ -164,6 +164,8 @@
     "chibi-dune-ring-arena-v1": "environments",
     "chibi-woodland-gate-arena-v1": "environments",
     "chibi-ivory-warden-portrait-v1": "portraits",
-    "chibi-amber-alchemist-portrait-v1": "portraits"
+    "chibi-amber-alchemist-portrait-v1": "portraits",
+    "chibi-empty-hex-reliquary-v1": "feedback",
+    "chibi-twin-ring-trophy-v1": "feedback"
   }
 }
