@@ -1,0 +1,914 @@
+{
+  "id": "20261118-043553",
+  "date": "2026-11-18",
+  "time": "04:35:53",
+  "timezone": "Asia/Shanghai",
+  "manifest": "assets/daily/2026/11/18/20261118-043553/manifest.json",
+  "kind": "scheduled",
+  "status": "complete",
+  "assets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261117-043334",
+        "date": "2026-11-17",
+        "path": "assets/daily/2026/11/17/20261117-043334/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      },
+      "path": "assets/daily/2026/11/18/20261118-043553/benchmark/ui-kit-board.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1694156,
+      "sha256": "853dc8383c28d5f982fea3d499c15cdd888517e603ed4d835fffe6f2ec4d3af7",
+      "recordedAt": "2026-11-18T04:36:50+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-18T04:35:55+08:00",
+        "resultObservedAt": "2026-11-18T04:36:35+08:00"
+      },
+      "sourceFile": "exec-c7c0f871-734c-4025-a3a9-85e13d1d88d3.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "inventoryCellCount": 8,
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "sideBySideComparisonReviewed": true,
+        "reviewedAt": "2026-11-18T04:40:21+08:00"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261117-043334",
+        "date": "2026-11-17",
+        "path": "assets/daily/2026/11/17/20261117-043334/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      },
+      "path": "assets/daily/2026/11/18/20261118-043553/benchmark/equipment-atlas.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1799993,
+      "sha256": "fc04c4bea13ea95fed538886b614a2c9b6dfbe09798243436254be6b31ebfd99",
+      "recordedAt": "2026-11-18T04:37:30+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-18T04:36:51+08:00",
+        "resultObservedAt": "2026-11-18T04:37:21+08:00"
+      },
+      "sourceFile": "exec-232650ed-852e-4c2a-851f-c0c9407a2da6.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              23,
+              29,
+              35
+            ],
+            [
+              22,
+              30,
+              36
+            ],
+            [
+              22,
+              28,
+              36
+            ],
+            [
+              23,
+              30,
+              38
+            ],
+            [
+              22,
+              27,
+              35
+            ]
+          ]
+        },
+        "sideBySideComparisonReviewed": true,
+        "reviewedAt": "2026-11-18T04:40:21+08:00"
+      }
+    },
+    {
+      "id": "chibi-challenge-modes-v1",
+      "label": "Q版·挑战玩法入口图集",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "navigation",
+      "benchmarkId": null,
+      "promptVersion": "chibi-challenge-social-navigation-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "mode-atlas",
+      "sourceTemplatePromptSha256": "fb648550e2b2cfa3b304c7f62652e2234fecd5e82a3942f662dadb094301587a",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game navigation icon atlas for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 sheet with EXACTLY FOUR columns and TWO rows of equal cells, eight independent complete icon groups. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background, not transparent. Center one complete group within the CENTRAL 60 percent of each cell in BOTH axes, leaving at least 20 percent clear margin on every side including tips and local shadows. Consistent visual scale, no overlap between cells. Cocoa #654c3f outlines, chunky rounded cream materials, cocoa wood/leather, soft hand-painted toy-like 3D depth, broad restrained top-left highlights and distinct silhouettes readable at small mobile sizes. Honey gold #ffc857 for actions/rewards, sky cyan #60c9e8 only for selection or energy, coral #ed777b only for danger. No mint healing-green or lavender epic accents needed. No photorealism, gritty dark metal, sharp gothic spikes, full characters, scenery, text, letters, numbers, writing-like marks, UI frames, logos, watermarks or escaping effects. Eight distinct playable-mode entry symbols. ROW ONE left to right: 1 a small cream skull-shaped boss banner with two coral eye sockets on a short cocoa stand, rounded toy skull not realistic bones, for boss challenge; 2 one compact cream spiral stairwell descending into a cocoa circular opening for dungeon descent, no gate; 3 one small contained honey-gold campfire over three cocoa logs for survival mode, no sparks; 4 one compact cocoa covered wagon with cream canopy and two visible honey-gold wheels for escort mode, no animal. ROW TWO: 5 one tiny cream airship balloon with cocoa gondola and gold straps for expedition mode, no loose ropes; 6 one short cream pickaxe crossed with a single honey-gold ore chunk for mining challenge, one contained group; 7 three chunky cream puzzle blocks joined together, middle block edged cyan to indicate selection, no runes, for puzzle trials; 8 three small cream hornless helmet silhouettes joined by two cyan energy links for team raid, helmets only, no faces or shields. Avoid the existing training dummy, colosseum gate, tower, compass, crossed flags, campaign map, linked shields and crystal portal.",
+      "promptSha256": "d4322d39ab78104ef541609a0b016953beca175df317f241c12f4f6cc8daa9cf",
+      "path": "assets/daily/2026/11/18/20261118-043553/library/chibi-fantasy/chibi-challenge-modes-v1.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1527772,
+      "sha256": "e05ef2e5821b73dbe53e7b3294b19aaed26add70fb819e8f637ea48dea670c4d",
+      "recordedAt": "2026-11-18T04:38:10+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-18T04:37:31+08:00",
+        "resultObservedAt": "2026-11-18T04:38:00+08:00"
+      },
+      "sourceFile": "exec-fcc67b26-aa36-4bc3-83b5-a933f9fe897e.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              252,
+              242,
+              224
+            ],
+            [
+              253,
+              243,
+              223
+            ],
+            [
+              252,
+              242,
+              225
+            ],
+            [
+              251,
+              240,
+              219
+            ],
+            [
+              253,
+              244,
+              227
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true,
+        "reviewedAt": "2026-11-18T04:40:21+08:00"
+      }
+    },
+    {
+      "id": "chibi-social-customization-v1",
+      "label": "Q版·社交装扮入口图集",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "navigation",
+      "benchmarkId": null,
+      "promptVersion": "chibi-challenge-social-navigation-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "utility-atlas",
+      "sourceTemplatePromptSha256": "b6148d144d6fb182353b60fbaf40fbac66e8e2ae2621938e0f91057c78b79827",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game navigation icon atlas for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 sheet with EXACTLY FOUR columns and TWO rows of equal cells, eight independent complete icon groups. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background, not transparent. Center one complete group within the CENTRAL 60 percent of each cell in BOTH axes, leaving at least 20 percent clear margin on every side including tips and local shadows. Consistent visual scale, no overlap between cells. Cocoa #654c3f outlines, chunky rounded cream materials, cocoa wood/leather, soft hand-painted toy-like 3D depth, broad restrained top-left highlights and distinct silhouettes readable at small mobile sizes. Honey gold #ffc857 for actions/rewards, sky cyan #60c9e8 only for selection or energy, coral #ed777b only for danger. No mint healing-green or lavender epic accents needed. No photorealism, gritty dark metal, sharp gothic spikes, full characters, scenery, text, letters, numbers, writing-like marks, UI frames, logos, watermarks or escaping effects. Eight distinct utility-menu entry symbols. ROW ONE left to right: 1 one rounded cream camera with cocoa body inset and cyan glass lens for photo mode; 2 one cocoa clothes hanger holding a short cream tunic with one honey-gold button for wardrobe; 3 one short cocoa brush crossing a cream palette carrying exactly two plain paint dabs, honey-gold and cocoa only, for appearance editing; 4 one cream magnifying glass with a cyan lens and cocoa handle for collection search, no book. ROW TWO: 5 one small honey-gold balance scale with two cream pans and cocoa base for auction; 6 one cream mortar with a cocoa pestle and a tiny gold material nugget inside for alchemy; 7 two overlapping cream speech bubbles with cocoa outlines and one tiny gold blank inset, no dots or writing, for chat; 8 one small honey-gold notification bell with cocoa hanging loop and cream clapper for alerts. All groups isolated, no UI labels. Avoid the existing backpack, gear, envelope, ledger, hammer/anvil, hourglass, medal, map, calendar, friend portraits, quill, horn and magic tome.",
+      "promptSha256": "dcc3f9626893e4eb69f23a1fed80d0e4c3157be31a7fcac38ea6c62a21b213f7",
+      "path": "assets/daily/2026/11/18/20261118-043553/library/chibi-fantasy/chibi-social-customization-v1.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "model": "unreported",
+      "randomSeed": null,
+      "bytes": 1538557,
+      "sha256": "c795ca9d99105f0c3927a196c4d47df8984419864fcc10a802e4942ea4a4df48",
+      "recordedAt": "2026-11-18T04:38:57+08:00",
+      "generationWindow": {
+        "startedAt": "2026-11-18T04:38:11+08:00",
+        "resultObservedAt": "2026-11-18T04:38:44+08:00"
+      },
+      "sourceFile": "exec-de48681c-0155-443d-b931-ed3ef0d051c1.png",
+      "validation": {
+        "decoded": true,
+        "sizeVerified": true,
+        "fileHashVerified": true,
+        "promptHashVerified": true,
+        "originalBytesPreserved": true,
+        "pngMode": "RGB",
+        "alphaRange": [
+          255,
+          255
+        ],
+        "transparentPixelRatio": 0.0,
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              252,
+              243,
+              226
+            ],
+            [
+              252,
+              243,
+              224
+            ],
+            [
+              252,
+              242,
+              228
+            ],
+            [
+              251,
+              242,
+              225
+            ],
+            [
+              252,
+              244,
+              232
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true,
+        "reviewedAt": "2026-11-18T04:40:21+08:00"
+      }
+    }
+  ],
+  "themeId": "navigation",
+  "startedAt": "2026-11-18T04:35:53+08:00",
+  "scheduledFor": "2026-11-18T04:30:00+08:00",
+  "generationMode": "built-in-imagegen",
+  "model": "unreported",
+  "randomSeed": null,
+  "attemptCount": 4,
+  "attempts": [
+    {
+      "number": 1,
+      "slotId": "ui-kit-board-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-18T04:35:55+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "resultObservedAt": "2026-11-18T04:36:35+08:00",
+      "outputPath": "assets/daily/2026/11/18/20261118-043553/benchmark/ui-kit-board.png",
+      "sourceFile": "exec-c7c0f871-734c-4025-a3a9-85e13d1d88d3.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-18T04:36:50+08:00"
+    },
+    {
+      "number": 2,
+      "slotId": "equipment-atlas-v1",
+      "group": "benchmark",
+      "startedAt": "2026-11-18T04:36:51+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "resultObservedAt": "2026-11-18T04:37:21+08:00",
+      "outputPath": "assets/daily/2026/11/18/20261118-043553/benchmark/equipment-atlas.png",
+      "sourceFile": "exec-232650ed-852e-4c2a-851f-c0c9407a2da6.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-18T04:37:30+08:00"
+    },
+    {
+      "number": 3,
+      "slotId": "chibi-challenge-modes-v1",
+      "group": "library",
+      "startedAt": "2026-11-18T04:37:31+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "d4322d39ab78104ef541609a0b016953beca175df317f241c12f4f6cc8daa9cf",
+      "resultObservedAt": "2026-11-18T04:38:00+08:00",
+      "outputPath": "assets/daily/2026/11/18/20261118-043553/library/chibi-fantasy/chibi-challenge-modes-v1.png",
+      "sourceFile": "exec-fcc67b26-aa36-4bc3-83b5-a933f9fe897e.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-18T04:38:10+08:00"
+    },
+    {
+      "number": 4,
+      "slotId": "chibi-social-customization-v1",
+      "group": "library",
+      "startedAt": "2026-11-18T04:38:11+08:00",
+      "status": "succeeded",
+      "tool": "built-in-imagegen",
+      "promptSha256": "dcc3f9626893e4eb69f23a1fed80d0e4c3157be31a7fcac38ea6c62a21b213f7",
+      "resultObservedAt": "2026-11-18T04:38:44+08:00",
+      "outputPath": "assets/daily/2026/11/18/20261118-043553/library/chibi-fantasy/chibi-social-customization-v1.png",
+      "sourceFile": "exec-de48681c-0155-443d-b931-ed3ef0d051c1.png",
+      "decodeVerified": true,
+      "validationCompletedAt": "2026-11-18T04:38:57+08:00"
+    }
+  ],
+  "plannedAssets": [
+    {
+      "id": "ui-kit-board-v1",
+      "label": "组件视觉参考板",
+      "filename": "ui-kit-board.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+      "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "ui-kit-board-v1",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "previousComparable": {
+        "runId": "20261117-043334",
+        "date": "2026-11-17",
+        "path": "assets/daily/2026/11/17/20261117-043334/benchmark/ui-kit-board.png",
+        "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+      }
+    },
+    {
+      "id": "equipment-atlas-v1",
+      "label": "装备图集",
+      "filename": "equipment-atlas.png",
+      "promptVersion": "v1",
+      "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+      "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "group": "benchmark",
+      "benchmarkId": "equipment-atlas-v1",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "previousComparable": {
+        "runId": "20261117-043334",
+        "date": "2026-11-17",
+        "path": "assets/daily/2026/11/17/20261117-043334/benchmark/equipment-atlas.png",
+        "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+      }
+    },
+    {
+      "id": "chibi-challenge-modes-v1",
+      "label": "Q版·挑战玩法入口图集",
+      "filename": "chibi-challenge-modes-v1.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "navigation",
+      "benchmarkId": null,
+      "promptVersion": "chibi-challenge-social-navigation-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "mode-atlas",
+      "sourceTemplatePromptSha256": "fb648550e2b2cfa3b304c7f62652e2234fecd5e82a3942f662dadb094301587a",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game navigation icon atlas for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 sheet with EXACTLY FOUR columns and TWO rows of equal cells, eight independent complete icon groups. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background, not transparent. Center one complete group within the CENTRAL 60 percent of each cell in BOTH axes, leaving at least 20 percent clear margin on every side including tips and local shadows. Consistent visual scale, no overlap between cells. Cocoa #654c3f outlines, chunky rounded cream materials, cocoa wood/leather, soft hand-painted toy-like 3D depth, broad restrained top-left highlights and distinct silhouettes readable at small mobile sizes. Honey gold #ffc857 for actions/rewards, sky cyan #60c9e8 only for selection or energy, coral #ed777b only for danger. No mint healing-green or lavender epic accents needed. No photorealism, gritty dark metal, sharp gothic spikes, full characters, scenery, text, letters, numbers, writing-like marks, UI frames, logos, watermarks or escaping effects. Eight distinct playable-mode entry symbols. ROW ONE left to right: 1 a small cream skull-shaped boss banner with two coral eye sockets on a short cocoa stand, rounded toy skull not realistic bones, for boss challenge; 2 one compact cream spiral stairwell descending into a cocoa circular opening for dungeon descent, no gate; 3 one small contained honey-gold campfire over three cocoa logs for survival mode, no sparks; 4 one compact cocoa covered wagon with cream canopy and two visible honey-gold wheels for escort mode, no animal. ROW TWO: 5 one tiny cream airship balloon with cocoa gondola and gold straps for expedition mode, no loose ropes; 6 one short cream pickaxe crossed with a single honey-gold ore chunk for mining challenge, one contained group; 7 three chunky cream puzzle blocks joined together, middle block edged cyan to indicate selection, no runes, for puzzle trials; 8 three small cream hornless helmet silhouettes joined by two cyan energy links for team raid, helmets only, no faces or shields. Avoid the existing training dummy, colosseum gate, tower, compass, crossed flags, campaign map, linked shields and crystal portal.",
+      "promptSha256": "d4322d39ab78104ef541609a0b016953beca175df317f241c12f4f6cc8daa9cf"
+    },
+    {
+      "id": "chibi-social-customization-v1",
+      "label": "Q版·社交装扮入口图集",
+      "filename": "chibi-social-customization-v1.png",
+      "group": "library",
+      "styleId": "chibi-fantasy",
+      "categoryId": "navigation",
+      "benchmarkId": null,
+      "promptVersion": "chibi-challenge-social-navigation-v1",
+      "requestedSize": [
+        1536,
+        1024
+      ],
+      "transparentBackground": false,
+      "sourceTemplateId": "utility-atlas",
+      "sourceTemplatePromptSha256": "b6148d144d6fb182353b60fbaf40fbac66e8e2ae2621938e0f91057c78b79827",
+      "grid": [
+        4,
+        2
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: reusable game navigation icon atlas for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE landscape 1536x1024 sheet with EXACTLY FOUR columns and TWO rows of equal cells, eight independent complete icon groups. No gutters or visible grid. Flat opaque uniform warm cream #fff7e7 background, not transparent. Center one complete group within the CENTRAL 60 percent of each cell in BOTH axes, leaving at least 20 percent clear margin on every side including tips and local shadows. Consistent visual scale, no overlap between cells. Cocoa #654c3f outlines, chunky rounded cream materials, cocoa wood/leather, soft hand-painted toy-like 3D depth, broad restrained top-left highlights and distinct silhouettes readable at small mobile sizes. Honey gold #ffc857 for actions/rewards, sky cyan #60c9e8 only for selection or energy, coral #ed777b only for danger. No mint healing-green or lavender epic accents needed. No photorealism, gritty dark metal, sharp gothic spikes, full characters, scenery, text, letters, numbers, writing-like marks, UI frames, logos, watermarks or escaping effects. Eight distinct utility-menu entry symbols. ROW ONE left to right: 1 one rounded cream camera with cocoa body inset and cyan glass lens for photo mode; 2 one cocoa clothes hanger holding a short cream tunic with one honey-gold button for wardrobe; 3 one short cocoa brush crossing a cream palette carrying exactly two plain paint dabs, honey-gold and cocoa only, for appearance editing; 4 one cream magnifying glass with a cyan lens and cocoa handle for collection search, no book. ROW TWO: 5 one small honey-gold balance scale with two cream pans and cocoa base for auction; 6 one cream mortar with a cocoa pestle and a tiny gold material nugget inside for alchemy; 7 two overlapping cream speech bubbles with cocoa outlines and one tiny gold blank inset, no dots or writing, for chat; 8 one small honey-gold notification bell with cocoa hanging loop and cream clapper for alerts. All groups isolated, no UI labels. Avoid the existing backpack, gear, envelope, ledger, hammer/anvil, hourglass, medal, map, calendar, friend portraits, quill, horn and magic tome.",
+      "promptSha256": "dcc3f9626893e4eb69f23a1fed80d0e4c3157be31a7fcac38ea6c62a21b213f7"
+    }
+  ],
+  "evaluation": [
+    {
+      "assetId": "ui-kit-board-v1",
+      "type": "benchmark-comparison",
+      "observations": [
+        "可见变化：与11月17日同提示词样本并排看，三主按钮仍左上横排；数值条移到右上，背包移到右侧，人物与弹窗均在左侧。角色区由狮旗徽改为黑发男性头像，等级由38变32，属性由两列改为一列。",
+        "可见变化：背包仍4列2行且长剑青色选中，去掉容量标题，增加药水×5和水晶×12。导航仍金色选中OVERVIEW，QUESTS改为ACHIEVEMENTS；底部改为四种品质徽章和ONLINE/AWAY/IN BATTLE状态，保留三个开关，去掉昨日复选、单选、下拉及分页。",
+        "文字与布局：主要标题、动作按钮、属性、进度条与弹窗文字清楚，无可见画布裁切；小字和装备卷轴上的装饰性细痕仍需实际尺寸复核。",
+        "主观判断：左右两区分工更直观，但控件种类减少，这属于设计取舍，不能据此判断模型整体能力变化。",
+        "限制：工具未报告实际模型版本与随机种子，相同提示词下的随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "inventoryGrid": [
+          4,
+          2
+        ],
+        "inventoryCellCount": 8,
+        "majorLabelsReadable": true,
+        "fineTextRequiresManualReview": true,
+        "sideBySideComparisonReviewed": true
+      },
+      "comparedWith": {
+        "runId": "20261117-043334",
+        "date": "2026-11-17",
+        "path": "assets/daily/2026/11/17/20261117-043334/benchmark/ui-kit-board.png",
+        "samePromptHash": true
+      }
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "type": "benchmark-comparison",
+      "observations": [
+        "可见内容：4列2行八件物品，顺序为剑、盾、紫戒、红药水、双头斧、无角头盔、卷轴和青晶；完整留在各自格内，无可见跨格重叠、文字或水印。",
+        "可见变化：与11月17日并排看，剑仍斜向，斧头由竖向变为斜向；盾面金色菱角饰减少，宝石周围改为银色菱框，戒托减少花叶。药水增加右侧绳穗，头盔由朝右改为朝左，卷轴更接近横向且红带去掉金边，水晶主晶比例改变。",
+        "保留缺陷：剑、盾、斧等超出单格中央60%，仍未满足四边20%留白；背景像素采样存在色差，未严格为统一#171c24。",
+        "主观判断：盾和戒托装饰更简洁，但留白问题仍在，细节减少或增加均不构成质量提升证据。",
+        "限制：工具未报告实际模型版本与随机种子，相同提示词下的随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              23,
+              29,
+              35
+            ],
+            [
+              22,
+              30,
+              36
+            ],
+            [
+              22,
+              28,
+              36
+            ],
+            [
+              23,
+              30,
+              38
+            ],
+            [
+              22,
+              27,
+              35
+            ]
+          ]
+        },
+        "sideBySideComparisonReviewed": true
+      },
+      "comparedWith": {
+        "runId": "20261117-043334",
+        "date": "2026-11-17",
+        "path": "assets/daily/2026/11/17/20261117-043334/benchmark/equipment-atlas.png",
+        "samePromptHash": true
+      }
+    },
+    {
+      "assetId": "chibi-challenge-modes-v1",
+      "type": "library-review",
+      "observations": [
+        "可见内容：4列2行八组入口，依次为首领骷髅旗、下行旋梯、三木篝火、篷车、飞艇、镐与金矿、三块拼图及三个相连头盔。顺序正确，均完整，无跨格重叠、文字、水印或画布裁切。",
+        "风格与用途：奶油可可轮廓、蜂蜜金行动奖励、珊瑚眼窝危险、青色拼图选中和头盔能量连接，归Q版奇幻/玩法入口。补充挑战、护送、远征、解谜等玩法轮廓，与旧训练人偶、竞技场门、指南针等区分。",
+        "保留缺陷：旗、旋梯、篷车、飞艇等超过单格中央60%，未达到每边20%留白；背景有轻微纹理与色差。拼图实际为扁平拼片而非有明显体积的方块，模式含义需要名称辅助。",
+        "使用限制：沿用模板不透明设置，alpha恒为255，尚未分切或去底，不能直接当透明独立图标叠到任意背景。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              252,
+              242,
+              224
+            ],
+            [
+              253,
+              243,
+              223
+            ],
+            [
+              252,
+              242,
+              225
+            ],
+            [
+              251,
+              240,
+              219
+            ],
+            [
+              253,
+              244,
+              227
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true
+      }
+    },
+    {
+      "assetId": "chibi-social-customization-v1",
+      "type": "library-review",
+      "observations": [
+        "可见内容：4列2行八组功能入口，依次为相机、衣架短上衣、画笔调色盘、放大镜、天平、研钵杵、双聊天气泡和通知铃。两枚颜料分别金色和可可色；全部完整，无跨格重叠、文字、水印或画布裁切。",
+        "风格与用途：奶油暖底、可可描边、蜂蜜金配件与青镜片一致，归Q版奇幻/玩法入口；补充拍照、衣柜、外观、搜索、拍卖、炼金、聊天和提醒的功能轮廓。",
+        "保留缺陷：画笔、放大镜、衣架、铃等超过中央60%，未达到20%安全留白；背景并非完全均匀纯色。相机镜片和放大镜均为青色，小尺寸实际含义仍需配合标签确认。",
+        "使用限制：不透明静态图集，alpha恒为255，未分切或去底；只是功能入口美术素材，并未实现对应业务功能。"
+      ],
+      "visualValidation": {
+        "visuallyReviewed": true,
+        "canvasClippingObserved": false,
+        "qualityStatus": "retained-with-notes",
+        "productionReady": false,
+        "alphaVerified": true,
+        "opaqueBackgroundVerified": true,
+        "requestedSizeMet": true,
+        "grid": [
+          4,
+          2
+        ],
+        "expectedCellCount": 8,
+        "observedCellCount": 8,
+        "itemOrderMatches": true,
+        "cellOverlapObserved": false,
+        "requestedCellMarginMet": false,
+        "textOrWatermarkObserved": false,
+        "uniformBackgroundMet": false,
+        "backgroundSamples": {
+          "coordinates": [
+            [
+              0,
+              0
+            ],
+            [
+              1535,
+              0
+            ],
+            [
+              0,
+              1023
+            ],
+            [
+              1535,
+              1023
+            ],
+            [
+              768,
+              512
+            ]
+          ],
+          "rgb": [
+            [
+              252,
+              243,
+              226
+            ],
+            [
+              252,
+              243,
+              224
+            ],
+            [
+              252,
+              242,
+              228
+            ],
+            [
+              251,
+              242,
+              225
+            ],
+            [
+              252,
+              244,
+              232
+            ]
+          ]
+        },
+        "styleVerified": true,
+        "categoryVerified": true
+      }
+    }
+  ],
+  "notes": [
+    "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+    "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+    "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+    "本次按最新heartbeat的04:30北京时间执行；仓库配置和说明仍记录09:00，遵照本次只提交素材与必要映射的范围，不修改旧配置或自动化频率。",
+    "已核对导航目录并查看11月4日Q版玩法与功能入口图集；本次补充挑战玩法及社交装扮功能，保留入口用途、4×2格数、20%留白、请求尺寸及不透明设置。",
+    "保留所有原图及可见偏差；未重抽、缩放或修图。",
+    "固定题目相同提示词下的差异只能描述为本次输出变化，不能证明训练或模型升级。"
+  ],
+  "completedAt": "2026-11-18T04:40:21+08:00",
+  "validation": {
+    "successfulDecodedAssets": 4,
+    "benchmarkAssets": 2,
+    "libraryAssets": 2,
+    "localDateTotalToolCalls": 4,
+    "attemptBudgetRespected": true,
+    "originalFilesPreserved": true,
+    "historyPageVerified": true,
+    "separateStyleSectionsVerified": true,
+    "comparisonDate": "2026-11-17",
+    "reviewedAt": "2026-11-18T04:40:22+08:00"
+  }
+}

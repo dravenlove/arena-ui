@@ -166,6 +166,8 @@
     "chibi-ivory-warden-portrait-v1": "portraits",
     "chibi-amber-alchemist-portrait-v1": "portraits",
     "chibi-empty-hex-reliquary-v1": "feedback",
-    "chibi-twin-ring-trophy-v1": "feedback"
+    "chibi-twin-ring-trophy-v1": "feedback",
+    "chibi-challenge-modes-v1": "navigation",
+    "chibi-social-customization-v1": "navigation"
   }
 }
