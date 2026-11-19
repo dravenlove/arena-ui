@@ -170,6 +170,8 @@
     "chibi-challenge-modes-v1": "navigation",
     "chibi-social-customization-v1": "navigation",
     "chibi-unusual-arms-v1": "equipment",
-    "chibi-caster-garments-v1": "equipment"
+    "chibi-caster-garments-v1": "equipment",
+    "chibi-control-debuffs-v1": "abilities",
+    "chibi-restoration-rhythm-v1": "abilities"
   }
 }
