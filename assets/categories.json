@@ -172,6 +172,8 @@
     "chibi-unusual-arms-v1": "equipment",
     "chibi-caster-garments-v1": "equipment",
     "chibi-control-debuffs-v1": "abilities",
-    "chibi-restoration-rhythm-v1": "abilities"
+    "chibi-restoration-rhythm-v1": "abilities",
+    "chibi-workshop-materials-v1": "progression",
+    "chibi-expedition-parcels-v1": "progression"
   }
 }
