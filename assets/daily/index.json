@@ -22905,6 +22905,688 @@
         "comparisonDate": "2026-11-20",
         "reviewedAt": "2026-11-21T04:35:01+08:00"
       }
+    },
+    {
+      "id": "20261122-043016",
+      "date": "2026-11-22",
+      "time": "04:30:16",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/11/22/20261122-043016/manifest.json",
+      "kind": "scheduled",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "styleId": "dark-metal",
+          "categoryId": "interface",
+          "previousComparable": {
+            "runId": "20261121-043014",
+            "date": "2026-11-21",
+            "path": "assets/daily/2026/11/21/20261121-043014/benchmark/ui-kit-board.png",
+            "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+          },
+          "path": "assets/daily/2026/11/22/20261122-043016/benchmark/ui-kit-board.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1657027,
+          "sha256": "d2b2ef2d8603c22c66bbaa058ddf53bb362e63ae467b82dfbce41f72e23020de",
+          "recordedAt": "2026-11-22T04:31:07+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-22T04:30:16+08:00",
+            "resultObservedAt": "2026-11-22T04:30:55+08:00"
+          },
+          "sourceFile": "exec-c2b5a1c7-dd28-46fa-aa2e-b859aca77835.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "canvasClippingObserved": false,
+            "inventoryGrid": [
+              4,
+              2
+            ],
+            "inventoryCellCount": 8,
+            "majorLabelsReadable": true,
+            "fineTextRequiresManualReview": true,
+            "sideBySideComparisonReviewed": true,
+            "reviewedAt": "2026-11-22T04:34:57+08:00"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "styleId": "dark-metal",
+          "categoryId": "equipment",
+          "previousComparable": {
+            "runId": "20261121-043014",
+            "date": "2026-11-21",
+            "path": "assets/daily/2026/11/21/20261121-043014/benchmark/equipment-atlas.png",
+            "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+          },
+          "path": "assets/daily/2026/11/22/20261122-043016/benchmark/equipment-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1753487,
+          "sha256": "adc007abe3a2163a33203cce5f371d6290056d766a558da08f02e894739eca7e",
+          "recordedAt": "2026-11-22T04:31:42+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-22T04:31:08+08:00",
+            "resultObservedAt": "2026-11-22T04:31:34+08:00"
+          },
+          "sourceFile": "exec-789e2ed6-67f8-49de-8aa3-cece7ac43c87.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "canvasClippingObserved": false,
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  24,
+                  30,
+                  37
+                ],
+                [
+                  23,
+                  31,
+                  38
+                ],
+                [
+                  23,
+                  30,
+                  38
+                ],
+                [
+                  23,
+                  30,
+                  38
+                ],
+                [
+                  22,
+                  28,
+                  36
+                ]
+              ]
+            },
+            "sideBySideComparisonReviewed": true,
+            "reviewedAt": "2026-11-22T04:34:57+08:00"
+          }
+        },
+        {
+          "id": "chibi-dune-sundial-arena-v1",
+          "label": "Q版·沙丘日晷竞技场",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "environments",
+          "benchmarkId": null,
+          "promptVersion": "chibi-sundial-rootbridge-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "sourceTemplateId": "desert-arena",
+          "sourceTemplatePromptSha256": "6909796f6fcdf6e05928d7d38653fe0cc9c44255d6c4f9945ef16ac9e14d3e40",
+          "prompt": "Use case: stylized-concept. Asset type: reusable campaign stage selection background for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE full-bleed opaque landscape 1536x1024 environment, not an atlas or isolated diorama. Layout: keep the entire LEFT HALF quiet, darker and low-contrast, with broad simple cocoa shadow shapes suitable for live light-colored HTML text. Concentrate the primary arena architecture and its readable magical focal point in the RIGHT THIRD. Rounded chunky cream stone, cocoa wood and shadows, matte hand-painted toy-like 3D volume, broad clean highlights, restrained atmospheric depth. Honey-gold light only for small activity/reward lanterns and sky cyan only for magical energy. No coral danger accents, mint healing-green or lavender epic decoration. Cream foliage and cocoa shadows instead of green vegetation. No characters, creatures, weapons, text, letters, numbers, runes, labels, UI frames, logos, watermark, harsh photorealistic textures, gothic spikes or bloom spilling into the left text-safe half. Maintain one continuous panoramic scene with a visible arena entrance and a clear fighting floor. A deserted circular cream sandstone arena half buried in smooth cocoa-and-cream dunes at dusk. New silhouette rather than last week s broken arch: on the right third, a low round fighting floor enclosed by a partial crescent wall and a short stepped entrance, backed by a squat round sundial-like stone monument with a single small cyan energy crystal at its center. The round monument is an ancient beacon, not a clock: no numerals, markings, writing or actual hands. Three broad shallow radial ridges give it sculptural shape. Tiny restrained honey-gold braziers sit only near the distant right arena edge. Smooth wind-carved sand overlaps the low outer wall. The left half is broad muted cocoa dune slopes and faint distant soft ridges, no monument, bright sun disk, architecture, beacon or lantern there. Warm inviting clay-like sandstone, dusk atmosphere and layered depth.",
+          "promptSha256": "135cd545c86b455bae2463fdd0ef6cce2220d7051a0ba42f3160805dbfd96420",
+          "path": "assets/daily/2026/11/22/20261122-043016/library/chibi-fantasy/chibi-dune-sundial-arena-v1.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1732842,
+          "sha256": "6b66e0fabe891e77b470ec063d29ea7e5b4c94c66d90f4116313882d47c063ef",
+          "recordedAt": "2026-11-22T04:32:19+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-22T04:31:43+08:00",
+            "resultObservedAt": "2026-11-22T04:32:08+08:00"
+          },
+          "sourceFile": "exec-57f80c53-73a4-48e7-b526-4185d1e4d5b7.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "styleVerified": true,
+            "categoryVerified": true,
+            "fullBleedEnvironment": true,
+            "atlasGridApplicable": false,
+            "textOrWatermarkObserved": false,
+            "charactersObserved": false,
+            "primaryFocalArchitectureAtRight": true,
+            "leftHalfQuietRequirementFullyMet": false,
+            "edgeCropping": "intentional full-bleed scenery framing",
+            "liveTextContrastTested": false,
+            "mobilePortraitCropTested": false,
+            "reviewedAt": "2026-11-22T04:34:57+08:00"
+          }
+        },
+        {
+          "id": "chibi-woodland-rootbridge-arena-v1",
+          "label": "Q版·幽林根桥竞技场",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "environments",
+          "benchmarkId": null,
+          "promptVersion": "chibi-sundial-rootbridge-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "sourceTemplateId": "forest-arena",
+          "sourceTemplatePromptSha256": "6a36c337c7045d8a4085cf472c502dc4f3407aaaf6d3bd51fdfc4108670e6c3f",
+          "prompt": "Use case: stylized-concept. Asset type: reusable campaign stage selection background for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE full-bleed opaque landscape 1536x1024 environment, not an atlas or isolated diorama. Layout: keep the entire LEFT HALF quiet, darker and low-contrast, with broad simple cocoa shadow shapes suitable for live light-colored HTML text. Concentrate the primary arena architecture and its readable magical focal point in the RIGHT THIRD. Rounded chunky cream stone, cocoa wood and shadows, matte hand-painted toy-like 3D volume, broad clean highlights, restrained atmospheric depth. Honey-gold light only for small activity/reward lanterns and sky cyan only for magical energy. No coral danger accents, mint healing-green or lavender epic decoration. Cream foliage and cocoa shadows instead of green vegetation. No characters, creatures, weapons, text, letters, numbers, runes, labels, UI frames, logos, watermark, harsh photorealistic textures, gothic spikes or bloom spilling into the left text-safe half. Maintain one continuous panoramic scene with a visible arena entrance and a clear fighting floor. A deserted ancient circular cream-stone arena reclaimed by a stylized old woodland, rounded cream canopies, cocoa trunks and soft cool mist. New silhouette rather than last week s broken stone arch: the right third contains a low circular fighting platform entered by a short broad cocoa root bridge over a shallow shaded hollow. Two curved living roots meet above the far entrance to frame a small contained cyan magical portal, with cream stone footings and a few rounded steps. The roots and portal stay in the right third, no sprawling branches crossing the left text area. Two tiny distant honey-gold hanging lanterns near the right entrance, cream lichen on old stone, no green moss. The left half is a quiet darker cocoa clearing with broad smooth ground planes, faint low-contrast trunk silhouettes and haze, no bright detail or busy foliage there. Soft storybook depth, thick rounded natural forms and continuous playable-looking terrain, no abyss or violent scenery.",
+          "promptSha256": "71b76a3be7f91aab3a0e35517269aea67c62630a1bd67a7815f872987d9bef8d",
+          "path": "assets/daily/2026/11/22/20261122-043016/library/chibi-fantasy/chibi-woodland-rootbridge-arena-v1.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1863173,
+          "sha256": "ec511af7c7b221240e4b3e6a2d26a51732ce45352880dd0c47c144b0e8bd7120",
+          "recordedAt": "2026-11-22T04:32:57+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-22T04:32:20+08:00",
+            "resultObservedAt": "2026-11-22T04:32:49+08:00"
+          },
+          "sourceFile": "exec-bee067ad-845d-46c5-b6c7-704385a3d018.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "styleVerified": true,
+            "categoryVerified": true,
+            "fullBleedEnvironment": true,
+            "atlasGridApplicable": false,
+            "textOrWatermarkObserved": false,
+            "charactersObserved": false,
+            "primaryFocalArchitectureAtRight": true,
+            "leftHalfQuietRequirementFullyMet": false,
+            "edgeCropping": "intentional full-bleed scenery framing",
+            "liveTextContrastTested": false,
+            "mobilePortraitCropTested": false,
+            "reviewedAt": "2026-11-22T04:34:57+08:00"
+          }
+        }
+      ],
+      "themeId": "environments",
+      "startedAt": "2026-11-22T04:30:16+08:00",
+      "scheduledFor": "2026-11-22T04:30:00+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "ui-kit-board-v1",
+          "group": "benchmark",
+          "startedAt": "2026-11-22T04:30:16+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "resultObservedAt": "2026-11-22T04:30:55+08:00",
+          "outputPath": "assets/daily/2026/11/22/20261122-043016/benchmark/ui-kit-board.png",
+          "sourceFile": "exec-c2b5a1c7-dd28-46fa-aa2e-b859aca77835.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-22T04:31:07+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "equipment-atlas-v1",
+          "group": "benchmark",
+          "startedAt": "2026-11-22T04:31:08+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "resultObservedAt": "2026-11-22T04:31:34+08:00",
+          "outputPath": "assets/daily/2026/11/22/20261122-043016/benchmark/equipment-atlas.png",
+          "sourceFile": "exec-789e2ed6-67f8-49de-8aa3-cece7ac43c87.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-22T04:31:42+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "chibi-dune-sundial-arena-v1",
+          "group": "library",
+          "startedAt": "2026-11-22T04:31:43+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "135cd545c86b455bae2463fdd0ef6cce2220d7051a0ba42f3160805dbfd96420",
+          "resultObservedAt": "2026-11-22T04:32:08+08:00",
+          "outputPath": "assets/daily/2026/11/22/20261122-043016/library/chibi-fantasy/chibi-dune-sundial-arena-v1.png",
+          "sourceFile": "exec-57f80c53-73a4-48e7-b526-4185d1e4d5b7.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-22T04:32:19+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "chibi-woodland-rootbridge-arena-v1",
+          "group": "library",
+          "startedAt": "2026-11-22T04:32:20+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "71b76a3be7f91aab3a0e35517269aea67c62630a1bd67a7815f872987d9bef8d",
+          "resultObservedAt": "2026-11-22T04:32:49+08:00",
+          "outputPath": "assets/daily/2026/11/22/20261122-043016/library/chibi-fantasy/chibi-woodland-rootbridge-arena-v1.png",
+          "sourceFile": "exec-bee067ad-845d-46c5-b6c7-704385a3d018.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-22T04:32:57+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "filename": "ui-kit-board.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "styleId": "dark-metal",
+          "categoryId": "interface",
+          "previousComparable": {
+            "runId": "20261121-043014",
+            "date": "2026-11-21",
+            "path": "assets/daily/2026/11/21/20261121-043014/benchmark/ui-kit-board.png",
+            "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "filename": "equipment-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "styleId": "dark-metal",
+          "categoryId": "equipment",
+          "previousComparable": {
+            "runId": "20261121-043014",
+            "date": "2026-11-21",
+            "path": "assets/daily/2026/11/21/20261121-043014/benchmark/equipment-atlas.png",
+            "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+          }
+        },
+        {
+          "id": "chibi-dune-sundial-arena-v1",
+          "label": "Q版·沙丘日晷竞技场",
+          "filename": "chibi-dune-sundial-arena-v1.png",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "environments",
+          "benchmarkId": null,
+          "promptVersion": "chibi-sundial-rootbridge-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "sourceTemplateId": "desert-arena",
+          "sourceTemplatePromptSha256": "6909796f6fcdf6e05928d7d38653fe0cc9c44255d6c4f9945ef16ac9e14d3e40",
+          "prompt": "Use case: stylized-concept. Asset type: reusable campaign stage selection background for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE full-bleed opaque landscape 1536x1024 environment, not an atlas or isolated diorama. Layout: keep the entire LEFT HALF quiet, darker and low-contrast, with broad simple cocoa shadow shapes suitable for live light-colored HTML text. Concentrate the primary arena architecture and its readable magical focal point in the RIGHT THIRD. Rounded chunky cream stone, cocoa wood and shadows, matte hand-painted toy-like 3D volume, broad clean highlights, restrained atmospheric depth. Honey-gold light only for small activity/reward lanterns and sky cyan only for magical energy. No coral danger accents, mint healing-green or lavender epic decoration. Cream foliage and cocoa shadows instead of green vegetation. No characters, creatures, weapons, text, letters, numbers, runes, labels, UI frames, logos, watermark, harsh photorealistic textures, gothic spikes or bloom spilling into the left text-safe half. Maintain one continuous panoramic scene with a visible arena entrance and a clear fighting floor. A deserted circular cream sandstone arena half buried in smooth cocoa-and-cream dunes at dusk. New silhouette rather than last week s broken arch: on the right third, a low round fighting floor enclosed by a partial crescent wall and a short stepped entrance, backed by a squat round sundial-like stone monument with a single small cyan energy crystal at its center. The round monument is an ancient beacon, not a clock: no numerals, markings, writing or actual hands. Three broad shallow radial ridges give it sculptural shape. Tiny restrained honey-gold braziers sit only near the distant right arena edge. Smooth wind-carved sand overlaps the low outer wall. The left half is broad muted cocoa dune slopes and faint distant soft ridges, no monument, bright sun disk, architecture, beacon or lantern there. Warm inviting clay-like sandstone, dusk atmosphere and layered depth.",
+          "promptSha256": "135cd545c86b455bae2463fdd0ef6cce2220d7051a0ba42f3160805dbfd96420"
+        },
+        {
+          "id": "chibi-woodland-rootbridge-arena-v1",
+          "label": "Q版·幽林根桥竞技场",
+          "filename": "chibi-woodland-rootbridge-arena-v1.png",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "environments",
+          "benchmarkId": null,
+          "promptVersion": "chibi-sundial-rootbridge-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "sourceTemplateId": "forest-arena",
+          "sourceTemplatePromptSha256": "6a36c337c7045d8a4085cf472c502dc4f3407aaaf6d3bd51fdfc4108670e6c3f",
+          "prompt": "Use case: stylized-concept. Asset type: reusable campaign stage selection background for an arena and character-growth mobile game. Charming chibi fantasy game art, big heads and compact two-head-tall bodies for characters, rounded chunky shapes, warm cream background where opaque, cocoa outlines, soft hand-painted toy-like 3D depth, broad clean highlights, matte materials, clear silhouettes. Honey gold for actions and rewards, sky cyan for selection and energy, coral only for health or danger, mint only for healing, lavender only for epic rarity. No gritty dark metal, photorealism, sharp gothic spikes or realistic adult proportions. Create ONE full-bleed opaque landscape 1536x1024 environment, not an atlas or isolated diorama. Layout: keep the entire LEFT HALF quiet, darker and low-contrast, with broad simple cocoa shadow shapes suitable for live light-colored HTML text. Concentrate the primary arena architecture and its readable magical focal point in the RIGHT THIRD. Rounded chunky cream stone, cocoa wood and shadows, matte hand-painted toy-like 3D volume, broad clean highlights, restrained atmospheric depth. Honey-gold light only for small activity/reward lanterns and sky cyan only for magical energy. No coral danger accents, mint healing-green or lavender epic decoration. Cream foliage and cocoa shadows instead of green vegetation. No characters, creatures, weapons, text, letters, numbers, runes, labels, UI frames, logos, watermark, harsh photorealistic textures, gothic spikes or bloom spilling into the left text-safe half. Maintain one continuous panoramic scene with a visible arena entrance and a clear fighting floor. A deserted ancient circular cream-stone arena reclaimed by a stylized old woodland, rounded cream canopies, cocoa trunks and soft cool mist. New silhouette rather than last week s broken stone arch: the right third contains a low circular fighting platform entered by a short broad cocoa root bridge over a shallow shaded hollow. Two curved living roots meet above the far entrance to frame a small contained cyan magical portal, with cream stone footings and a few rounded steps. The roots and portal stay in the right third, no sprawling branches crossing the left text area. Two tiny distant honey-gold hanging lanterns near the right entrance, cream lichen on old stone, no green moss. The left half is a quiet darker cocoa clearing with broad smooth ground planes, faint low-contrast trunk silhouettes and haze, no bright detail or busy foliage there. Soft storybook depth, thick rounded natural forms and continuous playable-looking terrain, no abyss or violent scenery.",
+          "promptSha256": "71b76a3be7f91aab3a0e35517269aea67c62630a1bd67a7815f872987d9bef8d"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "ui-kit-board-v1",
+          "type": "benchmark-comparison",
+          "observations": [
+            "可见变化：与11月21日同提示词样本并排看，三主按钮仍左上横排但图标消失，HP/MP/XP移到左侧按钮下。人物区由左中银发VALERIA改为右侧戴盔毛领ARENA CHAMPION，仍42级，属性改为ATK/DEF/CRIT RATE/CRIT DMG/SPD/VIT。",
+            "可见变化：背包仍4列2行八格及INVENTORY (8)标题，移至左下；昨天戒指青色选中改为今天长剑金色框。弹窗放大移至中央，背景改为旗帜和城堡，保留月桂双剑与BATTLE/CANCEL。六项导航改为OVERVIEW/LOADOUT/INVENTORY/SKILLS/TALENTS/ACHIEVEMENTS，去掉图标，选中由青色改金色。",
+            "文字与布局：主要标题、按钮、数值、弹窗清楚，无可见画布裁切；底部为四徽章、两个开关、两项复选、两项单选，恢复70%滑块及All Items下拉，小字仍需实际尺寸复核。",
+            "保留偏差与主观判断：背包和导航采用金色选中，未遵循冻结题目的青色选中语义。中央弹窗更突出属于本次布局取舍，不能证明整体能力提升。",
+            "限制：工具未报告实际模型版本与随机种子，相同提示词下随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "canvasClippingObserved": false,
+            "inventoryGrid": [
+              4,
+              2
+            ],
+            "inventoryCellCount": 8,
+            "majorLabelsReadable": true,
+            "fineTextRequiresManualReview": true,
+            "sideBySideComparisonReviewed": true
+          },
+          "comparedWith": {
+            "runId": "20261121-043014",
+            "date": "2026-11-21",
+            "path": "assets/daily/2026/11/21/20261121-043014/benchmark/ui-kit-board.png",
+            "samePromptHash": true
+          }
+        },
+        {
+          "assetId": "equipment-atlas-v1",
+          "type": "benchmark-comparison",
+          "observations": [
+            "可见内容：4列2行八件物品，剑、盾、紫戒、红药水、斧、无角盔、卷轴、青晶顺序正确，全部完整，无跨格重叠、文字、水印或画布裁切。",
+            "可见变化：与11月21日并排看，剑仍竖直但圆形柄头改菱形，剑格和剑刃反光改变。盾面更亮、金边横梁更粗，戒托增加卷叶和叶形银饰，药水颈绳去掉垂穗。",
+            "可见变化：斧仍竖直，弧纹改交织环纹；头盔仍朝左，增加金色面甲边和颈部叶纹，卷轴红带改编织纹，水晶簇及底部石块改变。",
+            "保留缺陷：剑、盾、斧等超出单格中央60%，未满足四边20%留白；背景取样并非完全统一#171c24。主观判断：金边及刻纹改变装饰密度，留白问题仍在，不能据此判定质量进步。",
+            "限制：工具未报告实际模型版本与随机种子，相同提示词下随机差异可能影响结果。本次生成没有训练模型，单次可见变化不能证明模型升级或能力提升。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "canvasClippingObserved": false,
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  24,
+                  30,
+                  37
+                ],
+                [
+                  23,
+                  31,
+                  38
+                ],
+                [
+                  23,
+                  30,
+                  38
+                ],
+                [
+                  23,
+                  30,
+                  38
+                ],
+                [
+                  22,
+                  28,
+                  36
+                ]
+              ]
+            },
+            "sideBySideComparisonReviewed": true
+          },
+          "comparedWith": {
+            "runId": "20261121-043014",
+            "date": "2026-11-21",
+            "path": "assets/daily/2026/11/21/20261121-043014/benchmark/equipment-atlas.png",
+            "samePromptHash": true
+          }
+        },
+        {
+          "assetId": "chibi-dune-sundial-arena-v1",
+          "type": "library-review",
+          "observations": [
+            "可见内容：全幅沙丘竞技场，右侧圆形石质信标有三条径向凸脊和中央青晶，前方为圆台、围墙及宽阶，三处金色火盆。奶油砂石、可可沙坡和圆润手绘体积清晰；无人、无界面框、无文字或水印。",
+            "构图与用途：主体信标在右侧，左侧多为较暗低对比沙坡，适合作为Q版关卡选择背景候选；相比既有破拱门场景，增加圆形信标轮廓。",
+            "保留偏差：围墙与前景石块侵入左半区靠近中央部分，上方云层也有亮部，未完全满足整左半区安静低对比要求。火盆较靠前且偏大，并非远处微小灯火；天空带粉紫暮色，超出以奶油可可为主的严格配色。",
+            "使用限制：1536×1024不透明静态横向背景，右侧墙体和前景自然延伸出画面，不是可独立抠取的完整建筑模型；尚未实测叠字对比度或手机纵向裁切。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "styleVerified": true,
+            "categoryVerified": true,
+            "fullBleedEnvironment": true,
+            "atlasGridApplicable": false,
+            "textOrWatermarkObserved": false,
+            "charactersObserved": false,
+            "primaryFocalArchitectureAtRight": true,
+            "leftHalfQuietRequirementFullyMet": false,
+            "edgeCropping": "intentional full-bleed scenery framing",
+            "liveTextContrastTested": false,
+            "mobilePortraitCropTested": false
+          }
+        },
+        {
+          "assetId": "chibi-woodland-rootbridge-arena-v1",
+          "type": "library-review",
+          "observations": [
+            "可见内容：全幅幽林场景，右侧圆形战台由短根桥进入，两条曲根包围青色旋涡门，门口石阶、奶油石墙和两盏金灯可辨。奶油树冠与可可树干保持Q版体积，无人物、界面框、文字或水印。",
+            "构图与用途：传送门和平台集中右侧，根桥补充此前石拱门之外的入口轮廓；左侧较暗林地可作为叠字候选区域，归Q版奇幻/战役场景。",
+            "保留偏差：左半区仍有大树干、枝叶、石块及明暗地面纹理，中上靠中央的奶油树冠较亮，未满足整个左半区简洁要求。后墙增加连续石拱，根门仍有石质内框，灯笼比远处小灯要求更显眼；桥下阴影较深。",
+            "使用限制：1536×1024不透明静态场景，树冠、墙体和根系随全幅取景自然裁切；文字位置应在实际页面中选定，尚未实测对比度和纵向手机裁切，也不包含可行走地形或传送逻辑。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "qualityStatus": "retained-with-notes",
+            "productionReady": false,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "requestedSizeMet": true,
+            "styleVerified": true,
+            "categoryVerified": true,
+            "fullBleedEnvironment": true,
+            "atlasGridApplicable": false,
+            "textOrWatermarkObserved": false,
+            "charactersObserved": false,
+            "primaryFocalArchitectureAtRight": true,
+            "leftHalfQuietRequirementFullyMet": false,
+            "edgeCropping": "intentional full-bleed scenery framing",
+            "liveTextContrastTested": false,
+            "mobilePortraitCropTested": false
+          }
+        }
+      ],
+      "notes": [
+        "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+        "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+        "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+        "本次按最新heartbeat的04:30北京时间执行；仓库配置和说明仍记录09:00，遵照本次只提交素材与必要映射的范围，不修改旧配置或自动化频率。",
+        "已核对场景目录并查看11月15日沙丘环形与幽林传送门竞技场；本次补充沙丘日晷与幽林根桥，保留荒漠与幽林题材、左半暗色低对比文字区、右侧建筑焦点、请求尺寸及不透明设置。",
+        "保留所有原图及可见偏差；未重抽、缩放或修图。",
+        "固定题目相同提示词下的差异只能描述为本次输出变化，不能证明训练或模型升级。"
+      ],
+      "completedAt": "2026-11-22T04:34:57+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "benchmarkAssets": 2,
+        "libraryAssets": 2,
+        "localDateTotalToolCalls": 4,
+        "attemptBudgetRespected": true,
+        "originalFilesPreserved": true,
+        "historyPageVerified": true,
+        "separateStyleSectionsVerified": true,
+        "comparisonDate": "2026-11-21",
+        "reviewedAt": "2026-11-22T04:34:58+08:00"
+      }
     }
   ]
 }
