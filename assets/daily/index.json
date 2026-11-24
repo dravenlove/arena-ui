@@ -24269,6 +24269,251 @@
         "comparisonDate": "2026-11-22",
         "reviewedAt": "2026-11-23T04:44:10+08:00"
       }
+    },
+    {
+      "id": "20261124-102557",
+      "date": "2026-11-24",
+      "time": "10:25:57",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/11/24/20261124-102557/manifest.json",
+      "kind": "scheduled",
+      "status": "partial",
+      "assets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "styleId": "dark-metal",
+          "categoryId": "interface",
+          "previousComparable": {
+            "runId": "20261123-043917",
+            "date": "2026-11-23",
+            "path": "assets/daily/2026/11/23/20261123-043917/benchmark/ui-kit-board.png",
+            "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+          },
+          "path": "assets/daily/2026/11/24/20261124-102557/benchmark/ui-kit-board.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1573659,
+          "sha256": "d0cf4fb79518d92a41a21ca28695f3d831a2f1a129eddac47d9aef1891a559b8",
+          "recordedAt": "2026-11-24T10:26:54+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-24T10:26:01+08:00",
+            "resultObservedAt": "2026-11-24T10:26:43+08:00"
+          },
+          "sourceFile": "exec-d8ec7f06-ae7a-4f1e-a051-5c0a491542f2.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "opaqueBackgroundVerified": true,
+            "inventoryGrid": [
+              4,
+              2
+            ],
+            "inventoryCellCount": 8,
+            "majorLabelsReadable": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "fineTextRequiresManualReview": true
+          }
+        }
+      ],
+      "themeId": "feedback",
+      "startedAt": "2026-11-24T10:25:58+08:00",
+      "scheduledFor": "2026-11-24T04:30:00+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 2,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "ui-kit-board-v1",
+          "group": "benchmark",
+          "startedAt": "2026-11-24T10:26:01+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "resultObservedAt": "2026-11-24T10:26:43+08:00",
+          "outputPath": "assets/daily/2026/11/24/20261124-102557/benchmark/ui-kit-board.png",
+          "sourceFile": "exec-d8ec7f06-ae7a-4f1e-a051-5c0a491542f2.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-24T10:26:54+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "equipment-atlas-v1",
+          "group": "benchmark",
+          "startedAt": "2026-11-24T10:26:56+08:00",
+          "status": "failed",
+          "tool": "built-in-imagegen",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "error": "Built-in imagegen call failed: h2 protocol error / BrokenPipe; no output returned; no new PNG found in the output directory after failure. Failure observed 2026-11-24T10:27:42+08:00; recorded on 2026-11-25 after interruption.",
+          "resultObservedAt": "2026-11-25T04:26:57+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "filename": "ui-kit-board.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "styleId": "dark-metal",
+          "categoryId": "interface",
+          "previousComparable": {
+            "runId": "20261123-043917",
+            "date": "2026-11-23",
+            "path": "assets/daily/2026/11/23/20261123-043917/benchmark/ui-kit-board.png",
+            "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "filename": "equipment-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "styleId": "dark-metal",
+          "categoryId": "equipment",
+          "previousComparable": {
+            "runId": "20261123-043917",
+            "date": "2026-11-23",
+            "path": "assets/daily/2026/11/23/20261123-043917/benchmark/equipment-atlas.png",
+            "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+          }
+        },
+        {
+          "id": "chibi-empty-round-reliquary-v1",
+          "label": "圆筒空宝匣",
+          "filename": "chibi-empty-round-reliquary-v1.png",
+          "sourceTemplateId": "empty-reliquary",
+          "sourceTemplatePromptSha256": "3b646d99e33bc5bd609e4182e83a0d9cd91164de46141ecd4605e7f1a1d290a5",
+          "prompt": "Create one reusable empty-inventory status illustration for the Arena UI WeChat fantasy role-growth game. Use case: stylized-concept. Render a single small OPEN AND VISIBLY EMPTY round cylindrical reliquary in three-quarter view, with a circular flat lid hinged upright at the rear, a smooth cream circular outer wall, cocoa-brown empty interior and clearly visible empty round bottom, one small honey-gold latch, and three short rounded feet. No contents, no treasure, no gems, no coins. New silhouette: a compact circular drum coffer, NOT a hexagon coffer or arched oval chest. Chibi-fantasy visual language: warm cream palette, thick clean cocoa outlines, softly rounded chunky shapes, polished toy-like painted surfaces, restrained soft highlights, clear readable silhouette at small mobile size. Honey gold signifies reward/action; sky cyan is selection/energy, coral red life/danger, mint healing, pale lavender epic quality, but keep this object predominantly cream, cocoa and a little honey gold. No dark realistic metal, gritty textures or photorealism. Requested square PNG 1024 x 1024 with a genuinely transparent background and preserved alpha, no floor, shadow plane, colored backdrop or checkerboard. Keep the ENTIRE object including lid and feet strictly inside the central 70% of the square, with at least 15% fully transparent padding on EACH edge. One complete isolated object only, no characters, no UI panel, no text, no letters, no watermark, no crop.",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "feedback",
+          "benchmarkId": null,
+          "promptVersion": "chibi-empty-round-reliquary-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "promptSha256": "610409cedc002c363f85d65a538c7a896869cbffc78a2754172b722e05e209e7"
+        },
+        {
+          "id": "chibi-winged-star-trophy-v1",
+          "label": "翼柄星徽奖杯",
+          "filename": "chibi-winged-star-trophy-v1.png",
+          "sourceTemplateId": "victory-trophy",
+          "sourceTemplatePromptSha256": "bde92c56f90eaeb702c3a0142ad9b341670e95237a81fb43dc54e22d6ca82580",
+          "prompt": "Create one reusable victory-results illustration for the Arena UI WeChat fantasy role-growth game. Use case: stylized-concept. One complete honey-gold victory cup in a gentle three-quarter front view: an open circular cup mouth, a squat rounded bowl with ONE raised cream five-point star emblem on its front, TWO symmetrical short stylized wing-shaped handles with a clearly open transparent gap between each handle and the bowl, a short cream stem with a cocoa collar, and a low rounded SQUARE cream pedestal with cocoa trim and an unlettered front inset. Handles are compact sculpted wings, not rings, petals or a laurel wreath. No ribbons, no crown, no confetti, no characters, no separate objects. Chibi-fantasy art: warm cream and honey gold, thick clean cocoa outline, rounded chunky toy-like painted material, soft highlights, simple readable mobile-game silhouette. Honey gold means victory/reward, sky cyan selection/energy, coral life/danger, mint healing and lavender epic quality, but this cup uses primarily honey gold, cream and cocoa. Avoid dark-metal realism, gritty textures and photorealism. Requested PNG 1024 x 1024, genuinely transparent background with preserved alpha including the handle gaps; no background color, checkerboard, floor or shadow plane. Keep ALL parts strictly within the central 70% of the square with at least 15% fully transparent padding on EVERY edge. No lettering, no words, no watermark, no cropping.",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "feedback",
+          "benchmarkId": null,
+          "promptVersion": "chibi-winged-star-trophy-v1",
+          "requestedSize": [
+            1024,
+            1024
+          ],
+          "transparentBackground": true,
+          "promptSha256": "f2330dd9232042b04019fdca70661f578333dd6432fd43fb078fabc0b4f3f094"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "ui-kit-board-v1",
+          "type": "benchmark-comparison",
+          "comparedWith": {
+            "runId": "20261123-043917",
+            "date": "2026-11-23",
+            "path": "assets/daily/2026/11/23/20261123-043917/benchmark/ui-kit-board.png"
+          },
+          "observations": [
+            "与11月23日相同提示词样本观察比较：三个主按钮由横排改为左侧竖排；HP/MP/XP移到中上，人物改为银发女性CHAMPION，属性变为单列并增加CRIT DMG。",
+            "八格背包保留4列2行和青色长剑选中；结算弹窗居中，底部导航从4项增加为6项并金色选中OVERVIEW。徽章改为品质和匹配状态；开关、单选与复选框增加文字。",
+            "主要标签可读，无可见画布截断；细字、小尺寸切图及实际交互均未验收。",
+            "主观上信息分组发生变化，不能据此判断优劣趋势。模型版本未报告，随机种子未报告；本次生成没有训练模型，单次变化不能证明模型升级。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "opaqueBackgroundVerified": true,
+            "inventoryGrid": [
+              4,
+              2
+            ],
+            "inventoryCellCount": 8,
+            "majorLabelsReadable": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "fineTextRequiresManualReview": true
+          }
+        }
+      ],
+      "notes": [
+        "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+        "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+        "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+        "本次按最新heartbeat的04:30北京时间执行；仓库配置和说明仍记录09:00，遵照本次只提交素材与必要映射的范围，不修改旧配置或自动化频率。",
+        "已查看11月17日六角空匣与双环奖杯；本次补充圆筒空宝匣与翼柄星徽奖杯，保持状态反馈用途、方形尺寸、真实透明背景及中央70%构图要求。",
+        "运行在2026-11-24第二次调用连接中断后停止；于2026-11-25整理，未补生成昨日余下题目。两张Q版扩展仅为预先登记的计划，实际未调用、未产出。"
+      ],
+      "reviewedAt": "2026-11-25T04:27:45+08:00",
+      "validation": {
+        "successfulDecodedAssets": 1,
+        "benchmarkAssets": 1,
+        "libraryAssets": 0,
+        "localDateTotalToolCalls": 2,
+        "attemptBudgetRespected": true,
+        "originalFilesPreserved": true,
+        "historyPageVerified": false,
+        "comparisonDate": "2026-11-23",
+        "missingBenchmarkReason": "equipment-atlas-v1 call failed; no image available for comparison",
+        "unattemptedLibraryAssets": 2
+      }
     }
   ]
 }
