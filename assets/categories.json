@@ -180,6 +180,8 @@
     "chibi-oathkeeper-portrait-v1": "portraits",
     "chibi-braided-alchemist-portrait-v1": "portraits",
     "chibi-expedition-modes-v1": "navigation",
-    "chibi-growth-utilities-v1": "navigation"
+    "chibi-growth-utilities-v1": "navigation",
+    "chibi-specialist-arms-v1": "equipment",
+    "chibi-vanguard-gear-v1": "equipment"
   }
 }

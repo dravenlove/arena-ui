@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Asia/Shanghai",
-  "lastSyncedAt": "2026-11-25T16:03:33+08:00",
+  "lastSyncedAt": "2026-11-26T04:36:52+08:00",
   "archiveBatches": [
     {
       "runId": "20261024-initial-session",
@@ -674,6 +674,22 @@
       "remoteChecksum": "unreported",
       "sourceManifestSha256": "773bb2e5b8af128b0f89e7467ab4292b13cb7be4814d731526dc0e8fc407ee6b",
       "uploadedAt": "2026-11-25T08:02:14.999Z"
+    },
+    {
+      "runId": "20261126-043046",
+      "date": "2026-11-26",
+      "assetCount": 4,
+      "sourceManifestSha256": "2ee9d1ebee62b57319542ccef27df14a908440f3785160e4a510a55a97d2c441",
+      "fileName": "2026-11-26__20261126-043046__scheduled.zip",
+      "bytes": 5716711,
+      "sha256": "0743bc32c9f5ffb9c7210f9d0eaea54a6135db919121a5e09c1123c482335a16",
+      "md5": "d47e5f6a9e8c0b15a2831c6a3ce941d4",
+      "driveFileId": "18hylj545hH7CqhB-6zGLDj_CVie5uzxY",
+      "driveUrl": "https://drive.google.com/file/d/18hylj545hH7CqhB-6zGLDj_CVie5uzxY/view?usp=drivesdk",
+      "remoteSizeVerified": true,
+      "remoteParentVerified": true,
+      "remoteChecksum": "unreported",
+      "uploadedAt": "2026-11-25T20:35:40.722Z"
     }
   ],
   "individualAssets": [
@@ -732,7 +748,99 @@
       "remoteSizeVerified": true,
       "remoteParentVerified": true,
       "uploadedAt": "2026-11-25T08:02:48.595Z"
+    },
+    {
+      "assetId": "chibi-specialist-arms-v1",
+      "runId": "20261126-043046",
+      "styleId": "chibi-fantasy",
+      "categoryId": "equipment",
+      "sha256": "f1a9c4c23ea7ce04178bbabf3f2c7efcfad7c1dfa0245e78ec3d17149fd38321",
+      "bytes": 1422213,
+      "driveFileId": "1qux3zaGo5TQg9UQ7pOwJq3XWFLYzf-6K",
+      "driveUrl": "https://drive.google.com/file/d/1qux3zaGo5TQg9UQ7pOwJq3XWFLYzf-6K/view?usp=drivesdk",
+      "parentFolderId": "1iG2uc8GXGbDQtubJTjf4yhSPY_ECX4YQ",
+      "remoteSizeVerified": true,
+      "remoteParentVerified": true,
+      "uploadedAt": "2026-11-25T20:36:05.973Z"
+    },
+    {
+      "assetId": "chibi-vanguard-gear-v1",
+      "runId": "20261126-043046",
+      "styleId": "chibi-fantasy",
+      "categoryId": "equipment",
+      "sha256": "fd563f52478193f4bbcf074a5e85fabed606faa5dc6e9ed781bca1aec86a52dc",
+      "bytes": 1471341,
+      "driveFileId": "1Nm-EcgXoiFApkhaQQf-3KXQqmIzCY37N",
+      "driveUrl": "https://drive.google.com/file/d/1Nm-EcgXoiFApkhaQQf-3KXQqmIzCY37N/view?usp=drivesdk",
+      "parentFolderId": "1iG2uc8GXGbDQtubJTjf4yhSPY_ECX4YQ",
+      "remoteSizeVerified": true,
+      "remoteParentVerified": true,
+      "uploadedAt": "2026-11-25T20:36:09.732Z"
+    },
+    {
+      "assetId": "equipment-atlas-v1",
+      "runId": "20261126-043046",
+      "styleId": "dark-metal",
+      "categoryId": "equipment",
+      "sha256": "8ef9c29cf37988f7496b36c683d70176a5c6173d899447967c6c47c0755c3957",
+      "bytes": 1820611,
+      "driveFileId": "1PnBGIMrXfIcsxEi2VYmbbjmxAps7uZ-B",
+      "driveUrl": "https://drive.google.com/file/d/1PnBGIMrXfIcsxEi2VYmbbjmxAps7uZ-B/view?usp=drivesdk",
+      "parentFolderId": "1H-S4FcONGAyiQ7hwZ67Clvve0Pjqe4OM",
+      "remoteSizeVerified": true,
+      "remoteParentVerified": true,
+      "uploadedAt": "2026-11-25T20:36:01.849Z"
+    },
+    {
+      "assetId": "ui-kit-board-v1",
+      "runId": "20261126-043046",
+      "styleId": "dark-metal",
+      "categoryId": "interface",
+      "sha256": "26ac9f22c4a634d52a76dda30484a19aaf097273b835e6423ed9cb20a6f81538",
+      "bytes": 1763717,
+      "driveFileId": "1dXlKxGm39l3PE7cEa0FjsjC-vdDydArq",
+      "driveUrl": "https://drive.google.com/file/d/1dXlKxGm39l3PE7cEa0FjsjC-vdDydArq/view?usp=drivesdk",
+      "parentFolderId": "1H-S4FcONGAyiQ7hwZ67Clvve0Pjqe4OM",
+      "remoteSizeVerified": true,
+      "remoteParentVerified": true,
+      "uploadedAt": "2026-11-25T20:35:58.055Z"
     }
   ],
-  "verification": "Local SHA-256 and ZIP readback; remote metadata size and parent checked; remote checksum unreported"
+  "verification": "Local SHA-256 and ZIP readback; remote metadata size and parent checked; remote checksum unreported",
+  "runFolders": [
+    {
+      "runId": "20261125-043003",
+      "folderId": "1Bi2DlkAtxeJKvNTdTA8kFK8InTSTkMRt",
+      "styleFolders": {
+        "dark-metal": "1Z93-r36iDgsuKQE2l4v7qPpIGaSu4nzi",
+        "chibi-fantasy": "1bQXcFge9qAkD-15SkZAVD9FJqRIlckUw"
+      },
+      "manifestFileId": "1RUsl5rINfeGxFgZutv3qT1wsl8EkJAez"
+    },
+    {
+      "runId": "20261126-043046",
+      "folderId": "1zJQg5XmxLztEWYz0jFwsDzBS0akNheo7",
+      "folderUrl": "https://drive.google.com/drive/folders/1zJQg5XmxLztEWYz0jFwsDzBS0akNheo7",
+      "styleFolders": {
+        "dark-metal": "1H-S4FcONGAyiQ7hwZ67Clvve0Pjqe4OM",
+        "chibi-fantasy": "1iG2uc8GXGbDQtubJTjf4yhSPY_ECX4YQ"
+      },
+      "records": [
+        {
+          "name": "manifest.json",
+          "driveFileId": "1APy-oOzNg98hPERKcec1KMVllF1DAcZG",
+          "driveUrl": "https://drive.google.com/file/d/1APy-oOzNg98hPERKcec1KMVllF1DAcZG/view?usp=drivesdk",
+          "bytes": 44130,
+          "uploadedAt": "2026-11-25T20:36:43.963Z"
+        },
+        {
+          "name": "README.md",
+          "driveFileId": "13UiWRzR9aUdRdvRTA6M3z3iNrLewNCME",
+          "driveUrl": "https://docs.google.com/document/d/13UiWRzR9aUdRdvRTA6M3z3iNrLewNCME/edit?usp=drivesdk&ouid=111643875162762505222&rtpof=true&sd=true",
+          "bytes": 1594,
+          "uploadedAt": "2026-11-25T20:36:46.994Z"
+        }
+      ]
+    }
+  ]
 }
