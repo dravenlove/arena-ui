@@ -26386,6 +26386,942 @@
         "comparisonDate": "2026-11-25",
         "reviewedAt": "2026-11-26T04:34:57+08:00"
       }
+    },
+    {
+      "id": "20261127-043340",
+      "date": "2026-11-27",
+      "time": "04:33:40",
+      "timezone": "Asia/Shanghai",
+      "manifest": "assets/daily/2026/11/27/20261127-043340/manifest.json",
+      "kind": "scheduled",
+      "status": "complete",
+      "assets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "styleId": "dark-metal",
+          "categoryId": "interface",
+          "previousComparable": {
+            "runId": "20261126-043046",
+            "date": "2026-11-26",
+            "path": "assets/daily/2026/11/26/20261126-043046/benchmark/ui-kit-board.png",
+            "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+          },
+          "path": "assets/daily/2026/11/27/20261127-043340/benchmark/ui-kit-board.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1675779,
+          "sha256": "fd390b4e632a6a40c6e49a3c619dba9fce4b3bcaaa326f346de32324f7590f9f",
+          "recordedAt": "2026-11-27T04:34:35+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-27T04:33:42+08:00",
+            "resultObservedAt": "2026-11-27T04:34:25+08:00"
+          },
+          "sourceFile": "exec-f16eb0ba-dea4-4f9f-93f3-137f14430544.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "inventoryGrid": [
+              4,
+              2
+            ],
+            "inventoryCellCount": 8,
+            "majorLabelsReadable": true,
+            "fineTextRequiresManualReview": true,
+            "sideBySideComparisonReviewed": true,
+            "reviewedAt": "2026-11-27T04:38:13+08:00"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "styleId": "dark-metal",
+          "categoryId": "equipment",
+          "previousComparable": {
+            "runId": "20261126-043046",
+            "date": "2026-11-26",
+            "path": "assets/daily/2026/11/26/20261126-043046/benchmark/equipment-atlas.png",
+            "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+          },
+          "path": "assets/daily/2026/11/27/20261127-043340/benchmark/equipment-atlas.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1843796,
+          "sha256": "9ed4f412b63b0937abda35f7bcba6a27c9e92856b4922c7c0dc5faae0264fdc0",
+          "recordedAt": "2026-11-27T04:35:17+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-27T04:34:37+08:00",
+            "resultObservedAt": "2026-11-27T04:35:08+08:00"
+          },
+          "sourceFile": "exec-83647bed-7b75-4163-b480-76e0fa04f43f.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  23,
+                  29,
+                  36
+                ],
+                [
+                  22,
+                  30,
+                  37
+                ],
+                [
+                  21,
+                  28,
+                  36
+                ],
+                [
+                  22,
+                  29,
+                  37
+                ],
+                [
+                  21,
+                  28,
+                  35
+                ]
+              ],
+              "expectedRGB": [
+                23,
+                28,
+                36
+              ]
+            },
+            "sideBySideComparisonReviewed": true,
+            "reviewedAt": "2026-11-27T04:38:13+08:00"
+          }
+        },
+        {
+          "id": "chibi-clockwork-attacks-v1",
+          "label": "机巧攻击技能图集",
+          "sourceTemplateId": "attack-skills",
+          "sourceTemplatePromptSha256": "71ddfcc85bc876d1cac2f8418c83cf72ef2d48d3ec60386e130c0cea35c7a0c8",
+          "prompt": "Use case: stylized-concept. Asset type: reusable combat ABILITY SYMBOL atlas for Arena UI, a fantasy arena and character-growth WeChat mini-program. Charming chibi fantasy game art: rounded chunky silhouettes, thick cocoa #654c3f outlines, warm cream #fff7e7 matte surfaces, soft hand-painted toy-like 3D volume and broad clean upper-left highlights. Honey gold #ffc857 for action/reward fittings, sky cyan #60c9e8 only for energy or selection, coral #ed777b only for damage or danger, mint #7ecf9e only for healing. No lavender since these are ordinary skills. No dark gritty realistic metal, photorealism or sharp gothic spikes. Create ONE landscape PNG requested 1536x1024 with EXACTLY FOUR equal columns and TWO equal rows, eight independent complete skill icon groups. NO visible grid, gutters, borders or UI frames. Flat fully opaque uniform #fff7e7 background, NOT transparent. Center each entire icon including tips, shadows and every effect inside the CENTRAL 60 PERCENT of its cell in BOTH axes, leaving at least TWENTY PERCENT clear empty padding on ALL FOUR SIDES of EACH cell. Consistent scale, one compact group per cell, no overlap or crossing boundaries. These are static skill symbols, not animation frames. No full characters, people, body scenes, text, letters, numbers, captions, logos, watermarks, loose particles, wide glows or scenic background. Eight new clockwork attack symbols. ROW ONE left to right: 1 one small cream mechanical beetle-shaped bomb with a cocoa winding key and one short coral danger fuse, a toy device not a living creature; 2 one rounded cream boxing glove on a short compressed cocoa spring with a tiny coral impact tick for spring punch, no arm; 3 one thick cream cog disc with six broad rounded teeth and a small coral contact burst for gear cutter; 4 one squat cream spiral drill bit with a cocoa base and a small contained cyan energy coil for drill charge. ROW TWO left to right: 5 two small cream oval emitter plates facing across a SHORT cyan energy beam connecting them, ONE compact group for beam trap; 6 one compact cocoa battering log with a rounded cream ram-head cap and a short coral strike arc for siege impact; 7 one cream mechanical knight-shaped chess piece tilting forward on a cocoa rounded base with two tiny coral strike marks for charging strike; 8 one blunt cream mechanical shear with cocoa handles and one tiny coral danger dot, slightly open for severing strike. No gore, realistic violence, firing smoke or real explosive construction detail. Avoid existing sword slash, ice spear, lightning, arrows, hammer sweep, boomerang, grappling hook, trap jaws, ice cage, armor crack, magnet disarm, bell silence and blindfold symbols.",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "abilities",
+          "benchmarkId": null,
+          "promptVersion": "chibi-clockwork-attacks-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptSha256": "f31cb3c57e0d006d8677f6e25e0097e3f90aecb34e50a1fa57bbdf13cd7cbb74",
+          "path": "assets/daily/2026/11/27/20261127-043340/library/chibi-fantasy/chibi-clockwork-attacks-v1.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1496064,
+          "sha256": "9fd06f8c7706614912515959f462aba12eeafea5e747de09133e71593104e1c9",
+          "recordedAt": "2026-11-27T04:36:12+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-27T04:35:19+08:00",
+            "resultObservedAt": "2026-11-27T04:36:00+08:00"
+          },
+          "sourceFile": "exec-4b66cbdc-6ac4-4594-a43c-a4812328abf3.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  253,
+                  244,
+                  227
+                ],
+                [
+                  253,
+                  244,
+                  226
+                ],
+                [
+                  252,
+                  243,
+                  230
+                ],
+                [
+                  252,
+                  242,
+                  226
+                ],
+                [
+                  254,
+                  245,
+                  233
+                ]
+              ],
+              "expectedRGB": [
+                255,
+                247,
+                231
+              ]
+            },
+            "styleVerified": true,
+            "categoryVerified": true,
+            "individualCropsValidated": false,
+            "smallProgramIntegrationTested": false,
+            "reviewedAt": "2026-11-27T04:38:13+08:00"
+          }
+        },
+        {
+          "id": "chibi-field-support-v1",
+          "label": "战地支援技能图集",
+          "sourceTemplateId": "support-skills",
+          "sourceTemplatePromptSha256": "f948a7e6cb526e358a00d20c1496feff6bfb61b3ebc5777f84996b67327ac066",
+          "prompt": "Use case: stylized-concept. Asset type: reusable combat ABILITY SYMBOL atlas for Arena UI, a fantasy arena and character-growth WeChat mini-program. Charming chibi fantasy game art: rounded chunky silhouettes, thick cocoa #654c3f outlines, warm cream #fff7e7 matte surfaces, soft hand-painted toy-like 3D volume and broad clean upper-left highlights. Honey gold #ffc857 for action/reward fittings, sky cyan #60c9e8 only for energy or selection, coral #ed777b only for damage or danger, mint #7ecf9e only for healing. No lavender since these are ordinary skills. No dark gritty realistic metal, photorealism or sharp gothic spikes. Create ONE landscape PNG requested 1536x1024 with EXACTLY FOUR equal columns and TWO equal rows, eight independent complete skill icon groups. NO visible grid, gutters, borders or UI frames. Flat fully opaque uniform #fff7e7 background, NOT transparent. Center each entire icon including tips, shadows and every effect inside the CENTRAL 60 PERCENT of its cell in BOTH axes, leaving at least TWENTY PERCENT clear empty padding on ALL FOUR SIDES of EACH cell. Consistent scale, one compact group per cell, no overlap or crossing boundaries. These are static skill symbols, not animation frames. No full characters, people, body scenes, text, letters, numbers, captions, logos, watermarks, loose particles, wide glows or scenic background. Eight new field-support skill symbols. ROW ONE left to right: 1 one compact cream stethoscope with a mint healing tube and cocoa chestpiece for diagnosis, no person; 2 one folded cream stretcher with short cocoa carrying handles and mint healing fabric, fully within one small group for rescue; 3 one tiny closed cream medical tent with a mint healing roof and cocoa pole tips for recovery station, isolated prop without landscape and without any cross symbol; 4 one rounded cream hot-water bag with a cocoa stopper and a single mint healing patch for comfort recovery, no lettering. ROW TWO left to right: 5 one small cream periscope with cocoa elbow joints and one cyan energy lens for scouting boost; 6 two small honey-gold pulley wheels joined by a short neatly looped cocoa cable and cream hook for teammate assistance, ONE compact group; 7 one squat cream marching drum with cocoa rims, gold ties and two short cream sticks held close with two small gold action ticks for command rhythm; 8 one small honey-gold rescue whistle with cocoa lanyard kept in a tight loop and one short cyan energy sound arc for coordination. No full characters or limbs. Healing mint must appear only in the first four recovery symbols. Avoid previous rolled bandage, salve jar, herbal tea, sprout, harp, tuning fork, metronome, bellows, potion, heart, feather, hourglass, energy battery, umbrella, anchor, lantern, goggles and laurel.",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "abilities",
+          "benchmarkId": null,
+          "promptVersion": "chibi-field-support-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptSha256": "ec1c3d87b66d2389798e4c5fdbda97bad49043d8a0ed1c7199e8a526668fbf4f",
+          "path": "assets/daily/2026/11/27/20261127-043340/library/chibi-fantasy/chibi-field-support-v1.png",
+          "size": [
+            1536,
+            1024
+          ],
+          "model": "unreported",
+          "randomSeed": null,
+          "bytes": 1487019,
+          "sha256": "62186305b4305dc4212be4d26472111ba2a24185159e1ea6acdcb0a8a4378d5d",
+          "recordedAt": "2026-11-27T04:37:11+08:00",
+          "generationWindow": {
+            "startedAt": "2026-11-27T04:36:13+08:00",
+            "resultObservedAt": "2026-11-27T04:36:47+08:00"
+          },
+          "sourceFile": "exec-6392d10b-12c0-4824-a83c-d155c3d71c62.png",
+          "validation": {
+            "decoded": true,
+            "sizeVerified": true,
+            "fileHashVerified": true,
+            "promptHashVerified": true,
+            "originalBytesPreserved": true,
+            "pngMode": "RGB",
+            "alphaRange": [
+              255,
+              255
+            ],
+            "transparentPixelRatio": 0.0,
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  253,
+                  244,
+                  228
+                ],
+                [
+                  253,
+                  246,
+                  229
+                ],
+                [
+                  252,
+                  244,
+                  232
+                ],
+                [
+                  252,
+                  243,
+                  228
+                ],
+                [
+                  253,
+                  246,
+                  234
+                ]
+              ],
+              "expectedRGB": [
+                255,
+                247,
+                231
+              ]
+            },
+            "styleVerified": true,
+            "categoryVerified": true,
+            "individualCropsValidated": false,
+            "smallProgramIntegrationTested": false,
+            "reviewedAt": "2026-11-27T04:38:13+08:00"
+          }
+        }
+      ],
+      "themeId": "abilities",
+      "startedAt": "2026-11-27T04:33:40+08:00",
+      "scheduledFor": "2026-11-27T04:30:00+08:00",
+      "generationMode": "built-in-imagegen",
+      "model": "unreported",
+      "randomSeed": null,
+      "attemptCount": 4,
+      "attempts": [
+        {
+          "number": 1,
+          "slotId": "ui-kit-board-v1",
+          "group": "benchmark",
+          "startedAt": "2026-11-27T04:33:42+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "resultObservedAt": "2026-11-27T04:34:25+08:00",
+          "outputPath": "assets/daily/2026/11/27/20261127-043340/benchmark/ui-kit-board.png",
+          "sourceFile": "exec-f16eb0ba-dea4-4f9f-93f3-137f14430544.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-27T04:34:35+08:00"
+        },
+        {
+          "number": 2,
+          "slotId": "equipment-atlas-v1",
+          "group": "benchmark",
+          "startedAt": "2026-11-27T04:34:37+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "resultObservedAt": "2026-11-27T04:35:08+08:00",
+          "outputPath": "assets/daily/2026/11/27/20261127-043340/benchmark/equipment-atlas.png",
+          "sourceFile": "exec-83647bed-7b75-4163-b480-76e0fa04f43f.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-27T04:35:17+08:00"
+        },
+        {
+          "number": 3,
+          "slotId": "chibi-clockwork-attacks-v1",
+          "group": "library",
+          "startedAt": "2026-11-27T04:35:19+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "f31cb3c57e0d006d8677f6e25e0097e3f90aecb34e50a1fa57bbdf13cd7cbb74",
+          "resultObservedAt": "2026-11-27T04:36:00+08:00",
+          "outputPath": "assets/daily/2026/11/27/20261127-043340/library/chibi-fantasy/chibi-clockwork-attacks-v1.png",
+          "sourceFile": "exec-4b66cbdc-6ac4-4594-a43c-a4812328abf3.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-27T04:36:12+08:00"
+        },
+        {
+          "number": 4,
+          "slotId": "chibi-field-support-v1",
+          "group": "library",
+          "startedAt": "2026-11-27T04:36:13+08:00",
+          "status": "succeeded",
+          "tool": "built-in-imagegen",
+          "promptSha256": "ec1c3d87b66d2389798e4c5fdbda97bad49043d8a0ed1c7199e8a526668fbf4f",
+          "resultObservedAt": "2026-11-27T04:36:47+08:00",
+          "outputPath": "assets/daily/2026/11/27/20261127-043340/library/chibi-fantasy/chibi-field-support-v1.png",
+          "sourceFile": "exec-6392d10b-12c0-4824-a83c-d155c3d71c62.png",
+          "decodeVerified": true,
+          "validationCompletedAt": "2026-11-27T04:37:11+08:00"
+        }
+      ],
+      "plannedAssets": [
+        {
+          "id": "ui-kit-board-v1",
+          "label": "组件视觉参考板",
+          "filename": "ui-kit-board.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: ui-mockup. Asset type: visual reference board for Arena UI, a premium dark fantasy game web component library. Generate a meticulously art-directed 1536x1024 landscape UI component specimen board on nearly black #0e1116. Modular neatly aligned grid with generous spacing, beautifully crafted thin metallic line work, warm gold #f2b632 primary action, cyan #3ec7e0 selection, blue-gray #171c24 surfaces, sharp 2px-radius corners. Top understated typography reads 'ARENA UI' and 'COMPONENT COLLECTION'. Include a top left group of gold, dark outlined secondary, and red outlined danger action buttons labeled 'BATTLE', 'EQUIP', 'DISMANTLE'; three HP red, MP cyan and XP gold progress bars with numerical labels; a tasteful dark character statistics panel; eight fantasy inventory cells with sword, shield, violet ring, red potion, axe, helmet, scroll and cyan crystal; a gold-accented modal with 'READY TO BATTLE?' and two action buttons; a tab navigation strip; a few small status badges and control switches. Flat front-facing interface layout, typography crisp and minimal, no perspective, no device, no desk, no watermarks. This is a visual exploration image, all important labels must look clean and restrained.",
+          "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "ui-kit-board-v1",
+          "styleId": "dark-metal",
+          "categoryId": "interface",
+          "previousComparable": {
+            "runId": "20261126-043046",
+            "date": "2026-11-26",
+            "path": "assets/daily/2026/11/26/20261126-043046/benchmark/ui-kit-board.png",
+            "promptSha256": "d5faf25ed08129d5c967c75825190a12f62f00ca1585b64e62a1cceffd519d08"
+          }
+        },
+        {
+          "id": "equipment-atlas-v1",
+          "label": "装备图集",
+          "filename": "equipment-atlas.png",
+          "promptVersion": "v1",
+          "prompt": "Use case: stylized-concept. Asset type: game inventory icon atlas. Generate one landscape 1536x1024 image with EXACTLY 4 columns and 2 rows of equal cells, no gutters, every object centered and fully contained with 20% margin in its own cell. Flat opaque uniform background #171c24 across whole sheet. Row1 left to right: elegant silver longsword with gold guard, reinforced silver and dark steel shield with cyan gemstone, delicate gold ring with violet gemstone, small round glass potion flask with red liquid. Row2 left to right: double headed dark iron battle axe, steel hornless knight helmet, rolled aged parchment scroll with gold seal, cluster of glowing cyan crystals. Hand painted 3D fantasy inventory assets, realistic metal highlights, sculptural depth, coherent top-left lighting and consistent scale. Rich detail clearly readable at small size. No UI frames, borders, labels, numbers, text, characters, watermarks. Every object isolated inside exactly its own 4-by-2 grid cell. Do not let objects overlap cells.",
+          "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "group": "benchmark",
+          "benchmarkId": "equipment-atlas-v1",
+          "styleId": "dark-metal",
+          "categoryId": "equipment",
+          "previousComparable": {
+            "runId": "20261126-043046",
+            "date": "2026-11-26",
+            "path": "assets/daily/2026/11/26/20261126-043046/benchmark/equipment-atlas.png",
+            "promptSha256": "c0c8cd7fb54b24e104c27afd24c5f28c42e39a03fdbf28bc0d291ad5683edcd7"
+          }
+        },
+        {
+          "id": "chibi-clockwork-attacks-v1",
+          "label": "机巧攻击技能图集",
+          "filename": "chibi-clockwork-attacks-v1.png",
+          "sourceTemplateId": "attack-skills",
+          "sourceTemplatePromptSha256": "71ddfcc85bc876d1cac2f8418c83cf72ef2d48d3ec60386e130c0cea35c7a0c8",
+          "prompt": "Use case: stylized-concept. Asset type: reusable combat ABILITY SYMBOL atlas for Arena UI, a fantasy arena and character-growth WeChat mini-program. Charming chibi fantasy game art: rounded chunky silhouettes, thick cocoa #654c3f outlines, warm cream #fff7e7 matte surfaces, soft hand-painted toy-like 3D volume and broad clean upper-left highlights. Honey gold #ffc857 for action/reward fittings, sky cyan #60c9e8 only for energy or selection, coral #ed777b only for damage or danger, mint #7ecf9e only for healing. No lavender since these are ordinary skills. No dark gritty realistic metal, photorealism or sharp gothic spikes. Create ONE landscape PNG requested 1536x1024 with EXACTLY FOUR equal columns and TWO equal rows, eight independent complete skill icon groups. NO visible grid, gutters, borders or UI frames. Flat fully opaque uniform #fff7e7 background, NOT transparent. Center each entire icon including tips, shadows and every effect inside the CENTRAL 60 PERCENT of its cell in BOTH axes, leaving at least TWENTY PERCENT clear empty padding on ALL FOUR SIDES of EACH cell. Consistent scale, one compact group per cell, no overlap or crossing boundaries. These are static skill symbols, not animation frames. No full characters, people, body scenes, text, letters, numbers, captions, logos, watermarks, loose particles, wide glows or scenic background. Eight new clockwork attack symbols. ROW ONE left to right: 1 one small cream mechanical beetle-shaped bomb with a cocoa winding key and one short coral danger fuse, a toy device not a living creature; 2 one rounded cream boxing glove on a short compressed cocoa spring with a tiny coral impact tick for spring punch, no arm; 3 one thick cream cog disc with six broad rounded teeth and a small coral contact burst for gear cutter; 4 one squat cream spiral drill bit with a cocoa base and a small contained cyan energy coil for drill charge. ROW TWO left to right: 5 two small cream oval emitter plates facing across a SHORT cyan energy beam connecting them, ONE compact group for beam trap; 6 one compact cocoa battering log with a rounded cream ram-head cap and a short coral strike arc for siege impact; 7 one cream mechanical knight-shaped chess piece tilting forward on a cocoa rounded base with two tiny coral strike marks for charging strike; 8 one blunt cream mechanical shear with cocoa handles and one tiny coral danger dot, slightly open for severing strike. No gore, realistic violence, firing smoke or real explosive construction detail. Avoid existing sword slash, ice spear, lightning, arrows, hammer sweep, boomerang, grappling hook, trap jaws, ice cage, armor crack, magnet disarm, bell silence and blindfold symbols.",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "abilities",
+          "benchmarkId": null,
+          "promptVersion": "chibi-clockwork-attacks-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptSha256": "f31cb3c57e0d006d8677f6e25e0097e3f90aecb34e50a1fa57bbdf13cd7cbb74"
+        },
+        {
+          "id": "chibi-field-support-v1",
+          "label": "战地支援技能图集",
+          "filename": "chibi-field-support-v1.png",
+          "sourceTemplateId": "support-skills",
+          "sourceTemplatePromptSha256": "f948a7e6cb526e358a00d20c1496feff6bfb61b3ebc5777f84996b67327ac066",
+          "prompt": "Use case: stylized-concept. Asset type: reusable combat ABILITY SYMBOL atlas for Arena UI, a fantasy arena and character-growth WeChat mini-program. Charming chibi fantasy game art: rounded chunky silhouettes, thick cocoa #654c3f outlines, warm cream #fff7e7 matte surfaces, soft hand-painted toy-like 3D volume and broad clean upper-left highlights. Honey gold #ffc857 for action/reward fittings, sky cyan #60c9e8 only for energy or selection, coral #ed777b only for damage or danger, mint #7ecf9e only for healing. No lavender since these are ordinary skills. No dark gritty realistic metal, photorealism or sharp gothic spikes. Create ONE landscape PNG requested 1536x1024 with EXACTLY FOUR equal columns and TWO equal rows, eight independent complete skill icon groups. NO visible grid, gutters, borders or UI frames. Flat fully opaque uniform #fff7e7 background, NOT transparent. Center each entire icon including tips, shadows and every effect inside the CENTRAL 60 PERCENT of its cell in BOTH axes, leaving at least TWENTY PERCENT clear empty padding on ALL FOUR SIDES of EACH cell. Consistent scale, one compact group per cell, no overlap or crossing boundaries. These are static skill symbols, not animation frames. No full characters, people, body scenes, text, letters, numbers, captions, logos, watermarks, loose particles, wide glows or scenic background. Eight new field-support skill symbols. ROW ONE left to right: 1 one compact cream stethoscope with a mint healing tube and cocoa chestpiece for diagnosis, no person; 2 one folded cream stretcher with short cocoa carrying handles and mint healing fabric, fully within one small group for rescue; 3 one tiny closed cream medical tent with a mint healing roof and cocoa pole tips for recovery station, isolated prop without landscape and without any cross symbol; 4 one rounded cream hot-water bag with a cocoa stopper and a single mint healing patch for comfort recovery, no lettering. ROW TWO left to right: 5 one small cream periscope with cocoa elbow joints and one cyan energy lens for scouting boost; 6 two small honey-gold pulley wheels joined by a short neatly looped cocoa cable and cream hook for teammate assistance, ONE compact group; 7 one squat cream marching drum with cocoa rims, gold ties and two short cream sticks held close with two small gold action ticks for command rhythm; 8 one small honey-gold rescue whistle with cocoa lanyard kept in a tight loop and one short cyan energy sound arc for coordination. No full characters or limbs. Healing mint must appear only in the first four recovery symbols. Avoid previous rolled bandage, salve jar, herbal tea, sprout, harp, tuning fork, metronome, bellows, potion, heart, feather, hourglass, energy battery, umbrella, anchor, lantern, goggles and laurel.",
+          "group": "library",
+          "styleId": "chibi-fantasy",
+          "categoryId": "abilities",
+          "benchmarkId": null,
+          "promptVersion": "chibi-field-support-v1",
+          "requestedSize": [
+            1536,
+            1024
+          ],
+          "transparentBackground": false,
+          "promptSha256": "ec1c3d87b66d2389798e4c5fdbda97bad49043d8a0ed1c7199e8a526668fbf4f"
+        }
+      ],
+      "evaluation": [
+        {
+          "assetId": "ui-kit-board-v1",
+          "type": "benchmark-comparison",
+          "observations": [
+            "与11月26日相同提示词哈希图并排看，人物从左下移到左中并改为黑发48级WARRIOR；属性从两列八项改为单列六项。HP/MP/XP移到右上，数值由3420/3420、870/1200、72480/100000改为7920/7920、2640/3280、146320/220000。",
+            "背包从右上移到右中，仍为4列2行八件且恢复长剑青色选中；弹窗移到人物与背包中间，按钮从CANCEL左/BATTLE右改回BATTLE左/CANCEL右，背景城堡及正文不同。",
+            "导航从五项变六项并横跨全宽，新增EQUIPMENT、ACHIEVEMENTS且删去ARENA；徽章新增RARE、COMMON、IN PROGRESS，删EQUIPPED。底部从三个开关变四开关、两复选框、两单选和一个下拉框。主要文字可读，无画布截断，细字及小尺寸仍待实际验证。",
+            "主观判断：布局与信息量变化明显，但不能据此判断质量趋势。相同提示词存在随机差异，实际模型版本unreported，种子null；本次生成不是训练，单次差异不构成模型升级证据。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "inventoryGrid": [
+              4,
+              2
+            ],
+            "inventoryCellCount": 8,
+            "majorLabelsReadable": true,
+            "fineTextRequiresManualReview": true,
+            "sideBySideComparisonReviewed": true
+          },
+          "comparedWith": {
+            "runId": "20261126-043046",
+            "date": "2026-11-26",
+            "path": "assets/daily/2026/11/26/20261126-043046/benchmark/ui-kit-board.png",
+            "samePromptHash": true
+          }
+        },
+        {
+          "assetId": "equipment-atlas-v1",
+          "type": "benchmark-comparison",
+          "observations": [
+            "与11月26日同哈希原图并排看，八件物品顺序仍为长剑、盾牌、紫戒、红药水、双头斧、无角盔、卷轴、青晶，4列2行，无文字、水印、跨格重叠或画布裁切。",
+            "长剑从倾斜改为近垂直且剑刃更窄；盾牌叶纹消失，中心横纹改为更大的弧形十字；紫戒戒托卷纹和紫晶色块变化。药瓶右侧新增绳结流苏，斧柄更直，头盔从朝左变朝右且口罩竖槽变密集小孔；卷轴更陡并加粗绳，晶簇底石偏褐色。",
+            "保留偏差：多件物品仍超出中央60%，未满足单格四边20%留白；背景取样非严格统一#171c24。所有原始PNG保留，未重抽、缩放或修图。",
+            "主观判断：朝向和细节改变不能单独证明好坏，可能是随机差异；本次没有训练模型，也不能证明模型升级。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  23,
+                  29,
+                  36
+                ],
+                [
+                  22,
+                  30,
+                  37
+                ],
+                [
+                  21,
+                  28,
+                  36
+                ],
+                [
+                  22,
+                  29,
+                  37
+                ],
+                [
+                  21,
+                  28,
+                  35
+                ]
+              ],
+              "expectedRGB": [
+                23,
+                28,
+                36
+              ]
+            },
+            "sideBySideComparisonReviewed": true
+          },
+          "comparedWith": {
+            "runId": "20261126-043046",
+            "date": "2026-11-26",
+            "path": "assets/daily/2026/11/26/20261126-043046/benchmark/equipment-atlas.png",
+            "samePromptHash": true
+          }
+        },
+        {
+          "assetId": "chibi-clockwork-attacks-v1",
+          "type": "library-review",
+          "observations": [
+            "4列2行八组：发条甲虫炸弹、弹簧拳套、齿轮切击、能量钻、短束双发射器、撞槌、冲锋棋马、机械剪。与旧控制减益及元素攻击图集的轮廓不同；无文字、水印、跨格重叠或画布截断。",
+            "奶油可可粗描边和玩具体积符合Q版，珊瑚红用于伤害/危险、青色用于能量、蜂蜜金用于动作配件；登记Q版奇幻/战斗技能。",
+            "保留偏差：能量钻附加了两条较长的外侧青色弧线，齿轮冲击和撞槌弧也较大；多件图标超过格内中央60%，四边20%留白不足，背景存在纹理和轻微渐变。齿轮齿数未逐齿验收，不宣称严格满足六齿要求。",
+            "用途限制：静态不透明技能图集，未裁成独立透明PNG，未做小程序按钮槽位、缩小辨识或技能动画验收。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  253,
+                  244,
+                  227
+                ],
+                [
+                  253,
+                  244,
+                  226
+                ],
+                [
+                  252,
+                  243,
+                  230
+                ],
+                [
+                  252,
+                  242,
+                  226
+                ],
+                [
+                  254,
+                  245,
+                  233
+                ]
+              ],
+              "expectedRGB": [
+                255,
+                247,
+                231
+              ]
+            },
+            "styleVerified": true,
+            "categoryVerified": true,
+            "individualCropsValidated": false,
+            "smallProgramIntegrationTested": false
+          }
+        },
+        {
+          "assetId": "chibi-field-support-v1",
+          "type": "library-review",
+          "observations": [
+            "4列2行八组：听诊器、担架、恢复帐篷、热水袋、潜望镜、双滑轮援助、指挥鼓、救援哨。顺序与组数正确，无人物身体、文字、水印、跨格重叠或画布截断。",
+            "前四项薄荷绿表达治疗，后四项青色用于侦察或协调能量，蜂蜜金用于支援动作；奶油可可轮廓保持Q版，登记Q版奇幻/战斗技能。",
+            "保留偏差：担架更像展开平板而非折叠状态；潜望镜更像短弯管望远镜，没有明显双弯关节；救援哨有两道声弧而非一条。多项主体留白不足20%，背景有细纹和渐变，非严格纯#fff7e7。",
+            "用途限制：原始不透明PNG完整保留，尚未裁成透明单件、验证小程序多种底色或进行交互验收。"
+          ],
+          "visualValidation": {
+            "visuallyReviewed": true,
+            "alphaVerified": true,
+            "opaqueBackgroundVerified": true,
+            "canvasClippingObserved": false,
+            "requestedSizeMet": true,
+            "productionReady": false,
+            "qualityStatus": "retained-with-notes",
+            "grid": [
+              4,
+              2
+            ],
+            "expectedCellCount": 8,
+            "observedCellCount": 8,
+            "itemOrderMatches": true,
+            "cellOverlapObserved": false,
+            "requestedCellMarginMet": false,
+            "textOrWatermarkObserved": false,
+            "uniformBackgroundMet": false,
+            "backgroundSamples": {
+              "coordinates": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1535,
+                  0
+                ],
+                [
+                  0,
+                  1023
+                ],
+                [
+                  1535,
+                  1023
+                ],
+                [
+                  768,
+                  512
+                ]
+              ],
+              "rgb": [
+                [
+                  253,
+                  244,
+                  228
+                ],
+                [
+                  253,
+                  246,
+                  229
+                ],
+                [
+                  252,
+                  244,
+                  232
+                ],
+                [
+                  252,
+                  243,
+                  228
+                ],
+                [
+                  253,
+                  246,
+                  234
+                ]
+              ],
+              "expectedRGB": [
+                255,
+                247,
+                231
+              ]
+            },
+            "styleVerified": true,
+            "categoryVerified": true,
+            "individualCropsValidated": false,
+            "smallProgramIntegrationTested": false
+          }
+        }
+      ],
+      "notes": [
+        "生成前同时核对当日索引和日期目录，当日累计调用为0；以实际北京时间日期归档。",
+        "冻结基准逐字复用且不附带参考图；两张Q版扩展的完整提示词与新哈希在调用前记录。",
+        "本次混合风格逐张登记dark-metal或chibi-fantasy，不使用整批单一风格标签。",
+        "本次按最新heartbeat的04:30北京时间执行；仓库配置和说明仍记录09:00，遵照本次只提交素材与必要映射的范围，不修改旧配置或自动化频率。",
+        "已查看11月20日控制减益与恢复节奏图集，并核对既有技能提示词；本次补充机巧攻击与战地支援，各8组，保留4列2行、尺寸和不透明背景设置。",
+        "保留所有原图及可见偏差；未重抽、缩放或修图。",
+        "固定题目相同提示词下的差异只能描述为本次输出变化，不能证明训练或模型升级。"
+      ],
+      "completedAt": "2026-11-27T04:38:13+08:00",
+      "validation": {
+        "successfulDecodedAssets": 4,
+        "benchmarkAssets": 2,
+        "libraryAssets": 2,
+        "localDateTotalToolCalls": 4,
+        "attemptBudgetRespected": true,
+        "originalFilesPreserved": true,
+        "historyPageVerified": true,
+        "historyVerificationMethod": "HTTP data plus unchanged page source; browser connection unavailable",
+        "browserVisualVerification": false,
+        "separateStyleSectionsVerified": true,
+        "comparisonDate": "2026-11-26",
+        "reviewedAt": "2026-11-27T04:38:13+08:00"
+      }
     }
   ]
 }

@@ -182,6 +182,8 @@
     "chibi-expedition-modes-v1": "navigation",
     "chibi-growth-utilities-v1": "navigation",
     "chibi-specialist-arms-v1": "equipment",
-    "chibi-vanguard-gear-v1": "equipment"
+    "chibi-vanguard-gear-v1": "equipment",
+    "chibi-clockwork-attacks-v1": "abilities",
+    "chibi-field-support-v1": "abilities"
   }
 }

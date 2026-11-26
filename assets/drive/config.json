@@ -16,7 +16,7 @@
       "fileName": "素材总索引.json",
       "fileId": "1jA2txxR2P1jCfsN3Avi9N5shbBjhszoX",
       "url": "https://drive.google.com/file/d/1jA2txxR2P1jCfsN3Avi9N5shbBjhszoX/view?usp=drivesdk",
-      "size": 1654509
+      "size": 1704044
     },
     {
       "path": "assets/styles.json",
@@ -30,7 +30,7 @@
       "fileName": "用途分类.json",
       "fileId": "14BPDieJr5rz62cVyZFPJ-nBj-wPyIWXl",
       "url": "https://drive.google.com/file/d/14BPDieJr5rz62cVyZFPJ-nBj-wPyIWXl/view?usp=drivesdk",
-      "size": 7030
+      "size": 7122
     },
     {
       "path": "assets/daily/config.json",
@@ -44,7 +44,7 @@
       "fileName": "Drive同步清单.json",
       "fileId": "1FWGCNwqWNAyEDX0ubpuiUYG3bbdIk9xz",
       "url": "https://drive.google.com/file/d/1FWGCNwqWNAyEDX0ubpuiUYG3bbdIk9xz/view?usp=drivesdk",
-      "size": 39539
+      "size": 43810
     },
     {
       "path": "docs/GOOGLE_DRIVE_SYNC.md",
@@ -83,12 +83,12 @@
     }
   ],
   "todayFolders": {
-    "runId": "20261126-043046",
-    "folderId": "1zJQg5XmxLztEWYz0jFwsDzBS0akNheo7",
+    "runId": "20261127-043340",
+    "folderId": "1saOEVrlZUqCwFO8dMWz-DCxCi54QbAjz",
     "styleFolders": {
-      "dark-metal": "1H-S4FcONGAyiQ7hwZ67Clvve0Pjqe4OM",
-      "chibi-fantasy": "1iG2uc8GXGbDQtubJTjf4yhSPY_ECX4YQ"
+      "dark-metal": "1-24HKFebhC83v6TNfJFXRTRZY5ANRV3d",
+      "chibi-fantasy": "1KSRx5RJCNXMwHEo0wF7cugV2JK8GeK6O"
     },
-    "manifestFileId": "1APy-oOzNg98hPERKcec1KMVllF1DAcZG"
+    "manifestFileId": "1sBFopCtfjTLsiJPqLk70jyjR-bRc7RFv"
   }
 }
